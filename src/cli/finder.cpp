@@ -17,6 +17,15 @@ int main(int argc, char** argv) {
 
     auto result = options.parse(argc, argv);
 
+    // ############### help ###############
+
+    // print help msg if specified
+    if(result.count("help")) {
+        std::cout << options.help() << std::endl;
+        return 0;
+    }
+
+    // TODO: replace
     std::cout << "Hello, world!" << std::endl;
 
     return 0;
