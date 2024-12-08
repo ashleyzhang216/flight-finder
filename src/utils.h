@@ -56,6 +56,10 @@ template <class K, class V>
 requires has_id<K, size_t>::value
 struct id_vec {
     id_vec() = default;
+    id_vec(std::vector<V>&& data)
+        : vec(data) {
+        // do nothing else
+    }
 
     // for id placeholders
     static constexpr size_t INVALID_ID = ULONG_MAX;
