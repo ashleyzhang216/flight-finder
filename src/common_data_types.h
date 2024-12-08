@@ -184,7 +184,7 @@ struct flight_constraints {
 };
 
 // parse params
-flight_constraints cli(int argc, char** argv);
+flight_constraints cli(const std::string& name, int argc, char** argv);
 
 // TODO: define flight finder
 

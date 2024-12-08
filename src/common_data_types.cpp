@@ -1,8 +1,8 @@
 #include "common_data_types.h"
 
 // parse input parameters
-flight_constraints cli(int argc, char** argv) {
-    cxxopts::Options options("finder", "Find different flight routes");
+flight_constraints cli(const std::string& name, int argc, char** argv) {
+    cxxopts::Options options(name, "Find different flight routes");
 
     options.add_options()
         ("a,airlines", "Allowed airlines, default: all",        cxxopts::value<std::vector<std::string> >())
