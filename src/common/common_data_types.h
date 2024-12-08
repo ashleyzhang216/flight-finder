@@ -6,6 +6,7 @@
 #include <vector>
 #include <string>
 #include <unordered_map>
+#include <optional>
 #include <exception>
 
 namespace common_data_types_ns {
@@ -153,6 +154,16 @@ namespace common_data_types_ns {
         {CMH, "John Glenn Columbus International Airport"},
         {PBI, "Palm Beach International Airport"},
     });
+
+    // singleton for use with id_vec
+    struct flight_id {
+        size_t id;
+    };
+
+    // singleton for use with id_vec
+    struct flight_idx {
+        size_t id;
+    };
 
 }; // common_data_types_ns
 
