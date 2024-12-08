@@ -1,5 +1,71 @@
 #include "common_data_types.h"
 
+/**
+ * @brief constructor for flight_finder
+ *
+ * @param f rvalue of allowed flights
+ * @param origin optional origin airport all itineraries have to depart from
+ */
+flight_finder::flight_finder(std::vector<flight> &&f, const std::optional<airport> &origin)
+    : origin(origin), flights(std::move(f))
+{
+
+    // check ids
+    for (size_t i = 0; i < flights.size(); ++i)
+    {
+        assert(flights[flight_id(i)].id == i);
+    }
+
+    auto compare = [](const flight &lhs, const flight &rhs)
+    {
+        return lhs.arrive_ts < rhs.arrive_ts;
+    };
+    std::sort(flights.vec.begin(), flights.vec.end(), compare);
+
+    // reassign ids, if changed during sorting
+    time_t curr_ts = 0l;
+    for (size_t i = 0; i < flights.size(); ++i)
+    {
+        assert(flights[flight_id(i)].arrive_ts >= curr_ts);
+        curr_ts = flights[flight_id(i)].arrive_ts;
+
+        flights[flight_id(i)].id = i;
+    }
+
+    // build airport nodes
+    for (size_t i = 0; i < flights.size(); ++i)
+    {
+        airport arrival_airport = flights[flight_id(i)].to;
+
+        nodes[arrival_airport].opt_table.vec.push_back(itinerary());
+        flight_indices.vec.push_back(flight_idx(nodes[arrival_airport].arriving_flights.size()));
+        nodes[arrival_airport].arriving_flights.vec.push_back(flight_id(i));
+    }
+
+    // validation
+    for (size_t i = 0; i < flights.size(); ++i)
+    {
+        airport arrival_airport = flights[flight_id(i)].to;
+
+        flight_idx idx = flight_indices[flight_id(i)];
+        flight_id actual_id = nodes[arrival_airport].arriving_flights[idx];
+        assert(actual_id.id == i);
+    }
+    for (const auto &pair : nodes)
+    {
+        assert(pair.second.opt_table.size() == pair.second.arriving_flights.size());
+
+        for (size_t i = 0; i < pair.second.arriving_flights.size(); ++i)
+        {
+            flight_id id = pair.second.arriving_flights[flight_idx(i)];
+            flight_idx actual_idx = flight_indices[id];
+
+            assert(actual_idx.id = i);
+            assert(pair.first == flights[id].to);
+        }
+    }
+}
+
 // parse input parameters
 flight_constraints cli(const std::string &name, int argc, char **argv)
 {
@@ -74,8 +140,8 @@ std::string flight::serialize() const
     std::stringstream ss;
 
     ss << airline << " flight from ";
-    ss << airport_code.at(from_iota) << " @ " << depart_time << " to ";
-    ss << airport_code.at(to_iota) << " @ " << arrive_time;
+    ss << airport_code.at(from) << " @ " << depart_time << " to ";
+    ss << airport_code.at(to) << " @ " << arrive_time;
     ss << " (" << stops << ") in " << cabin_name.at(cabin) << " for $" << price << std::endl;
 
     return ss.str();

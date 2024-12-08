@@ -9,6 +9,7 @@
 #include <unordered_map>
 #include <optional>
 #include <exception>
+#include <algorithm>
 
 #include "utils.h"
 #include "lib/src/cxxopts.hpp"
@@ -143,8 +144,8 @@ struct flight
 {
     size_t id;
     airline airline;
-    airport from_iota;
-    airport to_iota;
+    airport from;
+    airport to;
     time_t depart_ts;        // unix epoch, seconds
     time_t arrive_ts;        // unix epoch, seconds
     std::string depart_time; // human readable format
@@ -161,12 +162,16 @@ struct flight
 struct flight_id
 {
     size_t id;
+
+    flight_id(size_t id) : id(id) {}
 };
 
 // singleton for use with id_vec
 struct flight_idx
 {
     size_t id;
+
+    flight_idx(size_t id) : id(id) {}
 };
 
 /**
@@ -175,7 +180,15 @@ struct flight_idx
 struct itinerary
 {
     std::vector<flight_id> flight_ids;
+    uint legs;
     bool built;
+
+    itinerary() : legs(0u), built(false) {}
+
+    // TODO: implement operator< for std::max()
+    // this needs to consider both the # of legs, and also origin airport if we specified one
+
+    // TODO: implement + operator to add flight to itinerary
 
     std::string serialize(const id_vec<flight_id, flight> flights) const;
 };
@@ -193,15 +206,45 @@ struct flight_constraints
     std::optional<time_t> end_ts;                 // last ts at which a flight in our itinerary can land
 };
 
+/**
+ * @brief represents one airport and all its incoming flights
+ */
+struct airport_node
+{
+    airport_node() = default;
+
+    // if built, opt_table[idx] is best itinerary after flight idx arrives
+    id_vec<flight_idx, itinerary> opt_table;
+
+    // all inbound flights, sorted by arrival time, increaing
+    id_vec<flight_idx, flight_id> arriving_flights;
+};
+
+/**
+ * @brief parent class
+ */
+class flight_finder
+{
+public:
+    flight_finder(std::vector<flight> &&f, const std::optional<airport> &origin);
+
+    // TODO: implement
+
+protected:
+    // origin airport, if has value
+    std::optional<airport> origin;
+
+    // all flights
+    id_vec<flight_id, flight> flights;
+
+    // flight_idx in corresponding airport, but still need to find out what airport this is
+    id_vec<flight_id, flight_idx> flight_indices;
+
+    // all airport nodes, 50 in total
+    std::unordered_map<airport, airport_node> nodes;
+};
+
 // parse params
 flight_constraints cli(const std::string &name, int argc, char **argv);
-
-// TODO: define flight finder
-
-// TODO: define airport
-
-// TODO: define CLI
-
-// TODO: add sort to id_vec
 
 #endif // COMMON_DATA_TYPES_H
