@@ -4,7 +4,9 @@
 #include <stdint.h>
 #include <iostream>
 #include <vector>
+#include <string>
 #include <unordered_map>
+#include <exception>
 
 namespace common_data_types_ns {
     /**
