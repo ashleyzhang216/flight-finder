@@ -11,6 +11,7 @@
 #include <exception>
 
 #include "utils.h"
+#include "lib/src/cxxopts.hpp"
 
 /**
  * @brief all unique airlines
@@ -45,6 +46,9 @@ enum airline {
 
 // convert from airline enum to airline name, for printing
 extern std::unordered_map<airline, std::string> airline_name;
+
+// convert user input
+extern std::unordered_map<std::string, airline> airline_of_str;
 
 /**
  * @brief top 50 airports
@@ -108,6 +112,9 @@ extern std::unordered_map<airport, std::string> airport_name;
 // convert from airport IOTA to IOTA string, for printing
 extern std::unordered_map<airport, std::string> airport_code;
 
+// convert user input
+extern std::unordered_map<std::string, airport> airport_of_str;
+
 /**
  * @brief types of fare classes offered
  */
@@ -120,6 +127,9 @@ enum cabin {
 
 // convert from cabin to name, for printing
 extern std::unordered_map<cabin, std::string> cabin_name;
+
+// convert user input
+extern std::unordered_map<std::string, cabin> cabin_of_str;
 
 /**
  * @brief one flight
@@ -161,10 +171,27 @@ struct itinerary {
     std::string serialize(const id_vec<flight_id, flight> flights) const;
 };
 
+/**
+ * @brief restrictions on flights allowed to be used
+ * @note if specified, each item is the only thing allowed
+ */
+struct flight_constraints {
+    std::optional<std::vector<airline> > airlines; // only airlines we want to fly on
+    std::optional<cabin>                 cabin;    // only cabin we want to fly in
+    std::optional<airport>               origin;   // airport all itineraries have to depart from
+    std::optional<time_t>                start_ts; // first ts at which a flight in our itinerary can take off
+    std::optional<time_t>                end_ts;   // last ts at which a flight in our itinerary can land
+};
+
+// parse params
+flight_constraints cli(int argc, char** argv);
+
 // TODO: define flight finder
 
 // TODO: define airport
 
 // TODO: define CLI
+
+// TODO: add sort to id_vec
 
 #endif // COMMON_DATA_TYPES_H
