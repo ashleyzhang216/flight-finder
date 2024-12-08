@@ -1,5 +1,6 @@
 #include "common_data_types.h"
 
+// print flight
 std::string flight::serialize() const {
     std::stringstream ss;
 
@@ -7,6 +8,18 @@ std::string flight::serialize() const {
     ss << airport_code.at(from_iota) << " @ " << depart_time << " to ";
     ss << airport_code.at(to_iota) << " @ " << arrive_time;
     ss << " (" << stops << ") in " << cabin_name.at(cabin) << " for $" << price << std::endl; 
+
+    return ss.str();
+}
+
+// print itinerary
+std::string itinerary::serialize(const id_vec<flight_id, flight> flights) const {
+    assert(built);
+    
+    std::stringstream ss;
+    for(size_t i = 0; i < flight_ids.size(); ++i) {
+        ss << std::to_string(i + 1ul) << ". " << flights[flight_ids[i]].serialize();
+    }
 
     return ss.str();
 }
