@@ -2,3 +2,4 @@
 *.x
 
 .vscode
+scripts/process_results.py
