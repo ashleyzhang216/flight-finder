@@ -1,9 +1,11 @@
 #ifndef UTILS_H
 #define UTILS_H
 
-#include "common_data_types.h"
-
-using namespace common_data_types_ns;
+#include <stdint.h>
+#include <iostream>
+#include <vector>
+#include <string>
+#include <exception>
 
 struct assertion_failure_exception : public std::exception {
     public:

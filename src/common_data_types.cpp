@@ -1,5 +1,24 @@
 #include "common_data_types.h"
 
+std::string flight::serialize() const {
+    std::stringstream ss;
+
+    ss << airline << " flight from ";
+    ss << airport_code.at(from_iota) << " @ " << depart_time << " to ";
+    ss << airport_code.at(to_iota) << " @ " << arrive_time;
+    ss << " (" << stops << ") in " << cabin_name.at(cabin) << " for $" << price << std::endl; 
+
+    return ss.str();
+}
+
+// convert from cabin to name, for printing
+std::unordered_map<cabin, std::string> cabin_name = std::unordered_map<cabin, std::string>({
+    {ECONOMY, "Economy"},
+    {PREMIUM_ECONOMY, "Premium Economy"},
+    {BUSINESS, "Business"},
+    {FIRST, "First"},
+});
+
 // convert from airline enum to airline name, for printing
 std::unordered_map<airline, std::string> airline_name = std::unordered_map<airline, std::string>({
     {DELTA,	"Delta"},
@@ -81,4 +100,58 @@ std::unordered_map<airport, std::string> airport_name = std::unordered_map<airpo
     {CVG, "Cincinnati/Northern Kentucky International Airport"},
     {CMH, "John Glenn Columbus International Airport"},
     {PBI, "Palm Beach International Airport"},
+});
+
+// convert from airport IOTA to IOTA string, for printing
+std::unordered_map<airport, std::string> airport_code = std::unordered_map<airport, std::string>({
+    {ATL, "ATL"},
+    {LAX, "LAX"},
+    {DFW, "DFW"},
+    {DEN, "DEN"},
+    {ORD, "ORD"},
+    {JFK, "JFK"},
+    {MCO, "MCO"},
+    {LAS, "LAS"},
+    {CLT, "CLT"},
+    {MIA, "MIA"},
+    {SEA, "SEA"},
+    {EWR, "EWR"},
+    {SFO, "SFO"},
+    {PHX, "PHX"},
+    {IAH, "IAH"},
+    {BOS, "BOS"},
+    {FLL, "FLL"},
+    {MSP, "MSP"},
+    {LGA, "LGA"},
+    {DTW, "DTW"},
+    {PHL, "PHL"},
+    {SLC, "SLC"},
+    {BWI, "BWI"},
+    {DCA, "DCA"},
+    {SAN, "SAN"},
+    {IAD, "IAD"},
+    {TPA, "TPA"},
+    {BNA, "BNA"},
+    {AUS, "AUS"},
+    {MDW, "MDW"},
+    {HNL, "HNL"},
+    {DAL, "DAL"},
+    {PDX, "PDX"},
+    {STL, "STL"},
+    {RDU, "RDU"},
+    {HOU, "HOU"},
+    {SMF, "SMF"},
+    {MSY, "MSY"},
+    {SJC, "SJC"},
+    {SNA, "SNA"},
+    {MCI, "MCI"},
+    {OAK, "OAK"},
+    {SAT, "SAT"},
+    {RSW, "RSW"},
+    {CLE, "CLE"},
+    {IND, "IND"},
+    {PIT, "PIT"},
+    {CVG, "CVG"},
+    {CMH, "CMH"},
+    {PBI, "PBI"},
 });

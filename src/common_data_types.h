@@ -5,9 +5,12 @@
 #include <iostream>
 #include <vector>
 #include <string>
+#include <sstream>
 #include <unordered_map>
 #include <optional>
 #include <exception>
+
+#include "utils.h"
 
 /**
  * @brief all unique airlines
@@ -102,6 +105,9 @@ enum airport {
 // convert from airport IOTA to name, for printing
 extern std::unordered_map<airport, std::string> airport_name;
 
+// convert from airport IOTA to IOTA string, for printing
+extern std::unordered_map<airport, std::string> airport_code;
+
 /**
  * @brief types of fare classes offered
  */
@@ -111,6 +117,9 @@ enum cabin {
     BUSINESS = 2,
     FIRST = 3
 };
+
+// convert from cabin to name, for printing
+extern std::unordered_map<cabin, std::string> cabin_name;
 
 /**
  * @brief one flight
@@ -128,13 +137,9 @@ struct flight {
     uint num_stops; // 0 -> nonstop
     cabin cabin;
     uint price; // in USD
+
+    std::string serialize() const;
 };
-
-// TODO: define itinerary
-
-// TODO: define flight finder
-
-// TODO: define airport
 
 // singleton for use with id_vec
 struct flight_id {
@@ -145,5 +150,21 @@ struct flight_id {
 struct flight_idx {
     size_t id;
 };
+
+/**
+ * @brief represents flights strung together
+ */
+struct itinerary {
+    std::vector<flight_id> flight_ids;
+    bool built;
+
+    std::string serialize(const id_vec<flight_id, flight> flights) const;
+};
+
+// TODO: define flight finder
+
+// TODO: define airport
+
+// TODO: define CLI
 
 #endif // COMMON_DATA_TYPES_H
