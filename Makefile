@@ -25,7 +25,8 @@ TEST_CPPFILES = \
 		$(TEST_DIR)/test_driver.cpp
 
 SRC_HFILES = \
-		$(SRC_DIR)/$(CLI_DIR)/finder.h
+		$(SRC_DIR)/$(CLI_DIR)/finder.h \
+		$(SRC_DIR)/$(COMMON_DIR)/common_data_types.h
 
 TEST_HFILES = \
 		$(TEST_DIR)/$(CATCH_DIR)/catch.hpp
