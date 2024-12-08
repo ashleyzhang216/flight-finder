@@ -3,58 +3,49 @@ CPPFLAGS = -std=c++20 -Wall
 OPTFLAGS = -O3
 LIBS     = -lm
 
-# main dirs
-SRC_DIR=./src
-TEST_DIR=./test
+SRC_DIR  = ./src
 
-# src dirs
-COMMON_DIR=common
-CLI_DIR=cli
+# Binaries to build
+NAIVE_BIN    = naive.x
+SERIAL_BIN   = serial.x
+PARALLEL_BIN = parallel.x
 
-# test dirs
-CATCH_DIR=catch
+# Source files shared by all programs
+COMMON_SRCS = $(SRC_DIR)/common_data_types.cpp $(SRC_DIR)/parser.cpp
+COMMON_OBJS = $(COMMON_SRCS:%.cpp=%.o)
 
-# binaries
-MAIN_BIN = finder.x
-TEST_BIN = test_driver.x
+# Individual program sources
+NAIVE_SRC = $(SRC_DIR)/naive.cpp
+SERIAL_SRC = $(SRC_DIR)/serial.cpp
+PARALLEL_SRC = $(SRC_DIR)/parallel.cpp
 
-SRC_CPPFILES = \
-		$(SRC_DIR)/$(CLI_DIR)/finder.cpp
+NAIVE_OBJ = $(NAIVE_SRC:%.cpp=%.o)
+SERIAL_OBJ = $(SERIAL_SRC:%.cpp=%.o)
+PARALLEL_OBJ = $(PARALLEL_SRC:%.cpp=%.o)
 
-TEST_CPPFILES = \
-		$(TEST_DIR)/test_driver.cpp
+# Default target builds all
+all: $(NAIVE_BIN) $(SERIAL_BIN) $(PARALLEL_BIN)
 
-SRC_HFILES = \
-		$(SRC_DIR)/$(CLI_DIR)/finder.h \
-		$(SRC_DIR)/$(COMMON_DIR)/common_data_types.h
+naive: $(NAIVE_BIN)
+serial: $(SERIAL_BIN)
+parallel: $(PARALLEL_BIN)
 
-TEST_HFILES = \
-		$(TEST_DIR)/$(CATCH_DIR)/catch.hpp
+# Link rules
+$(NAIVE_BIN): $(NAIVE_OBJ) $(COMMON_OBJS)
+	$(CPP) $(CPPFLAGS) $(OPTFLAGS) $^ -o $@ $(LIBS)
 
-SRC_OFILES = \
-		finder.o
+$(SERIAL_BIN): $(SERIAL_OBJ) $(COMMON_OBJS)
+	$(CPP) $(CPPFLAGS) $(OPTFLAGS) $^ -o $@ $(LIBS)
 
-TEST_OFILES = \
-		test_driver.o
+$(PARALLEL_BIN): $(PARALLEL_OBJ) $(COMMON_OBJS)
+	$(CPP) $(CPPFLAGS) $(OPTFLAGS) $^ -o $@ $(LIBS)
 
-all: $(MAIN_BIN) $(TEST_BIN)
-main: $(MAIN_BIN)
-test: $(TEST_BIN)
+# Compile .cpp to .o
+%.o: %.cpp
+	$(CPP) $(CPPFLAGS) $(OPTFLAGS) -c $< -o $@
 
-clean: 
+clean:
 	rm -f *~ *.o
 
 realclean: clean
 	rm -f *.x
-
-$(MAIN_BIN) : $(SRC_OFILES)
-	$(CPP) $(CPPFLAGS) $^ -o $@ $(LIBS)
-
-$(TEST_BIN) : $(TEST_OFILES)
-	$(CPP) $(CPPFLAGS) $^ -o $@ $(LIBS)
-
-$(SRC_OFILES) : $(SRC_CPPFILES) $(SRC_HFILES)
-	$(CPP) -c $(CPPFLAGS) $(OPTFLAGS) $< -o $@
-
-$(TEST_OFILES) : $(TEST_CPPFILES) $(TEST_HFILES) $(SRC_CPPFILES) $(SRC_HFILES)
-	$(CPP) -c $(CPPFLAGS) $(OPTFLAGS) $< -o $@
