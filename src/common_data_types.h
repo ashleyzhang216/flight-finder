@@ -13,32 +13,35 @@
  * @brief all unique airlines
  */
 enum airline {
-    Delta,
-    Southwest,
-    American,
-    Allegiant,
-    Alaska,
-    Southern,
-    Tropic,
-    Hawaiian,
-    JetBlue,
-    Key,
-    Sun,
-    Contour,
-    Avelo,
-    Swiss,
-    Cape,
-    Spirit,
-    British,
-    SkyWest,
-    Breeze,
-    United,
-    Lufthansa,
-    Frontier,
-    Silver,
+    DELTA,
+    SOUTHWEST,
+    AMERICAN,
+    ALLEGIANT,
+    ALASKA,
+    SOUTHERN,
+    TROPIC,
+    HAWAIIAN,
+    JETBLUE,
+    KEY,
+    SUN,
+    CONTOUR,
+    AVELO,
+    SWISS,
+    CAPE,
+    SPIRIT,
+    BRITISH,
+    SKYWEST,
+    BREEZE,
+    UNITED,
+    LUFTHANSA,
+    FRONTIER,
+    SILVER,
     ITA,
     JSX,
 };
+
+// convert from airline enum to airline name, for printing
+extern std::unordered_map<airline, std::string> airline_name;
 
 /**
  * @brief top 50 airports
@@ -125,18 +128,6 @@ struct flight {
     uint num_stops; // 0 -> nonstop
     cabin cabin;
     uint price; // in USD
-};
-
-// singleton for use with id_vec
-struct flight_id
-{
-    size_t id;
-};
-
-// singleton for use with id_vec
-struct flight_idx
-{
-    size_t id;
 };
 
 // TODO: define itinerary

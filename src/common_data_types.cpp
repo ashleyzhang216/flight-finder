@@ -1,5 +1,34 @@
 #include "common_data_types.h"
 
+// convert from airline enum to airline name, for printing
+std::unordered_map<airline, std::string> airline_name = std::unordered_map<airline, std::string>({
+    {DELTA,	"Delta"},
+    {SOUTHWEST,	"Southwest"},
+    {AMERICAN,	"American"},
+    {ALLEGIANT,	"Allegiant"},
+    {ALASKA,	"Alaska"},
+    {SOUTHERN,	"Southern"},
+    {TROPIC,	"Tropic"},
+    {HAWAIIAN,	"Hawaiian"},
+    {JETBLUE,	"JetBlue"},
+    {KEY,	"Key"},
+    {SUN,	"Sun"},
+    {CONTOUR,	"Contour"},
+    {AVELO,	"Avelo"},
+    {SWISS,	"Swiss"},
+    {CAPE,	"Cape"},
+    {SPIRIT,	"Spirit"},
+    {BRITISH,	"British"},
+    {SKYWEST,	"SkyWest"},
+    {BREEZE,	"Breeze"},
+    {UNITED,	"United"},
+    {LUFTHANSA,	"Lufthansa"},
+    {FRONTIER,	"Frontier"},
+    {SILVER,	"Silver"},
+    {ITA,	"ITA"},
+    {JSX,	"JSX"},
+});
+
 // convert from airport IOTA to name, for printing
 std::unordered_map<airport, std::string> airport_name = std::unordered_map<airport, std::string>({
     {ATL, "Hartsfield–Jackson Atlanta International Airport"},
