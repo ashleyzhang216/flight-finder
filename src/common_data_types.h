@@ -16,7 +16,8 @@
 /**
  * @brief all unique airlines
  */
-enum airline {
+enum airline
+{
     DELTA,
     SOUTHWEST,
     AMERICAN,
@@ -42,6 +43,7 @@ enum airline {
     SILVER,
     ITA,
     JSX,
+    INVALID_AIRLINE
 };
 
 // convert from airline enum to airline name, for printing
@@ -53,7 +55,8 @@ extern std::unordered_map<std::string, airline> airline_of_str;
 /**
  * @brief top 50 airports
  */
-enum airport {
+enum airport
+{
     ATL,
     LAX,
     DFW,
@@ -104,6 +107,7 @@ enum airport {
     CVG,
     CMH,
     PBI,
+    INVALID_AIRPORT
 };
 
 // convert from airport IOTA to name, for printing
@@ -118,7 +122,8 @@ extern std::unordered_map<std::string, airport> airport_of_str;
 /**
  * @brief types of fare classes offered
  */
-enum cabin {
+enum cabin
+{
     ECONOMY = 0,
     PREMIUM_ECONOMY = 1,
     BUSINESS = 2,
@@ -134,13 +139,14 @@ extern std::unordered_map<std::string, cabin> cabin_of_str;
 /**
  * @brief one flight
  */
-struct flight {
+struct flight
+{
     size_t id;
     airline airline;
     airport from_iota;
     airport to_iota;
-    time_t depart_ts; // unix epoch, seconds
-    time_t arrive_ts; // unix epoch, seconds
+    time_t depart_ts;        // unix epoch, seconds
+    time_t arrive_ts;        // unix epoch, seconds
     std::string depart_time; // human readable format
     std::string arrive_time; // human readable format
     std::string stops;
@@ -152,19 +158,22 @@ struct flight {
 };
 
 // singleton for use with id_vec
-struct flight_id {
+struct flight_id
+{
     size_t id;
 };
 
 // singleton for use with id_vec
-struct flight_idx {
+struct flight_idx
+{
     size_t id;
 };
 
 /**
  * @brief represents flights strung together
  */
-struct itinerary {
+struct itinerary
+{
     std::vector<flight_id> flight_ids;
     bool built;
 
@@ -175,16 +184,17 @@ struct itinerary {
  * @brief restrictions on flights allowed to be used
  * @note if specified, each item is the only thing allowed
  */
-struct flight_constraints {
-    std::optional<std::vector<airline> > airlines; // only airlines we want to fly on
-    std::optional<cabin>                 cabin;    // only cabin we want to fly in
-    std::optional<airport>               origin;   // airport all itineraries have to depart from
-    std::optional<time_t>                start_ts; // first ts at which a flight in our itinerary can take off
-    std::optional<time_t>                end_ts;   // last ts at which a flight in our itinerary can land
+struct flight_constraints
+{
+    std::optional<std::vector<airline>> airlines; // only airlines we want to fly on
+    std::optional<cabin> cabin;                   // only cabin we want to fly in
+    std::optional<airport> origin;                // airport all itineraries have to depart from
+    std::optional<time_t> start_ts;               // first ts at which a flight in our itinerary can take off
+    std::optional<time_t> end_ts;                 // last ts at which a flight in our itinerary can land
 };
 
 // parse params
-flight_constraints cli(const std::string& name, int argc, char** argv);
+flight_constraints cli(const std::string &name, int argc, char **argv);
 
 // TODO: define flight finder
 

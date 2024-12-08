@@ -1,24 +1,21 @@
 #include "common_data_types.h"
 
 // parse input parameters
-flight_constraints cli(const std::string& name, int argc, char** argv) {
+flight_constraints cli(const std::string &name, int argc, char **argv)
+{
     cxxopts::Options options(name, "Find different flight routes");
 
-    options.add_options()
-        ("a,airlines", "Allowed airlines, default: all",        cxxopts::value<std::vector<std::string> >())
-        ("c,cabin",    "Allowed cabin, default: all",           cxxopts::value<std::string>())
-        ("o,origin",   "Origin airport code",                   cxxopts::value<std::string>())
-        ("s,start",    "Earliest departure time, default: any", cxxopts::value<uint>()) // take std::string in HH:MM and convert to ts
-        ("e,end",      "Latest arrival time, default: any",     cxxopts::value<uint>()) // take std::string in HH:MM and convert to ts
-        ("h,help",     "Print usage")
-        ;
+    options.add_options()("a,airlines", "Allowed airlines, default: all", cxxopts::value<std::vector<std::string>>())("c,cabin", "Allowed cabin, default: all", cxxopts::value<std::string>())("o,origin", "Origin airport code", cxxopts::value<std::string>())("s,start", "Earliest departure time, default: any", cxxopts::value<uint>()) // take std::string in HH:MM and convert to ts
+        ("e,end", "Latest arrival time, default: any", cxxopts::value<uint>())                                                                                                                                                                                                                                                               // take std::string in HH:MM and convert to ts
+        ("h,help", "Print usage");
 
     auto result = options.parse(argc, argv);
 
     // ############### help ###############
 
     // print help msg if specified
-    if(result.count("help")) {
+    if (result.count("help"))
+    {
         std::cout << options.help() << std::endl;
         exit(0);
     }
@@ -26,39 +23,45 @@ flight_constraints cli(const std::string& name, int argc, char** argv) {
     flight_constraints constrs;
 
     // ############### airline ##############
-    
-    if(result.count("airlines")) {
-        std::vector<std::string> airline_names = result["airlines"].as<std::vector<std::string> >();
+
+    if (result.count("airlines"))
+    {
+        std::vector<std::string> airline_names = result["airlines"].as<std::vector<std::string>>();
 
         std::vector<airline> airlines;
-        for(const std::string& name : airline_names) {
+        for (const std::string &name : airline_names)
+        {
             airlines.push_back(airline_of_str.at(name));
         }
 
-        constrs.airlines = std::make_optional<std::vector<airline> >(std::move(airlines));
+        constrs.airlines = std::make_optional<std::vector<airline>>(std::move(airlines));
     }
 
     // ############### cabin ###############
 
-    if(result.count("cabin")) {
+    if (result.count("cabin"))
+    {
         constrs.cabin = std::make_optional<cabin>(cabin_of_str.at(result["cabin"].as<std::string>()));
     }
 
     // ############### origin ###############
 
-    if(result.count("origin")) {
+    if (result.count("origin"))
+    {
         constrs.origin = std::make_optional<airport>(airport_of_str.at(result["origin"].as<std::string>()));
     }
 
     // ############### start ###############
 
-    if(result.count("start")) {
+    if (result.count("start"))
+    {
         constrs.start_ts = std::make_optional<time_t>(result["start"].as<uint>());
     }
 
     // ############### end ###############
 
-    if(result.count("end")) {
+    if (result.count("end"))
+    {
         constrs.end_ts = std::make_optional<time_t>(result["end"].as<uint>());
     }
 
@@ -66,23 +69,26 @@ flight_constraints cli(const std::string& name, int argc, char** argv) {
 }
 
 // print flight
-std::string flight::serialize() const {
+std::string flight::serialize() const
+{
     std::stringstream ss;
 
     ss << airline << " flight from ";
     ss << airport_code.at(from_iota) << " @ " << depart_time << " to ";
     ss << airport_code.at(to_iota) << " @ " << arrive_time;
-    ss << " (" << stops << ") in " << cabin_name.at(cabin) << " for $" << price << std::endl; 
+    ss << " (" << stops << ") in " << cabin_name.at(cabin) << " for $" << price << std::endl;
 
     return ss.str();
 }
 
 // print itinerary
-std::string itinerary::serialize(const id_vec<flight_id, flight> flights) const {
+std::string itinerary::serialize(const id_vec<flight_id, flight> flights) const
+{
     assert(built);
-    
+
     std::stringstream ss;
-    for(size_t i = 0; i < flight_ids.size(); ++i) {
+    for (size_t i = 0; i < flight_ids.size(); ++i)
+    {
         ss << std::to_string(i + 1ul) << ". " << flights[flight_ids[i]].serialize();
     }
 
@@ -99,31 +105,31 @@ std::unordered_map<cabin, std::string> cabin_name = std::unordered_map<cabin, st
 
 // convert from airline enum to airline name, for printing
 std::unordered_map<airline, std::string> airline_name = std::unordered_map<airline, std::string>({
-    {DELTA,	"Delta"},
-    {SOUTHWEST,	"Southwest"},
-    {AMERICAN,	"American"},
-    {ALLEGIANT,	"Allegiant"},
-    {ALASKA,	"Alaska"},
-    {SOUTHERN,	"Southern"},
-    {TROPIC,	"Tropic"},
-    {HAWAIIAN,	"Hawaiian"},
-    {JETBLUE,	"JetBlue"},
-    {KEY,	"Key"},
-    {SUN,	"Sun"},
-    {CONTOUR,	"Contour"},
-    {AVELO,	"Avelo"},
-    {SWISS,	"Swiss"},
-    {CAPE,	"Cape"},
-    {SPIRIT,	"Spirit"},
-    {BRITISH,	"British"},
-    {SKYWEST,	"SkyWest"},
-    {BREEZE,	"Breeze"},
-    {UNITED,	"United"},
-    {LUFTHANSA,	"Lufthansa"},
-    {FRONTIER,	"Frontier"},
-    {SILVER,	"Silver"},
-    {ITA,	"ITA"},
-    {JSX,	"JSX"},
+    {DELTA, "Delta"},
+    {SOUTHWEST, "Southwest"},
+    {AMERICAN, "American"},
+    {ALLEGIANT, "Allegiant"},
+    {ALASKA, "Alaska"},
+    {SOUTHERN, "Southern"},
+    {TROPIC, "Tropic"},
+    {HAWAIIAN, "Hawaiian"},
+    {JETBLUE, "JetBlue"},
+    {KEY, "Key"},
+    {SUN, "Sun"},
+    {CONTOUR, "Contour"},
+    {AVELO, "Avelo"},
+    {SWISS, "Swiss"},
+    {CAPE, "Cape"},
+    {SPIRIT, "Spirit"},
+    {BRITISH, "British"},
+    {SKYWEST, "SkyWest"},
+    {BREEZE, "Breeze"},
+    {UNITED, "United"},
+    {LUFTHANSA, "Lufthansa"},
+    {FRONTIER, "Frontier"},
+    {SILVER, "Silver"},
+    {ITA, "ITA"},
+    {JSX, "JSX"},
 });
 
 // convert user input
@@ -132,7 +138,7 @@ std::unordered_map<std::string, airline> airline_of_str = std::unordered_map<std
     {"Southwest", SOUTHWEST},
     {"American", AMERICAN},
     {"Allegiant", ALLEGIANT},
-    {"Alaka", ALASKA},
+    {"Alaska", ALASKA},
     {"Southern", SOUTHERN},
     {"Tropic", TROPIC},
     {"Hawaiian", HAWAIIAN},
@@ -149,7 +155,7 @@ std::unordered_map<std::string, airline> airline_of_str = std::unordered_map<std
     {"Breeze", BREEZE},
     {"United", UNITED},
     {"Lufthansa", LUFTHANSA},
-    {"Lufthansa", FRONTIER},
+    {"Frontier", FRONTIER},
     {"Silver", SILVER},
     {"ITA", ITA},
     {"JSX", JSX},
