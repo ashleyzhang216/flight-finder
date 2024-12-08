@@ -9,18 +9,45 @@
 #include <optional>
 #include <exception>
 
-namespace common_data_types_ns {
+namespace common_data_types_ns
+{
     /**
      * @brief all unique airlines
      */
-    enum airline {
-        
+    enum airline
+    {
+        Delta,
+        Southwest,
+        American,
+        Allegiant,
+        Alaska,
+        Southern,
+        Tropic,
+        Hawaiian,
+        JetBlue,
+        Key,
+        Sun,
+        Contour,
+        Avelo,
+        Swiss,
+        Cape,
+        Spirit,
+        British,
+        SkyWest,
+        Breeze,
+        United,
+        Lufthansa,
+        Frontier,
+        Silver,
+        ITA,
+        JSX,
     };
 
     /**
      * @brief top 50 airports
      */
-    enum airport {
+    enum airport
+    {
         ATL,
         LAX,
         DFW,
@@ -76,7 +103,8 @@ namespace common_data_types_ns {
     /**
      * @brief types of fare classes offered
      */
-    enum cabin {
+    enum cabin
+    {
         ECONOMY = 0,
         PREMIUM_ECONOMY = 1,
         BUSINESS = 2,
@@ -86,13 +114,14 @@ namespace common_data_types_ns {
     /**
      * @brief one flight
      */
-    struct flight {
+    struct flight
+    {
         size_t id;
         airline airline;
         airport from_iota;
         airport to_iota;
-        time_t depart_ts; // unix epoch, seconds
-        time_t arrive_ts; // unix epoch, seconds
+        time_t depart_ts;        // unix epoch, seconds
+        time_t arrive_ts;        // unix epoch, seconds
         std::string depart_time; // human readable format
         std::string arrive_time; // human readable format
         std::string stops;
@@ -156,12 +185,14 @@ namespace common_data_types_ns {
     });
 
     // singleton for use with id_vec
-    struct flight_id {
+    struct flight_id
+    {
         size_t id;
     };
 
     // singleton for use with id_vec
-    struct flight_idx {
+    struct flight_idx
+    {
         size_t id;
     };
 
