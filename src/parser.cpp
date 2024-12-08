@@ -56,8 +56,8 @@ flight parse_flight(const json &flight_data, size_t flight_id)
     f.airline = parse_airline(flight_data["flight"]["airline"].get<std::string>());
 
     // Parse departure and arrival airports using IATA codes
-    f.from_iota = parse_airport(flight_data["search_parameters"]["departure_iota"].get<std::string>());
-    f.to_iota = parse_airport(flight_data["search_parameters"]["destination_iota"].get<std::string>());
+    f.from = parse_airport(flight_data["search_parameters"]["departure_iota"].get<std::string>());
+    f.to = parse_airport(flight_data["search_parameters"]["destination_iota"].get<std::string>());
 
     // Parse departure and arrival times (in Unix epoch format)
     f.depart_ts = flight_data["flight"]["unix_departure_time"].get<int64_t>();
@@ -93,9 +93,9 @@ flight parse_flight(const json &flight_data, size_t flight_id)
     return f;
 }
 
-// TODO: Add constraint object to filter flights
+// TODO: Add filtering based on constraints
 // Function to parse all flights from JSON files in a directory
-std::vector<flight> parse_flights_from_directory(const std::string &dir_path)
+std::vector<flight> parse_flights_from_directory(const std::string &dir_path, const flight_constraints constraints)
 {
     std::vector<flight> flights;
     size_t flight_id = 0;
