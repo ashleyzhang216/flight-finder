@@ -54,6 +54,8 @@ $(TEST_BIN): $(TEST_OBJ) $(COMMON_OBJS)
 
 clean:
 	rm -f *~ *.o
+	rm -f $(SRC_DIR)/*~ $(SRC_DIR)/*.o
+	rm -f $(TEST_DIR)/*~ $(TEST_DIR)/*.o
 
 realclean: clean
 	rm -f *.x
