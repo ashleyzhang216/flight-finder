@@ -195,6 +195,7 @@ struct itinerary
 
     // returns better of two itinerary, taking mandated origin into account
     static itinerary max(const itinerary& lhs, const itinerary& rhs, const std::optional<airport>& origin) {
+        // choose itinerary from right origin, if one of them has it
         if(origin.has_value() && lhs.origin != rhs.origin) {
             if(lhs.origin == origin.value()) {
                 itinerary next = lhs;
@@ -207,13 +208,31 @@ struct itinerary
             }
         }
 
-        if(lhs.legs >= rhs.legs) {
-            itinerary next = lhs;
+        // choose itinerary with more legs
+        if(lhs.legs != rhs.legs) {
+            itinerary next = lhs.legs > rhs.legs ? lhs : rhs;
             next.built = false; // caller needs to set this to true, after a compiler fence
             return next;
         }
 
-        itinerary next = rhs;
+        // tiebreaker: choose itinerary with more flights
+        if(lhs.flight_ids.size() != rhs.flight_ids.size()) {
+            itinerary next = lhs.flight_ids.size() > rhs.flight_ids.size() ? lhs : rhs;
+            next.built = false; // caller needs to set this to true, after a compiler fence
+            return next;
+        }
+        
+        // tiebreaker: choose first itinerary with higher flight id
+        for(size_t i = 0; i < lhs.flight_ids.size(); ++i) {
+            if(lhs.flight_ids.at(i).id != rhs.flight_ids.at(i).id) {
+                itinerary next = lhs.flight_ids.at(i).id > rhs.flight_ids.at(i).id ? lhs : rhs;
+                next.built = false; // caller needs to set this to true, after a compiler fence
+                return next;
+            }
+        }
+        
+        // truly equal
+        itinerary next = lhs;
         next.built = false; // caller needs to set this to true, after a compiler fence
         return next;
     }
