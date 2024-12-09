@@ -9,6 +9,8 @@ std::string flight_finder::search() {
         const airport dest_airport = flights[cur_id].to;
         const airport depart_airport = flights[cur_id].from;
 
+        std::cout << "exploring flight_id=" << cur_id.id << ", flight_idx=" << cur_idx.id << ", depart=" << depart_airport << ", dest=" << dest_airport << std::endl;
+
         auto get_incoming = [this, &cur_id, &depart_airport]() -> itinerary {
             auto comp = [this](const flight_id& lhs, const time_t& rhs) -> bool {
                 return flights[lhs].arrive_ts < rhs;
@@ -27,6 +29,13 @@ std::string flight_finder::search() {
 
             flight_id best_id = *(it - 1);
             itinerary& prev = nodes.at(depart_airport).opt_table[flight_indices[best_id]];
+
+            if(!prev.built) {
+                std::cout << "prev itinerary (built=" << prev.built << "): " << std::endl << prev.serialize(flights) << std::endl;
+                std::cout << "index: " << it - nodes.at(depart_airport).arriving_flights.vec.begin() << std::endl;
+                std::cout << "size: " << nodes.at(depart_airport).arriving_flights.size() << std::endl;
+            }
+
             assert(prev.built);
             
             return prev.add(cur_id, flights);
@@ -68,9 +77,6 @@ int main(int argc, char** argv) {
     std::vector<flight> flights = parse_flights_from_directory(directory, constrs);
 
     flight_finder ff(std::move(flights), constrs.origin);
-
-    std::cout << "parsed input" << std::endl;
-
     std::cout << ff.search() << std::endl;
     
     return 0;

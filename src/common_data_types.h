@@ -239,7 +239,7 @@ struct itinerary
     }
 
     // returns new itinerary as the result of appending a flight to this itinerary
-    itinerary add(flight_id id, const id_vec<flight_id, flight>& flights) {
+    itinerary add(flight_id id, const id_vec<flight_id, flight>& flights) const {
         itinerary next = *this;
 
         // ensure next flight takes off from the airport we currently at

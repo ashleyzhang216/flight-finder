@@ -157,8 +157,6 @@ std::string flight::serialize() const
 // print itinerary
 std::string itinerary::serialize(const id_vec<flight_id, flight> flights) const
 {
-    assert(built);
-
     std::stringstream ss;
     for (size_t i = 0; i < flight_ids.size(); ++i)
     {
