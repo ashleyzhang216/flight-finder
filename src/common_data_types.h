@@ -190,12 +190,48 @@ struct itinerary
     // for default, empty itinerary, used for opt_table[-1]
     itinerary(airport o) : origin(o), legs(0u), built(true) {}
 
-    // TODO: implement operator< for std::max()
-    // this needs to consider both the # of legs, and also origin airport if we specified one
-
-    // TODO: implement + operator to add flight to itinerary
-
+    // print
     std::string serialize(const id_vec<flight_id, flight> flights) const;
+
+    // returns better of two itinerary, taking mandated origin into account
+    static itinerary max(const itinerary& lhs, const itinerary& rhs, const std::optional<airport>& origin) {
+        if(origin.has_value() && lhs.origin != rhs.origin) {
+            if(lhs.origin == origin.value()) {
+                itinerary next = lhs;
+                next.built = false; // caller needs to set this to true, after a compiler fence
+                return next;
+            } else if(rhs.origin == origin.value()) {
+                itinerary next = rhs;
+                next.built = false; // caller needs to set this to true, after a compiler fence
+                return next;
+            }
+        }
+
+        if(lhs.legs >= rhs.legs) {
+            itinerary next = lhs;
+            next.built = false; // caller needs to set this to true, after a compiler fence
+            return next;
+        }
+
+        itinerary next = rhs;
+        next.built = false; // caller needs to set this to true, after a compiler fence
+        return next;
+    }
+
+    // returns new itinerary as the result of appending a flight to this itinerary
+    itinerary add(flight_id id, const id_vec<flight_id, flight>& flights) {
+        itinerary next = *this;
+
+        // ensure next flight takes off from the airport we currently at
+        assert(next.flight_ids.size() == 0 || flights[next.flight_ids.back()].to == flights[id].from);
+
+        next.flight_ids.push_back(id);
+        next.origin = flights[next.flight_ids.front()].from;
+        next.legs += flights[id].num_stops + 1u;
+        next.built = false; // caller needs to set this to true, after a compiler fence
+
+        return next;
+    }
 };
 
 /**
