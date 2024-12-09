@@ -60,7 +60,7 @@ flight_finder::flight_finder(std::vector<flight> &&f, const std::optional<airpor
             flight_id id = pair.second.arriving_flights[flight_idx(i)];
             flight_idx actual_idx = flight_indices[id];
 
-            assert(actual_idx.id = i);
+            assert(actual_idx.id == i);
             assert(pair.first == flights[id].to);
         }
     }

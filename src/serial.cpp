@@ -1,4 +1,5 @@
 #include "common_data_types.h"
+#include "parser.h"
 
 // serial implementation of search
 std::string flight_finder::search() {
@@ -62,10 +63,14 @@ int main(int argc, char** argv) {
 
     std::cout << "running serial" << std::endl;
 
-    // TODO: call parser
-    std::vector<flight> temp;
+    // Example usage of parser
+    std::string directory = "flight_arrival_results";
+    std::vector<flight> flights = parse_flights_from_directory(directory, constrs);
 
-    flight_finder ff(std::move(temp), constrs.origin);
+    flight_finder ff(std::move(flights), constrs.origin);
+
+    std::cout << "parsed input" << std::endl;
+
     std::cout << ff.search() << std::endl;
     
     return 0;
