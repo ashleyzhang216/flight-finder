@@ -180,10 +180,15 @@ struct flight_idx
 struct itinerary
 {
     std::vector<flight_id> flight_ids;
+    airport origin;
     uint legs;
     bool built;
 
+    // standard constructor for opt table
     itinerary() : legs(0u), built(false) {}
+
+    // for default, empty itinerary, used for opt_table[-1]
+    itinerary(airport o) : origin(o), legs(0u), built(true) {}
 
     // TODO: implement operator< for std::max()
     // this needs to consider both the # of legs, and also origin airport if we specified one
