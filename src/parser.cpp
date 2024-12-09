@@ -47,10 +47,9 @@ cabin parse_cabin(const std::string &cabin_str)
 }
 
 // Function to parse a single flight from JSON
-flight parse_flight(const json &flight_data, size_t flight_id)
+flight parse_flight(const json &flight_data)
 {
     flight f;
-    f.id = flight_id;
 
     // Parse airline
     f.airline = parse_airline(flight_data["flight"]["airline"].get<std::string>());
@@ -93,12 +92,16 @@ flight parse_flight(const json &flight_data, size_t flight_id)
     return f;
 }
 
-// TODO: Add filtering based on constraints
 // Function to parse all flights from JSON files in a directory
 std::vector<flight> parse_flights_from_directory(const std::string &dir_path, const flight_constraints constraints)
 {
     std::vector<flight> flights;
     size_t flight_id = 0;
+    uint div_n = constraints.div_n.value_or(1);
+    size_t total_flights = 0;
+    size_t removed_flights = 0;
+    size_t included_flights = 0;
+    size_t valid_flights = 0;
 
     // Iterate over all files in the directory
     for (const auto &entry : std::filesystem::directory_iterator(dir_path))
@@ -111,9 +114,79 @@ std::vector<flight> parse_flights_from_directory(const std::string &dir_path, co
             // Parse each flight in the flights_data array
             for (const auto &flight_data : root["flights_data"])
             {
-                flights.push_back(parse_flight(flight_data, flight_id++));
+                flight f = parse_flight(flight_data);
+                f.id = flight_id;
+                total_flights++;
+
+                bool should_add_flight = true;
+
+                // Check airlines
+                if (constraints.airlines.has_value())
+                {
+                    const auto &valid_airlines = constraints.airlines.value();
+                    if (std::find(valid_airlines.begin(), valid_airlines.end(), f.airline) == valid_airlines.end())
+                    {
+                        should_add_flight = false;
+                    }
+                }
+
+                // Check if the flight matches the cabin constraint
+                if (constraints.cabin.has_value() && f.cabin != constraints.cabin.value())
+                {
+                    should_add_flight = false;
+                }
+
+                // Check if the flight matches the start timestamp constraint
+                if (constraints.start_ts.has_value() && f.depart_ts < constraints.start_ts.value())
+                {
+                    should_add_flight = false;
+                }
+
+                // Check if the flight matches the end timestamp constraint
+                if (constraints.end_ts.has_value() && f.arrive_ts > constraints.end_ts.value())
+                {
+                    should_add_flight = false;
+                }
+
+                if (should_add_flight)
+                {
+                    valid_flights++;
+
+                    // Check div_n constraint only if we should add the flight
+                    if (div_n == 1 || f.id % div_n != 0)
+                    {
+                        flights.push_back(f);
+                        included_flights++;
+                    }
+                    else
+                        removed_flights++;
+
+                    flight_id++;
+                }
+                else
+                    removed_flights++;
             }
         }
+    }
+
+    // Print flight parse metadata
+    std::cout << "Total flights: " << total_flights << std::endl;
+    std::cout << "Flights included: " << included_flights << std::endl;
+    std::cout << "Flights removed: " << removed_flights << std::endl;
+    if (total_flights > 0)
+    {
+        double ratio_included = static_cast<double>(included_flights) / total_flights;
+        std::cout << "Ratio of included flights: " << ratio_included << std::endl;
+
+        double ratio_valid = static_cast<double>(valid_flights) / total_flights;
+        std::cout << "Ratio of valid flights: " << ratio_valid << std::endl;
+
+        double ratio_included_valid = static_cast<double>(included_flights) / valid_flights;
+        std::cout << "Ratio of included to valid (should correspond to div_n): " << ratio_included_valid << std::endl;
+    }
+    else
+    {
+        std::cout << "No flights found in the directory." << std::endl;
     }
 
     return flights;

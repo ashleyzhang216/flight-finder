@@ -71,8 +71,8 @@ flight_constraints cli(const std::string &name, int argc, char **argv)
 {
     cxxopts::Options options(name, "Find different flight routes");
 
-    options.add_options()("a,airlines", "Allowed airlines, default: all", cxxopts::value<std::vector<std::string>>())("c,cabin", "Allowed cabin, default: all", cxxopts::value<std::string>())("o,origin", "Origin airport code", cxxopts::value<std::string>())("s,start", "Earliest departure time, default: any", cxxopts::value<uint>()) // take std::string in HH:MM and convert to ts
-        ("e,end", "Latest arrival time, default: any", cxxopts::value<uint>())                                                                                                                                                                                                                                                               // take std::string in HH:MM and convert to ts
+    options.add_options()("a,airlines", "Allowed airlines, default: all", cxxopts::value<std::vector<std::string>>())("c,cabin", "Allowed cabin, default: all", cxxopts::value<std::string>())("o,origin", "Origin airport code", cxxopts::value<std::string>())("s,start", "Earliest departure time, default: any", cxxopts::value<uint>())("d,div_n", "Mod portion of the number of flights N, default: 1", cxxopts::value<uint>()->default_value("1")) // take std::string in HH:MM and convert to ts
+        ("e,end", "Latest arrival time, default: any", cxxopts::value<uint>())                                                                                                                                                                                                                                                                                                                                                                            // take std::string in HH:MM and convert to ts
         ("h,help", "Print usage");
 
     auto result = options.parse(argc, argv);
@@ -129,6 +129,13 @@ flight_constraints cli(const std::string &name, int argc, char **argv)
     if (result.count("end"))
     {
         constrs.end_ts = std::make_optional<time_t>(result["end"].as<uint>());
+    }
+
+    // ############### div_n ###############
+
+    if (result.count("div_n"))
+    {
+        constrs.div_n = std::make_optional<uint>(result["div_n"].as<uint>());
     }
 
     return constrs;

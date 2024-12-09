@@ -264,7 +264,7 @@ struct flight_constraints
     std::optional<airport> origin;                // airport all itineraries have to depart from
     std::optional<time_t> start_ts;               // first ts at which a flight in our itinerary can take off
     std::optional<time_t> end_ts;                 // last ts at which a flight in our itinerary can land
-    // TODO: To support strong and weak scaling analysis, can add a paramater/scale factor for number of flights per airport we want to consider (say 100% of flights, etc. which is our N for analysis)
+    std::optional<uint> div_n;                    // taking a mod portion to limit the number of flights considered for queries (e.g. mod 5 --> 20% of N)
 };
 
 /**
