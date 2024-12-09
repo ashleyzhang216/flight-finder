@@ -271,7 +271,8 @@ public:
     flight_finder(std::vector<flight> &&f, const std::optional<airport> &origin);
     
     // naive/serial/parallel only differ from having different implementations for this function
-    itinerary search();
+    // return result of serialize() call on best itinerary
+    std::string search();
 
 protected:
     // origin airport, if has value
