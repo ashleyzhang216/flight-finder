@@ -97,6 +97,7 @@ std::vector<flight> parse_flights_from_directory(const std::string &dir_path, co
 {
     std::vector<flight> flights;
     size_t flight_id = 0;
+    size_t div_id = 0;
     uint div_n = constraints.div_n.value_or(1);
     size_t total_flights = 0;
     size_t removed_flights = 0;
@@ -153,15 +154,17 @@ std::vector<flight> parse_flights_from_directory(const std::string &dir_path, co
                     valid_flights++;
 
                     // Check div_n constraint only if we should add the flight
-                    if (div_n == 1 || f.id % div_n != 0)
+                    if (div_n == 1 || div_id % div_n != 0)
                     {
                         flights.push_back(f);
+                        flight_id++; // Only incr after adding
+
                         included_flights++;
                     }
                     else
                         removed_flights++;
 
-                    flight_id++;
+                    div_id++;
                 }
                 else
                     removed_flights++;
