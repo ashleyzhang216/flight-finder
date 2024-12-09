@@ -233,8 +233,9 @@ class flight_finder
 {
 public:
     flight_finder(std::vector<flight> &&f, const std::optional<airport> &origin);
-
-    // TODO: implement
+    
+    // naive/serial/parallel only differ from having different implementations for this function
+    itinerary search();
 
 protected:
     // origin airport, if has value
@@ -244,9 +245,11 @@ protected:
     id_vec<flight_id, flight> flights;
 
     // flight_idx in corresponding airport, but still need to find out what airport this is
+    // unused for naive
     id_vec<flight_id, flight_idx> flight_indices;
 
     // all airport nodes, 50 in total
+    // unused for naive
     std::unordered_map<airport, airport_node> nodes;
 };
 
