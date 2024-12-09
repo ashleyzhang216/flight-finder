@@ -3,13 +3,27 @@
 
 // serial implementation of search
 std::string flight_finder::search() {
+    time_t arrival = 0ul;
+
     for(size_t i = 0; i < flights.size(); ++i) {
         const flight_id cur_id = flight_id(i);
         const flight_idx cur_idx = flight_indices[cur_id];
         const airport dest_airport = flights[cur_id].to;
         const airport depart_airport = flights[cur_id].from;
 
-        std::cout << "exploring flight_id=" << cur_id.id << ", flight_idx=" << cur_idx.id << ", depart=" << depart_airport << ", dest=" << dest_airport << std::endl;
+        // std::cout << "exploring flight_id=" << cur_id.id << ", flight_idx=" << cur_idx.id << ", dest=" << dest_airport << ", depart=" << depart_airport << std::endl;
+
+        std::cout << "building dest_airport=" << std::setw(2) << std::setfill('0') << dest_airport
+                  << ", flight_idx=" << std::setw(3) << std::setfill('0') << cur_idx.id
+                  << " for flight_id=" << std::setw(3) << std::setfill('0') << cur_id.id
+                  << " from depart_airport=" << std::setw(2) << std::setfill('0') << depart_airport
+                  << std::endl;
+
+        // building dest_airport=15, flight_idx=031 for flight_id=1269 from depart_airport=12
+
+        // DEBUG
+        assert(flights[cur_id].arrive_ts >= arrival);
+        arrival = flights[cur_id].arrive_ts;
 
         auto get_incoming = [this, &cur_id, &depart_airport]() -> itinerary {
             auto comp = [this](const flight_id& lhs, const time_t& rhs) -> bool {
