@@ -154,7 +154,7 @@ std::vector<flight> parse_flights_from_directory(const std::string &dir_path, co
                     valid_flights++;
 
                     // Check div_n constraint only if we should add the flight
-                    if (div_n == 1 || div_id % div_n != 0)
+                    if (div_n <= 1 || div_id % div_n == 0)
                     {
                         flights.push_back(f);
                         flight_id++; // Only incr after adding
