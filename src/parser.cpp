@@ -68,7 +68,7 @@ flight parse_flight(const json &flight_data)
 
     // Parse stops and number of stops
     f.stops = flight_data["flight"]["stops"].get<std::string>();
-    f.num_stops = (f.stops == "Nonstop") ? 0 : 1;
+    f.num_stops = (f.stops == "Nonstop") ? 0 : f.stops[0] - '0';
 
     // Parse cabin class
     f.cabin = parse_cabin(flight_data["search_parameters"]["travel_class"].get<std::string>());
