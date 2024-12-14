@@ -1,0 +1,31 @@
+Data directory: top_5_airports_flight_arrival_results
+Arguments: -d 150 -c Economy
+Sampling info:
+Flights included: 22
+Flights removed: 7702
+Ratio of included flights: 0.00284827
+Ratio of valid flights: 0.421543
+Ratio of included to valid (should correspond to div_n): 0.00675676
+
+2 flight from ATL @ 5:20 AM to DFW @ 6:59 AM (Nonstop) in Economy for $177
+2 flight from DEN @ 10:37 AM to DFW @ 1:44 PM (Nonstop) in Economy for $299
+0 flight from DEN @ 2:18 PM to DFW @ 10:00 PM (1 stop in ATL) in Economy for $509
+2 flight from ORD @ 6:09 PM to DFW @ 7:20 AM+1 (1 stop in BNA) in Economy for $347
+1 flight from ATL @ 8:05 AM to DEN @ 1:00 PM (1 stop in MDW) in Economy for $234
+2 flight from DFW @ 10:25 AM to DEN @ 11:46 AM (Nonstop) in Economy for $299
+2 flight from ORD @ 11:56 AM to DEN @ 5:51 PM (1 stop in DFW) in Economy for $429
+19 flight from LAX @ 3:25 PM to DEN @ 10:13 PM (1 stop in ORD) in Economy for $429
+19 flight from LAX @ 7:45 PM to DEN @ 6:54 AM+1 (1 stop in PHX) in Economy for $562
+2 flight from DFW @ 10:30 PM to DEN @ 3:15 PM+1 (1 stop in PHX) in Economy for $362
+15 flight from ORD @ 5:10 AM to ATL @ 6:15 PM (1 stop in IAH) in Economy for $82
+0 flight from ORD @ 7:59 PM to ATL @ 11:05 PM (Nonstop) in Economy for $188
+21 flight from DEN @ 3:55 PM to ATL @ 8:21 AM+1 (1 stop in DFW) in Economy for $288
+2 flight from ATL @ 5:20 AM to LAX @ 10:41 AM (1 stop in DFW) in Economy for $378
+21 flight from ATL @ 8:30 AM to LAX @ 9:34 AM+1 (1 stop in SFO) in Economy for $110
+0 flight from DFW @ 9:47 AM to LAX @ 4:49 PM (1 stop in ATL) in Economy for $1249
+2 flight from DEN @ 6:46 PM to LAX @ 10:03 PM (1 stop in PHX) in Economy for $164
+2 flight from ORD @ 8:45 PM to LAX @ 8:17 AM+1 (1 stop in LAS) in Economy for $302
+19 flight from ATL @ 6:00 AM to ORD @ 6:17 AM+1 (2 stops in EWR, ROC) in Economy for $711
+0 flight from DEN @ 7:00 AM to ORD @ 4:12 PM (1 stop in ATL) in Economy for $579
+0 flight from DFW @ 6:38 PM to ORD @ 11:53 PM (1 stop in ATL) in Economy for $335
+8 flight from LAX @ 8:45 PM to ORD @ 9:26 AM+1 (1 stop in JFK) in Economy for $659

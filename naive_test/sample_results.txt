@@ -1,0 +1,27 @@
+./naive.x -o ATL  -d 150 -c Economy
+1. 2 flight from ATL @ 5:20 AM to DFW @ 6:59 AM (Nonstop) in Economy for $177
+2. 2 flight from DFW @ 10:25 AM to DEN @ 11:46 AM (Nonstop) in Economy for $299
+3. 0 flight from DEN @ 2:18 PM to DFW @ 10:00 PM (1 stop in ATL) in Economy for $509
+4. 2 flight from DFW @ 10:30 PM to DEN @ 3:15 PM+1 (1 stop in PHX) in Economy for $362
+
+./naive.x -o DEN  -d 150 -c Economy
+1. 0 flight from DEN @ 2:18 PM to DFW @ 10:00 PM (1 stop in ATL) in Economy for $509
+2. 2 flight from DFW @ 10:30 PM to DEN @ 3:15 PM+1 (1 stop in PHX) in Economy for $362
+
+./naive.x -o DFW  -d 150 -c Economy
+1. 2 flight from DFW @ 10:25 AM to DEN @ 11:46 AM (Nonstop) in Economy for $299
+2. 0 flight from DEN @ 2:18 PM to DFW @ 10:00 PM (1 stop in ATL) in Economy for $509
+3. 2 flight from DFW @ 10:30 PM to DEN @ 3:15 PM+1 (1 stop in PHX) in Economy for $362
+
+./naive.x -o LAX  -d 150 -c Economy
+1. 8 flight from LAX @ 8:45 PM to ORD @ 9:26 AM+1 (1 stop in JFK) in Economy for $659
+
+./naive.x -o ORD  -d 150 -c Economy
+1. 2 flight from ORD @ 11:56 AM to DEN @ 5:51 PM (1 stop in DFW) in Economy for $429
+2. 2 flight from DEN @ 6:46 PM to LAX @ 10:03 PM (1 stop in PHX) in Economy for $164
+
+./naive.x -d 150 -c Economy
+1. 2 flight from ATL @ 5:20 AM to DFW @ 6:59 AM (Nonstop) in Economy for $177
+2. 2 flight from DFW @ 10:25 AM to DEN @ 11:46 AM (Nonstop) in Economy for $299
+3. 0 flight from DEN @ 2:18 PM to DFW @ 10:00 PM (1 stop in ATL) in Economy for $509
+4. 2 flight from DFW @ 10:30 PM to DEN @ 3:15 PM+1 (1 stop in PHX) in Economy for $362
