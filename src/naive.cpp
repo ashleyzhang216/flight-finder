@@ -2,36 +2,29 @@
 #include "parser.h"
 #include <fstream>
 
-const time_t boundary = 1734921599; // hardcode boundary for 2024-12-22 23:59:59 (Unix timestamp), can get end_ts from constraint?
+const time_t boundary = 1734911999; // hardcode boundary for 2024-12-22 23:59:59 (Unix timestamp), can get end_ts from constraint?
 const time_t layover_time = 0;// hardcode layover time
-
+ 
 // naive implementation of search
 std::string flight_finder::search() {
 
+    //std::ofstream outFile("debug.txt");
     itinerary best_itinerary;
-    //uint max_legs = 0;
 
-    std::function<void(itinerary&, flight_id)> dfs = 
-    [&](itinerary& prev_itinerary, flight_id current_flight_id) {
+    std::function<void(itinerary&, flight_id, int)> dfs = 
+    [&](itinerary& prev_itinerary, flight_id current_flight_id, int depth) {
           
         itinerary current_itinerary = prev_itinerary.add(current_flight_id, flights);
         best_itinerary = itinerary::max(best_itinerary, current_itinerary, origin);
-        
-        /* Debug
-        if (best_itinerary.legs >= max_legs){
-            max_legs = best_itinerary.legs;
-            best_itinerary.built = true;
-            std::cout << best_itinerary.legs << std::endl;
-            std::cout << best_itinerary.serialize(flights) << std::endl<< std::endl;
-            
-        }
-        */
+        //outFile << "Depth: "<<depth<<std::endl;
+        //outFile << "Current flight: "<<std::endl<<flights[current_flight_id].serialize()<<std::endl;
+        //outFile << "Current itinerary: "<<std::endl<<current_itinerary.serialize(flights)<<std::endl;
+        best_itinerary.built = true;
+        //outFile << "Current best itinerary: "<<std::endl<<best_itinerary.serialize(flights)<<std::endl;
         
         // if the arrival time is beyond the boundary, then no more next connecting flight
-        if (flights[current_flight_id].arrive_ts > boundary) {
-            //current_itinerary.built = true;
-            //std::cout << flights[current_flight_id].serialize() << std::endl;
-            //std::cout << current_itinerary.serialize(flights) << std::endl<< std::endl;
+        if (flights[current_flight_id].arrive_ts + airport_tz[flights[current_flight_id].to] * 3600 > boundary) {
+            //outFile << "End of the day, no more departing flights"<<std::endl;
             return;
         }
 
@@ -42,7 +35,9 @@ std::string flight_finder::search() {
 
             // check if the next flight can connect to the current one
             if (current_flight.to == next_flight.from && current_flight.arrive_ts + layover_time <= next_flight.depart_ts) {
-                dfs(current_itinerary, next_flight_id);
+                //outFile << "Explore next flight: "<<flights[next_flight_id].serialize()<<std::endl;
+                dfs(current_itinerary, next_flight_id, depth + 1);
+                //outFile << "Back to last layer"<<std::endl<<std::endl;
             }
         }
 
@@ -54,40 +49,41 @@ std::string flight_finder::search() {
         for(size_t i = 0; i < flights.size(); ++i){
             if (flights[flight_id{i}].from == origin) {
                 itinerary current_itinerary(origin.value());
-                dfs(current_itinerary, flight_id{i});
+                dfs(current_itinerary, flight_id{i}, 0);
             }
         }
 
     } else {
         // If no origin is provided, iterate over all airports
         for (const auto& [airport_name, airport_node] : nodes) {
-            itinerary start_itinerary(airport_name);
+            itinerary start_itinerary = itinerary();
             // Find all flights starting from the origin
             for(size_t i = 0; i < flights.size(); ++i){
-                if (flights[flight_id{i}].from == origin) {
+                if (flights[flight_id{i}].from == airport_name) {
                     itinerary current_itinerary = itinerary();
-                    dfs(current_itinerary, flight_id{i});
+                    dfs(current_itinerary, flight_id{i}, 0);
                 }
             }
+            best_itinerary.built = true;
+            //std::cout<< "Current best itinerary: "<<std::endl<<best_itinerary.serialize(flights)<<std::endl;
         }
     }
 
-    //return "Optimal Itinerary:\n" + best_itinerary.serialize(flights);
     return best_itinerary.serialize(flights);
 }
  
 int main(int argc, char **argv)
 {
-    // TODO: check correctness, generate test suite and golden_ref
+    // TODO: timing, generate test suite for full dataset and golden_ref
 
     flight_constraints constrs = cli("naive", argc, argv);
     std::cout << "running naive" << std::endl;
 
     // Example usage of parser
-    std::string directory = "flight_arrival_results";
+    std::string directory = "naive_test/top_5_airports_flight_arrival_results";
     std::vector<flight> flights = parse_flights_from_directory(directory, constrs);
 
-    /* For correctness checking
+    /*//For correctness checking
     std::ofstream outFile("flights.txt");
     if (!outFile.is_open()) {
         std::cerr << "Error: Could not open the file!" << std::endl;

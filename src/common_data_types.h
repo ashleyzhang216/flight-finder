@@ -122,6 +122,9 @@ extern std::unordered_map<airport, std::string> airport_code;
 // convert user input
 extern std::unordered_map<std::string, airport> airport_of_str;
 
+// convert from airport to time zone, for naive boundary check
+extern std::unordered_map<airport, int> airport_tz;
+
 /**
  * @brief types of fare classes offered
  */
