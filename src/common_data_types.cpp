@@ -29,6 +29,8 @@ flight_finder::flight_finder(std::vector<flight> &&f, const std::optional<airpor
         assert(flights[flight_id(i)].arrive_ts >= curr_ts);
         curr_ts = flights[flight_id(i)].arrive_ts;
 
+        assert(flights[flight_id(i)].arrive_ts > flights[flight_id(i)].depart_ts);
+
         flights[flight_id(i)].id = i;
     }
 
@@ -146,7 +148,7 @@ std::string flight::serialize() const
 {
     std::stringstream ss;
 
-    ss << airline << " flight from ";
+    ss << airline_name.at(airline) << " flight from ";
     ss << airport_code.at(from) << " @ " << depart_time << " to ";
     ss << airport_code.at(to) << " @ " << arrive_time;
     ss << " (" << stops << ") in " << cabin_name.at(cabin) << " for $" << price << std::endl;
