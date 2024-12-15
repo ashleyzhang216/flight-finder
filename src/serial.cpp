@@ -11,16 +11,6 @@ std::string flight_finder::search() {
         const airport dest_airport = flights[cur_id].to;
         const airport depart_airport = flights[cur_id].from;
 
-        // std::cout << "exploring flight_id=" << cur_id.id << ", flight_idx=" << cur_idx.id << ", dest=" << dest_airport << ", depart=" << depart_airport << std::endl;
-
-        std::cout << "building dest_airport=" << std::setw(2) << std::setfill('0') << dest_airport
-                  << ", flight_idx=" << std::setw(3) << std::setfill('0') << cur_idx.id
-                  << " for flight_id=" << std::setw(3) << std::setfill('0') << cur_id.id
-                  << " from depart_airport=" << std::setw(2) << std::setfill('0') << depart_airport
-                  << std::endl;
-
-        // building dest_airport=15, flight_idx=031 for flight_id=1269 from depart_airport=12
-
         // DEBUG
         assert(flights[cur_id].arrive_ts >= arrival);
         arrival = flights[cur_id].arrive_ts;
@@ -44,12 +34,6 @@ std::string flight_finder::search() {
             flight_id best_id = *(it - 1);
             itinerary& prev = nodes.at(depart_airport).opt_table[flight_indices[best_id]];
 
-            if(!prev.built) {
-                std::cout << "prev itinerary (built=" << prev.built << "): " << std::endl << prev.serialize(flights) << std::endl;
-                std::cout << "index: " << it - nodes.at(depart_airport).arriving_flights.vec.begin() << std::endl;
-                std::cout << "size: " << nodes.at(depart_airport).arriving_flights.size() << std::endl;
-            }
-
             assert(prev.built);
             
             return prev.add(cur_id, flights);
@@ -62,16 +46,7 @@ std::string flight_finder::search() {
         nodes.at(dest_airport).opt_table[cur_idx] = std::move(best);
         // _mm_sfence();
         nodes.at(dest_airport).opt_table[cur_idx].built = true;
-
-        // call std::lower_bound() to find last opt_table value of depart_airport that arrives before flights[cur_id].depart_ts
-
-        // add that opt_table value to flights[cur_id]
-        // get blank itinerary for dest_airport if cur_idx == 0, or dest_airport opt_table entry at cur_idx - 1
-
-        // get max of these 2, set as opt_table[cur_idx] for dest_airport, then set built as true
     }
-
-    // get max of last opt_table entry for all airports
     
     itinerary best = itinerary(origin.value_or(static_cast<airport>(0ul)));
     for(const auto& pair : nodes) {
