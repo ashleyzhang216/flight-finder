@@ -79,6 +79,7 @@ std::string flight_finder::search<OptLevel::NAIVE>() {
         }
     }
 
+    // DEBUG
     for(auto id : best_itinerary.flight_ids) std::cout << id.id << ", ";
     std::cout << std::endl;
 

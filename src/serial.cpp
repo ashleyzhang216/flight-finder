@@ -20,14 +20,12 @@ std::string flight_finder::search<OptLevel::SERIAL>() {
             auto comp = [this](const flight_id& lhs, const time_t& rhs) -> bool {
                 return flights[lhs].arrive_ts < rhs;
             };
-            std::cout << "critical enter: " << nodes.count(depart_airport) << ", " << flights[cur_id].serialize() << std::endl;
             auto it = std::lower_bound(
                 nodes.at(depart_airport).arriving_flights.vec.begin(),
                 nodes.at(depart_airport).arriving_flights.vec.end(),
                 flights[cur_id].depart_ts,
                 comp
             );
-            std::cout << "critical leave" << std::endl;
 
             if(it == nodes.at(depart_airport).arriving_flights.vec.begin()) {
                 // no itinerary in time, use blank itinerary
@@ -50,16 +48,22 @@ std::string flight_finder::search<OptLevel::SERIAL>() {
         // _mm_sfence();
         nodes.at(dest_airport).opt_table[cur_idx].built = true;
     }
-    
-    itinerary best = itinerary(origin.value_or(static_cast<airport>(0ul)));
-    for(const auto& pair : nodes) {
-        best = itinerary::max(best, pair.second.opt_table.vec.back(), origin);
-    }
 
-    for(auto id : best.flight_ids) std::cout << id.id << ", ";
+    std::optional<itinerary> best = origin.has_value() ? std::make_optional(itinerary(origin.value())) : std::nullopt;
+    for(const auto& pair : nodes) {
+        const size_t opt_size = pair.second.opt_table.size();
+        if(opt_size) {
+            const itinerary candidate = pair.second.opt_table.vec.back();
+            best = best.has_value() ? itinerary::max(best.value(), candidate, origin) : candidate;
+        }
+    }
+    assert(best.has_value());
+
+    // DEBUG
+    for(auto id : best.value().flight_ids) std::cout << id.id << ", ";
     std::cout << std::endl;
 
-    return best.serialize(flights);
+    return best.value().serialize(flights);
 }
 
 #ifndef REMOVE_MAIN_FUNC
