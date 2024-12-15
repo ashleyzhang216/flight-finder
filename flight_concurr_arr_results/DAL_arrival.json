@@ -1,0 +1,3634 @@
+{
+    "flights_data": [
+        {
+            "metadata": {
+                "departure_state": "NV",
+                "destination_state": "TX",
+                "departure_timezone": "America/Los_Angeles",
+                "destination_timezone": "America/Chicago",
+                "departure_airport": "Harry Reid International Airport",
+                "destination_airport": "Dallas Love Field"
+            },
+            "search_parameters": {
+                "departure_iota": "LAS",
+                "destination_iota": "DAL",
+                "departure_date": "2024-12-22",
+                "return_date": null,
+                "travel_class": "Premium economy",
+                "search_timestamp": "20241215_130332"
+            },
+            "flight": {
+                "airline": "Delta",
+                "departure_time": "6:00\u202fAM",
+                "arrival_time": "2:55\u202fPM",
+                "duration": "6 hr 55 min",
+                "stops": "1 stop in ATL",
+                "price": "$498",
+                "co2_emissions": "375 kg CO2e",
+                "emissions_variation": "+153% emissions",
+                "unix_departure_time": 1734876000,
+                "unix_arrival_time": 1734900900
+            }
+        },
+        {
+            "metadata": {
+                "departure_state": "NV",
+                "destination_state": "TX",
+                "departure_timezone": "America/Los_Angeles",
+                "destination_timezone": "America/Chicago",
+                "departure_airport": "Harry Reid International Airport",
+                "destination_airport": "Dallas Love Field"
+            },
+            "search_parameters": {
+                "departure_iota": "LAS",
+                "destination_iota": "DAL",
+                "departure_date": "2024-12-22",
+                "return_date": null,
+                "travel_class": "Premium economy",
+                "search_timestamp": "20241215_130332"
+            },
+            "flight": {
+                "airline": "Delta",
+                "departure_time": "6:00\u202fAM",
+                "arrival_time": "5:38\u202fPM",
+                "duration": "9 hr 38 min",
+                "stops": "1 stop in ATL",
+                "price": "$498",
+                "co2_emissions": "375 kg CO2e",
+                "emissions_variation": "+153% emissions",
+                "unix_departure_time": 1734876000,
+                "unix_arrival_time": 1734910680
+            }
+        },
+        {
+            "metadata": {
+                "departure_state": "NV",
+                "destination_state": "TX",
+                "departure_timezone": "America/Los_Angeles",
+                "destination_timezone": "America/Chicago",
+                "departure_airport": "Harry Reid International Airport",
+                "destination_airport": "Dallas Love Field"
+            },
+            "search_parameters": {
+                "departure_iota": "LAS",
+                "destination_iota": "DAL",
+                "departure_date": "2024-12-22",
+                "return_date": null,
+                "travel_class": "Premium economy",
+                "search_timestamp": "20241215_130332"
+            },
+            "flight": {
+                "airline": "Delta",
+                "departure_time": "11:25\u202fAM",
+                "arrival_time": "8:42\u202fPM",
+                "duration": "7 hr 17 min",
+                "stops": "1 stop in ATL",
+                "price": "$498",
+                "co2_emissions": "331 kg CO2e",
+                "emissions_variation": "+124% emissions",
+                "unix_departure_time": 1734895500,
+                "unix_arrival_time": 1734921720
+            }
+        },
+        {
+            "metadata": {
+                "departure_state": "NV",
+                "destination_state": "TX",
+                "departure_timezone": "America/Los_Angeles",
+                "destination_timezone": "America/Chicago",
+                "departure_airport": "Harry Reid International Airport",
+                "destination_airport": "Dallas Love Field"
+            },
+            "search_parameters": {
+                "departure_iota": "LAS",
+                "destination_iota": "DAL",
+                "departure_date": "2024-12-22",
+                "return_date": null,
+                "travel_class": "Premium economy",
+                "search_timestamp": "20241215_130332"
+            },
+            "flight": {
+                "airline": "Delta",
+                "departure_time": "11:25\u202fAM",
+                "arrival_time": "10:33\u202fPM",
+                "duration": "9 hr 8 min",
+                "stops": "1 stop in ATL",
+                "price": "$498",
+                "co2_emissions": "331 kg CO2e",
+                "emissions_variation": "+124% emissions",
+                "unix_departure_time": 1734895500,
+                "unix_arrival_time": 1734928380
+            }
+        },
+        {
+            "metadata": {
+                "departure_state": "NV",
+                "destination_state": "TX",
+                "departure_timezone": "America/Los_Angeles",
+                "destination_timezone": "America/Chicago",
+                "departure_airport": "Harry Reid International Airport",
+                "destination_airport": "Dallas Love Field"
+            },
+            "search_parameters": {
+                "departure_iota": "LAS",
+                "destination_iota": "DAL",
+                "departure_date": "2024-12-22",
+                "return_date": null,
+                "travel_class": "Premium economy",
+                "search_timestamp": "20241215_130332"
+            },
+            "flight": {
+                "airline": "Delta",
+                "departure_time": "12:25\u202fPM",
+                "arrival_time": "10:33\u202fPM",
+                "duration": "8 hr 8 min",
+                "stops": "1 stop in ATL",
+                "price": "$498",
+                "co2_emissions": "375 kg CO2e",
+                "emissions_variation": "+153% emissions",
+                "unix_departure_time": 1734899100,
+                "unix_arrival_time": 1734928380
+            }
+        },
+        {
+            "metadata": {
+                "departure_state": "NV",
+                "destination_state": "TX",
+                "departure_timezone": "America/Los_Angeles",
+                "destination_timezone": "America/Chicago",
+                "departure_airport": "Harry Reid International Airport",
+                "destination_airport": "Dallas Love Field"
+            },
+            "search_parameters": {
+                "departure_iota": "LAS",
+                "destination_iota": "DAL",
+                "departure_date": "2024-12-22",
+                "return_date": null,
+                "travel_class": "Business",
+                "search_timestamp": "20241215_130334"
+            },
+            "flight": {
+                "airline": "Delta",
+                "departure_time": "6:00\u202fAM",
+                "arrival_time": "2:55\u202fPM",
+                "duration": "6 hr 55 min",
+                "stops": "1 stop in ATL",
+                "price": "$1,641",
+                "co2_emissions": "563 kg CO2e",
+                "emissions_variation": "+152% emissions",
+                "unix_departure_time": 1734876000,
+                "unix_arrival_time": 1734900900
+            }
+        },
+        {
+            "metadata": {
+                "departure_state": "NV",
+                "destination_state": "TX",
+                "departure_timezone": "America/Los_Angeles",
+                "destination_timezone": "America/Chicago",
+                "departure_airport": "Harry Reid International Airport",
+                "destination_airport": "Dallas Love Field"
+            },
+            "search_parameters": {
+                "departure_iota": "LAS",
+                "destination_iota": "DAL",
+                "departure_date": "2024-12-22",
+                "return_date": null,
+                "travel_class": "Business",
+                "search_timestamp": "20241215_130334"
+            },
+            "flight": {
+                "airline": "Alaska",
+                "departure_time": "6:00\u202fAM",
+                "arrival_time": "4:19\u202fPM",
+                "duration": "8 hr 19 min",
+                "stops": "1 stop in SEA",
+                "price": "$1,931",
+                "co2_emissions": "499 kg CO2e",
+                "emissions_variation": "+124% emissions",
+                "unix_departure_time": 1734876000,
+                "unix_arrival_time": 1734905940
+            }
+        },
+        {
+            "metadata": {
+                "departure_state": "NV",
+                "destination_state": "TX",
+                "departure_timezone": "America/Los_Angeles",
+                "destination_timezone": "America/Chicago",
+                "departure_airport": "Harry Reid International Airport",
+                "destination_airport": "Dallas Love Field"
+            },
+            "search_parameters": {
+                "departure_iota": "LAS",
+                "destination_iota": "DAL",
+                "departure_date": "2024-12-22",
+                "return_date": null,
+                "travel_class": "Business",
+                "search_timestamp": "20241215_130334"
+            },
+            "flight": {
+                "airline": "Delta",
+                "departure_time": "6:00\u202fAM",
+                "arrival_time": "5:38\u202fPM",
+                "duration": "9 hr 38 min",
+                "stops": "1 stop in ATL",
+                "price": "$999",
+                "co2_emissions": "563 kg CO2e",
+                "emissions_variation": "+152% emissions",
+                "unix_departure_time": 1734876000,
+                "unix_arrival_time": 1734910680
+            }
+        },
+        {
+            "metadata": {
+                "departure_state": "NV",
+                "destination_state": "TX",
+                "departure_timezone": "America/Los_Angeles",
+                "destination_timezone": "America/Chicago",
+                "departure_airport": "Harry Reid International Airport",
+                "destination_airport": "Dallas Love Field"
+            },
+            "search_parameters": {
+                "departure_iota": "LAS",
+                "destination_iota": "DAL",
+                "departure_date": "2024-12-22",
+                "return_date": null,
+                "travel_class": "Business",
+                "search_timestamp": "20241215_130334"
+            },
+            "flight": {
+                "airline": "Delta",
+                "departure_time": "7:25\u202fAM",
+                "arrival_time": "5:38\u202fPM",
+                "duration": "8 hr 13 min",
+                "stops": "1 stop in ATL",
+                "price": "$1,641",
+                "co2_emissions": "563 kg CO2e",
+                "emissions_variation": "+152% emissions",
+                "unix_departure_time": 1734881100,
+                "unix_arrival_time": 1734910680
+            }
+        },
+        {
+            "metadata": {
+                "departure_state": "NV",
+                "destination_state": "TX",
+                "departure_timezone": "America/Los_Angeles",
+                "destination_timezone": "America/Chicago",
+                "departure_airport": "Harry Reid International Airport",
+                "destination_airport": "Dallas Love Field"
+            },
+            "search_parameters": {
+                "departure_iota": "LAS",
+                "destination_iota": "DAL",
+                "departure_date": "2024-12-22",
+                "return_date": null,
+                "travel_class": "Business",
+                "search_timestamp": "20241215_130334"
+            },
+            "flight": {
+                "airline": "Delta",
+                "departure_time": "11:25\u202fAM",
+                "arrival_time": "8:42\u202fPM",
+                "duration": "7 hr 17 min",
+                "stops": "1 stop in ATL",
+                "price": "$1,641",
+                "co2_emissions": "497 kg CO2e",
+                "emissions_variation": "+123% emissions",
+                "unix_departure_time": 1734895500,
+                "unix_arrival_time": 1734921720
+            }
+        },
+        {
+            "metadata": {
+                "departure_state": "NV",
+                "destination_state": "TX",
+                "departure_timezone": "America/Los_Angeles",
+                "destination_timezone": "America/Chicago",
+                "departure_airport": "Harry Reid International Airport",
+                "destination_airport": "Dallas Love Field"
+            },
+            "search_parameters": {
+                "departure_iota": "LAS",
+                "destination_iota": "DAL",
+                "departure_date": "2024-12-22",
+                "return_date": null,
+                "travel_class": "Business",
+                "search_timestamp": "20241215_130334"
+            },
+            "flight": {
+                "airline": "Delta",
+                "departure_time": "1:25\u202fPM",
+                "arrival_time": "10:33\u202fPM",
+                "duration": "7 hr 8 min",
+                "stops": "1 stop in ATL",
+                "price": "$1,641",
+                "co2_emissions": "490 kg CO2e",
+                "emissions_variation": "+120% emissions",
+                "unix_departure_time": 1734902700,
+                "unix_arrival_time": 1734928380
+            }
+        },
+        {
+            "metadata": {
+                "departure_state": "NV",
+                "destination_state": "TX",
+                "departure_timezone": "America/Los_Angeles",
+                "destination_timezone": "America/Chicago",
+                "departure_airport": "Harry Reid International Airport",
+                "destination_airport": "Dallas Love Field"
+            },
+            "search_parameters": {
+                "departure_iota": "LAS",
+                "destination_iota": "DAL",
+                "departure_date": "2024-12-22",
+                "return_date": null,
+                "travel_class": "Business",
+                "search_timestamp": "20241215_130334"
+            },
+            "flight": {
+                "airline": "Delta",
+                "departure_time": "11:25\u202fAM",
+                "arrival_time": "10:33\u202fPM",
+                "duration": "9 hr 8 min",
+                "stops": "1 stop in ATL",
+                "price": "$1,641",
+                "co2_emissions": "497 kg CO2e",
+                "emissions_variation": "+123% emissions",
+                "unix_departure_time": 1734895500,
+                "unix_arrival_time": 1734928380
+            }
+        },
+        {
+            "metadata": {
+                "departure_state": "NV",
+                "destination_state": "TX",
+                "departure_timezone": "America/Los_Angeles",
+                "destination_timezone": "America/Chicago",
+                "departure_airport": "Harry Reid International Airport",
+                "destination_airport": "Dallas Love Field"
+            },
+            "search_parameters": {
+                "departure_iota": "LAS",
+                "destination_iota": "DAL",
+                "departure_date": "2024-12-22",
+                "return_date": null,
+                "travel_class": "Business",
+                "search_timestamp": "20241215_130334"
+            },
+            "flight": {
+                "airline": "Delta",
+                "departure_time": "11:40\u202fPM",
+                "arrival_time": "11:16\u202fAM+1",
+                "duration": "9 hr 36 min",
+                "stops": "1 stop in ATL",
+                "price": "$1,641",
+                "co2_emissions": "563 kg CO2e",
+                "emissions_variation": "+152% emissions",
+                "unix_departure_time": 1734939600,
+                "unix_arrival_time": 1734974160
+            }
+        },
+        {
+            "metadata": {
+                "departure_state": "NV",
+                "destination_state": "TX",
+                "departure_timezone": "America/Los_Angeles",
+                "destination_timezone": "America/Chicago",
+                "departure_airport": "Harry Reid International Airport",
+                "destination_airport": "Dallas Love Field"
+            },
+            "search_parameters": {
+                "departure_iota": "LAS",
+                "destination_iota": "DAL",
+                "departure_date": "2024-12-22",
+                "return_date": null,
+                "travel_class": "Business",
+                "search_timestamp": "20241215_130334"
+            },
+            "flight": {
+                "airline": "Alaska",
+                "departure_time": "9:07\u202fPM",
+                "arrival_time": "4:19\u202fPM+1",
+                "duration": "17 hr 12 min",
+                "stops": "1 stop in SEA",
+                "price": "$1,957",
+                "co2_emissions": "559 kg CO2e",
+                "emissions_variation": "+151% emissions",
+                "unix_departure_time": 1734930420,
+                "unix_arrival_time": 1734992340
+            }
+        },
+        {
+            "metadata": {
+                "departure_state": "NV",
+                "destination_state": "TX",
+                "departure_timezone": "America/Los_Angeles",
+                "destination_timezone": "America/Chicago",
+                "departure_airport": "Harry Reid International Airport",
+                "destination_airport": "Dallas Love Field"
+            },
+            "search_parameters": {
+                "departure_iota": "LAS",
+                "destination_iota": "DAL",
+                "departure_date": "2024-12-22",
+                "return_date": null,
+                "travel_class": "Business",
+                "search_timestamp": "20241215_130334"
+            },
+            "flight": {
+                "airline": "Alaska",
+                "departure_time": "5:20\u202fPM",
+                "arrival_time": "4:19\u202fPM+1",
+                "duration": "20 hr 59 min",
+                "stops": "1 stop in SEA",
+                "price": "$2,137",
+                "co2_emissions": "534 kg CO2e",
+                "emissions_variation": "+139% emissions",
+                "unix_departure_time": 1734916800,
+                "unix_arrival_time": 1734992340
+            }
+        },
+        {
+            "metadata": {
+                "departure_state": "NV",
+                "destination_state": "TX",
+                "departure_timezone": "America/Los_Angeles",
+                "destination_timezone": "America/Chicago",
+                "departure_airport": "Harry Reid International Airport",
+                "destination_airport": "Dallas Love Field"
+            },
+            "search_parameters": {
+                "departure_iota": "LAS",
+                "destination_iota": "DAL",
+                "departure_date": "2024-12-22",
+                "return_date": null,
+                "travel_class": "Business",
+                "search_timestamp": "20241215_130334"
+            },
+            "flight": {
+                "airline": "Alaska",
+                "departure_time": "8:08\u202fPM",
+                "arrival_time": "4:19\u202fPM+1",
+                "duration": "18 hr 11 min",
+                "stops": "1 stop in SEA",
+                "price": "$3,099",
+                "co2_emissions": "608 kg CO2e",
+                "emissions_variation": "+173% emissions",
+                "unix_departure_time": 1734926880,
+                "unix_arrival_time": 1734992340
+            }
+        },
+        {
+            "metadata": {
+                "departure_state": "NV",
+                "destination_state": "TX",
+                "departure_timezone": "America/Los_Angeles",
+                "destination_timezone": "America/Chicago",
+                "departure_airport": "Harry Reid International Airport",
+                "destination_airport": "Dallas Love Field"
+            },
+            "search_parameters": {
+                "departure_iota": "LAS",
+                "destination_iota": "DAL",
+                "departure_date": "2024-12-22",
+                "return_date": null,
+                "travel_class": "First",
+                "search_timestamp": "20241215_130334"
+            },
+            "flight": {
+                "airline": "Delta",
+                "departure_time": "6:00\u202fAM",
+                "arrival_time": "2:55\u202fPM",
+                "duration": "6 hr 55 min",
+                "stops": "1 stop in ATL",
+                "price": "$1,641",
+                "co2_emissions": "563 kg CO2e",
+                "emissions_variation": "+152% emissions",
+                "unix_departure_time": 1734876000,
+                "unix_arrival_time": 1734900900
+            }
+        },
+        {
+            "metadata": {
+                "departure_state": "NV",
+                "destination_state": "TX",
+                "departure_timezone": "America/Los_Angeles",
+                "destination_timezone": "America/Chicago",
+                "departure_airport": "Harry Reid International Airport",
+                "destination_airport": "Dallas Love Field"
+            },
+            "search_parameters": {
+                "departure_iota": "LAS",
+                "destination_iota": "DAL",
+                "departure_date": "2024-12-22",
+                "return_date": null,
+                "travel_class": "First",
+                "search_timestamp": "20241215_130334"
+            },
+            "flight": {
+                "airline": "Alaska",
+                "departure_time": "6:00\u202fAM",
+                "arrival_time": "4:19\u202fPM",
+                "duration": "8 hr 19 min",
+                "stops": "1 stop in SEA",
+                "price": "$1,931",
+                "co2_emissions": "499 kg CO2e",
+                "emissions_variation": "+124% emissions",
+                "unix_departure_time": 1734876000,
+                "unix_arrival_time": 1734905940
+            }
+        },
+        {
+            "metadata": {
+                "departure_state": "NV",
+                "destination_state": "TX",
+                "departure_timezone": "America/Los_Angeles",
+                "destination_timezone": "America/Chicago",
+                "departure_airport": "Harry Reid International Airport",
+                "destination_airport": "Dallas Love Field"
+            },
+            "search_parameters": {
+                "departure_iota": "LAS",
+                "destination_iota": "DAL",
+                "departure_date": "2024-12-22",
+                "return_date": null,
+                "travel_class": "First",
+                "search_timestamp": "20241215_130334"
+            },
+            "flight": {
+                "airline": "Delta",
+                "departure_time": "6:00\u202fAM",
+                "arrival_time": "5:38\u202fPM",
+                "duration": "9 hr 38 min",
+                "stops": "1 stop in ATL",
+                "price": "$999",
+                "co2_emissions": "563 kg CO2e",
+                "emissions_variation": "+152% emissions",
+                "unix_departure_time": 1734876000,
+                "unix_arrival_time": 1734910680
+            }
+        },
+        {
+            "metadata": {
+                "departure_state": "NV",
+                "destination_state": "TX",
+                "departure_timezone": "America/Los_Angeles",
+                "destination_timezone": "America/Chicago",
+                "departure_airport": "Harry Reid International Airport",
+                "destination_airport": "Dallas Love Field"
+            },
+            "search_parameters": {
+                "departure_iota": "LAS",
+                "destination_iota": "DAL",
+                "departure_date": "2024-12-22",
+                "return_date": null,
+                "travel_class": "First",
+                "search_timestamp": "20241215_130334"
+            },
+            "flight": {
+                "airline": "Delta",
+                "departure_time": "7:25\u202fAM",
+                "arrival_time": "5:38\u202fPM",
+                "duration": "8 hr 13 min",
+                "stops": "1 stop in ATL",
+                "price": "$1,641",
+                "co2_emissions": "563 kg CO2e",
+                "emissions_variation": "+152% emissions",
+                "unix_departure_time": 1734881100,
+                "unix_arrival_time": 1734910680
+            }
+        },
+        {
+            "metadata": {
+                "departure_state": "NV",
+                "destination_state": "TX",
+                "departure_timezone": "America/Los_Angeles",
+                "destination_timezone": "America/Chicago",
+                "departure_airport": "Harry Reid International Airport",
+                "destination_airport": "Dallas Love Field"
+            },
+            "search_parameters": {
+                "departure_iota": "LAS",
+                "destination_iota": "DAL",
+                "departure_date": "2024-12-22",
+                "return_date": null,
+                "travel_class": "First",
+                "search_timestamp": "20241215_130334"
+            },
+            "flight": {
+                "airline": "Delta",
+                "departure_time": "11:25\u202fAM",
+                "arrival_time": "8:42\u202fPM",
+                "duration": "7 hr 17 min",
+                "stops": "1 stop in ATL",
+                "price": "$1,641",
+                "co2_emissions": "497 kg CO2e",
+                "emissions_variation": "+123% emissions",
+                "unix_departure_time": 1734895500,
+                "unix_arrival_time": 1734921720
+            }
+        },
+        {
+            "metadata": {
+                "departure_state": "NV",
+                "destination_state": "TX",
+                "departure_timezone": "America/Los_Angeles",
+                "destination_timezone": "America/Chicago",
+                "departure_airport": "Harry Reid International Airport",
+                "destination_airport": "Dallas Love Field"
+            },
+            "search_parameters": {
+                "departure_iota": "LAS",
+                "destination_iota": "DAL",
+                "departure_date": "2024-12-22",
+                "return_date": null,
+                "travel_class": "First",
+                "search_timestamp": "20241215_130334"
+            },
+            "flight": {
+                "airline": "Delta",
+                "departure_time": "1:25\u202fPM",
+                "arrival_time": "10:33\u202fPM",
+                "duration": "7 hr 8 min",
+                "stops": "1 stop in ATL",
+                "price": "$1,641",
+                "co2_emissions": "490 kg CO2e",
+                "emissions_variation": "+120% emissions",
+                "unix_departure_time": 1734902700,
+                "unix_arrival_time": 1734928380
+            }
+        },
+        {
+            "metadata": {
+                "departure_state": "NV",
+                "destination_state": "TX",
+                "departure_timezone": "America/Los_Angeles",
+                "destination_timezone": "America/Chicago",
+                "departure_airport": "Harry Reid International Airport",
+                "destination_airport": "Dallas Love Field"
+            },
+            "search_parameters": {
+                "departure_iota": "LAS",
+                "destination_iota": "DAL",
+                "departure_date": "2024-12-22",
+                "return_date": null,
+                "travel_class": "First",
+                "search_timestamp": "20241215_130334"
+            },
+            "flight": {
+                "airline": "Delta",
+                "departure_time": "11:25\u202fAM",
+                "arrival_time": "10:33\u202fPM",
+                "duration": "9 hr 8 min",
+                "stops": "1 stop in ATL",
+                "price": "$1,641",
+                "co2_emissions": "497 kg CO2e",
+                "emissions_variation": "+123% emissions",
+                "unix_departure_time": 1734895500,
+                "unix_arrival_time": 1734928380
+            }
+        },
+        {
+            "metadata": {
+                "departure_state": "NV",
+                "destination_state": "TX",
+                "departure_timezone": "America/Los_Angeles",
+                "destination_timezone": "America/Chicago",
+                "departure_airport": "Harry Reid International Airport",
+                "destination_airport": "Dallas Love Field"
+            },
+            "search_parameters": {
+                "departure_iota": "LAS",
+                "destination_iota": "DAL",
+                "departure_date": "2024-12-22",
+                "return_date": null,
+                "travel_class": "First",
+                "search_timestamp": "20241215_130334"
+            },
+            "flight": {
+                "airline": "Delta",
+                "departure_time": "11:40\u202fPM",
+                "arrival_time": "11:16\u202fAM+1",
+                "duration": "9 hr 36 min",
+                "stops": "1 stop in ATL",
+                "price": "$1,641",
+                "co2_emissions": "563 kg CO2e",
+                "emissions_variation": "+152% emissions",
+                "unix_departure_time": 1734939600,
+                "unix_arrival_time": 1734974160
+            }
+        },
+        {
+            "metadata": {
+                "departure_state": "NV",
+                "destination_state": "TX",
+                "departure_timezone": "America/Los_Angeles",
+                "destination_timezone": "America/Chicago",
+                "departure_airport": "Harry Reid International Airport",
+                "destination_airport": "Dallas Love Field"
+            },
+            "search_parameters": {
+                "departure_iota": "LAS",
+                "destination_iota": "DAL",
+                "departure_date": "2024-12-22",
+                "return_date": null,
+                "travel_class": "First",
+                "search_timestamp": "20241215_130334"
+            },
+            "flight": {
+                "airline": "Alaska",
+                "departure_time": "9:07\u202fPM",
+                "arrival_time": "4:19\u202fPM+1",
+                "duration": "17 hr 12 min",
+                "stops": "1 stop in SEA",
+                "price": "$1,957",
+                "co2_emissions": "559 kg CO2e",
+                "emissions_variation": "+151% emissions",
+                "unix_departure_time": 1734930420,
+                "unix_arrival_time": 1734992340
+            }
+        },
+        {
+            "metadata": {
+                "departure_state": "NV",
+                "destination_state": "TX",
+                "departure_timezone": "America/Los_Angeles",
+                "destination_timezone": "America/Chicago",
+                "departure_airport": "Harry Reid International Airport",
+                "destination_airport": "Dallas Love Field"
+            },
+            "search_parameters": {
+                "departure_iota": "LAS",
+                "destination_iota": "DAL",
+                "departure_date": "2024-12-22",
+                "return_date": null,
+                "travel_class": "First",
+                "search_timestamp": "20241215_130334"
+            },
+            "flight": {
+                "airline": "Alaska",
+                "departure_time": "5:20\u202fPM",
+                "arrival_time": "4:19\u202fPM+1",
+                "duration": "20 hr 59 min",
+                "stops": "1 stop in SEA",
+                "price": "$2,137",
+                "co2_emissions": "534 kg CO2e",
+                "emissions_variation": "+139% emissions",
+                "unix_departure_time": 1734916800,
+                "unix_arrival_time": 1734992340
+            }
+        },
+        {
+            "metadata": {
+                "departure_state": "NV",
+                "destination_state": "TX",
+                "departure_timezone": "America/Los_Angeles",
+                "destination_timezone": "America/Chicago",
+                "departure_airport": "Harry Reid International Airport",
+                "destination_airport": "Dallas Love Field"
+            },
+            "search_parameters": {
+                "departure_iota": "LAS",
+                "destination_iota": "DAL",
+                "departure_date": "2024-12-22",
+                "return_date": null,
+                "travel_class": "First",
+                "search_timestamp": "20241215_130334"
+            },
+            "flight": {
+                "airline": "Alaska",
+                "departure_time": "8:08\u202fPM",
+                "arrival_time": "4:19\u202fPM+1",
+                "duration": "18 hr 11 min",
+                "stops": "1 stop in SEA",
+                "price": "$3,099",
+                "co2_emissions": "608 kg CO2e",
+                "emissions_variation": "+173% emissions",
+                "unix_departure_time": 1734926880,
+                "unix_arrival_time": 1734992340
+            }
+        },
+        {
+            "metadata": {
+                "departure_state": "NV",
+                "destination_state": "TX",
+                "departure_timezone": "America/Los_Angeles",
+                "destination_timezone": "America/Chicago",
+                "departure_airport": "Harry Reid International Airport",
+                "destination_airport": "Dallas Love Field"
+            },
+            "search_parameters": {
+                "departure_iota": "LAS",
+                "destination_iota": "DAL",
+                "departure_date": "2024-12-22",
+                "return_date": null,
+                "travel_class": "Economy",
+                "search_timestamp": "20241215_130334"
+            },
+            "flight": {
+                "airline": "Southwest",
+                "departure_time": "5:15\u202fAM",
+                "arrival_time": "9:50\u202fAM",
+                "duration": "2 hr 35 min",
+                "stops": "Nonstop",
+                "price": "$399",
+                "co2_emissions": "180 kg CO2e",
+                "emissions_variation": "+22% emissions",
+                "unix_departure_time": 1734873300,
+                "unix_arrival_time": 1734882600
+            }
+        },
+        {
+            "metadata": {
+                "departure_state": "NV",
+                "destination_state": "TX",
+                "departure_timezone": "America/Los_Angeles",
+                "destination_timezone": "America/Chicago",
+                "departure_airport": "Harry Reid International Airport",
+                "destination_airport": "Dallas Love Field"
+            },
+            "search_parameters": {
+                "departure_iota": "LAS",
+                "destination_iota": "DAL",
+                "departure_date": "2024-12-22",
+                "return_date": null,
+                "travel_class": "Economy",
+                "search_timestamp": "20241215_130334"
+            },
+            "flight": {
+                "airline": "Southwest",
+                "departure_time": "5:00\u202fAM",
+                "arrival_time": "11:15\u202fAM",
+                "duration": "4 hr 15 min",
+                "stops": "1 stop in PHX",
+                "price": "$408",
+                "co2_emissions": "210 kg CO2e",
+                "emissions_variation": "+42% emissions",
+                "unix_departure_time": 1734872400,
+                "unix_arrival_time": 1734887700
+            }
+        },
+        {
+            "metadata": {
+                "departure_state": "NV",
+                "destination_state": "TX",
+                "departure_timezone": "America/Los_Angeles",
+                "destination_timezone": "America/Chicago",
+                "departure_airport": "Harry Reid International Airport",
+                "destination_airport": "Dallas Love Field"
+            },
+            "search_parameters": {
+                "departure_iota": "LAS",
+                "destination_iota": "DAL",
+                "departure_date": "2024-12-22",
+                "return_date": null,
+                "travel_class": "Economy",
+                "search_timestamp": "20241215_130334"
+            },
+            "flight": {
+                "airline": "Southwest",
+                "departure_time": "7:30\u202fAM",
+                "arrival_time": "12:05\u202fPM",
+                "duration": "2 hr 35 min",
+                "stops": "Nonstop",
+                "price": "$399",
+                "co2_emissions": "180 kg CO2e",
+                "emissions_variation": "+22% emissions",
+                "unix_departure_time": 1734881400,
+                "unix_arrival_time": 1734890700
+            }
+        },
+        {
+            "metadata": {
+                "departure_state": "NV",
+                "destination_state": "TX",
+                "departure_timezone": "America/Los_Angeles",
+                "destination_timezone": "America/Chicago",
+                "departure_airport": "Harry Reid International Airport",
+                "destination_airport": "Dallas Love Field"
+            },
+            "search_parameters": {
+                "departure_iota": "LAS",
+                "destination_iota": "DAL",
+                "departure_date": "2024-12-22",
+                "return_date": null,
+                "travel_class": "Economy",
+                "search_timestamp": "20241215_130334"
+            },
+            "flight": {
+                "airline": "Southwest",
+                "departure_time": "5:45\u202fAM",
+                "arrival_time": "12:25\u202fPM",
+                "duration": "4 hr 40 min",
+                "stops": "1 stop in DEN",
+                "price": "$408",
+                "co2_emissions": "256 kg CO2e",
+                "emissions_variation": "+73% emissions",
+                "unix_departure_time": 1734875100,
+                "unix_arrival_time": 1734891900
+            }
+        },
+        {
+            "metadata": {
+                "departure_state": "NV",
+                "destination_state": "TX",
+                "departure_timezone": "America/Los_Angeles",
+                "destination_timezone": "America/Chicago",
+                "departure_airport": "Harry Reid International Airport",
+                "destination_airport": "Dallas Love Field"
+            },
+            "search_parameters": {
+                "departure_iota": "LAS",
+                "destination_iota": "DAL",
+                "departure_date": "2024-12-22",
+                "return_date": null,
+                "travel_class": "Economy",
+                "search_timestamp": "20241215_130334"
+            },
+            "flight": {
+                "airline": "Southwest",
+                "departure_time": "6:05\u202fAM",
+                "arrival_time": "1:10\u202fPM",
+                "duration": "5 hr 5 min",
+                "stops": "1 stop in MCI",
+                "price": "$408",
+                "co2_emissions": "267 kg CO2e",
+                "emissions_variation": "+80% emissions",
+                "unix_departure_time": 1734876300,
+                "unix_arrival_time": 1734894600
+            }
+        },
+        {
+            "metadata": {
+                "departure_state": "NV",
+                "destination_state": "TX",
+                "departure_timezone": "America/Los_Angeles",
+                "destination_timezone": "America/Chicago",
+                "departure_airport": "Harry Reid International Airport",
+                "destination_airport": "Dallas Love Field"
+            },
+            "search_parameters": {
+                "departure_iota": "LAS",
+                "destination_iota": "DAL",
+                "departure_date": "2024-12-22",
+                "return_date": null,
+                "travel_class": "Economy",
+                "search_timestamp": "20241215_130334"
+            },
+            "flight": {
+                "airline": "Southwest",
+                "departure_time": "5:20\u202fAM",
+                "arrival_time": "1:35\u202fPM",
+                "duration": "6 hr 15 min",
+                "stops": "1 stop in HOU",
+                "price": "$408",
+                "co2_emissions": "275 kg CO2e",
+                "emissions_variation": "+86% emissions",
+                "unix_departure_time": 1734873600,
+                "unix_arrival_time": 1734896100
+            }
+        },
+        {
+            "metadata": {
+                "departure_state": "NV",
+                "destination_state": "TX",
+                "departure_timezone": "America/Los_Angeles",
+                "destination_timezone": "America/Chicago",
+                "departure_airport": "Harry Reid International Airport",
+                "destination_airport": "Dallas Love Field"
+            },
+            "search_parameters": {
+                "departure_iota": "LAS",
+                "destination_iota": "DAL",
+                "departure_date": "2024-12-22",
+                "return_date": null,
+                "travel_class": "Economy",
+                "search_timestamp": "20241215_130334"
+            },
+            "flight": {
+                "airline": "Southwest",
+                "departure_time": "5:00\u202fAM",
+                "arrival_time": "1:40\u202fPM",
+                "duration": "6 hr 40 min",
+                "stops": "1 stop in PHX",
+                "price": "$408",
+                "co2_emissions": "229 kg CO2e",
+                "emissions_variation": "+55% emissions",
+                "unix_departure_time": 1734872400,
+                "unix_arrival_time": 1734896400
+            }
+        },
+        {
+            "metadata": {
+                "departure_state": "NV",
+                "destination_state": "TX",
+                "departure_timezone": "America/Los_Angeles",
+                "destination_timezone": "America/Chicago",
+                "departure_airport": "Harry Reid International Airport",
+                "destination_airport": "Dallas Love Field"
+            },
+            "search_parameters": {
+                "departure_iota": "LAS",
+                "destination_iota": "DAL",
+                "departure_date": "2024-12-22",
+                "return_date": null,
+                "travel_class": "Economy",
+                "search_timestamp": "20241215_130334"
+            },
+            "flight": {
+                "airline": "Southwest",
+                "departure_time": "6:20\u202fAM",
+                "arrival_time": "1:40\u202fPM",
+                "duration": "5 hr 20 min",
+                "stops": "1 stop in PHX",
+                "price": "$408",
+                "co2_emissions": "219 kg CO2e",
+                "emissions_variation": "+48% emissions",
+                "unix_departure_time": 1734877200,
+                "unix_arrival_time": 1734896400
+            }
+        },
+        {
+            "metadata": {
+                "departure_state": "NV",
+                "destination_state": "TX",
+                "departure_timezone": "America/Los_Angeles",
+                "destination_timezone": "America/Chicago",
+                "departure_airport": "Harry Reid International Airport",
+                "destination_airport": "Dallas Love Field"
+            },
+            "search_parameters": {
+                "departure_iota": "LAS",
+                "destination_iota": "DAL",
+                "departure_date": "2024-12-22",
+                "return_date": null,
+                "travel_class": "Economy",
+                "search_timestamp": "20241215_130334"
+            },
+            "flight": {
+                "airline": "Southwest",
+                "departure_time": "5:45\u202fAM",
+                "arrival_time": "1:45\u202fPM",
+                "duration": "6 hr",
+                "stops": "1 stop in DEN",
+                "price": "$408",
+                "co2_emissions": "241 kg CO2e",
+                "emissions_variation": "+63% emissions",
+                "unix_departure_time": 1734875100,
+                "unix_arrival_time": 1734896700
+            }
+        },
+        {
+            "metadata": {
+                "departure_state": "NV",
+                "destination_state": "TX",
+                "departure_timezone": "America/Los_Angeles",
+                "destination_timezone": "America/Chicago",
+                "departure_airport": "Harry Reid International Airport",
+                "destination_airport": "Dallas Love Field"
+            },
+            "search_parameters": {
+                "departure_iota": "LAS",
+                "destination_iota": "DAL",
+                "departure_date": "2024-12-22",
+                "return_date": null,
+                "travel_class": "Economy",
+                "search_timestamp": "20241215_130334"
+            },
+            "flight": {
+                "airline": "Southwest",
+                "departure_time": "6:15\u202fAM",
+                "arrival_time": "1:55\u202fPM",
+                "duration": "5 hr 40 min",
+                "stops": "1 stop in SAT",
+                "price": "$408",
+                "co2_emissions": "264 kg CO2e",
+                "emissions_variation": "+78% emissions",
+                "unix_departure_time": 1734876900,
+                "unix_arrival_time": 1734897300
+            }
+        },
+        {
+            "metadata": {
+                "departure_state": "NV",
+                "destination_state": "TX",
+                "departure_timezone": "America/Los_Angeles",
+                "destination_timezone": "America/Chicago",
+                "departure_airport": "Harry Reid International Airport",
+                "destination_airport": "Dallas Love Field"
+            },
+            "search_parameters": {
+                "departure_iota": "LAS",
+                "destination_iota": "DAL",
+                "departure_date": "2024-12-22",
+                "return_date": null,
+                "travel_class": "Economy",
+                "search_timestamp": "20241215_130334"
+            },
+            "flight": {
+                "airline": "Southwest",
+                "departure_time": "9:50\u202fAM",
+                "arrival_time": "2:30\u202fPM",
+                "duration": "2 hr 40 min",
+                "stops": "Nonstop",
+                "price": "$399",
+                "co2_emissions": "180 kg CO2e",
+                "emissions_variation": "+22% emissions",
+                "unix_departure_time": 1734889800,
+                "unix_arrival_time": 1734899400
+            }
+        },
+        {
+            "metadata": {
+                "departure_state": "NV",
+                "destination_state": "TX",
+                "departure_timezone": "America/Los_Angeles",
+                "destination_timezone": "America/Chicago",
+                "departure_airport": "Harry Reid International Airport",
+                "destination_airport": "Dallas Love Field"
+            },
+            "search_parameters": {
+                "departure_iota": "LAS",
+                "destination_iota": "DAL",
+                "departure_date": "2024-12-22",
+                "return_date": null,
+                "travel_class": "Economy",
+                "search_timestamp": "20241215_130334"
+            },
+            "flight": {
+                "airline": "Southwest",
+                "departure_time": "7:35\u202fAM",
+                "arrival_time": "2:40\u202fPM",
+                "duration": "5 hr 5 min",
+                "stops": "1 stop in SNA",
+                "price": "$408",
+                "co2_emissions": "269 kg CO2e",
+                "emissions_variation": "+82% emissions",
+                "unix_departure_time": 1734881700,
+                "unix_arrival_time": 1734900000
+            }
+        },
+        {
+            "metadata": {
+                "departure_state": "NV",
+                "destination_state": "TX",
+                "departure_timezone": "America/Los_Angeles",
+                "destination_timezone": "America/Chicago",
+                "departure_airport": "Harry Reid International Airport",
+                "destination_airport": "Dallas Love Field"
+            },
+            "search_parameters": {
+                "departure_iota": "LAS",
+                "destination_iota": "DAL",
+                "departure_date": "2024-12-22",
+                "return_date": null,
+                "travel_class": "Economy",
+                "search_timestamp": "20241215_130334"
+            },
+            "flight": {
+                "airline": "Delta",
+                "departure_time": "6:00\u202fAM",
+                "arrival_time": "2:55\u202fPM",
+                "duration": "6 hr 55 min",
+                "stops": "1 stop in ATL",
+                "price": "$408",
+                "co2_emissions": "375 kg CO2e",
+                "emissions_variation": "+153% emissions",
+                "unix_departure_time": 1734876000,
+                "unix_arrival_time": 1734900900
+            }
+        },
+        {
+            "metadata": {
+                "departure_state": "NV",
+                "destination_state": "TX",
+                "departure_timezone": "America/Los_Angeles",
+                "destination_timezone": "America/Chicago",
+                "departure_airport": "Harry Reid International Airport",
+                "destination_airport": "Dallas Love Field"
+            },
+            "search_parameters": {
+                "departure_iota": "LAS",
+                "destination_iota": "DAL",
+                "departure_date": "2024-12-22",
+                "return_date": null,
+                "travel_class": "Economy",
+                "search_timestamp": "20241215_130334"
+            },
+            "flight": {
+                "airline": "Southwest",
+                "departure_time": "6:20\u202fAM",
+                "arrival_time": "3:15\u202fPM",
+                "duration": "6 hr 55 min",
+                "stops": "1 stop in PHX",
+                "price": "$408",
+                "co2_emissions": "200 kg CO2e",
+                "emissions_variation": "+35% emissions",
+                "unix_departure_time": 1734877200,
+                "unix_arrival_time": 1734902100
+            }
+        },
+        {
+            "metadata": {
+                "departure_state": "NV",
+                "destination_state": "TX",
+                "departure_timezone": "America/Los_Angeles",
+                "destination_timezone": "America/Chicago",
+                "departure_airport": "Harry Reid International Airport",
+                "destination_airport": "Dallas Love Field"
+            },
+            "search_parameters": {
+                "departure_iota": "LAS",
+                "destination_iota": "DAL",
+                "departure_date": "2024-12-22",
+                "return_date": null,
+                "travel_class": "Economy",
+                "search_timestamp": "20241215_130334"
+            },
+            "flight": {
+                "airline": "Southwest",
+                "departure_time": "5:45\u202fAM",
+                "arrival_time": "3:25\u202fPM",
+                "duration": "7 hr 40 min",
+                "stops": "1 stop in DEN",
+                "price": "$408",
+                "co2_emissions": "256 kg CO2e",
+                "emissions_variation": "+73% emissions",
+                "unix_departure_time": 1734875100,
+                "unix_arrival_time": 1734902700
+            }
+        },
+        {
+            "metadata": {
+                "departure_state": "NV",
+                "destination_state": "TX",
+                "departure_timezone": "America/Los_Angeles",
+                "destination_timezone": "America/Chicago",
+                "departure_airport": "Harry Reid International Airport",
+                "destination_airport": "Dallas Love Field"
+            },
+            "search_parameters": {
+                "departure_iota": "LAS",
+                "destination_iota": "DAL",
+                "departure_date": "2024-12-22",
+                "return_date": null,
+                "travel_class": "Economy",
+                "search_timestamp": "20241215_130334"
+            },
+            "flight": {
+                "airline": "Southwest",
+                "departure_time": "7:40\u202fAM",
+                "arrival_time": "3:25\u202fPM",
+                "duration": "5 hr 45 min",
+                "stops": "1 stop in DEN",
+                "price": "$408",
+                "co2_emissions": "256 kg CO2e",
+                "emissions_variation": "+73% emissions",
+                "unix_departure_time": 1734882000,
+                "unix_arrival_time": 1734902700
+            }
+        },
+        {
+            "metadata": {
+                "departure_state": "NV",
+                "destination_state": "TX",
+                "departure_timezone": "America/Los_Angeles",
+                "destination_timezone": "America/Chicago",
+                "departure_airport": "Harry Reid International Airport",
+                "destination_airport": "Dallas Love Field"
+            },
+            "search_parameters": {
+                "departure_iota": "LAS",
+                "destination_iota": "DAL",
+                "departure_date": "2024-12-22",
+                "return_date": null,
+                "travel_class": "Economy",
+                "search_timestamp": "20241215_130334"
+            },
+            "flight": {
+                "airline": "Southwest",
+                "departure_time": "7:50\u202fAM",
+                "arrival_time": "3:35\u202fPM",
+                "duration": "5 hr 45 min",
+                "stops": "1 stop in HOU",
+                "price": "$408",
+                "co2_emissions": "252 kg CO2e",
+                "emissions_variation": "+70% emissions",
+                "unix_departure_time": 1734882600,
+                "unix_arrival_time": 1734903300
+            }
+        },
+        {
+            "metadata": {
+                "departure_state": "NV",
+                "destination_state": "TX",
+                "departure_timezone": "America/Los_Angeles",
+                "destination_timezone": "America/Chicago",
+                "departure_airport": "Harry Reid International Airport",
+                "destination_airport": "Dallas Love Field"
+            },
+            "search_parameters": {
+                "departure_iota": "LAS",
+                "destination_iota": "DAL",
+                "departure_date": "2024-12-22",
+                "return_date": null,
+                "travel_class": "Economy",
+                "search_timestamp": "20241215_130334"
+            },
+            "flight": {
+                "airline": "JSXJetBlueOperated by Jsx Air as Public Charter-Charter Contract Applies",
+                "departure_time": "11:00\u202fAM",
+                "arrival_time": "3:40\u202fPM",
+                "duration": "2 hr 40 min",
+                "stops": "Nonstop",
+                "price": "$1,200",
+                "co2_emissions": "338 kg CO2e",
+                "emissions_variation": "+128% emissions",
+                "unix_departure_time": 1734894000,
+                "unix_arrival_time": 1734903600
+            }
+        },
+        {
+            "metadata": {
+                "departure_state": "NV",
+                "destination_state": "TX",
+                "departure_timezone": "America/Los_Angeles",
+                "destination_timezone": "America/Chicago",
+                "departure_airport": "Harry Reid International Airport",
+                "destination_airport": "Dallas Love Field"
+            },
+            "search_parameters": {
+                "departure_iota": "LAS",
+                "destination_iota": "DAL",
+                "departure_date": "2024-12-22",
+                "return_date": null,
+                "travel_class": "Economy",
+                "search_timestamp": "20241215_130334"
+            },
+            "flight": {
+                "airline": "Southwest",
+                "departure_time": "6:15\u202fAM",
+                "arrival_time": "4:00\u202fPM",
+                "duration": "7 hr 45 min",
+                "stops": "1 stop in SAT",
+                "price": "$408",
+                "co2_emissions": "264 kg CO2e",
+                "emissions_variation": "+78% emissions",
+                "unix_departure_time": 1734876900,
+                "unix_arrival_time": 1734904800
+            }
+        },
+        {
+            "metadata": {
+                "departure_state": "NV",
+                "destination_state": "TX",
+                "departure_timezone": "America/Los_Angeles",
+                "destination_timezone": "America/Chicago",
+                "departure_airport": "Harry Reid International Airport",
+                "destination_airport": "Dallas Love Field"
+            },
+            "search_parameters": {
+                "departure_iota": "LAS",
+                "destination_iota": "DAL",
+                "departure_date": "2024-12-22",
+                "return_date": null,
+                "travel_class": "Economy",
+                "search_timestamp": "20241215_130334"
+            },
+            "flight": {
+                "airline": "Southwest",
+                "departure_time": "9:00\u202fAM",
+                "arrival_time": "4:00\u202fPM",
+                "duration": "5 hr",
+                "stops": "1 stop in SAT",
+                "price": "$492",
+                "co2_emissions": "264 kg CO2e",
+                "emissions_variation": "+78% emissions",
+                "unix_departure_time": 1734886800,
+                "unix_arrival_time": 1734904800
+            }
+        },
+        {
+            "metadata": {
+                "departure_state": "NV",
+                "destination_state": "TX",
+                "departure_timezone": "America/Los_Angeles",
+                "destination_timezone": "America/Chicago",
+                "departure_airport": "Harry Reid International Airport",
+                "destination_airport": "Dallas Love Field"
+            },
+            "search_parameters": {
+                "departure_iota": "LAS",
+                "destination_iota": "DAL",
+                "departure_date": "2024-12-22",
+                "return_date": null,
+                "travel_class": "Economy",
+                "search_timestamp": "20241215_130334"
+            },
+            "flight": {
+                "airline": "Southwest",
+                "departure_time": "8:40\u202fAM",
+                "arrival_time": "4:05\u202fPM",
+                "duration": "5 hr 25 min",
+                "stops": "1 stop in TUS",
+                "price": "$408",
+                "co2_emissions": "212 kg CO2e",
+                "emissions_variation": "+43% emissions",
+                "unix_departure_time": 1734885600,
+                "unix_arrival_time": 1734905100
+            }
+        },
+        {
+            "metadata": {
+                "departure_state": "NV",
+                "destination_state": "TX",
+                "departure_timezone": "America/Los_Angeles",
+                "destination_timezone": "America/Chicago",
+                "departure_airport": "Harry Reid International Airport",
+                "destination_airport": "Dallas Love Field"
+            },
+            "search_parameters": {
+                "departure_iota": "LAS",
+                "destination_iota": "DAL",
+                "departure_date": "2024-12-22",
+                "return_date": null,
+                "travel_class": "Economy",
+                "search_timestamp": "20241215_130334"
+            },
+            "flight": {
+                "airline": "Southwest",
+                "departure_time": "9:25\u202fAM",
+                "arrival_time": "4:10\u202fPM",
+                "duration": "4 hr 45 min",
+                "stops": "1 stop in SAN",
+                "price": "$404",
+                "co2_emissions": "270 kg CO2e",
+                "emissions_variation": "+82% emissions",
+                "unix_departure_time": 1734888300,
+                "unix_arrival_time": 1734905400
+            }
+        },
+        {
+            "metadata": {
+                "departure_state": "NV",
+                "destination_state": "TX",
+                "departure_timezone": "America/Los_Angeles",
+                "destination_timezone": "America/Chicago",
+                "departure_airport": "Harry Reid International Airport",
+                "destination_airport": "Dallas Love Field"
+            },
+            "search_parameters": {
+                "departure_iota": "LAS",
+                "destination_iota": "DAL",
+                "departure_date": "2024-12-22",
+                "return_date": null,
+                "travel_class": "Economy",
+                "search_timestamp": "20241215_130334"
+            },
+            "flight": {
+                "airline": "Southwest",
+                "departure_time": "7:55\u202fAM",
+                "arrival_time": "4:10\u202fPM",
+                "duration": "6 hr 15 min",
+                "stops": "1 stop in ABQ",
+                "price": "$408",
+                "co2_emissions": "236 kg CO2e",
+                "emissions_variation": "+59% emissions",
+                "unix_departure_time": 1734882900,
+                "unix_arrival_time": 1734905400
+            }
+        },
+        {
+            "metadata": {
+                "departure_state": "NV",
+                "destination_state": "TX",
+                "departure_timezone": "America/Los_Angeles",
+                "destination_timezone": "America/Chicago",
+                "departure_airport": "Harry Reid International Airport",
+                "destination_airport": "Dallas Love Field"
+            },
+            "search_parameters": {
+                "departure_iota": "LAS",
+                "destination_iota": "DAL",
+                "departure_date": "2024-12-22",
+                "return_date": null,
+                "travel_class": "Economy",
+                "search_timestamp": "20241215_130334"
+            },
+            "flight": {
+                "airline": "Alaska",
+                "departure_time": "6:00\u202fAM",
+                "arrival_time": "4:19\u202fPM",
+                "duration": "8 hr 19 min",
+                "stops": "1 stop in SEA",
+                "price": "$636",
+                "co2_emissions": "333 kg CO2e",
+                "emissions_variation": "+125% emissions",
+                "unix_departure_time": 1734876000,
+                "unix_arrival_time": 1734905940
+            }
+        },
+        {
+            "metadata": {
+                "departure_state": "NV",
+                "destination_state": "TX",
+                "departure_timezone": "America/Los_Angeles",
+                "destination_timezone": "America/Chicago",
+                "departure_airport": "Harry Reid International Airport",
+                "destination_airport": "Dallas Love Field"
+            },
+            "search_parameters": {
+                "departure_iota": "LAS",
+                "destination_iota": "DAL",
+                "departure_date": "2024-12-22",
+                "return_date": null,
+                "travel_class": "Economy",
+                "search_timestamp": "20241215_130334"
+            },
+            "flight": {
+                "airline": "Southwest",
+                "departure_time": "5:45\u202fAM",
+                "arrival_time": "4:40\u202fPM",
+                "duration": "8 hr 55 min",
+                "stops": "1 stop in DEN",
+                "price": "$402",
+                "co2_emissions": "241 kg CO2e",
+                "emissions_variation": "+63% emissions",
+                "unix_departure_time": 1734875100,
+                "unix_arrival_time": 1734907200
+            }
+        },
+        {
+            "metadata": {
+                "departure_state": "NV",
+                "destination_state": "TX",
+                "departure_timezone": "America/Los_Angeles",
+                "destination_timezone": "America/Chicago",
+                "departure_airport": "Harry Reid International Airport",
+                "destination_airport": "Dallas Love Field"
+            },
+            "search_parameters": {
+                "departure_iota": "LAS",
+                "destination_iota": "DAL",
+                "departure_date": "2024-12-22",
+                "return_date": null,
+                "travel_class": "Economy",
+                "search_timestamp": "20241215_130334"
+            },
+            "flight": {
+                "airline": "Southwest",
+                "departure_time": "7:40\u202fAM",
+                "arrival_time": "4:40\u202fPM",
+                "duration": "7 hr",
+                "stops": "1 stop in DEN",
+                "price": "$408",
+                "co2_emissions": "241 kg CO2e",
+                "emissions_variation": "+63% emissions",
+                "unix_departure_time": 1734882000,
+                "unix_arrival_time": 1734907200
+            }
+        },
+        {
+            "metadata": {
+                "departure_state": "NV",
+                "destination_state": "TX",
+                "departure_timezone": "America/Los_Angeles",
+                "destination_timezone": "America/Chicago",
+                "departure_airport": "Harry Reid International Airport",
+                "destination_airport": "Dallas Love Field"
+            },
+            "search_parameters": {
+                "departure_iota": "LAS",
+                "destination_iota": "DAL",
+                "departure_date": "2024-12-22",
+                "return_date": null,
+                "travel_class": "Economy",
+                "search_timestamp": "20241215_130334"
+            },
+            "flight": {
+                "airline": "Southwest",
+                "departure_time": "9:50\u202fAM",
+                "arrival_time": "4:40\u202fPM",
+                "duration": "4 hr 50 min",
+                "stops": "1 stop in DEN",
+                "price": "$408",
+                "co2_emissions": "208 kg CO2e",
+                "emissions_variation": "+41% emissions",
+                "unix_departure_time": 1734889800,
+                "unix_arrival_time": 1734907200
+            }
+        },
+        {
+            "metadata": {
+                "departure_state": "NV",
+                "destination_state": "TX",
+                "departure_timezone": "America/Los_Angeles",
+                "destination_timezone": "America/Chicago",
+                "departure_airport": "Harry Reid International Airport",
+                "destination_airport": "Dallas Love Field"
+            },
+            "search_parameters": {
+                "departure_iota": "LAS",
+                "destination_iota": "DAL",
+                "departure_date": "2024-12-22",
+                "return_date": null,
+                "travel_class": "Economy",
+                "search_timestamp": "20241215_130334"
+            },
+            "flight": {
+                "airline": "Southwest",
+                "departure_time": "12:30\u202fPM",
+                "arrival_time": "5:10\u202fPM",
+                "duration": "2 hr 40 min",
+                "stops": "Nonstop",
+                "price": "$399",
+                "co2_emissions": "158 kg CO2e",
+                "emissions_variation": "+7% emissions",
+                "unix_departure_time": 1734899400,
+                "unix_arrival_time": 1734909000
+            }
+        },
+        {
+            "metadata": {
+                "departure_state": "NV",
+                "destination_state": "TX",
+                "departure_timezone": "America/Los_Angeles",
+                "destination_timezone": "America/Chicago",
+                "departure_airport": "Harry Reid International Airport",
+                "destination_airport": "Dallas Love Field"
+            },
+            "search_parameters": {
+                "departure_iota": "LAS",
+                "destination_iota": "DAL",
+                "departure_date": "2024-12-22",
+                "return_date": null,
+                "travel_class": "Economy",
+                "search_timestamp": "20241215_130334"
+            },
+            "flight": {
+                "airline": "Southwest",
+                "departure_time": "5:45\u202fAM",
+                "arrival_time": "5:10\u202fPM",
+                "duration": "9 hr 25 min",
+                "stops": "2 stops in DEN, LBB",
+                "price": "$407",
+                "co2_emissions": "363 kg CO2e",
+                "emissions_variation": "+145% emissions",
+                "unix_departure_time": 1734875100,
+                "unix_arrival_time": 1734909000
+            }
+        },
+        {
+            "metadata": {
+                "departure_state": "NV",
+                "destination_state": "TX",
+                "departure_timezone": "America/Los_Angeles",
+                "destination_timezone": "America/Chicago",
+                "departure_airport": "Harry Reid International Airport",
+                "destination_airport": "Dallas Love Field"
+            },
+            "search_parameters": {
+                "departure_iota": "LAS",
+                "destination_iota": "DAL",
+                "departure_date": "2024-12-22",
+                "return_date": null,
+                "travel_class": "Economy",
+                "search_timestamp": "20241215_130334"
+            },
+            "flight": {
+                "airline": "Southwest",
+                "departure_time": "10:10\u202fAM",
+                "arrival_time": "5:20\u202fPM",
+                "duration": "5 hr 10 min",
+                "stops": "1 stop in ELP",
+                "price": "$408",
+                "co2_emissions": "225 kg CO2e",
+                "emissions_variation": "+52% emissions",
+                "unix_departure_time": 1734891000,
+                "unix_arrival_time": 1734909600
+            }
+        },
+        {
+            "metadata": {
+                "departure_state": "NV",
+                "destination_state": "TX",
+                "departure_timezone": "America/Los_Angeles",
+                "destination_timezone": "America/Chicago",
+                "departure_airport": "Harry Reid International Airport",
+                "destination_airport": "Dallas Love Field"
+            },
+            "search_parameters": {
+                "departure_iota": "LAS",
+                "destination_iota": "DAL",
+                "departure_date": "2024-12-22",
+                "return_date": null,
+                "travel_class": "Economy",
+                "search_timestamp": "20241215_130334"
+            },
+            "flight": {
+                "airline": "Southwest",
+                "departure_time": "8:55\u202fAM",
+                "arrival_time": "5:25\u202fPM",
+                "duration": "6 hr 30 min",
+                "stops": "1 stop in STL",
+                "price": "$408",
+                "co2_emissions": "304 kg CO2e",
+                "emissions_variation": "+105% emissions",
+                "unix_departure_time": 1734886500,
+                "unix_arrival_time": 1734909900
+            }
+        },
+        {
+            "metadata": {
+                "departure_state": "NV",
+                "destination_state": "TX",
+                "departure_timezone": "America/Los_Angeles",
+                "destination_timezone": "America/Chicago",
+                "departure_airport": "Harry Reid International Airport",
+                "destination_airport": "Dallas Love Field"
+            },
+            "search_parameters": {
+                "departure_iota": "LAS",
+                "destination_iota": "DAL",
+                "departure_date": "2024-12-22",
+                "return_date": null,
+                "travel_class": "Economy",
+                "search_timestamp": "20241215_130334"
+            },
+            "flight": {
+                "airline": "Delta",
+                "departure_time": "7:25\u202fAM",
+                "arrival_time": "5:38\u202fPM",
+                "duration": "8 hr 13 min",
+                "stops": "1 stop in ATL",
+                "price": "$408",
+                "co2_emissions": "375 kg CO2e",
+                "emissions_variation": "+153% emissions",
+                "unix_departure_time": 1734881100,
+                "unix_arrival_time": 1734910680
+            }
+        },
+        {
+            "metadata": {
+                "departure_state": "NV",
+                "destination_state": "TX",
+                "departure_timezone": "America/Los_Angeles",
+                "destination_timezone": "America/Chicago",
+                "departure_airport": "Harry Reid International Airport",
+                "destination_airport": "Dallas Love Field"
+            },
+            "search_parameters": {
+                "departure_iota": "LAS",
+                "destination_iota": "DAL",
+                "departure_date": "2024-12-22",
+                "return_date": null,
+                "travel_class": "Economy",
+                "search_timestamp": "20241215_130334"
+            },
+            "flight": {
+                "airline": "Southwest",
+                "departure_time": "7:50\u202fAM",
+                "arrival_time": "5:40\u202fPM",
+                "duration": "7 hr 50 min",
+                "stops": "1 stop in HOU",
+                "price": "$408",
+                "co2_emissions": "243 kg CO2e",
+                "emissions_variation": "+64% emissions",
+                "unix_departure_time": 1734882600,
+                "unix_arrival_time": 1734910800
+            }
+        },
+        {
+            "metadata": {
+                "departure_state": "NV",
+                "destination_state": "TX",
+                "departure_timezone": "America/Los_Angeles",
+                "destination_timezone": "America/Chicago",
+                "departure_airport": "Harry Reid International Airport",
+                "destination_airport": "Dallas Love Field"
+            },
+            "search_parameters": {
+                "departure_iota": "LAS",
+                "destination_iota": "DAL",
+                "departure_date": "2024-12-22",
+                "return_date": null,
+                "travel_class": "Economy",
+                "search_timestamp": "20241215_130334"
+            },
+            "flight": {
+                "airline": "Southwest",
+                "departure_time": "1:30\u202fPM",
+                "arrival_time": "6:10\u202fPM",
+                "duration": "2 hr 40 min",
+                "stops": "Nonstop",
+                "price": "$399",
+                "co2_emissions": "158 kg CO2e",
+                "emissions_variation": "+7% emissions",
+                "unix_departure_time": 1734903000,
+                "unix_arrival_time": 1734912600
+            }
+        },
+        {
+            "metadata": {
+                "departure_state": "NV",
+                "destination_state": "TX",
+                "departure_timezone": "America/Los_Angeles",
+                "destination_timezone": "America/Chicago",
+                "departure_airport": "Harry Reid International Airport",
+                "destination_airport": "Dallas Love Field"
+            },
+            "search_parameters": {
+                "departure_iota": "LAS",
+                "destination_iota": "DAL",
+                "departure_date": "2024-12-22",
+                "return_date": null,
+                "travel_class": "Economy",
+                "search_timestamp": "20241215_130334"
+            },
+            "flight": {
+                "airline": "Southwest",
+                "departure_time": "9:00\u202fAM",
+                "arrival_time": "6:30\u202fPM",
+                "duration": "7 hr 30 min",
+                "stops": "1 stop in SAT",
+                "price": "$408",
+                "co2_emissions": "264 kg CO2e",
+                "emissions_variation": "+78% emissions",
+                "unix_departure_time": 1734886800,
+                "unix_arrival_time": 1734913800
+            }
+        },
+        {
+            "metadata": {
+                "departure_state": "NV",
+                "destination_state": "TX",
+                "departure_timezone": "America/Los_Angeles",
+                "destination_timezone": "America/Chicago",
+                "departure_airport": "Harry Reid International Airport",
+                "destination_airport": "Dallas Love Field"
+            },
+            "search_parameters": {
+                "departure_iota": "LAS",
+                "destination_iota": "DAL",
+                "departure_date": "2024-12-22",
+                "return_date": null,
+                "travel_class": "Economy",
+                "search_timestamp": "20241215_130334"
+            },
+            "flight": {
+                "airline": "Southwest",
+                "departure_time": "9:25\u202fAM",
+                "arrival_time": "6:45\u202fPM",
+                "duration": "7 hr 20 min",
+                "stops": "1 stop in PHX",
+                "price": "$408",
+                "co2_emissions": "219 kg CO2e",
+                "emissions_variation": "+48% emissions",
+                "unix_departure_time": 1734888300,
+                "unix_arrival_time": 1734914700
+            }
+        },
+        {
+            "metadata": {
+                "departure_state": "NV",
+                "destination_state": "TX",
+                "departure_timezone": "America/Los_Angeles",
+                "destination_timezone": "America/Chicago",
+                "departure_airport": "Harry Reid International Airport",
+                "destination_airport": "Dallas Love Field"
+            },
+            "search_parameters": {
+                "departure_iota": "LAS",
+                "destination_iota": "DAL",
+                "departure_date": "2024-12-22",
+                "return_date": null,
+                "travel_class": "Economy",
+                "search_timestamp": "20241215_130334"
+            },
+            "flight": {
+                "airline": "Southwest",
+                "departure_time": "12:05\u202fPM",
+                "arrival_time": "6:45\u202fPM",
+                "duration": "4 hr 40 min",
+                "stops": "1 stop in PHX",
+                "price": "$408",
+                "co2_emissions": "200 kg CO2e",
+                "emissions_variation": "+35% emissions",
+                "unix_departure_time": 1734897900,
+                "unix_arrival_time": 1734914700
+            }
+        },
+        {
+            "metadata": {
+                "departure_state": "NV",
+                "destination_state": "TX",
+                "departure_timezone": "America/Los_Angeles",
+                "destination_timezone": "America/Chicago",
+                "departure_airport": "Harry Reid International Airport",
+                "destination_airport": "Dallas Love Field"
+            },
+            "search_parameters": {
+                "departure_iota": "LAS",
+                "destination_iota": "DAL",
+                "departure_date": "2024-12-22",
+                "return_date": null,
+                "travel_class": "Economy",
+                "search_timestamp": "20241215_130334"
+            },
+            "flight": {
+                "airline": "Southwest",
+                "departure_time": "9:55\u202fAM",
+                "arrival_time": "7:05\u202fPM",
+                "duration": "7 hr 10 min",
+                "stops": "1 stop in AUS",
+                "price": "$408",
+                "co2_emissions": "263 kg CO2e",
+                "emissions_variation": "+78% emissions",
+                "unix_departure_time": 1734890100,
+                "unix_arrival_time": 1734915900
+            }
+        },
+        {
+            "metadata": {
+                "departure_state": "NV",
+                "destination_state": "TX",
+                "departure_timezone": "America/Los_Angeles",
+                "destination_timezone": "America/Chicago",
+                "departure_airport": "Harry Reid International Airport",
+                "destination_airport": "Dallas Love Field"
+            },
+            "search_parameters": {
+                "departure_iota": "LAS",
+                "destination_iota": "DAL",
+                "departure_date": "2024-12-22",
+                "return_date": null,
+                "travel_class": "Economy",
+                "search_timestamp": "20241215_130334"
+            },
+            "flight": {
+                "airline": "Southwest",
+                "departure_time": "11:50\u202fAM",
+                "arrival_time": "7:05\u202fPM",
+                "duration": "5 hr 15 min",
+                "stops": "1 stop in AUS",
+                "price": "$408",
+                "co2_emissions": "263 kg CO2e",
+                "emissions_variation": "+78% emissions",
+                "unix_departure_time": 1734897000,
+                "unix_arrival_time": 1734915900
+            }
+        },
+        {
+            "metadata": {
+                "departure_state": "NV",
+                "destination_state": "TX",
+                "departure_timezone": "America/Los_Angeles",
+                "destination_timezone": "America/Chicago",
+                "departure_airport": "Harry Reid International Airport",
+                "destination_airport": "Dallas Love Field"
+            },
+            "search_parameters": {
+                "departure_iota": "LAS",
+                "destination_iota": "DAL",
+                "departure_date": "2024-12-22",
+                "return_date": null,
+                "travel_class": "Economy",
+                "search_timestamp": "20241215_130334"
+            },
+            "flight": {
+                "airline": "Southwest",
+                "departure_time": "9:50\u202fAM",
+                "arrival_time": "7:15\u202fPM",
+                "duration": "7 hr 25 min",
+                "stops": "1 stop in DEN",
+                "price": "$408",
+                "co2_emissions": "239 kg CO2e",
+                "emissions_variation": "+61% emissions",
+                "unix_departure_time": 1734889800,
+                "unix_arrival_time": 1734916500
+            }
+        },
+        {
+            "metadata": {
+                "departure_state": "NV",
+                "destination_state": "TX",
+                "departure_timezone": "America/Los_Angeles",
+                "destination_timezone": "America/Chicago",
+                "departure_airport": "Harry Reid International Airport",
+                "destination_airport": "Dallas Love Field"
+            },
+            "search_parameters": {
+                "departure_iota": "LAS",
+                "destination_iota": "DAL",
+                "departure_date": "2024-12-22",
+                "return_date": null,
+                "travel_class": "Economy",
+                "search_timestamp": "20241215_130334"
+            },
+            "flight": {
+                "airline": "Southwest",
+                "departure_time": "11:20\u202fAM",
+                "arrival_time": "7:15\u202fPM",
+                "duration": "5 hr 55 min",
+                "stops": "1 stop in DEN",
+                "price": "$408",
+                "co2_emissions": "272 kg CO2e",
+                "emissions_variation": "+84% emissions",
+                "unix_departure_time": 1734895200,
+                "unix_arrival_time": 1734916500
+            }
+        },
+        {
+            "metadata": {
+                "departure_state": "NV",
+                "destination_state": "TX",
+                "departure_timezone": "America/Los_Angeles",
+                "destination_timezone": "America/Chicago",
+                "departure_airport": "Harry Reid International Airport",
+                "destination_airport": "Dallas Love Field"
+            },
+            "search_parameters": {
+                "departure_iota": "LAS",
+                "destination_iota": "DAL",
+                "departure_date": "2024-12-22",
+                "return_date": null,
+                "travel_class": "Economy",
+                "search_timestamp": "20241215_130334"
+            },
+            "flight": {
+                "airline": "Southwest",
+                "departure_time": "12:15\u202fPM",
+                "arrival_time": "7:20\u202fPM",
+                "duration": "5 hr 5 min",
+                "stops": "1 stop in TUL",
+                "price": "$408",
+                "co2_emissions": "265 kg CO2e",
+                "emissions_variation": "+79% emissions",
+                "unix_departure_time": 1734898500,
+                "unix_arrival_time": 1734916800
+            }
+        },
+        {
+            "metadata": {
+                "departure_state": "NV",
+                "destination_state": "TX",
+                "departure_timezone": "America/Los_Angeles",
+                "destination_timezone": "America/Chicago",
+                "departure_airport": "Harry Reid International Airport",
+                "destination_airport": "Dallas Love Field"
+            },
+            "search_parameters": {
+                "departure_iota": "LAS",
+                "destination_iota": "DAL",
+                "departure_date": "2024-12-22",
+                "return_date": null,
+                "travel_class": "Economy",
+                "search_timestamp": "20241215_130334"
+            },
+            "flight": {
+                "airline": "Southwest",
+                "departure_time": "12:15\u202fPM",
+                "arrival_time": "7:35\u202fPM",
+                "duration": "5 hr 20 min",
+                "stops": "1 stop in HOU",
+                "price": "$408",
+                "co2_emissions": "228 kg CO2e",
+                "emissions_variation": "+54% emissions",
+                "unix_departure_time": 1734898500,
+                "unix_arrival_time": 1734917700
+            }
+        },
+        {
+            "metadata": {
+                "departure_state": "NV",
+                "destination_state": "TX",
+                "departure_timezone": "America/Los_Angeles",
+                "destination_timezone": "America/Chicago",
+                "departure_airport": "Harry Reid International Airport",
+                "destination_airport": "Dallas Love Field"
+            },
+            "search_parameters": {
+                "departure_iota": "LAS",
+                "destination_iota": "DAL",
+                "departure_date": "2024-12-22",
+                "return_date": null,
+                "travel_class": "Economy",
+                "search_timestamp": "20241215_130334"
+            },
+            "flight": {
+                "airline": "Southwest",
+                "departure_time": "12:20\u202fPM",
+                "arrival_time": "8:15\u202fPM",
+                "duration": "5 hr 55 min",
+                "stops": "1 stop in SLC",
+                "price": "$408",
+                "co2_emissions": "229 kg CO2e",
+                "emissions_variation": "+55% emissions",
+                "unix_departure_time": 1734898800,
+                "unix_arrival_time": 1734920100
+            }
+        },
+        {
+            "metadata": {
+                "departure_state": "NV",
+                "destination_state": "TX",
+                "departure_timezone": "America/Los_Angeles",
+                "destination_timezone": "America/Chicago",
+                "departure_airport": "Harry Reid International Airport",
+                "destination_airport": "Dallas Love Field"
+            },
+            "search_parameters": {
+                "departure_iota": "LAS",
+                "destination_iota": "DAL",
+                "departure_date": "2024-12-22",
+                "return_date": null,
+                "travel_class": "Economy",
+                "search_timestamp": "20241215_130334"
+            },
+            "flight": {
+                "airline": "JSXOperated by Jsx Air as Public Charter-Charter Contract Applies, Jsx Air as Public Charter-Charter Contract Applies, Jsx Air as Public Charter-Charter Contract Applies",
+                "departure_time": "9:45\u202fAM",
+                "arrival_time": "8:20\u202fPM",
+                "duration": "8 hr 35 min",
+                "stops": "2 stops in CLD, TSM",
+                "price": "Price unavailable",
+                "co2_emissions": "696 kg CO2e",
+                "emissions_variation": "+370% emissions",
+                "unix_departure_time": 1734889500,
+                "unix_arrival_time": 1734920400
+            }
+        },
+        {
+            "metadata": {
+                "departure_state": "NV",
+                "destination_state": "TX",
+                "departure_timezone": "America/Los_Angeles",
+                "destination_timezone": "America/Chicago",
+                "departure_airport": "Harry Reid International Airport",
+                "destination_airport": "Dallas Love Field"
+            },
+            "search_parameters": {
+                "departure_iota": "LAS",
+                "destination_iota": "DAL",
+                "departure_date": "2024-12-22",
+                "return_date": null,
+                "travel_class": "Economy",
+                "search_timestamp": "20241215_130334"
+            },
+            "flight": {
+                "airline": "Southwest",
+                "departure_time": "12:35\u202fPM",
+                "arrival_time": "8:35\u202fPM",
+                "duration": "6 hr",
+                "stops": "1 stop in ABQ",
+                "price": "$408",
+                "co2_emissions": "233 kg CO2e",
+                "emissions_variation": "+57% emissions",
+                "unix_departure_time": 1734899700,
+                "unix_arrival_time": 1734921300
+            }
+        },
+        {
+            "metadata": {
+                "departure_state": "NV",
+                "destination_state": "TX",
+                "departure_timezone": "America/Los_Angeles",
+                "destination_timezone": "America/Chicago",
+                "departure_airport": "Harry Reid International Airport",
+                "destination_airport": "Dallas Love Field"
+            },
+            "search_parameters": {
+                "departure_iota": "LAS",
+                "destination_iota": "DAL",
+                "departure_date": "2024-12-22",
+                "return_date": null,
+                "travel_class": "Economy",
+                "search_timestamp": "20241215_130334"
+            },
+            "flight": {
+                "airline": "Southwest",
+                "departure_time": "2:45\u202fPM",
+                "arrival_time": "8:35\u202fPM",
+                "duration": "3 hr 50 min",
+                "stops": "1 stop in ABQ",
+                "price": "$408",
+                "co2_emissions": "233 kg CO2e",
+                "emissions_variation": "+57% emissions",
+                "unix_departure_time": 1734907500,
+                "unix_arrival_time": 1734921300
+            }
+        },
+        {
+            "metadata": {
+                "departure_state": "NV",
+                "destination_state": "TX",
+                "departure_timezone": "America/Los_Angeles",
+                "destination_timezone": "America/Chicago",
+                "departure_airport": "Harry Reid International Airport",
+                "destination_airport": "Dallas Love Field"
+            },
+            "search_parameters": {
+                "departure_iota": "LAS",
+                "destination_iota": "DAL",
+                "departure_date": "2024-12-22",
+                "return_date": null,
+                "travel_class": "Economy",
+                "search_timestamp": "20241215_130334"
+            },
+            "flight": {
+                "airline": "Southwest",
+                "departure_time": "11:15\u202fAM",
+                "arrival_time": "8:40\u202fPM",
+                "duration": "7 hr 25 min",
+                "stops": "1 stop in LGB",
+                "price": "$408",
+                "co2_emissions": "246 kg CO2e",
+                "emissions_variation": "+66% emissions",
+                "unix_departure_time": 1734894900,
+                "unix_arrival_time": 1734921600
+            }
+        },
+        {
+            "metadata": {
+                "departure_state": "NV",
+                "destination_state": "TX",
+                "departure_timezone": "America/Los_Angeles",
+                "destination_timezone": "America/Chicago",
+                "departure_airport": "Harry Reid International Airport",
+                "destination_airport": "Dallas Love Field"
+            },
+            "search_parameters": {
+                "departure_iota": "LAS",
+                "destination_iota": "DAL",
+                "departure_date": "2024-12-22",
+                "return_date": null,
+                "travel_class": "Economy",
+                "search_timestamp": "20241215_130334"
+            },
+            "flight": {
+                "airline": "Delta",
+                "departure_time": "11:25\u202fAM",
+                "arrival_time": "8:42\u202fPM",
+                "duration": "7 hr 17 min",
+                "stops": "1 stop in ATL",
+                "price": "$408",
+                "co2_emissions": "331 kg CO2e",
+                "emissions_variation": "+124% emissions",
+                "unix_departure_time": 1734895500,
+                "unix_arrival_time": 1734921720
+            }
+        },
+        {
+            "metadata": {
+                "departure_state": "NV",
+                "destination_state": "TX",
+                "departure_timezone": "America/Los_Angeles",
+                "destination_timezone": "America/Chicago",
+                "departure_airport": "Harry Reid International Airport",
+                "destination_airport": "Dallas Love Field"
+            },
+            "search_parameters": {
+                "departure_iota": "LAS",
+                "destination_iota": "DAL",
+                "departure_date": "2024-12-22",
+                "return_date": null,
+                "travel_class": "Economy",
+                "search_timestamp": "20241215_130334"
+            },
+            "flight": {
+                "airline": "Southwest",
+                "departure_time": "12:20\u202fPM",
+                "arrival_time": "8:50\u202fPM",
+                "duration": "6 hr 30 min",
+                "stops": "1 stop in LAX",
+                "price": "$408",
+                "co2_emissions": "202 kg CO2e",
+                "emissions_variation": "+36% emissions",
+                "unix_departure_time": 1734898800,
+                "unix_arrival_time": 1734922200
+            }
+        },
+        {
+            "metadata": {
+                "departure_state": "NV",
+                "destination_state": "TX",
+                "departure_timezone": "America/Los_Angeles",
+                "destination_timezone": "America/Chicago",
+                "departure_airport": "Harry Reid International Airport",
+                "destination_airport": "Dallas Love Field"
+            },
+            "search_parameters": {
+                "departure_iota": "LAS",
+                "destination_iota": "DAL",
+                "departure_date": "2024-12-22",
+                "return_date": null,
+                "travel_class": "Economy",
+                "search_timestamp": "20241215_130334"
+            },
+            "flight": {
+                "airline": "Southwest",
+                "departure_time": "12:05\u202fPM",
+                "arrival_time": "8:55\u202fPM",
+                "duration": "6 hr 50 min",
+                "stops": "1 stop in SMF",
+                "price": "$408",
+                "co2_emissions": "248 kg CO2e",
+                "emissions_variation": "+68% emissions",
+                "unix_departure_time": 1734897900,
+                "unix_arrival_time": 1734922500
+            }
+        },
+        {
+            "metadata": {
+                "departure_state": "NV",
+                "destination_state": "TX",
+                "departure_timezone": "America/Los_Angeles",
+                "destination_timezone": "America/Chicago",
+                "departure_airport": "Harry Reid International Airport",
+                "destination_airport": "Dallas Love Field"
+            },
+            "search_parameters": {
+                "departure_iota": "LAS",
+                "destination_iota": "DAL",
+                "departure_date": "2024-12-22",
+                "return_date": null,
+                "travel_class": "Economy",
+                "search_timestamp": "20241215_130334"
+            },
+            "flight": {
+                "airline": "Southwest",
+                "departure_time": "12:00\u202fPM",
+                "arrival_time": "9:00\u202fPM",
+                "duration": "7 hr",
+                "stops": "1 stop in BUR",
+                "price": "$408",
+                "co2_emissions": "269 kg CO2e",
+                "emissions_variation": "+82% emissions",
+                "unix_departure_time": 1734897600,
+                "unix_arrival_time": 1734922800
+            }
+        },
+        {
+            "metadata": {
+                "departure_state": "NV",
+                "destination_state": "TX",
+                "departure_timezone": "America/Los_Angeles",
+                "destination_timezone": "America/Chicago",
+                "departure_airport": "Harry Reid International Airport",
+                "destination_airport": "Dallas Love Field"
+            },
+            "search_parameters": {
+                "departure_iota": "LAS",
+                "destination_iota": "DAL",
+                "departure_date": "2024-12-22",
+                "return_date": null,
+                "travel_class": "Economy",
+                "search_timestamp": "20241215_130334"
+            },
+            "flight": {
+                "airline": "Southwest",
+                "departure_time": "1:15\u202fPM",
+                "arrival_time": "9:00\u202fPM",
+                "duration": "5 hr 45 min",
+                "stops": "1 stop in BUR",
+                "price": "$408",
+                "co2_emissions": "269 kg CO2e",
+                "emissions_variation": "+82% emissions",
+                "unix_departure_time": 1734902100,
+                "unix_arrival_time": 1734922800
+            }
+        },
+        {
+            "metadata": {
+                "departure_state": "NV",
+                "destination_state": "TX",
+                "departure_timezone": "America/Los_Angeles",
+                "destination_timezone": "America/Chicago",
+                "departure_airport": "Harry Reid International Airport",
+                "destination_airport": "Dallas Love Field"
+            },
+            "search_parameters": {
+                "departure_iota": "LAS",
+                "destination_iota": "DAL",
+                "departure_date": "2024-12-22",
+                "return_date": null,
+                "travel_class": "Economy",
+                "search_timestamp": "20241215_130334"
+            },
+            "flight": {
+                "airline": "Southwest",
+                "departure_time": "2:05\u202fPM",
+                "arrival_time": "9:00\u202fPM",
+                "duration": "4 hr 55 min",
+                "stops": "1 stop in BUR",
+                "price": "$408",
+                "co2_emissions": "269 kg CO2e",
+                "emissions_variation": "+82% emissions",
+                "unix_departure_time": 1734905100,
+                "unix_arrival_time": 1734922800
+            }
+        },
+        {
+            "metadata": {
+                "departure_state": "NV",
+                "destination_state": "TX",
+                "departure_timezone": "America/Los_Angeles",
+                "destination_timezone": "America/Chicago",
+                "departure_airport": "Harry Reid International Airport",
+                "destination_airport": "Dallas Love Field"
+            },
+            "search_parameters": {
+                "departure_iota": "LAS",
+                "destination_iota": "DAL",
+                "departure_date": "2024-12-22",
+                "return_date": null,
+                "travel_class": "Economy",
+                "search_timestamp": "20241215_130334"
+            },
+            "flight": {
+                "airline": "Southwest",
+                "departure_time": "8:20\u202fAM",
+                "arrival_time": "9:10\u202fPM",
+                "duration": "10 hr 50 min",
+                "stops": "2 stops in PSP, DEN",
+                "price": "$407",
+                "co2_emissions": "311 kg CO2e",
+                "emissions_variation": "+110% emissions",
+                "unix_departure_time": 1734884400,
+                "unix_arrival_time": 1734923400
+            }
+        },
+        {
+            "metadata": {
+                "departure_state": "NV",
+                "destination_state": "TX",
+                "departure_timezone": "America/Los_Angeles",
+                "destination_timezone": "America/Chicago",
+                "departure_airport": "Harry Reid International Airport",
+                "destination_airport": "Dallas Love Field"
+            },
+            "search_parameters": {
+                "departure_iota": "LAS",
+                "destination_iota": "DAL",
+                "departure_date": "2024-12-22",
+                "return_date": null,
+                "travel_class": "Economy",
+                "search_timestamp": "20241215_130334"
+            },
+            "flight": {
+                "airline": "Southwest",
+                "departure_time": "11:20\u202fAM",
+                "arrival_time": "9:10\u202fPM",
+                "duration": "7 hr 50 min",
+                "stops": "1 stop in DEN",
+                "price": "$408",
+                "co2_emissions": "256 kg CO2e",
+                "emissions_variation": "+73% emissions",
+                "unix_departure_time": 1734895200,
+                "unix_arrival_time": 1734923400
+            }
+        },
+        {
+            "metadata": {
+                "departure_state": "NV",
+                "destination_state": "TX",
+                "departure_timezone": "America/Los_Angeles",
+                "destination_timezone": "America/Chicago",
+                "departure_airport": "Harry Reid International Airport",
+                "destination_airport": "Dallas Love Field"
+            },
+            "search_parameters": {
+                "departure_iota": "LAS",
+                "destination_iota": "DAL",
+                "departure_date": "2024-12-22",
+                "return_date": null,
+                "travel_class": "Economy",
+                "search_timestamp": "20241215_130334"
+            },
+            "flight": {
+                "airline": "Southwest",
+                "departure_time": "12:05\u202fPM",
+                "arrival_time": "9:10\u202fPM",
+                "duration": "7 hr 5 min",
+                "stops": "1 stop in PHX",
+                "price": "$408",
+                "co2_emissions": "200 kg CO2e",
+                "emissions_variation": "+35% emissions",
+                "unix_departure_time": 1734897900,
+                "unix_arrival_time": 1734923400
+            }
+        },
+        {
+            "metadata": {
+                "departure_state": "NV",
+                "destination_state": "TX",
+                "departure_timezone": "America/Los_Angeles",
+                "destination_timezone": "America/Chicago",
+                "departure_airport": "Harry Reid International Airport",
+                "destination_airport": "Dallas Love Field"
+            },
+            "search_parameters": {
+                "departure_iota": "LAS",
+                "destination_iota": "DAL",
+                "departure_date": "2024-12-22",
+                "return_date": null,
+                "travel_class": "Economy",
+                "search_timestamp": "20241215_130334"
+            },
+            "flight": {
+                "airline": "Southwest",
+                "departure_time": "1:15\u202fPM",
+                "arrival_time": "9:10\u202fPM",
+                "duration": "5 hr 55 min",
+                "stops": "1 stop in DEN",
+                "price": "$408",
+                "co2_emissions": "256 kg CO2e",
+                "emissions_variation": "+73% emissions",
+                "unix_departure_time": 1734902100,
+                "unix_arrival_time": 1734923400
+            }
+        },
+        {
+            "metadata": {
+                "departure_state": "NV",
+                "destination_state": "TX",
+                "departure_timezone": "America/Los_Angeles",
+                "destination_timezone": "America/Chicago",
+                "departure_airport": "Harry Reid International Airport",
+                "destination_airport": "Dallas Love Field"
+            },
+            "search_parameters": {
+                "departure_iota": "LAS",
+                "destination_iota": "DAL",
+                "departure_date": "2024-12-22",
+                "return_date": null,
+                "travel_class": "Economy",
+                "search_timestamp": "20241215_130334"
+            },
+            "flight": {
+                "airline": "Southwest",
+                "departure_time": "1:25\u202fPM",
+                "arrival_time": "9:10\u202fPM",
+                "duration": "5 hr 45 min",
+                "stops": "1 stop in PHX",
+                "price": "$408",
+                "co2_emissions": "219 kg CO2e",
+                "emissions_variation": "+48% emissions",
+                "unix_departure_time": 1734902700,
+                "unix_arrival_time": 1734923400
+            }
+        },
+        {
+            "metadata": {
+                "departure_state": "NV",
+                "destination_state": "TX",
+                "departure_timezone": "America/Los_Angeles",
+                "destination_timezone": "America/Chicago",
+                "departure_airport": "Harry Reid International Airport",
+                "destination_airport": "Dallas Love Field"
+            },
+            "search_parameters": {
+                "departure_iota": "LAS",
+                "destination_iota": "DAL",
+                "departure_date": "2024-12-22",
+                "return_date": null,
+                "travel_class": "Economy",
+                "search_timestamp": "20241215_130334"
+            },
+            "flight": {
+                "airline": "Southwest",
+                "departure_time": "4:40\u202fPM",
+                "arrival_time": "9:20\u202fPM",
+                "duration": "2 hr 40 min",
+                "stops": "Nonstop",
+                "price": "$399",
+                "co2_emissions": "158 kg CO2e",
+                "emissions_variation": "+7% emissions",
+                "unix_departure_time": 1734914400,
+                "unix_arrival_time": 1734924000
+            }
+        },
+        {
+            "metadata": {
+                "departure_state": "NV",
+                "destination_state": "TX",
+                "departure_timezone": "America/Los_Angeles",
+                "destination_timezone": "America/Chicago",
+                "departure_airport": "Harry Reid International Airport",
+                "destination_airport": "Dallas Love Field"
+            },
+            "search_parameters": {
+                "departure_iota": "LAS",
+                "destination_iota": "DAL",
+                "departure_date": "2024-12-22",
+                "return_date": null,
+                "travel_class": "Economy",
+                "search_timestamp": "20241215_130334"
+            },
+            "flight": {
+                "airline": "Southwest",
+                "departure_time": "11:30\u202fAM",
+                "arrival_time": "9:20\u202fPM",
+                "duration": "7 hr 50 min",
+                "stops": "1 stop in SAN",
+                "price": "$408",
+                "co2_emissions": "261 kg CO2e",
+                "emissions_variation": "+76% emissions",
+                "unix_departure_time": 1734895800,
+                "unix_arrival_time": 1734924000
+            }
+        },
+        {
+            "metadata": {
+                "departure_state": "NV",
+                "destination_state": "TX",
+                "departure_timezone": "America/Los_Angeles",
+                "destination_timezone": "America/Chicago",
+                "departure_airport": "Harry Reid International Airport",
+                "destination_airport": "Dallas Love Field"
+            },
+            "search_parameters": {
+                "departure_iota": "LAS",
+                "destination_iota": "DAL",
+                "departure_date": "2024-12-22",
+                "return_date": null,
+                "travel_class": "Economy",
+                "search_timestamp": "20241215_130334"
+            },
+            "flight": {
+                "airline": "Southwest",
+                "departure_time": "1:55\u202fPM",
+                "arrival_time": "9:20\u202fPM",
+                "duration": "5 hr 25 min",
+                "stops": "1 stop in SAN",
+                "price": "$408",
+                "co2_emissions": "261 kg CO2e",
+                "emissions_variation": "+76% emissions",
+                "unix_departure_time": 1734904500,
+                "unix_arrival_time": 1734924000
+            }
+        },
+        {
+            "metadata": {
+                "departure_state": "NV",
+                "destination_state": "TX",
+                "departure_timezone": "America/Los_Angeles",
+                "destination_timezone": "America/Chicago",
+                "departure_airport": "Harry Reid International Airport",
+                "destination_airport": "Dallas Love Field"
+            },
+            "search_parameters": {
+                "departure_iota": "LAS",
+                "destination_iota": "DAL",
+                "departure_date": "2024-12-22",
+                "return_date": null,
+                "travel_class": "Economy",
+                "search_timestamp": "20241215_130334"
+            },
+            "flight": {
+                "airline": "JSXJetBlueOperated by Jsx Air as Public Charter-Charter Contract Applies",
+                "departure_time": "4:45\u202fPM",
+                "arrival_time": "9:25\u202fPM",
+                "duration": "2 hr 40 min",
+                "stops": "Nonstop",
+                "price": "$1,100",
+                "co2_emissions": "338 kg CO2e",
+                "emissions_variation": "+128% emissions",
+                "unix_departure_time": 1734914700,
+                "unix_arrival_time": 1734924300
+            }
+        },
+        {
+            "metadata": {
+                "departure_state": "NV",
+                "destination_state": "TX",
+                "departure_timezone": "America/Los_Angeles",
+                "destination_timezone": "America/Chicago",
+                "departure_airport": "Harry Reid International Airport",
+                "destination_airport": "Dallas Love Field"
+            },
+            "search_parameters": {
+                "departure_iota": "LAS",
+                "destination_iota": "DAL",
+                "departure_date": "2024-12-22",
+                "return_date": null,
+                "travel_class": "Economy",
+                "search_timestamp": "20241215_130334"
+            },
+            "flight": {
+                "airline": "Southwest",
+                "departure_time": "12:15\u202fPM",
+                "arrival_time": "9:35\u202fPM",
+                "duration": "7 hr 20 min",
+                "stops": "1 stop in HOU",
+                "price": "$408",
+                "co2_emissions": "228 kg CO2e",
+                "emissions_variation": "+54% emissions",
+                "unix_departure_time": 1734898500,
+                "unix_arrival_time": 1734924900
+            }
+        },
+        {
+            "metadata": {
+                "departure_state": "NV",
+                "destination_state": "TX",
+                "departure_timezone": "America/Los_Angeles",
+                "destination_timezone": "America/Chicago",
+                "departure_airport": "Harry Reid International Airport",
+                "destination_airport": "Dallas Love Field"
+            },
+            "search_parameters": {
+                "departure_iota": "LAS",
+                "destination_iota": "DAL",
+                "departure_date": "2024-12-22",
+                "return_date": null,
+                "travel_class": "Economy",
+                "search_timestamp": "20241215_130334"
+            },
+            "flight": {
+                "airline": "Southwest",
+                "departure_time": "2:55\u202fPM",
+                "arrival_time": "9:35\u202fPM",
+                "duration": "4 hr 40 min",
+                "stops": "1 stop in HOU",
+                "price": "$408",
+                "co2_emissions": "275 kg CO2e",
+                "emissions_variation": "+86% emissions",
+                "unix_departure_time": 1734908100,
+                "unix_arrival_time": 1734924900
+            }
+        },
+        {
+            "metadata": {
+                "departure_state": "NV",
+                "destination_state": "TX",
+                "departure_timezone": "America/Los_Angeles",
+                "destination_timezone": "America/Chicago",
+                "departure_airport": "Harry Reid International Airport",
+                "destination_airport": "Dallas Love Field"
+            },
+            "search_parameters": {
+                "departure_iota": "LAS",
+                "destination_iota": "DAL",
+                "departure_date": "2024-12-22",
+                "return_date": null,
+                "travel_class": "Economy",
+                "search_timestamp": "20241215_130334"
+            },
+            "flight": {
+                "airline": "Southwest",
+                "departure_time": "3:40\u202fPM",
+                "arrival_time": "10:00\u202fPM",
+                "duration": "4 hr 20 min",
+                "stops": "1 stop in SAT",
+                "price": "$408",
+                "co2_emissions": "233 kg CO2e",
+                "emissions_variation": "+57% emissions",
+                "unix_departure_time": 1734910800,
+                "unix_arrival_time": 1734926400
+            }
+        },
+        {
+            "metadata": {
+                "departure_state": "NV",
+                "destination_state": "TX",
+                "departure_timezone": "America/Los_Angeles",
+                "destination_timezone": "America/Chicago",
+                "departure_airport": "Harry Reid International Airport",
+                "destination_airport": "Dallas Love Field"
+            },
+            "search_parameters": {
+                "departure_iota": "LAS",
+                "destination_iota": "DAL",
+                "departure_date": "2024-12-22",
+                "return_date": null,
+                "travel_class": "Economy",
+                "search_timestamp": "20241215_130334"
+            },
+            "flight": {
+                "airline": "Southwest",
+                "departure_time": "8:20\u202fAM",
+                "arrival_time": "10:05\u202fPM",
+                "duration": "11 hr 45 min",
+                "stops": "2 stops in PSP, DEN",
+                "price": "$407",
+                "co2_emissions": "326 kg CO2e",
+                "emissions_variation": "+120% emissions",
+                "unix_departure_time": 1734884400,
+                "unix_arrival_time": 1734926700
+            }
+        },
+        {
+            "metadata": {
+                "departure_state": "NV",
+                "destination_state": "TX",
+                "departure_timezone": "America/Los_Angeles",
+                "destination_timezone": "America/Chicago",
+                "departure_airport": "Harry Reid International Airport",
+                "destination_airport": "Dallas Love Field"
+            },
+            "search_parameters": {
+                "departure_iota": "LAS",
+                "destination_iota": "DAL",
+                "departure_date": "2024-12-22",
+                "return_date": null,
+                "travel_class": "Economy",
+                "search_timestamp": "20241215_130334"
+            },
+            "flight": {
+                "airline": "Southwest",
+                "departure_time": "1:15\u202fPM",
+                "arrival_time": "10:05\u202fPM",
+                "duration": "6 hr 50 min",
+                "stops": "1 stop in DEN",
+                "price": "$408",
+                "co2_emissions": "272 kg CO2e",
+                "emissions_variation": "+84% emissions",
+                "unix_departure_time": 1734902100,
+                "unix_arrival_time": 1734926700
+            }
+        },
+        {
+            "metadata": {
+                "departure_state": "NV",
+                "destination_state": "TX",
+                "departure_timezone": "America/Los_Angeles",
+                "destination_timezone": "America/Chicago",
+                "departure_airport": "Harry Reid International Airport",
+                "destination_airport": "Dallas Love Field"
+            },
+            "search_parameters": {
+                "departure_iota": "LAS",
+                "destination_iota": "DAL",
+                "departure_date": "2024-12-22",
+                "return_date": null,
+                "travel_class": "Economy",
+                "search_timestamp": "20241215_130334"
+            },
+            "flight": {
+                "airline": "Southwest",
+                "departure_time": "1:25\u202fPM",
+                "arrival_time": "10:10\u202fPM",
+                "duration": "6 hr 45 min",
+                "stops": "1 stop in MSY",
+                "price": "$408",
+                "co2_emissions": "289 kg CO2e",
+                "emissions_variation": "+95% emissions",
+                "unix_departure_time": 1734902700,
+                "unix_arrival_time": 1734927000
+            }
+        },
+        {
+            "metadata": {
+                "departure_state": "NV",
+                "destination_state": "TX",
+                "departure_timezone": "America/Los_Angeles",
+                "destination_timezone": "America/Chicago",
+                "departure_airport": "Harry Reid International Airport",
+                "destination_airport": "Dallas Love Field"
+            },
+            "search_parameters": {
+                "departure_iota": "LAS",
+                "destination_iota": "DAL",
+                "departure_date": "2024-12-22",
+                "return_date": null,
+                "travel_class": "Economy",
+                "search_timestamp": "20241215_130334"
+            },
+            "flight": {
+                "airline": "Southwest",
+                "departure_time": "1:25\u202fPM",
+                "arrival_time": "10:10\u202fPM",
+                "duration": "6 hr 45 min",
+                "stops": "1 stop in PHX",
+                "price": "$408",
+                "co2_emissions": "238 kg CO2e",
+                "emissions_variation": "+61% emissions",
+                "unix_departure_time": 1734902700,
+                "unix_arrival_time": 1734927000
+            }
+        },
+        {
+            "metadata": {
+                "departure_state": "NV",
+                "destination_state": "TX",
+                "departure_timezone": "America/Los_Angeles",
+                "destination_timezone": "America/Chicago",
+                "departure_airport": "Harry Reid International Airport",
+                "destination_airport": "Dallas Love Field"
+            },
+            "search_parameters": {
+                "departure_iota": "LAS",
+                "destination_iota": "DAL",
+                "departure_date": "2024-12-22",
+                "return_date": null,
+                "travel_class": "Economy",
+                "search_timestamp": "20241215_130334"
+            },
+            "flight": {
+                "airline": "Southwest",
+                "departure_time": "5:40\u202fPM",
+                "arrival_time": "10:15\u202fPM",
+                "duration": "2 hr 35 min",
+                "stops": "Nonstop",
+                "price": "$399",
+                "co2_emissions": "180 kg CO2e",
+                "emissions_variation": "+22% emissions",
+                "unix_departure_time": 1734918000,
+                "unix_arrival_time": 1734927300
+            }
+        },
+        {
+            "metadata": {
+                "departure_state": "NV",
+                "destination_state": "TX",
+                "departure_timezone": "America/Los_Angeles",
+                "destination_timezone": "America/Chicago",
+                "departure_airport": "Harry Reid International Airport",
+                "destination_airport": "Dallas Love Field"
+            },
+            "search_parameters": {
+                "departure_iota": "LAS",
+                "destination_iota": "DAL",
+                "departure_date": "2024-12-22",
+                "return_date": null,
+                "travel_class": "Economy",
+                "search_timestamp": "20241215_130334"
+            },
+            "flight": {
+                "airline": "Southwest",
+                "departure_time": "12:55\u202fPM",
+                "arrival_time": "10:15\u202fPM",
+                "duration": "7 hr 20 min",
+                "stops": "1 stop in BNA",
+                "price": "$408",
+                "co2_emissions": "367 kg CO2e",
+                "emissions_variation": "+148% emissions",
+                "unix_departure_time": 1734900900,
+                "unix_arrival_time": 1734927300
+            }
+        },
+        {
+            "metadata": {
+                "departure_state": "NV",
+                "destination_state": "TX",
+                "departure_timezone": "America/Los_Angeles",
+                "destination_timezone": "America/Chicago",
+                "departure_airport": "Harry Reid International Airport",
+                "destination_airport": "Dallas Love Field"
+            },
+            "search_parameters": {
+                "departure_iota": "LAS",
+                "destination_iota": "DAL",
+                "departure_date": "2024-12-22",
+                "return_date": null,
+                "travel_class": "Economy",
+                "search_timestamp": "20241215_130334"
+            },
+            "flight": {
+                "airline": "Southwest",
+                "departure_time": "1:15\u202fPM",
+                "arrival_time": "10:30\u202fPM",
+                "duration": "7 hr 15 min",
+                "stops": "1 stop in MCI",
+                "price": "$408",
+                "co2_emissions": "231 kg CO2e",
+                "emissions_variation": "+56% emissions",
+                "unix_departure_time": 1734902100,
+                "unix_arrival_time": 1734928200
+            }
+        },
+        {
+            "metadata": {
+                "departure_state": "NV",
+                "destination_state": "TX",
+                "departure_timezone": "America/Los_Angeles",
+                "destination_timezone": "America/Chicago",
+                "departure_airport": "Harry Reid International Airport",
+                "destination_airport": "Dallas Love Field"
+            },
+            "search_parameters": {
+                "departure_iota": "LAS",
+                "destination_iota": "DAL",
+                "departure_date": "2024-12-22",
+                "return_date": null,
+                "travel_class": "Economy",
+                "search_timestamp": "20241215_130334"
+            },
+            "flight": {
+                "airline": "Delta",
+                "departure_time": "12:25\u202fPM",
+                "arrival_time": "10:33\u202fPM",
+                "duration": "8 hr 8 min",
+                "stops": "1 stop in ATL",
+                "price": "$408",
+                "co2_emissions": "375 kg CO2e",
+                "emissions_variation": "+153% emissions",
+                "unix_departure_time": 1734899100,
+                "unix_arrival_time": 1734928380
+            }
+        },
+        {
+            "metadata": {
+                "departure_state": "NV",
+                "destination_state": "TX",
+                "departure_timezone": "America/Los_Angeles",
+                "destination_timezone": "America/Chicago",
+                "departure_airport": "Harry Reid International Airport",
+                "destination_airport": "Dallas Love Field"
+            },
+            "search_parameters": {
+                "departure_iota": "LAS",
+                "destination_iota": "DAL",
+                "departure_date": "2024-12-22",
+                "return_date": null,
+                "travel_class": "Economy",
+                "search_timestamp": "20241215_130334"
+            },
+            "flight": {
+                "airline": "Delta",
+                "departure_time": "1:25\u202fPM",
+                "arrival_time": "10:33\u202fPM",
+                "duration": "7 hr 8 min",
+                "stops": "1 stop in ATL",
+                "price": "$408",
+                "co2_emissions": "375 kg CO2e",
+                "emissions_variation": "+153% emissions",
+                "unix_departure_time": 1734902700,
+                "unix_arrival_time": 1734928380
+            }
+        },
+        {
+            "metadata": {
+                "departure_state": "NV",
+                "destination_state": "TX",
+                "departure_timezone": "America/Los_Angeles",
+                "destination_timezone": "America/Chicago",
+                "departure_airport": "Harry Reid International Airport",
+                "destination_airport": "Dallas Love Field"
+            },
+            "search_parameters": {
+                "departure_iota": "LAS",
+                "destination_iota": "DAL",
+                "departure_date": "2024-12-22",
+                "return_date": null,
+                "travel_class": "Economy",
+                "search_timestamp": "20241215_130334"
+            },
+            "flight": {
+                "airline": "Southwest",
+                "departure_time": "3:35\u202fPM",
+                "arrival_time": "10:40\u202fPM",
+                "duration": "5 hr 5 min",
+                "stops": "1 stop in ELP",
+                "price": "$408",
+                "co2_emissions": "243 kg CO2e",
+                "emissions_variation": "+64% emissions",
+                "unix_departure_time": 1734910500,
+                "unix_arrival_time": 1734928800
+            }
+        },
+        {
+            "metadata": {
+                "departure_state": "NV",
+                "destination_state": "TX",
+                "departure_timezone": "America/Los_Angeles",
+                "destination_timezone": "America/Chicago",
+                "departure_airport": "Harry Reid International Airport",
+                "destination_airport": "Dallas Love Field"
+            },
+            "search_parameters": {
+                "departure_iota": "LAS",
+                "destination_iota": "DAL",
+                "departure_date": "2024-12-22",
+                "return_date": null,
+                "travel_class": "Economy",
+                "search_timestamp": "20241215_130334"
+            },
+            "flight": {
+                "airline": "Southwest",
+                "departure_time": "1:50\u202fPM",
+                "arrival_time": "10:50\u202fPM",
+                "duration": "7 hr",
+                "stops": "1 stop in OAK",
+                "price": "$408",
+                "co2_emissions": "318 kg CO2e",
+                "emissions_variation": "+115% emissions",
+                "unix_departure_time": 1734904200,
+                "unix_arrival_time": 1734929400
+            }
+        },
+        {
+            "metadata": {
+                "departure_state": "NV",
+                "destination_state": "TX",
+                "departure_timezone": "America/Los_Angeles",
+                "destination_timezone": "America/Chicago",
+                "departure_airport": "Harry Reid International Airport",
+                "destination_airport": "Dallas Love Field"
+            },
+            "search_parameters": {
+                "departure_iota": "LAS",
+                "destination_iota": "DAL",
+                "departure_date": "2024-12-22",
+                "return_date": null,
+                "travel_class": "Economy",
+                "search_timestamp": "20241215_130334"
+            },
+            "flight": {
+                "airline": "Southwest",
+                "departure_time": "2:10\u202fPM",
+                "arrival_time": "10:50\u202fPM",
+                "duration": "6 hr 40 min",
+                "stops": "1 stop in SJC",
+                "price": "$408",
+                "co2_emissions": "319 kg CO2e",
+                "emissions_variation": "+116% emissions",
+                "unix_departure_time": 1734905400,
+                "unix_arrival_time": 1734929400
+            }
+        },
+        {
+            "metadata": {
+                "departure_state": "NV",
+                "destination_state": "TX",
+                "departure_timezone": "America/Los_Angeles",
+                "destination_timezone": "America/Chicago",
+                "departure_airport": "Harry Reid International Airport",
+                "destination_airport": "Dallas Love Field"
+            },
+            "search_parameters": {
+                "departure_iota": "LAS",
+                "destination_iota": "DAL",
+                "departure_date": "2024-12-22",
+                "return_date": null,
+                "travel_class": "Economy",
+                "search_timestamp": "20241215_130334"
+            },
+            "flight": {
+                "airline": "Southwest",
+                "departure_time": "3:10\u202fPM",
+                "arrival_time": "10:50\u202fPM",
+                "duration": "5 hr 40 min",
+                "stops": "1 stop in OAK",
+                "price": "$408",
+                "co2_emissions": "342 kg CO2e",
+                "emissions_variation": "+131% emissions",
+                "unix_departure_time": 1734909000,
+                "unix_arrival_time": 1734929400
+            }
+        },
+        {
+            "metadata": {
+                "departure_state": "NV",
+                "destination_state": "TX",
+                "departure_timezone": "America/Los_Angeles",
+                "destination_timezone": "America/Chicago",
+                "departure_airport": "Harry Reid International Airport",
+                "destination_airport": "Dallas Love Field"
+            },
+            "search_parameters": {
+                "departure_iota": "LAS",
+                "destination_iota": "DAL",
+                "departure_date": "2024-12-22",
+                "return_date": null,
+                "travel_class": "Economy",
+                "search_timestamp": "20241215_130334"
+            },
+            "flight": {
+                "airline": "Southwest",
+                "departure_time": "3:50\u202fPM",
+                "arrival_time": "10:50\u202fPM",
+                "duration": "5 hr",
+                "stops": "1 stop in LAX",
+                "price": "$408",
+                "co2_emissions": "225 kg CO2e",
+                "emissions_variation": "+52% emissions",
+                "unix_departure_time": 1734911400,
+                "unix_arrival_time": 1734929400
+            }
+        },
+        {
+            "metadata": {
+                "departure_state": "NV",
+                "destination_state": "TX",
+                "departure_timezone": "America/Los_Angeles",
+                "destination_timezone": "America/Chicago",
+                "departure_airport": "Harry Reid International Airport",
+                "destination_airport": "Dallas Love Field"
+            },
+            "search_parameters": {
+                "departure_iota": "LAS",
+                "destination_iota": "DAL",
+                "departure_date": "2024-12-22",
+                "return_date": null,
+                "travel_class": "Economy",
+                "search_timestamp": "20241215_130334"
+            },
+            "flight": {
+                "airline": "Southwest",
+                "departure_time": "1:25\u202fPM",
+                "arrival_time": "10:55\u202fPM",
+                "duration": "7 hr 30 min",
+                "stops": "1 stop in PHX",
+                "price": "$408",
+                "co2_emissions": "238 kg CO2e",
+                "emissions_variation": "+61% emissions",
+                "unix_departure_time": 1734902700,
+                "unix_arrival_time": 1734929700
+            }
+        },
+        {
+            "metadata": {
+                "departure_state": "NV",
+                "destination_state": "TX",
+                "departure_timezone": "America/Los_Angeles",
+                "destination_timezone": "America/Chicago",
+                "departure_airport": "Harry Reid International Airport",
+                "destination_airport": "Dallas Love Field"
+            },
+            "search_parameters": {
+                "departure_iota": "LAS",
+                "destination_iota": "DAL",
+                "departure_date": "2024-12-22",
+                "return_date": null,
+                "travel_class": "Economy",
+                "search_timestamp": "20241215_130334"
+            },
+            "flight": {
+                "airline": "Southwest",
+                "departure_time": "1:55\u202fPM",
+                "arrival_time": "10:55\u202fPM",
+                "duration": "7 hr",
+                "stops": "1 stop in SAN",
+                "price": "$408",
+                "co2_emissions": "239 kg CO2e",
+                "emissions_variation": "+61% emissions",
+                "unix_departure_time": 1734904500,
+                "unix_arrival_time": 1734929700
+            }
+        },
+        {
+            "metadata": {
+                "departure_state": "NV",
+                "destination_state": "TX",
+                "departure_timezone": "America/Los_Angeles",
+                "destination_timezone": "America/Chicago",
+                "departure_airport": "Harry Reid International Airport",
+                "destination_airport": "Dallas Love Field"
+            },
+            "search_parameters": {
+                "departure_iota": "LAS",
+                "destination_iota": "DAL",
+                "departure_date": "2024-12-22",
+                "return_date": null,
+                "travel_class": "Economy",
+                "search_timestamp": "20241215_130334"
+            },
+            "flight": {
+                "airline": "Southwest",
+                "departure_time": "2:45\u202fPM",
+                "arrival_time": "10:55\u202fPM",
+                "duration": "6 hr 10 min",
+                "stops": "1 stop in ABQ",
+                "price": "$408",
+                "co2_emissions": "249 kg CO2e",
+                "emissions_variation": "+68% emissions",
+                "unix_departure_time": 1734907500,
+                "unix_arrival_time": 1734929700
+            }
+        },
+        {
+            "metadata": {
+                "departure_state": "NV",
+                "destination_state": "TX",
+                "departure_timezone": "America/Los_Angeles",
+                "destination_timezone": "America/Chicago",
+                "departure_airport": "Harry Reid International Airport",
+                "destination_airport": "Dallas Love Field"
+            },
+            "search_parameters": {
+                "departure_iota": "LAS",
+                "destination_iota": "DAL",
+                "departure_date": "2024-12-22",
+                "return_date": null,
+                "travel_class": "Economy",
+                "search_timestamp": "20241215_130334"
+            },
+            "flight": {
+                "airline": "Southwest",
+                "departure_time": "3:45\u202fPM",
+                "arrival_time": "10:55\u202fPM",
+                "duration": "5 hr 10 min",
+                "stops": "1 stop in SAN",
+                "price": "$408",
+                "co2_emissions": "248 kg CO2e",
+                "emissions_variation": "+68% emissions",
+                "unix_departure_time": 1734911100,
+                "unix_arrival_time": 1734929700
+            }
+        },
+        {
+            "metadata": {
+                "departure_state": "NV",
+                "destination_state": "TX",
+                "departure_timezone": "America/Los_Angeles",
+                "destination_timezone": "America/Chicago",
+                "departure_airport": "Harry Reid International Airport",
+                "destination_airport": "Dallas Love Field"
+            },
+            "search_parameters": {
+                "departure_iota": "LAS",
+                "destination_iota": "DAL",
+                "departure_date": "2024-12-22",
+                "return_date": null,
+                "travel_class": "Economy",
+                "search_timestamp": "20241215_130334"
+            },
+            "flight": {
+                "airline": "Southwest",
+                "departure_time": "4:10\u202fPM",
+                "arrival_time": "10:55\u202fPM",
+                "duration": "4 hr 45 min",
+                "stops": "1 stop in PHX",
+                "price": "$408",
+                "co2_emissions": "238 kg CO2e",
+                "emissions_variation": "+61% emissions",
+                "unix_departure_time": 1734912600,
+                "unix_arrival_time": 1734929700
+            }
+        },
+        {
+            "metadata": {
+                "departure_state": "NV",
+                "destination_state": "TX",
+                "departure_timezone": "America/Los_Angeles",
+                "destination_timezone": "America/Chicago",
+                "departure_airport": "Harry Reid International Airport",
+                "destination_airport": "Dallas Love Field"
+            },
+            "search_parameters": {
+                "departure_iota": "LAS",
+                "destination_iota": "DAL",
+                "departure_date": "2024-12-22",
+                "return_date": null,
+                "travel_class": "Economy",
+                "search_timestamp": "20241215_130334"
+            },
+            "flight": {
+                "airline": "Southwest",
+                "departure_time": "4:40\u202fPM",
+                "arrival_time": "10:55\u202fPM",
+                "duration": "4 hr 15 min",
+                "stops": "1 stop in ABQ",
+                "price": "$408",
+                "co2_emissions": "249 kg CO2e",
+                "emissions_variation": "+68% emissions",
+                "unix_departure_time": 1734914400,
+                "unix_arrival_time": 1734929700
+            }
+        },
+        {
+            "metadata": {
+                "departure_state": "NV",
+                "destination_state": "TX",
+                "departure_timezone": "America/Los_Angeles",
+                "destination_timezone": "America/Chicago",
+                "departure_airport": "Harry Reid International Airport",
+                "destination_airport": "Dallas Love Field"
+            },
+            "search_parameters": {
+                "departure_iota": "LAS",
+                "destination_iota": "DAL",
+                "departure_date": "2024-12-22",
+                "return_date": null,
+                "travel_class": "Economy",
+                "search_timestamp": "20241215_130334"
+            },
+            "flight": {
+                "airline": "Southwest",
+                "departure_time": "1:15\u202fPM",
+                "arrival_time": "11:05\u202fPM",
+                "duration": "7 hr 50 min",
+                "stops": "1 stop in DEN",
+                "price": "$408",
+                "co2_emissions": "272 kg CO2e",
+                "emissions_variation": "+84% emissions",
+                "unix_departure_time": 1734902100,
+                "unix_arrival_time": 1734930300
+            }
+        },
+        {
+            "metadata": {
+                "departure_state": "NV",
+                "destination_state": "TX",
+                "departure_timezone": "America/Los_Angeles",
+                "destination_timezone": "America/Chicago",
+                "departure_airport": "Harry Reid International Airport",
+                "destination_airport": "Dallas Love Field"
+            },
+            "search_parameters": {
+                "departure_iota": "LAS",
+                "destination_iota": "DAL",
+                "departure_date": "2024-12-22",
+                "return_date": null,
+                "travel_class": "Economy",
+                "search_timestamp": "20241215_130334"
+            },
+            "flight": {
+                "airline": "Southwest",
+                "departure_time": "2:55\u202fPM",
+                "arrival_time": "11:05\u202fPM",
+                "duration": "6 hr 10 min",
+                "stops": "1 stop in HOU",
+                "price": "$408",
+                "co2_emissions": "275 kg CO2e",
+                "emissions_variation": "+86% emissions",
+                "unix_departure_time": 1734908100,
+                "unix_arrival_time": 1734930300
+            }
+        },
+        {
+            "metadata": {
+                "departure_state": "NV",
+                "destination_state": "TX",
+                "departure_timezone": "America/Los_Angeles",
+                "destination_timezone": "America/Chicago",
+                "departure_airport": "Harry Reid International Airport",
+                "destination_airport": "Dallas Love Field"
+            },
+            "search_parameters": {
+                "departure_iota": "LAS",
+                "destination_iota": "DAL",
+                "departure_date": "2024-12-22",
+                "return_date": null,
+                "travel_class": "Economy",
+                "search_timestamp": "20241215_130334"
+            },
+            "flight": {
+                "airline": "Southwest",
+                "departure_time": "4:00\u202fPM",
+                "arrival_time": "11:05\u202fPM",
+                "duration": "5 hr 5 min",
+                "stops": "1 stop in DEN",
+                "price": "$408",
+                "co2_emissions": "239 kg CO2e",
+                "emissions_variation": "+61% emissions",
+                "unix_departure_time": 1734912000,
+                "unix_arrival_time": 1734930300
+            }
+        },
+        {
+            "metadata": {
+                "departure_state": "NV",
+                "destination_state": "TX",
+                "departure_timezone": "America/Los_Angeles",
+                "destination_timezone": "America/Chicago",
+                "departure_airport": "Harry Reid International Airport",
+                "destination_airport": "Dallas Love Field"
+            },
+            "search_parameters": {
+                "departure_iota": "LAS",
+                "destination_iota": "DAL",
+                "departure_date": "2024-12-22",
+                "return_date": null,
+                "travel_class": "Economy",
+                "search_timestamp": "20241215_130334"
+            },
+            "flight": {
+                "airline": "Southwest",
+                "departure_time": "6:55\u202fPM",
+                "arrival_time": "11:30\u202fPM",
+                "duration": "2 hr 35 min",
+                "stops": "Nonstop",
+                "price": "$399",
+                "co2_emissions": "137 kg CO2e",
+                "emissions_variation": "-7% emissions",
+                "unix_departure_time": 1734922500,
+                "unix_arrival_time": 1734931800
+            }
+        },
+        {
+            "metadata": {
+                "departure_state": "NV",
+                "destination_state": "TX",
+                "departure_timezone": "America/Los_Angeles",
+                "destination_timezone": "America/Chicago",
+                "departure_airport": "Harry Reid International Airport",
+                "destination_airport": "Dallas Love Field"
+            },
+            "search_parameters": {
+                "departure_iota": "LAS",
+                "destination_iota": "DAL",
+                "departure_date": "2024-12-22",
+                "return_date": null,
+                "travel_class": "Economy",
+                "search_timestamp": "20241215_130334"
+            },
+            "flight": {
+                "airline": "Delta",
+                "departure_time": "11:40\u202fPM",
+                "arrival_time": "11:16\u202fAM+1",
+                "duration": "9 hr 36 min",
+                "stops": "1 stop in ATL",
+                "price": "$519",
+                "co2_emissions": "375 kg CO2e",
+                "emissions_variation": "+153% emissions",
+                "unix_departure_time": 1734939600,
+                "unix_arrival_time": 1734974160
+            }
+        },
+        {
+            "metadata": {
+                "departure_state": "NV",
+                "destination_state": "TX",
+                "departure_timezone": "America/Los_Angeles",
+                "destination_timezone": "America/Chicago",
+                "departure_airport": "Harry Reid International Airport",
+                "destination_airport": "Dallas Love Field"
+            },
+            "search_parameters": {
+                "departure_iota": "LAS",
+                "destination_iota": "DAL",
+                "departure_date": "2024-12-22",
+                "return_date": null,
+                "travel_class": "Economy",
+                "search_timestamp": "20241215_130334"
+            },
+            "flight": {
+                "airline": "Alaska",
+                "departure_time": "9:07\u202fPM",
+                "arrival_time": "4:19\u202fPM+1",
+                "duration": "17 hr 12 min",
+                "stops": "1 stop in SEA",
+                "price": "$587",
+                "co2_emissions": "373 kg CO2e",
+                "emissions_variation": "+152% emissions",
+                "unix_departure_time": 1734930420,
+                "unix_arrival_time": 1734992340
+            }
+        },
+        {
+            "metadata": {
+                "departure_state": "NV",
+                "destination_state": "TX",
+                "departure_timezone": "America/Los_Angeles",
+                "destination_timezone": "America/Chicago",
+                "departure_airport": "Harry Reid International Airport",
+                "destination_airport": "Dallas Love Field"
+            },
+            "search_parameters": {
+                "departure_iota": "LAS",
+                "destination_iota": "DAL",
+                "departure_date": "2024-12-22",
+                "return_date": null,
+                "travel_class": "Economy",
+                "search_timestamp": "20241215_130334"
+            },
+            "flight": {
+                "airline": "Alaska",
+                "departure_time": "5:20\u202fPM",
+                "arrival_time": "4:19\u202fPM+1",
+                "duration": "20 hr 59 min",
+                "stops": "1 stop in SEA",
+                "price": "$747",
+                "co2_emissions": "356 kg CO2e",
+                "emissions_variation": "+141% emissions",
+                "unix_departure_time": 1734916800,
+                "unix_arrival_time": 1734992340
+            }
+        },
+        {
+            "metadata": {
+                "departure_state": "NV",
+                "destination_state": "TX",
+                "departure_timezone": "America/Los_Angeles",
+                "destination_timezone": "America/Chicago",
+                "departure_airport": "Harry Reid International Airport",
+                "destination_airport": "Dallas Love Field"
+            },
+            "search_parameters": {
+                "departure_iota": "LAS",
+                "destination_iota": "DAL",
+                "departure_date": "2024-12-22",
+                "return_date": null,
+                "travel_class": "Economy",
+                "search_timestamp": "20241215_130334"
+            },
+            "flight": {
+                "airline": "Alaska",
+                "departure_time": "8:08\u202fPM",
+                "arrival_time": "4:19\u202fPM+1",
+                "duration": "18 hr 11 min",
+                "stops": "1 stop in SEA",
+                "price": "$797",
+                "co2_emissions": "406 kg CO2e",
+                "emissions_variation": "+174% emissions",
+                "unix_departure_time": 1734926880,
+                "unix_arrival_time": 1734992340
+            }
+        }
+    ]
+}

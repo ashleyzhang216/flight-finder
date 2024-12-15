@@ -1,0 +1,4474 @@
+{
+    "flights_data": [
+        {
+            "metadata": {
+                "departure_state": "NV",
+                "destination_state": "IL",
+                "departure_timezone": "America/Los_Angeles",
+                "destination_timezone": "America/Chicago",
+                "departure_airport": "Harry Reid International Airport",
+                "destination_airport": "Midway International Airport"
+            },
+            "search_parameters": {
+                "departure_iota": "LAS",
+                "destination_iota": "MDW",
+                "departure_date": "2024-12-22",
+                "return_date": null,
+                "travel_class": "Premium economy",
+                "search_timestamp": "20241215_130313"
+            },
+            "flight": {
+                "airline": "Delta",
+                "departure_time": "6:00\u202fAM",
+                "arrival_time": "4:17\u202fPM",
+                "duration": "8 hr 17 min",
+                "stops": "1 stop in ATL",
+                "price": "$619",
+                "co2_emissions": "361 kg CO2e",
+                "emissions_variation": "+92% emissions",
+                "unix_departure_time": 1734876000,
+                "unix_arrival_time": 1734905820
+            }
+        },
+        {
+            "metadata": {
+                "departure_state": "NV",
+                "destination_state": "IL",
+                "departure_timezone": "America/Los_Angeles",
+                "destination_timezone": "America/Chicago",
+                "departure_airport": "Harry Reid International Airport",
+                "destination_airport": "Midway International Airport"
+            },
+            "search_parameters": {
+                "departure_iota": "LAS",
+                "destination_iota": "MDW",
+                "departure_date": "2024-12-22",
+                "return_date": null,
+                "travel_class": "Premium economy",
+                "search_timestamp": "20241215_130313"
+            },
+            "flight": {
+                "airline": "DeltaOperated by SkyWest DBA Delta Connection",
+                "departure_time": "6:00\u202fAM",
+                "arrival_time": "4:24\u202fPM",
+                "duration": "8 hr 24 min",
+                "stops": "1 stop in DTW",
+                "price": "$538",
+                "co2_emissions": "306 kg CO2e",
+                "emissions_variation": "+63% emissions",
+                "unix_departure_time": 1734876000,
+                "unix_arrival_time": 1734906240
+            }
+        },
+        {
+            "metadata": {
+                "departure_state": "NV",
+                "destination_state": "IL",
+                "departure_timezone": "America/Los_Angeles",
+                "destination_timezone": "America/Chicago",
+                "departure_airport": "Harry Reid International Airport",
+                "destination_airport": "Midway International Airport"
+            },
+            "search_parameters": {
+                "departure_iota": "LAS",
+                "destination_iota": "MDW",
+                "departure_date": "2024-12-22",
+                "return_date": null,
+                "travel_class": "Premium economy",
+                "search_timestamp": "20241215_130313"
+            },
+            "flight": {
+                "airline": "DeltaOperated by SkyWest DBA Delta Connection",
+                "departure_time": "6:25\u202fAM",
+                "arrival_time": "4:24\u202fPM",
+                "duration": "7 hr 59 min",
+                "stops": "2 stops in SLC, DTW",
+                "price": "$877",
+                "co2_emissions": "363 kg CO2e",
+                "emissions_variation": "+93% emissions",
+                "unix_departure_time": 1734877500,
+                "unix_arrival_time": 1734906240
+            }
+        },
+        {
+            "metadata": {
+                "departure_state": "NV",
+                "destination_state": "IL",
+                "departure_timezone": "America/Los_Angeles",
+                "destination_timezone": "America/Chicago",
+                "departure_airport": "Harry Reid International Airport",
+                "destination_airport": "Midway International Airport"
+            },
+            "search_parameters": {
+                "departure_iota": "LAS",
+                "destination_iota": "MDW",
+                "departure_date": "2024-12-22",
+                "return_date": null,
+                "travel_class": "Premium economy",
+                "search_timestamp": "20241215_130313"
+            },
+            "flight": {
+                "airline": "Delta",
+                "departure_time": "12:25\u202fPM",
+                "arrival_time": "10:06\u202fPM",
+                "duration": "7 hr 41 min",
+                "stops": "1 stop in ATL",
+                "price": "$619",
+                "co2_emissions": "361 kg CO2e",
+                "emissions_variation": "+92% emissions",
+                "unix_departure_time": 1734899100,
+                "unix_arrival_time": 1734926760
+            }
+        },
+        {
+            "metadata": {
+                "departure_state": "NV",
+                "destination_state": "IL",
+                "departure_timezone": "America/Los_Angeles",
+                "destination_timezone": "America/Chicago",
+                "departure_airport": "Harry Reid International Airport",
+                "destination_airport": "Midway International Airport"
+            },
+            "search_parameters": {
+                "departure_iota": "LAS",
+                "destination_iota": "MDW",
+                "departure_date": "2024-12-22",
+                "return_date": null,
+                "travel_class": "Premium economy",
+                "search_timestamp": "20241215_130313"
+            },
+            "flight": {
+                "airline": "Delta",
+                "departure_time": "11:25\u202fAM",
+                "arrival_time": "10:06\u202fPM",
+                "duration": "8 hr 41 min",
+                "stops": "1 stop in ATL",
+                "price": "$739",
+                "co2_emissions": "317 kg CO2e",
+                "emissions_variation": "+69% emissions",
+                "unix_departure_time": 1734895500,
+                "unix_arrival_time": 1734926760
+            }
+        },
+        {
+            "metadata": {
+                "departure_state": "NV",
+                "destination_state": "IL",
+                "departure_timezone": "America/Los_Angeles",
+                "destination_timezone": "America/Chicago",
+                "departure_airport": "Harry Reid International Airport",
+                "destination_airport": "Midway International Airport"
+            },
+            "search_parameters": {
+                "departure_iota": "LAS",
+                "destination_iota": "MDW",
+                "departure_date": "2024-12-22",
+                "return_date": null,
+                "travel_class": "Premium economy",
+                "search_timestamp": "20241215_130313"
+            },
+            "flight": {
+                "airline": "DeltaOperated by SkyWest DBA Delta Connection",
+                "departure_time": "10:45\u202fPM",
+                "arrival_time": "8:50\u202fAM+1",
+                "duration": "8 hr 5 min",
+                "stops": "1 stop in DTW",
+                "price": "$538",
+                "co2_emissions": "323 kg CO2e",
+                "emissions_variation": "+72% emissions",
+                "unix_departure_time": 1734936300,
+                "unix_arrival_time": 1734965400
+            }
+        },
+        {
+            "metadata": {
+                "departure_state": "NV",
+                "destination_state": "IL",
+                "departure_timezone": "America/Los_Angeles",
+                "destination_timezone": "America/Chicago",
+                "departure_airport": "Harry Reid International Airport",
+                "destination_airport": "Midway International Airport"
+            },
+            "search_parameters": {
+                "departure_iota": "LAS",
+                "destination_iota": "MDW",
+                "departure_date": "2024-12-22",
+                "return_date": null,
+                "travel_class": "Economy",
+                "search_timestamp": "20241215_130315"
+            },
+            "flight": {
+                "airline": "Southwest",
+                "departure_time": "5:10\u202fAM",
+                "arrival_time": "10:40\u202fAM",
+                "duration": "3 hr 30 min",
+                "stops": "Nonstop",
+                "price": "$419",
+                "co2_emissions": "180 kg CO2e",
+                "emissions_variation": "Avg emissions",
+                "unix_departure_time": 1734873000,
+                "unix_arrival_time": 1734885600
+            }
+        },
+        {
+            "metadata": {
+                "departure_state": "NV",
+                "destination_state": "IL",
+                "departure_timezone": "America/Los_Angeles",
+                "destination_timezone": "America/Chicago",
+                "departure_airport": "Harry Reid International Airport",
+                "destination_airport": "Midway International Airport"
+            },
+            "search_parameters": {
+                "departure_iota": "LAS",
+                "destination_iota": "MDW",
+                "departure_date": "2024-12-22",
+                "return_date": null,
+                "travel_class": "Economy",
+                "search_timestamp": "20241215_130315"
+            },
+            "flight": {
+                "airline": "Southwest",
+                "departure_time": "5:00\u202fAM",
+                "arrival_time": "12:30\u202fPM",
+                "duration": "5 hr 30 min",
+                "stops": "1 stop in PHX",
+                "price": "$428",
+                "co2_emissions": "235 kg CO2e",
+                "emissions_variation": "+25% emissions",
+                "unix_departure_time": 1734872400,
+                "unix_arrival_time": 1734892200
+            }
+        },
+        {
+            "metadata": {
+                "departure_state": "NV",
+                "destination_state": "IL",
+                "departure_timezone": "America/Los_Angeles",
+                "destination_timezone": "America/Chicago",
+                "departure_airport": "Harry Reid International Airport",
+                "destination_airport": "Midway International Airport"
+            },
+            "search_parameters": {
+                "departure_iota": "LAS",
+                "destination_iota": "MDW",
+                "departure_date": "2024-12-22",
+                "return_date": null,
+                "travel_class": "Economy",
+                "search_timestamp": "20241215_130315"
+            },
+            "flight": {
+                "airline": "Southwest",
+                "departure_time": "6:00\u202fAM",
+                "arrival_time": "1:00\u202fPM",
+                "duration": "5 hr",
+                "stops": "1 stop in STL",
+                "price": "$428",
+                "co2_emissions": "256 kg CO2e",
+                "emissions_variation": "+36% emissions",
+                "unix_departure_time": 1734876000,
+                "unix_arrival_time": 1734894000
+            }
+        },
+        {
+            "metadata": {
+                "departure_state": "NV",
+                "destination_state": "IL",
+                "departure_timezone": "America/Los_Angeles",
+                "destination_timezone": "America/Chicago",
+                "departure_airport": "Harry Reid International Airport",
+                "destination_airport": "Midway International Airport"
+            },
+            "search_parameters": {
+                "departure_iota": "LAS",
+                "destination_iota": "MDW",
+                "departure_date": "2024-12-22",
+                "return_date": null,
+                "travel_class": "Economy",
+                "search_timestamp": "20241215_130315"
+            },
+            "flight": {
+                "airline": "Southwest",
+                "departure_time": "5:05\u202fAM",
+                "arrival_time": "1:15\u202fPM",
+                "duration": "6 hr 10 min",
+                "stops": "1 stop in BNA",
+                "price": "$428",
+                "co2_emissions": "362 kg CO2e",
+                "emissions_variation": "+93% emissions",
+                "unix_departure_time": 1734872700,
+                "unix_arrival_time": 1734894900
+            }
+        },
+        {
+            "metadata": {
+                "departure_state": "NV",
+                "destination_state": "IL",
+                "departure_timezone": "America/Los_Angeles",
+                "destination_timezone": "America/Chicago",
+                "departure_airport": "Harry Reid International Airport",
+                "destination_airport": "Midway International Airport"
+            },
+            "search_parameters": {
+                "departure_iota": "LAS",
+                "destination_iota": "MDW",
+                "departure_date": "2024-12-22",
+                "return_date": null,
+                "travel_class": "Economy",
+                "search_timestamp": "20241215_130315"
+            },
+            "flight": {
+                "airline": "Southwest",
+                "departure_time": "7:50\u202fAM",
+                "arrival_time": "1:20\u202fPM",
+                "duration": "3 hr 30 min",
+                "stops": "Nonstop",
+                "price": "$419",
+                "co2_emissions": "236 kg CO2e",
+                "emissions_variation": "+26% emissions",
+                "unix_departure_time": 1734882600,
+                "unix_arrival_time": 1734895200
+            }
+        },
+        {
+            "metadata": {
+                "departure_state": "NV",
+                "destination_state": "IL",
+                "departure_timezone": "America/Los_Angeles",
+                "destination_timezone": "America/Chicago",
+                "departure_airport": "Harry Reid International Airport",
+                "destination_airport": "Midway International Airport"
+            },
+            "search_parameters": {
+                "departure_iota": "LAS",
+                "destination_iota": "MDW",
+                "departure_date": "2024-12-22",
+                "return_date": null,
+                "travel_class": "Economy",
+                "search_timestamp": "20241215_130315"
+            },
+            "flight": {
+                "airline": "Southwest",
+                "departure_time": "5:00\u202fAM",
+                "arrival_time": "2:10\u202fPM",
+                "duration": "7 hr 10 min",
+                "stops": "1 stop in PHX",
+                "price": "$428",
+                "co2_emissions": "261 kg CO2e",
+                "emissions_variation": "+39% emissions",
+                "unix_departure_time": 1734872400,
+                "unix_arrival_time": 1734898200
+            }
+        },
+        {
+            "metadata": {
+                "departure_state": "NV",
+                "destination_state": "IL",
+                "departure_timezone": "America/Los_Angeles",
+                "destination_timezone": "America/Chicago",
+                "departure_airport": "Harry Reid International Airport",
+                "destination_airport": "Midway International Airport"
+            },
+            "search_parameters": {
+                "departure_iota": "LAS",
+                "destination_iota": "MDW",
+                "departure_date": "2024-12-22",
+                "return_date": null,
+                "travel_class": "Economy",
+                "search_timestamp": "20241215_130315"
+            },
+            "flight": {
+                "airline": "Southwest",
+                "departure_time": "6:20\u202fAM",
+                "arrival_time": "2:10\u202fPM",
+                "duration": "5 hr 50 min",
+                "stops": "1 stop in PHX",
+                "price": "$428",
+                "co2_emissions": "251 kg CO2e",
+                "emissions_variation": "+34% emissions",
+                "unix_departure_time": 1734877200,
+                "unix_arrival_time": 1734898200
+            }
+        },
+        {
+            "metadata": {
+                "departure_state": "NV",
+                "destination_state": "IL",
+                "departure_timezone": "America/Los_Angeles",
+                "destination_timezone": "America/Chicago",
+                "departure_airport": "Harry Reid International Airport",
+                "destination_airport": "Midway International Airport"
+            },
+            "search_parameters": {
+                "departure_iota": "LAS",
+                "destination_iota": "MDW",
+                "departure_date": "2024-12-22",
+                "return_date": null,
+                "travel_class": "Economy",
+                "search_timestamp": "20241215_130315"
+            },
+            "flight": {
+                "airline": "Southwest",
+                "departure_time": "5:15\u202fAM",
+                "arrival_time": "2:50\u202fPM",
+                "duration": "7 hr 35 min",
+                "stops": "1 stop in DAL",
+                "price": "$428",
+                "co2_emissions": "298 kg CO2e",
+                "emissions_variation": "+59% emissions",
+                "unix_departure_time": 1734873300,
+                "unix_arrival_time": 1734900600
+            }
+        },
+        {
+            "metadata": {
+                "departure_state": "NV",
+                "destination_state": "IL",
+                "departure_timezone": "America/Los_Angeles",
+                "destination_timezone": "America/Chicago",
+                "departure_airport": "Harry Reid International Airport",
+                "destination_airport": "Midway International Airport"
+            },
+            "search_parameters": {
+                "departure_iota": "LAS",
+                "destination_iota": "MDW",
+                "departure_date": "2024-12-22",
+                "return_date": null,
+                "travel_class": "Economy",
+                "search_timestamp": "20241215_130315"
+            },
+            "flight": {
+                "airline": "Southwest",
+                "departure_time": "5:45\u202fAM",
+                "arrival_time": "3:05\u202fPM",
+                "duration": "7 hr 20 min",
+                "stops": "1 stop in DEN",
+                "price": "$428",
+                "co2_emissions": "270 kg CO2e",
+                "emissions_variation": "+44% emissions",
+                "unix_departure_time": 1734875100,
+                "unix_arrival_time": 1734901500
+            }
+        },
+        {
+            "metadata": {
+                "departure_state": "NV",
+                "destination_state": "IL",
+                "departure_timezone": "America/Los_Angeles",
+                "destination_timezone": "America/Chicago",
+                "departure_airport": "Harry Reid International Airport",
+                "destination_airport": "Midway International Airport"
+            },
+            "search_parameters": {
+                "departure_iota": "LAS",
+                "destination_iota": "MDW",
+                "departure_date": "2024-12-22",
+                "return_date": null,
+                "travel_class": "Economy",
+                "search_timestamp": "20241215_130315"
+            },
+            "flight": {
+                "airline": "Southwest",
+                "departure_time": "7:40\u202fAM",
+                "arrival_time": "3:05\u202fPM",
+                "duration": "5 hr 25 min",
+                "stops": "1 stop in DEN",
+                "price": "$428",
+                "co2_emissions": "270 kg CO2e",
+                "emissions_variation": "+44% emissions",
+                "unix_departure_time": 1734882000,
+                "unix_arrival_time": 1734901500
+            }
+        },
+        {
+            "metadata": {
+                "departure_state": "NV",
+                "destination_state": "IL",
+                "departure_timezone": "America/Los_Angeles",
+                "destination_timezone": "America/Chicago",
+                "departure_airport": "Harry Reid International Airport",
+                "destination_airport": "Midway International Airport"
+            },
+            "search_parameters": {
+                "departure_iota": "LAS",
+                "destination_iota": "MDW",
+                "departure_date": "2024-12-22",
+                "return_date": null,
+                "travel_class": "Economy",
+                "search_timestamp": "20241215_130315"
+            },
+            "flight": {
+                "airline": "Southwest",
+                "departure_time": "6:00\u202fAM",
+                "arrival_time": "3:05\u202fPM",
+                "duration": "7 hr 5 min",
+                "stops": "1 stop in AUS",
+                "price": "$468",
+                "co2_emissions": "328 kg CO2e",
+                "emissions_variation": "+74% emissions",
+                "unix_departure_time": 1734876000,
+                "unix_arrival_time": 1734901500
+            }
+        },
+        {
+            "metadata": {
+                "departure_state": "NV",
+                "destination_state": "IL",
+                "departure_timezone": "America/Los_Angeles",
+                "destination_timezone": "America/Chicago",
+                "departure_airport": "Harry Reid International Airport",
+                "destination_airport": "Midway International Airport"
+            },
+            "search_parameters": {
+                "departure_iota": "LAS",
+                "destination_iota": "MDW",
+                "departure_date": "2024-12-22",
+                "return_date": null,
+                "travel_class": "Economy",
+                "search_timestamp": "20241215_130315"
+            },
+            "flight": {
+                "airline": "Southwest",
+                "departure_time": "6:05\u202fAM",
+                "arrival_time": "3:20\u202fPM",
+                "duration": "7 hr 15 min",
+                "stops": "1 stop in MCI",
+                "price": "$428",
+                "co2_emissions": "281 kg CO2e",
+                "emissions_variation": "+49% emissions",
+                "unix_departure_time": 1734876300,
+                "unix_arrival_time": 1734902400
+            }
+        },
+        {
+            "metadata": {
+                "departure_state": "NV",
+                "destination_state": "IL",
+                "departure_timezone": "America/Los_Angeles",
+                "destination_timezone": "America/Chicago",
+                "departure_airport": "Harry Reid International Airport",
+                "destination_airport": "Midway International Airport"
+            },
+            "search_parameters": {
+                "departure_iota": "LAS",
+                "destination_iota": "MDW",
+                "departure_date": "2024-12-22",
+                "return_date": null,
+                "travel_class": "Economy",
+                "search_timestamp": "20241215_130315"
+            },
+            "flight": {
+                "airline": "Southwest",
+                "departure_time": "6:15\u202fAM",
+                "arrival_time": "3:20\u202fPM",
+                "duration": "7 hr 5 min",
+                "stops": "2 stops in SAT, MCI",
+                "price": "$429",
+                "co2_emissions": "443 kg CO2e",
+                "emissions_variation": "+136% emissions",
+                "unix_departure_time": 1734876900,
+                "unix_arrival_time": 1734902400
+            }
+        },
+        {
+            "metadata": {
+                "departure_state": "NV",
+                "destination_state": "IL",
+                "departure_timezone": "America/Los_Angeles",
+                "destination_timezone": "America/Chicago",
+                "departure_airport": "Harry Reid International Airport",
+                "destination_airport": "Midway International Airport"
+            },
+            "search_parameters": {
+                "departure_iota": "LAS",
+                "destination_iota": "MDW",
+                "departure_date": "2024-12-22",
+                "return_date": null,
+                "travel_class": "Economy",
+                "search_timestamp": "20241215_130315"
+            },
+            "flight": {
+                "airline": "Southwest",
+                "departure_time": "6:00\u202fAM",
+                "arrival_time": "3:40\u202fPM",
+                "duration": "7 hr 40 min",
+                "stops": "1 stop in STL",
+                "price": "$428",
+                "co2_emissions": "256 kg CO2e",
+                "emissions_variation": "+36% emissions",
+                "unix_departure_time": 1734876000,
+                "unix_arrival_time": 1734903600
+            }
+        },
+        {
+            "metadata": {
+                "departure_state": "NV",
+                "destination_state": "IL",
+                "departure_timezone": "America/Los_Angeles",
+                "destination_timezone": "America/Chicago",
+                "departure_airport": "Harry Reid International Airport",
+                "destination_airport": "Midway International Airport"
+            },
+            "search_parameters": {
+                "departure_iota": "LAS",
+                "destination_iota": "MDW",
+                "departure_date": "2024-12-22",
+                "return_date": null,
+                "travel_class": "Economy",
+                "search_timestamp": "20241215_130315"
+            },
+            "flight": {
+                "airline": "Southwest",
+                "departure_time": "6:35\u202fAM",
+                "arrival_time": "3:50\u202fPM",
+                "duration": "7 hr 15 min",
+                "stops": "1 stop in LAX",
+                "price": "$428",
+                "co2_emissions": "303 kg CO2e",
+                "emissions_variation": "+61% emissions",
+                "unix_departure_time": 1734878100,
+                "unix_arrival_time": 1734904200
+            }
+        },
+        {
+            "metadata": {
+                "departure_state": "NV",
+                "destination_state": "IL",
+                "departure_timezone": "America/Los_Angeles",
+                "destination_timezone": "America/Chicago",
+                "departure_airport": "Harry Reid International Airport",
+                "destination_airport": "Midway International Airport"
+            },
+            "search_parameters": {
+                "departure_iota": "LAS",
+                "destination_iota": "MDW",
+                "departure_date": "2024-12-22",
+                "return_date": null,
+                "travel_class": "Economy",
+                "search_timestamp": "20241215_130315"
+            },
+            "flight": {
+                "airline": "Southwest",
+                "departure_time": "6:10\u202fAM",
+                "arrival_time": "3:50\u202fPM",
+                "duration": "7 hr 40 min",
+                "stops": "1 stop in SJC",
+                "price": "$468",
+                "co2_emissions": "285 kg CO2e",
+                "emissions_variation": "+52% emissions",
+                "unix_departure_time": 1734876600,
+                "unix_arrival_time": 1734904200
+            }
+        },
+        {
+            "metadata": {
+                "departure_state": "NV",
+                "destination_state": "IL",
+                "departure_timezone": "America/Los_Angeles",
+                "destination_timezone": "America/Chicago",
+                "departure_airport": "Harry Reid International Airport",
+                "destination_airport": "Midway International Airport"
+            },
+            "search_parameters": {
+                "departure_iota": "LAS",
+                "destination_iota": "MDW",
+                "departure_date": "2024-12-22",
+                "return_date": null,
+                "travel_class": "Economy",
+                "search_timestamp": "20241215_130315"
+            },
+            "flight": {
+                "airline": "Southwest",
+                "departure_time": "7:30\u202fAM",
+                "arrival_time": "4:10\u202fPM",
+                "duration": "6 hr 40 min",
+                "stops": "1 stop in DAL",
+                "price": "$428",
+                "co2_emissions": "298 kg CO2e",
+                "emissions_variation": "+59% emissions",
+                "unix_departure_time": 1734881400,
+                "unix_arrival_time": 1734905400
+            }
+        },
+        {
+            "metadata": {
+                "departure_state": "NV",
+                "destination_state": "IL",
+                "departure_timezone": "America/Los_Angeles",
+                "destination_timezone": "America/Chicago",
+                "departure_airport": "Harry Reid International Airport",
+                "destination_airport": "Midway International Airport"
+            },
+            "search_parameters": {
+                "departure_iota": "LAS",
+                "destination_iota": "MDW",
+                "departure_date": "2024-12-22",
+                "return_date": null,
+                "travel_class": "Economy",
+                "search_timestamp": "20241215_130315"
+            },
+            "flight": {
+                "airline": "Southwest",
+                "departure_time": "8:10\u202fAM",
+                "arrival_time": "4:10\u202fPM",
+                "duration": "6 hr",
+                "stops": "1 stop in OMA",
+                "price": "$428",
+                "co2_emissions": "277 kg CO2e",
+                "emissions_variation": "+47% emissions",
+                "unix_departure_time": 1734883800,
+                "unix_arrival_time": 1734905400
+            }
+        },
+        {
+            "metadata": {
+                "departure_state": "NV",
+                "destination_state": "IL",
+                "departure_timezone": "America/Los_Angeles",
+                "destination_timezone": "America/Chicago",
+                "departure_airport": "Harry Reid International Airport",
+                "destination_airport": "Midway International Airport"
+            },
+            "search_parameters": {
+                "departure_iota": "LAS",
+                "destination_iota": "MDW",
+                "departure_date": "2024-12-22",
+                "return_date": null,
+                "travel_class": "Economy",
+                "search_timestamp": "20241215_130315"
+            },
+            "flight": {
+                "airline": "Southwest",
+                "departure_time": "5:45\u202fAM",
+                "arrival_time": "4:10\u202fPM",
+                "duration": "8 hr 25 min",
+                "stops": "2 stops in DEN, OMA",
+                "price": "$433",
+                "co2_emissions": "354 kg CO2e",
+                "emissions_variation": "+88% emissions",
+                "unix_departure_time": 1734875100,
+                "unix_arrival_time": 1734905400
+            }
+        },
+        {
+            "metadata": {
+                "departure_state": "NV",
+                "destination_state": "IL",
+                "departure_timezone": "America/Los_Angeles",
+                "destination_timezone": "America/Chicago",
+                "departure_airport": "Harry Reid International Airport",
+                "destination_airport": "Midway International Airport"
+            },
+            "search_parameters": {
+                "departure_iota": "LAS",
+                "destination_iota": "MDW",
+                "departure_date": "2024-12-22",
+                "return_date": null,
+                "travel_class": "Economy",
+                "search_timestamp": "20241215_130315"
+            },
+            "flight": {
+                "airline": "Southwest",
+                "departure_time": "7:40\u202fAM",
+                "arrival_time": "4:10\u202fPM",
+                "duration": "6 hr 30 min",
+                "stops": "2 stops in DEN, OMA",
+                "price": "$433",
+                "co2_emissions": "354 kg CO2e",
+                "emissions_variation": "+88% emissions",
+                "unix_departure_time": 1734882000,
+                "unix_arrival_time": 1734905400
+            }
+        },
+        {
+            "metadata": {
+                "departure_state": "NV",
+                "destination_state": "IL",
+                "departure_timezone": "America/Los_Angeles",
+                "destination_timezone": "America/Chicago",
+                "departure_airport": "Harry Reid International Airport",
+                "destination_airport": "Midway International Airport"
+            },
+            "search_parameters": {
+                "departure_iota": "LAS",
+                "destination_iota": "MDW",
+                "departure_date": "2024-12-22",
+                "return_date": null,
+                "travel_class": "Economy",
+                "search_timestamp": "20241215_130315"
+            },
+            "flight": {
+                "airline": "Delta",
+                "departure_time": "7:25\u202fAM",
+                "arrival_time": "4:17\u202fPM",
+                "duration": "6 hr 52 min",
+                "stops": "1 stop in ATL",
+                "price": "$479",
+                "co2_emissions": "361 kg CO2e",
+                "emissions_variation": "+92% emissions",
+                "unix_departure_time": 1734881100,
+                "unix_arrival_time": 1734905820
+            }
+        },
+        {
+            "metadata": {
+                "departure_state": "NV",
+                "destination_state": "IL",
+                "departure_timezone": "America/Los_Angeles",
+                "destination_timezone": "America/Chicago",
+                "departure_airport": "Harry Reid International Airport",
+                "destination_airport": "Midway International Airport"
+            },
+            "search_parameters": {
+                "departure_iota": "LAS",
+                "destination_iota": "MDW",
+                "departure_date": "2024-12-22",
+                "return_date": null,
+                "travel_class": "Economy",
+                "search_timestamp": "20241215_130315"
+            },
+            "flight": {
+                "airline": "DeltaOperated by SkyWest DBA Delta Connection",
+                "departure_time": "6:00\u202fAM",
+                "arrival_time": "4:24\u202fPM",
+                "duration": "8 hr 24 min",
+                "stops": "1 stop in DTW",
+                "price": "$428",
+                "co2_emissions": "306 kg CO2e",
+                "emissions_variation": "+63% emissions",
+                "unix_departure_time": 1734876000,
+                "unix_arrival_time": 1734906240
+            }
+        },
+        {
+            "metadata": {
+                "departure_state": "NV",
+                "destination_state": "IL",
+                "departure_timezone": "America/Los_Angeles",
+                "destination_timezone": "America/Chicago",
+                "departure_airport": "Harry Reid International Airport",
+                "destination_airport": "Midway International Airport"
+            },
+            "search_parameters": {
+                "departure_iota": "LAS",
+                "destination_iota": "MDW",
+                "departure_date": "2024-12-22",
+                "return_date": null,
+                "travel_class": "Economy",
+                "search_timestamp": "20241215_130315"
+            },
+            "flight": {
+                "airline": "Southwest",
+                "departure_time": "8:40\u202fAM",
+                "arrival_time": "4:25\u202fPM",
+                "duration": "5 hr 45 min",
+                "stops": "1 stop in BNA",
+                "price": "$428",
+                "co2_emissions": "348 kg CO2e",
+                "emissions_variation": "+85% emissions",
+                "unix_departure_time": 1734885600,
+                "unix_arrival_time": 1734906300
+            }
+        },
+        {
+            "metadata": {
+                "departure_state": "NV",
+                "destination_state": "IL",
+                "departure_timezone": "America/Los_Angeles",
+                "destination_timezone": "America/Chicago",
+                "departure_airport": "Harry Reid International Airport",
+                "destination_airport": "Midway International Airport"
+            },
+            "search_parameters": {
+                "departure_iota": "LAS",
+                "destination_iota": "MDW",
+                "departure_date": "2024-12-22",
+                "return_date": null,
+                "travel_class": "Economy",
+                "search_timestamp": "20241215_130315"
+            },
+            "flight": {
+                "airline": "Southwest",
+                "departure_time": "6:20\u202fAM",
+                "arrival_time": "4:45\u202fPM",
+                "duration": "8 hr 25 min",
+                "stops": "1 stop in PHX",
+                "price": "$428",
+                "co2_emissions": "226 kg CO2e",
+                "emissions_variation": "+20% emissions",
+                "unix_departure_time": 1734877200,
+                "unix_arrival_time": 1734907500
+            }
+        },
+        {
+            "metadata": {
+                "departure_state": "NV",
+                "destination_state": "IL",
+                "departure_timezone": "America/Los_Angeles",
+                "destination_timezone": "America/Chicago",
+                "departure_airport": "Harry Reid International Airport",
+                "destination_airport": "Midway International Airport"
+            },
+            "search_parameters": {
+                "departure_iota": "LAS",
+                "destination_iota": "MDW",
+                "departure_date": "2024-12-22",
+                "return_date": null,
+                "travel_class": "Economy",
+                "search_timestamp": "20241215_130315"
+            },
+            "flight": {
+                "airline": "Southwest",
+                "departure_time": "9:25\u202fAM",
+                "arrival_time": "4:45\u202fPM",
+                "duration": "5 hr 20 min",
+                "stops": "1 stop in PHX",
+                "price": "$428",
+                "co2_emissions": "244 kg CO2e",
+                "emissions_variation": "+30% emissions",
+                "unix_departure_time": 1734888300,
+                "unix_arrival_time": 1734907500
+            }
+        },
+        {
+            "metadata": {
+                "departure_state": "NV",
+                "destination_state": "IL",
+                "departure_timezone": "America/Los_Angeles",
+                "destination_timezone": "America/Chicago",
+                "departure_airport": "Harry Reid International Airport",
+                "destination_airport": "Midway International Airport"
+            },
+            "search_parameters": {
+                "departure_iota": "LAS",
+                "destination_iota": "MDW",
+                "departure_date": "2024-12-22",
+                "return_date": null,
+                "travel_class": "Economy",
+                "search_timestamp": "20241215_130315"
+            },
+            "flight": {
+                "airline": "Southwest",
+                "departure_time": "11:25\u202fAM",
+                "arrival_time": "5:00\u202fPM",
+                "duration": "3 hr 35 min",
+                "stops": "Nonstop",
+                "price": "$419",
+                "co2_emissions": "208 kg CO2e",
+                "emissions_variation": "+11% emissions",
+                "unix_departure_time": 1734895500,
+                "unix_arrival_time": 1734908400
+            }
+        },
+        {
+            "metadata": {
+                "departure_state": "NV",
+                "destination_state": "IL",
+                "departure_timezone": "America/Los_Angeles",
+                "destination_timezone": "America/Chicago",
+                "departure_airport": "Harry Reid International Airport",
+                "destination_airport": "Midway International Airport"
+            },
+            "search_parameters": {
+                "departure_iota": "LAS",
+                "destination_iota": "MDW",
+                "departure_date": "2024-12-22",
+                "return_date": null,
+                "travel_class": "Economy",
+                "search_timestamp": "20241215_130315"
+            },
+            "flight": {
+                "airline": "Southwest",
+                "departure_time": "9:20\u202fAM",
+                "arrival_time": "5:15\u202fPM",
+                "duration": "5 hr 55 min",
+                "stops": "1 stop in CMH",
+                "price": "$428",
+                "co2_emissions": "309 kg CO2e",
+                "emissions_variation": "+64% emissions",
+                "unix_departure_time": 1734888000,
+                "unix_arrival_time": 1734909300
+            }
+        },
+        {
+            "metadata": {
+                "departure_state": "NV",
+                "destination_state": "IL",
+                "departure_timezone": "America/Los_Angeles",
+                "destination_timezone": "America/Chicago",
+                "departure_airport": "Harry Reid International Airport",
+                "destination_airport": "Midway International Airport"
+            },
+            "search_parameters": {
+                "departure_iota": "LAS",
+                "destination_iota": "MDW",
+                "departure_date": "2024-12-22",
+                "return_date": null,
+                "travel_class": "Economy",
+                "search_timestamp": "20241215_130315"
+            },
+            "flight": {
+                "airline": "DeltaOperated by SkyWest DBA Delta Connection",
+                "departure_time": "9:34\u202fAM",
+                "arrival_time": "5:44\u202fPM",
+                "duration": "6 hr 10 min",
+                "stops": "1 stop in MSP",
+                "price": "$428",
+                "co2_emissions": "288 kg CO2e",
+                "emissions_variation": "+53% emissions",
+                "unix_departure_time": 1734888840,
+                "unix_arrival_time": 1734911040
+            }
+        },
+        {
+            "metadata": {
+                "departure_state": "NV",
+                "destination_state": "IL",
+                "departure_timezone": "America/Los_Angeles",
+                "destination_timezone": "America/Chicago",
+                "departure_airport": "Harry Reid International Airport",
+                "destination_airport": "Midway International Airport"
+            },
+            "search_parameters": {
+                "departure_iota": "LAS",
+                "destination_iota": "MDW",
+                "departure_date": "2024-12-22",
+                "return_date": null,
+                "travel_class": "Economy",
+                "search_timestamp": "20241215_130315"
+            },
+            "flight": {
+                "airline": "Southwest",
+                "departure_time": "8:05\u202fAM",
+                "arrival_time": "5:50\u202fPM",
+                "duration": "7 hr 45 min",
+                "stops": "1 stop in SMF",
+                "price": "$428",
+                "co2_emissions": "281 kg CO2e",
+                "emissions_variation": "+49% emissions",
+                "unix_departure_time": 1734883500,
+                "unix_arrival_time": 1734911400
+            }
+        },
+        {
+            "metadata": {
+                "departure_state": "NV",
+                "destination_state": "IL",
+                "departure_timezone": "America/Los_Angeles",
+                "destination_timezone": "America/Chicago",
+                "departure_airport": "Harry Reid International Airport",
+                "destination_airport": "Midway International Airport"
+            },
+            "search_parameters": {
+                "departure_iota": "LAS",
+                "destination_iota": "MDW",
+                "departure_date": "2024-12-22",
+                "return_date": null,
+                "travel_class": "Economy",
+                "search_timestamp": "20241215_130315"
+            },
+            "flight": {
+                "airline": "Southwest",
+                "departure_time": "9:20\u202fAM",
+                "arrival_time": "5:50\u202fPM",
+                "duration": "6 hr 30 min",
+                "stops": "1 stop in SMF",
+                "price": "$428",
+                "co2_emissions": "269 kg CO2e",
+                "emissions_variation": "+43% emissions",
+                "unix_departure_time": 1734888000,
+                "unix_arrival_time": 1734911400
+            }
+        },
+        {
+            "metadata": {
+                "departure_state": "NV",
+                "destination_state": "IL",
+                "departure_timezone": "America/Los_Angeles",
+                "destination_timezone": "America/Chicago",
+                "departure_airport": "Harry Reid International Airport",
+                "destination_airport": "Midway International Airport"
+            },
+            "search_parameters": {
+                "departure_iota": "LAS",
+                "destination_iota": "MDW",
+                "departure_date": "2024-12-22",
+                "return_date": null,
+                "travel_class": "Economy",
+                "search_timestamp": "20241215_130315"
+            },
+            "flight": {
+                "airline": "Southwest",
+                "departure_time": "9:25\u202fAM",
+                "arrival_time": "6:10\u202fPM",
+                "duration": "6 hr 45 min",
+                "stops": "1 stop in PHX",
+                "price": "$428",
+                "co2_emissions": "296 kg CO2e",
+                "emissions_variation": "+57% emissions",
+                "unix_departure_time": 1734888300,
+                "unix_arrival_time": 1734912600
+            }
+        },
+        {
+            "metadata": {
+                "departure_state": "NV",
+                "destination_state": "IL",
+                "departure_timezone": "America/Los_Angeles",
+                "destination_timezone": "America/Chicago",
+                "departure_airport": "Harry Reid International Airport",
+                "destination_airport": "Midway International Airport"
+            },
+            "search_parameters": {
+                "departure_iota": "LAS",
+                "destination_iota": "MDW",
+                "departure_date": "2024-12-22",
+                "return_date": null,
+                "travel_class": "Economy",
+                "search_timestamp": "20241215_130315"
+            },
+            "flight": {
+                "airline": "Southwest",
+                "departure_time": "9:45\u202fAM",
+                "arrival_time": "6:40\u202fPM",
+                "duration": "6 hr 55 min",
+                "stops": "1 stop in BUR",
+                "price": "$468",
+                "co2_emissions": "364 kg CO2e",
+                "emissions_variation": "+94% emissions",
+                "unix_departure_time": 1734889500,
+                "unix_arrival_time": 1734914400
+            }
+        },
+        {
+            "metadata": {
+                "departure_state": "NV",
+                "destination_state": "IL",
+                "departure_timezone": "America/Los_Angeles",
+                "destination_timezone": "America/Chicago",
+                "departure_airport": "Harry Reid International Airport",
+                "destination_airport": "Midway International Airport"
+            },
+            "search_parameters": {
+                "departure_iota": "LAS",
+                "destination_iota": "MDW",
+                "departure_date": "2024-12-22",
+                "return_date": null,
+                "travel_class": "Economy",
+                "search_timestamp": "20241215_130315"
+            },
+            "flight": {
+                "airline": "Southwest",
+                "departure_time": "8:50\u202fAM",
+                "arrival_time": "6:50\u202fPM",
+                "duration": "8 hr",
+                "stops": "1 stop in OKC",
+                "price": "$428",
+                "co2_emissions": "318 kg CO2e",
+                "emissions_variation": "+69% emissions",
+                "unix_departure_time": 1734886200,
+                "unix_arrival_time": 1734915000
+            }
+        },
+        {
+            "metadata": {
+                "departure_state": "NV",
+                "destination_state": "IL",
+                "departure_timezone": "America/Los_Angeles",
+                "destination_timezone": "America/Chicago",
+                "departure_airport": "Harry Reid International Airport",
+                "destination_airport": "Midway International Airport"
+            },
+            "search_parameters": {
+                "departure_iota": "LAS",
+                "destination_iota": "MDW",
+                "departure_date": "2024-12-22",
+                "return_date": null,
+                "travel_class": "Economy",
+                "search_timestamp": "20241215_130315"
+            },
+            "flight": {
+                "airline": "Southwest",
+                "departure_time": "9:50\u202fAM",
+                "arrival_time": "7:05\u202fPM",
+                "duration": "7 hr 15 min",
+                "stops": "1 stop in DEN",
+                "price": "$428",
+                "co2_emissions": "237 kg CO2e",
+                "emissions_variation": "+26% emissions",
+                "unix_departure_time": 1734889800,
+                "unix_arrival_time": 1734915900
+            }
+        },
+        {
+            "metadata": {
+                "departure_state": "NV",
+                "destination_state": "IL",
+                "departure_timezone": "America/Los_Angeles",
+                "destination_timezone": "America/Chicago",
+                "departure_airport": "Harry Reid International Airport",
+                "destination_airport": "Midway International Airport"
+            },
+            "search_parameters": {
+                "departure_iota": "LAS",
+                "destination_iota": "MDW",
+                "departure_date": "2024-12-22",
+                "return_date": null,
+                "travel_class": "Economy",
+                "search_timestamp": "20241215_130315"
+            },
+            "flight": {
+                "airline": "Southwest",
+                "departure_time": "10:10\u202fAM",
+                "arrival_time": "7:05\u202fPM",
+                "duration": "6 hr 55 min",
+                "stops": "1 stop in ELP",
+                "price": "$468",
+                "co2_emissions": "268 kg CO2e",
+                "emissions_variation": "+43% emissions",
+                "unix_departure_time": 1734891000,
+                "unix_arrival_time": 1734915900
+            }
+        },
+        {
+            "metadata": {
+                "departure_state": "NV",
+                "destination_state": "IL",
+                "departure_timezone": "America/Los_Angeles",
+                "destination_timezone": "America/Chicago",
+                "departure_airport": "Harry Reid International Airport",
+                "destination_airport": "Midway International Airport"
+            },
+            "search_parameters": {
+                "departure_iota": "LAS",
+                "destination_iota": "MDW",
+                "departure_date": "2024-12-22",
+                "return_date": null,
+                "travel_class": "Economy",
+                "search_timestamp": "20241215_130315"
+            },
+            "flight": {
+                "airline": "Southwest",
+                "departure_time": "11:20\u202fAM",
+                "arrival_time": "7:05\u202fPM",
+                "duration": "5 hr 45 min",
+                "stops": "1 stop in DEN",
+                "price": "$468",
+                "co2_emissions": "270 kg CO2e",
+                "emissions_variation": "+44% emissions",
+                "unix_departure_time": 1734895200,
+                "unix_arrival_time": 1734915900
+            }
+        },
+        {
+            "metadata": {
+                "departure_state": "NV",
+                "destination_state": "IL",
+                "departure_timezone": "America/Los_Angeles",
+                "destination_timezone": "America/Chicago",
+                "departure_airport": "Harry Reid International Airport",
+                "destination_airport": "Midway International Airport"
+            },
+            "search_parameters": {
+                "departure_iota": "LAS",
+                "destination_iota": "MDW",
+                "departure_date": "2024-12-22",
+                "return_date": null,
+                "travel_class": "Economy",
+                "search_timestamp": "20241215_130315"
+            },
+            "flight": {
+                "airline": "Southwest",
+                "departure_time": "12:15\u202fPM",
+                "arrival_time": "7:10\u202fPM",
+                "duration": "4 hr 55 min",
+                "stops": "1 stop in TUL",
+                "price": "$424",
+                "co2_emissions": "342 kg CO2e",
+                "emissions_variation": "+82% emissions",
+                "unix_departure_time": 1734898500,
+                "unix_arrival_time": 1734916200
+            }
+        },
+        {
+            "metadata": {
+                "departure_state": "NV",
+                "destination_state": "IL",
+                "departure_timezone": "America/Los_Angeles",
+                "destination_timezone": "America/Chicago",
+                "departure_airport": "Harry Reid International Airport",
+                "destination_airport": "Midway International Airport"
+            },
+            "search_parameters": {
+                "departure_iota": "LAS",
+                "destination_iota": "MDW",
+                "departure_date": "2024-12-22",
+                "return_date": null,
+                "travel_class": "Economy",
+                "search_timestamp": "20241215_130315"
+            },
+            "flight": {
+                "airline": "Southwest",
+                "departure_time": "12:20\u202fPM",
+                "arrival_time": "7:30\u202fPM",
+                "duration": "5 hr 10 min",
+                "stops": "1 stop in SLC",
+                "price": "$424",
+                "co2_emissions": "300 kg CO2e",
+                "emissions_variation": "+60% emissions",
+                "unix_departure_time": 1734898800,
+                "unix_arrival_time": 1734917400
+            }
+        },
+        {
+            "metadata": {
+                "departure_state": "NV",
+                "destination_state": "IL",
+                "departure_timezone": "America/Los_Angeles",
+                "destination_timezone": "America/Chicago",
+                "departure_airport": "Harry Reid International Airport",
+                "destination_airport": "Midway International Airport"
+            },
+            "search_parameters": {
+                "departure_iota": "LAS",
+                "destination_iota": "MDW",
+                "departure_date": "2024-12-22",
+                "return_date": null,
+                "travel_class": "Economy",
+                "search_timestamp": "20241215_130315"
+            },
+            "flight": {
+                "airline": "Southwest",
+                "departure_time": "8:55\u202fAM",
+                "arrival_time": "7:30\u202fPM",
+                "duration": "8 hr 35 min",
+                "stops": "1 stop in STL",
+                "price": "$434",
+                "co2_emissions": "261 kg CO2e",
+                "emissions_variation": "+39% emissions",
+                "unix_departure_time": 1734886500,
+                "unix_arrival_time": 1734917400
+            }
+        },
+        {
+            "metadata": {
+                "departure_state": "NV",
+                "destination_state": "IL",
+                "departure_timezone": "America/Los_Angeles",
+                "destination_timezone": "America/Chicago",
+                "departure_airport": "Harry Reid International Airport",
+                "destination_airport": "Midway International Airport"
+            },
+            "search_parameters": {
+                "departure_iota": "LAS",
+                "destination_iota": "MDW",
+                "departure_date": "2024-12-22",
+                "return_date": null,
+                "travel_class": "Economy",
+                "search_timestamp": "20241215_130315"
+            },
+            "flight": {
+                "airline": "Southwest",
+                "departure_time": "11:45\u202fAM",
+                "arrival_time": "7:30\u202fPM",
+                "duration": "5 hr 45 min",
+                "stops": "1 stop in STL",
+                "price": "$468",
+                "co2_emissions": "261 kg CO2e",
+                "emissions_variation": "+39% emissions",
+                "unix_departure_time": 1734896700,
+                "unix_arrival_time": 1734917400
+            }
+        },
+        {
+            "metadata": {
+                "departure_state": "NV",
+                "destination_state": "IL",
+                "departure_timezone": "America/Los_Angeles",
+                "destination_timezone": "America/Chicago",
+                "departure_airport": "Harry Reid International Airport",
+                "destination_airport": "Midway International Airport"
+            },
+            "search_parameters": {
+                "departure_iota": "LAS",
+                "destination_iota": "MDW",
+                "departure_date": "2024-12-22",
+                "return_date": null,
+                "travel_class": "Economy",
+                "search_timestamp": "20241215_130315"
+            },
+            "flight": {
+                "airline": "Southwest",
+                "departure_time": "2:00\u202fPM",
+                "arrival_time": "7:35\u202fPM",
+                "duration": "3 hr 35 min",
+                "stops": "Nonstop",
+                "price": "$419",
+                "co2_emissions": "208 kg CO2e",
+                "emissions_variation": "+11% emissions",
+                "unix_departure_time": 1734904800,
+                "unix_arrival_time": 1734917700
+            }
+        },
+        {
+            "metadata": {
+                "departure_state": "NV",
+                "destination_state": "IL",
+                "departure_timezone": "America/Los_Angeles",
+                "destination_timezone": "America/Chicago",
+                "departure_airport": "Harry Reid International Airport",
+                "destination_airport": "Midway International Airport"
+            },
+            "search_parameters": {
+                "departure_iota": "LAS",
+                "destination_iota": "MDW",
+                "departure_date": "2024-12-22",
+                "return_date": null,
+                "travel_class": "Economy",
+                "search_timestamp": "20241215_130315"
+            },
+            "flight": {
+                "airline": "Southwest",
+                "departure_time": "11:25\u202fAM",
+                "arrival_time": "7:35\u202fPM",
+                "duration": "6 hr 10 min",
+                "stops": "1 stop in MEM",
+                "price": "$428",
+                "co2_emissions": "339 kg CO2e",
+                "emissions_variation": "+80% emissions",
+                "unix_departure_time": 1734895500,
+                "unix_arrival_time": 1734917700
+            }
+        },
+        {
+            "metadata": {
+                "departure_state": "NV",
+                "destination_state": "IL",
+                "departure_timezone": "America/Los_Angeles",
+                "destination_timezone": "America/Chicago",
+                "departure_airport": "Harry Reid International Airport",
+                "destination_airport": "Midway International Airport"
+            },
+            "search_parameters": {
+                "departure_iota": "LAS",
+                "destination_iota": "MDW",
+                "departure_date": "2024-12-22",
+                "return_date": null,
+                "travel_class": "Economy",
+                "search_timestamp": "20241215_130315"
+            },
+            "flight": {
+                "airline": "Southwest",
+                "departure_time": "9:25\u202fAM",
+                "arrival_time": "7:35\u202fPM",
+                "duration": "8 hr 10 min",
+                "stops": "2 stops in PHX, MEM",
+                "price": "$433",
+                "co2_emissions": "344 kg CO2e",
+                "emissions_variation": "+83% emissions",
+                "unix_departure_time": 1734888300,
+                "unix_arrival_time": 1734917700
+            }
+        },
+        {
+            "metadata": {
+                "departure_state": "NV",
+                "destination_state": "IL",
+                "departure_timezone": "America/Los_Angeles",
+                "destination_timezone": "America/Chicago",
+                "departure_airport": "Harry Reid International Airport",
+                "destination_airport": "Midway International Airport"
+            },
+            "search_parameters": {
+                "departure_iota": "LAS",
+                "destination_iota": "MDW",
+                "departure_date": "2024-12-22",
+                "return_date": null,
+                "travel_class": "Economy",
+                "search_timestamp": "20241215_130315"
+            },
+            "flight": {
+                "airline": "Southwest",
+                "departure_time": "9:05\u202fAM",
+                "arrival_time": "7:40\u202fPM",
+                "duration": "8 hr 35 min",
+                "stops": "1 stop in BHM",
+                "price": "$428",
+                "co2_emissions": "353 kg CO2e",
+                "emissions_variation": "+88% emissions",
+                "unix_departure_time": 1734887100,
+                "unix_arrival_time": 1734918000
+            }
+        },
+        {
+            "metadata": {
+                "departure_state": "NV",
+                "destination_state": "IL",
+                "departure_timezone": "America/Los_Angeles",
+                "destination_timezone": "America/Chicago",
+                "departure_airport": "Harry Reid International Airport",
+                "destination_airport": "Midway International Airport"
+            },
+            "search_parameters": {
+                "departure_iota": "LAS",
+                "destination_iota": "MDW",
+                "departure_date": "2024-12-22",
+                "return_date": null,
+                "travel_class": "Economy",
+                "search_timestamp": "20241215_130315"
+            },
+            "flight": {
+                "airline": "Southwest",
+                "departure_time": "9:25\u202fAM",
+                "arrival_time": "7:40\u202fPM",
+                "duration": "8 hr 15 min",
+                "stops": "1 stop in PHX",
+                "price": "$428",
+                "co2_emissions": "296 kg CO2e",
+                "emissions_variation": "+57% emissions",
+                "unix_departure_time": 1734888300,
+                "unix_arrival_time": 1734918000
+            }
+        },
+        {
+            "metadata": {
+                "departure_state": "NV",
+                "destination_state": "IL",
+                "departure_timezone": "America/Los_Angeles",
+                "destination_timezone": "America/Chicago",
+                "departure_airport": "Harry Reid International Airport",
+                "destination_airport": "Midway International Airport"
+            },
+            "search_parameters": {
+                "departure_iota": "LAS",
+                "destination_iota": "MDW",
+                "departure_date": "2024-12-22",
+                "return_date": null,
+                "travel_class": "Economy",
+                "search_timestamp": "20241215_130315"
+            },
+            "flight": {
+                "airline": "Southwest",
+                "departure_time": "11:15\u202fAM",
+                "arrival_time": "7:40\u202fPM",
+                "duration": "6 hr 25 min",
+                "stops": "1 stop in LGB",
+                "price": "$428",
+                "co2_emissions": "311 kg CO2e",
+                "emissions_variation": "+65% emissions",
+                "unix_departure_time": 1734894900,
+                "unix_arrival_time": 1734918000
+            }
+        },
+        {
+            "metadata": {
+                "departure_state": "NV",
+                "destination_state": "IL",
+                "departure_timezone": "America/Los_Angeles",
+                "destination_timezone": "America/Chicago",
+                "departure_airport": "Harry Reid International Airport",
+                "destination_airport": "Midway International Airport"
+            },
+            "search_parameters": {
+                "departure_iota": "LAS",
+                "destination_iota": "MDW",
+                "departure_date": "2024-12-22",
+                "return_date": null,
+                "travel_class": "Economy",
+                "search_timestamp": "20241215_130315"
+            },
+            "flight": {
+                "airline": "Southwest",
+                "departure_time": "12:05\u202fPM",
+                "arrival_time": "7:40\u202fPM",
+                "duration": "5 hr 35 min",
+                "stops": "1 stop in PHX",
+                "price": "$428",
+                "co2_emissions": "277 kg CO2e",
+                "emissions_variation": "+47% emissions",
+                "unix_departure_time": 1734897900,
+                "unix_arrival_time": 1734918000
+            }
+        },
+        {
+            "metadata": {
+                "departure_state": "NV",
+                "destination_state": "IL",
+                "departure_timezone": "America/Los_Angeles",
+                "destination_timezone": "America/Chicago",
+                "departure_airport": "Harry Reid International Airport",
+                "destination_airport": "Midway International Airport"
+            },
+            "search_parameters": {
+                "departure_iota": "LAS",
+                "destination_iota": "MDW",
+                "departure_date": "2024-12-22",
+                "return_date": null,
+                "travel_class": "Economy",
+                "search_timestamp": "20241215_130315"
+            },
+            "flight": {
+                "airline": "Southwest",
+                "departure_time": "11:00\u202fAM",
+                "arrival_time": "7:45\u202fPM",
+                "duration": "6 hr 45 min",
+                "stops": "1 stop in DTW",
+                "price": "$428",
+                "co2_emissions": "263 kg CO2e",
+                "emissions_variation": "+40% emissions",
+                "unix_departure_time": 1734894000,
+                "unix_arrival_time": 1734918300
+            }
+        },
+        {
+            "metadata": {
+                "departure_state": "NV",
+                "destination_state": "IL",
+                "departure_timezone": "America/Los_Angeles",
+                "destination_timezone": "America/Chicago",
+                "departure_airport": "Harry Reid International Airport",
+                "destination_airport": "Midway International Airport"
+            },
+            "search_parameters": {
+                "departure_iota": "LAS",
+                "destination_iota": "MDW",
+                "departure_date": "2024-12-22",
+                "return_date": null,
+                "travel_class": "Economy",
+                "search_timestamp": "20241215_130315"
+            },
+            "flight": {
+                "airline": "Southwest",
+                "departure_time": "12:35\u202fPM",
+                "arrival_time": "7:50\u202fPM",
+                "duration": "5 hr 15 min",
+                "stops": "1 stop in GRR",
+                "price": "$464",
+                "co2_emissions": "335 kg CO2e",
+                "emissions_variation": "+78% emissions",
+                "unix_departure_time": 1734899700,
+                "unix_arrival_time": 1734918600
+            }
+        },
+        {
+            "metadata": {
+                "departure_state": "NV",
+                "destination_state": "IL",
+                "departure_timezone": "America/Los_Angeles",
+                "destination_timezone": "America/Chicago",
+                "departure_airport": "Harry Reid International Airport",
+                "destination_airport": "Midway International Airport"
+            },
+            "search_parameters": {
+                "departure_iota": "LAS",
+                "destination_iota": "MDW",
+                "departure_date": "2024-12-22",
+                "return_date": null,
+                "travel_class": "Economy",
+                "search_timestamp": "20241215_130315"
+            },
+            "flight": {
+                "airline": "Southwest",
+                "departure_time": "9:50\u202fAM",
+                "arrival_time": "8:05\u202fPM",
+                "duration": "8 hr 15 min",
+                "stops": "1 stop in DAL",
+                "price": "$428",
+                "co2_emissions": "316 kg CO2e",
+                "emissions_variation": "+68% emissions",
+                "unix_departure_time": 1734889800,
+                "unix_arrival_time": 1734919500
+            }
+        },
+        {
+            "metadata": {
+                "departure_state": "NV",
+                "destination_state": "IL",
+                "departure_timezone": "America/Los_Angeles",
+                "destination_timezone": "America/Chicago",
+                "departure_airport": "Harry Reid International Airport",
+                "destination_airport": "Midway International Airport"
+            },
+            "search_parameters": {
+                "departure_iota": "LAS",
+                "destination_iota": "MDW",
+                "departure_date": "2024-12-22",
+                "return_date": null,
+                "travel_class": "Economy",
+                "search_timestamp": "20241215_130315"
+            },
+            "flight": {
+                "airline": "Southwest",
+                "departure_time": "12:30\u202fPM",
+                "arrival_time": "8:05\u202fPM",
+                "duration": "5 hr 35 min",
+                "stops": "1 stop in DAL",
+                "price": "$428",
+                "co2_emissions": "295 kg CO2e",
+                "emissions_variation": "+57% emissions",
+                "unix_departure_time": 1734899400,
+                "unix_arrival_time": 1734919500
+            }
+        },
+        {
+            "metadata": {
+                "departure_state": "NV",
+                "destination_state": "IL",
+                "departure_timezone": "America/Los_Angeles",
+                "destination_timezone": "America/Chicago",
+                "departure_airport": "Harry Reid International Airport",
+                "destination_airport": "Midway International Airport"
+            },
+            "search_parameters": {
+                "departure_iota": "LAS",
+                "destination_iota": "MDW",
+                "departure_date": "2024-12-22",
+                "return_date": null,
+                "travel_class": "Economy",
+                "search_timestamp": "20241215_130315"
+            },
+            "flight": {
+                "airline": "Southwest",
+                "departure_time": "7:30\u202fAM",
+                "arrival_time": "8:15\u202fPM",
+                "duration": "10 hr 45 min",
+                "stops": "1 stop in MCO",
+                "price": "$428",
+                "co2_emissions": "413 kg CO2e",
+                "emissions_variation": "+120% emissions",
+                "unix_departure_time": 1734881400,
+                "unix_arrival_time": 1734920100
+            }
+        },
+        {
+            "metadata": {
+                "departure_state": "NV",
+                "destination_state": "IL",
+                "departure_timezone": "America/Los_Angeles",
+                "destination_timezone": "America/Chicago",
+                "departure_airport": "Harry Reid International Airport",
+                "destination_airport": "Midway International Airport"
+            },
+            "search_parameters": {
+                "departure_iota": "LAS",
+                "destination_iota": "MDW",
+                "departure_date": "2024-12-22",
+                "return_date": null,
+                "travel_class": "Economy",
+                "search_timestamp": "20241215_130315"
+            },
+            "flight": {
+                "airline": "Southwest",
+                "departure_time": "12:55\u202fPM",
+                "arrival_time": "8:35\u202fPM",
+                "duration": "5 hr 40 min",
+                "stops": "1 stop in BNA",
+                "price": "$468",
+                "co2_emissions": "362 kg CO2e",
+                "emissions_variation": "+93% emissions",
+                "unix_departure_time": 1734900900,
+                "unix_arrival_time": 1734921300
+            }
+        },
+        {
+            "metadata": {
+                "departure_state": "NV",
+                "destination_state": "IL",
+                "departure_timezone": "America/Los_Angeles",
+                "destination_timezone": "America/Chicago",
+                "departure_airport": "Harry Reid International Airport",
+                "destination_airport": "Midway International Airport"
+            },
+            "search_parameters": {
+                "departure_iota": "LAS",
+                "destination_iota": "MDW",
+                "departure_date": "2024-12-22",
+                "return_date": null,
+                "travel_class": "Economy",
+                "search_timestamp": "20241215_130315"
+            },
+            "flight": {
+                "airline": "Southwest",
+                "departure_time": "11:20\u202fAM",
+                "arrival_time": "8:40\u202fPM",
+                "duration": "7 hr 20 min",
+                "stops": "1 stop in DEN",
+                "price": "$428",
+                "co2_emissions": "291 kg CO2e",
+                "emissions_variation": "+55% emissions",
+                "unix_departure_time": 1734895200,
+                "unix_arrival_time": 1734921600
+            }
+        },
+        {
+            "metadata": {
+                "departure_state": "NV",
+                "destination_state": "IL",
+                "departure_timezone": "America/Los_Angeles",
+                "destination_timezone": "America/Chicago",
+                "departure_airport": "Harry Reid International Airport",
+                "destination_airport": "Midway International Airport"
+            },
+            "search_parameters": {
+                "departure_iota": "LAS",
+                "destination_iota": "MDW",
+                "departure_date": "2024-12-22",
+                "return_date": null,
+                "travel_class": "Economy",
+                "search_timestamp": "20241215_130315"
+            },
+            "flight": {
+                "airline": "Southwest",
+                "departure_time": "1:15\u202fPM",
+                "arrival_time": "8:40\u202fPM",
+                "duration": "5 hr 25 min",
+                "stops": "1 stop in DEN",
+                "price": "$428",
+                "co2_emissions": "291 kg CO2e",
+                "emissions_variation": "+55% emissions",
+                "unix_departure_time": 1734902100,
+                "unix_arrival_time": 1734921600
+            }
+        },
+        {
+            "metadata": {
+                "departure_state": "NV",
+                "destination_state": "IL",
+                "departure_timezone": "America/Los_Angeles",
+                "destination_timezone": "America/Chicago",
+                "departure_airport": "Harry Reid International Airport",
+                "destination_airport": "Midway International Airport"
+            },
+            "search_parameters": {
+                "departure_iota": "LAS",
+                "destination_iota": "MDW",
+                "departure_date": "2024-12-22",
+                "return_date": null,
+                "travel_class": "Economy",
+                "search_timestamp": "20241215_130315"
+            },
+            "flight": {
+                "airline": "Southwest",
+                "departure_time": "11:45\u202fAM",
+                "arrival_time": "9:20\u202fPM",
+                "duration": "7 hr 35 min",
+                "stops": "1 stop in MSP",
+                "price": "$428",
+                "co2_emissions": "328 kg CO2e",
+                "emissions_variation": "+74% emissions",
+                "unix_departure_time": 1734896700,
+                "unix_arrival_time": 1734924000
+            }
+        },
+        {
+            "metadata": {
+                "departure_state": "NV",
+                "destination_state": "IL",
+                "departure_timezone": "America/Los_Angeles",
+                "destination_timezone": "America/Chicago",
+                "departure_airport": "Harry Reid International Airport",
+                "destination_airport": "Midway International Airport"
+            },
+            "search_parameters": {
+                "departure_iota": "LAS",
+                "destination_iota": "MDW",
+                "departure_date": "2024-12-22",
+                "return_date": null,
+                "travel_class": "Economy",
+                "search_timestamp": "20241215_130315"
+            },
+            "flight": {
+                "airline": "Southwest",
+                "departure_time": "1:15\u202fPM",
+                "arrival_time": "9:35\u202fPM",
+                "duration": "6 hr 20 min",
+                "stops": "1 stop in MCI",
+                "price": "$428",
+                "co2_emissions": "258 kg CO2e",
+                "emissions_variation": "+37% emissions",
+                "unix_departure_time": 1734902100,
+                "unix_arrival_time": 1734924900
+            }
+        },
+        {
+            "metadata": {
+                "departure_state": "NV",
+                "destination_state": "IL",
+                "departure_timezone": "America/Los_Angeles",
+                "destination_timezone": "America/Chicago",
+                "departure_airport": "Harry Reid International Airport",
+                "destination_airport": "Midway International Airport"
+            },
+            "search_parameters": {
+                "departure_iota": "LAS",
+                "destination_iota": "MDW",
+                "departure_date": "2024-12-22",
+                "return_date": null,
+                "travel_class": "Economy",
+                "search_timestamp": "20241215_130315"
+            },
+            "flight": {
+                "airline": "Southwest",
+                "departure_time": "12:05\u202fPM",
+                "arrival_time": "9:45\u202fPM",
+                "duration": "7 hr 40 min",
+                "stops": "1 stop in PHX",
+                "price": "$428",
+                "co2_emissions": "226 kg CO2e",
+                "emissions_variation": "+20% emissions",
+                "unix_departure_time": 1734897900,
+                "unix_arrival_time": 1734925500
+            }
+        },
+        {
+            "metadata": {
+                "departure_state": "NV",
+                "destination_state": "IL",
+                "departure_timezone": "America/Los_Angeles",
+                "destination_timezone": "America/Chicago",
+                "departure_airport": "Harry Reid International Airport",
+                "destination_airport": "Midway International Airport"
+            },
+            "search_parameters": {
+                "departure_iota": "LAS",
+                "destination_iota": "MDW",
+                "departure_date": "2024-12-22",
+                "return_date": null,
+                "travel_class": "Economy",
+                "search_timestamp": "20241215_130315"
+            },
+            "flight": {
+                "airline": "Southwest",
+                "departure_time": "1:25\u202fPM",
+                "arrival_time": "9:45\u202fPM",
+                "duration": "6 hr 20 min",
+                "stops": "1 stop in PHX",
+                "price": "$468",
+                "co2_emissions": "244 kg CO2e",
+                "emissions_variation": "+30% emissions",
+                "unix_departure_time": 1734902700,
+                "unix_arrival_time": 1734925500
+            }
+        },
+        {
+            "metadata": {
+                "departure_state": "NV",
+                "destination_state": "IL",
+                "departure_timezone": "America/Los_Angeles",
+                "destination_timezone": "America/Chicago",
+                "departure_airport": "Harry Reid International Airport",
+                "destination_airport": "Midway International Airport"
+            },
+            "search_parameters": {
+                "departure_iota": "LAS",
+                "destination_iota": "MDW",
+                "departure_date": "2024-12-22",
+                "return_date": null,
+                "travel_class": "Economy",
+                "search_timestamp": "20241215_130315"
+            },
+            "flight": {
+                "airline": "Southwest",
+                "departure_time": "1:15\u202fPM",
+                "arrival_time": "10:00\u202fPM",
+                "duration": "6 hr 45 min",
+                "stops": "1 stop in DEN",
+                "price": "$428",
+                "co2_emissions": "270 kg CO2e",
+                "emissions_variation": "+44% emissions",
+                "unix_departure_time": 1734902100,
+                "unix_arrival_time": 1734926400
+            }
+        },
+        {
+            "metadata": {
+                "departure_state": "NV",
+                "destination_state": "IL",
+                "departure_timezone": "America/Los_Angeles",
+                "destination_timezone": "America/Chicago",
+                "departure_airport": "Harry Reid International Airport",
+                "destination_airport": "Midway International Airport"
+            },
+            "search_parameters": {
+                "departure_iota": "LAS",
+                "destination_iota": "MDW",
+                "departure_date": "2024-12-22",
+                "return_date": null,
+                "travel_class": "Economy",
+                "search_timestamp": "20241215_130315"
+            },
+            "flight": {
+                "airline": "Southwest",
+                "departure_time": "12:45\u202fPM",
+                "arrival_time": "10:00\u202fPM",
+                "duration": "7 hr 15 min",
+                "stops": "2 stops in SNA, DEN",
+                "price": "$433",
+                "co2_emissions": "362 kg CO2e",
+                "emissions_variation": "+93% emissions",
+                "unix_departure_time": 1734900300,
+                "unix_arrival_time": 1734926400
+            }
+        },
+        {
+            "metadata": {
+                "departure_state": "NV",
+                "destination_state": "IL",
+                "departure_timezone": "America/Los_Angeles",
+                "destination_timezone": "America/Chicago",
+                "departure_airport": "Harry Reid International Airport",
+                "destination_airport": "Midway International Airport"
+            },
+            "search_parameters": {
+                "departure_iota": "LAS",
+                "destination_iota": "MDW",
+                "departure_date": "2024-12-22",
+                "return_date": null,
+                "travel_class": "Economy",
+                "search_timestamp": "20241215_130315"
+            },
+            "flight": {
+                "airline": "Southwest",
+                "departure_time": "11:20\u202fAM",
+                "arrival_time": "10:00\u202fPM",
+                "duration": "8 hr 40 min",
+                "stops": "1 stop in DEN",
+                "price": "$434",
+                "co2_emissions": "270 kg CO2e",
+                "emissions_variation": "+44% emissions",
+                "unix_departure_time": 1734895200,
+                "unix_arrival_time": 1734926400
+            }
+        },
+        {
+            "metadata": {
+                "departure_state": "NV",
+                "destination_state": "IL",
+                "departure_timezone": "America/Los_Angeles",
+                "destination_timezone": "America/Chicago",
+                "departure_airport": "Harry Reid International Airport",
+                "destination_airport": "Midway International Airport"
+            },
+            "search_parameters": {
+                "departure_iota": "LAS",
+                "destination_iota": "MDW",
+                "departure_date": "2024-12-22",
+                "return_date": null,
+                "travel_class": "Economy",
+                "search_timestamp": "20241215_130315"
+            },
+            "flight": {
+                "airline": "Southwest",
+                "departure_time": "12:30\u202fPM",
+                "arrival_time": "10:05\u202fPM",
+                "duration": "7 hr 35 min",
+                "stops": "1 stop in DAL",
+                "price": "$428",
+                "co2_emissions": "313 kg CO2e",
+                "emissions_variation": "+66% emissions",
+                "unix_departure_time": 1734899400,
+                "unix_arrival_time": 1734926700
+            }
+        },
+        {
+            "metadata": {
+                "departure_state": "NV",
+                "destination_state": "IL",
+                "departure_timezone": "America/Los_Angeles",
+                "destination_timezone": "America/Chicago",
+                "departure_airport": "Harry Reid International Airport",
+                "destination_airport": "Midway International Airport"
+            },
+            "search_parameters": {
+                "departure_iota": "LAS",
+                "destination_iota": "MDW",
+                "departure_date": "2024-12-22",
+                "return_date": null,
+                "travel_class": "Economy",
+                "search_timestamp": "20241215_130315"
+            },
+            "flight": {
+                "airline": "Southwest",
+                "departure_time": "1:30\u202fPM",
+                "arrival_time": "10:05\u202fPM",
+                "duration": "6 hr 35 min",
+                "stops": "1 stop in DAL",
+                "price": "$428",
+                "co2_emissions": "313 kg CO2e",
+                "emissions_variation": "+66% emissions",
+                "unix_departure_time": 1734903000,
+                "unix_arrival_time": 1734926700
+            }
+        },
+        {
+            "metadata": {
+                "departure_state": "NV",
+                "destination_state": "IL",
+                "departure_timezone": "America/Los_Angeles",
+                "destination_timezone": "America/Chicago",
+                "departure_airport": "Harry Reid International Airport",
+                "destination_airport": "Midway International Airport"
+            },
+            "search_parameters": {
+                "departure_iota": "LAS",
+                "destination_iota": "MDW",
+                "departure_date": "2024-12-22",
+                "return_date": null,
+                "travel_class": "Economy",
+                "search_timestamp": "20241215_130315"
+            },
+            "flight": {
+                "airline": "Delta",
+                "departure_time": "12:25\u202fPM",
+                "arrival_time": "10:06\u202fPM",
+                "duration": "7 hr 41 min",
+                "stops": "1 stop in ATL",
+                "price": "$479",
+                "co2_emissions": "361 kg CO2e",
+                "emissions_variation": "+92% emissions",
+                "unix_departure_time": 1734899100,
+                "unix_arrival_time": 1734926760
+            }
+        },
+        {
+            "metadata": {
+                "departure_state": "NV",
+                "destination_state": "IL",
+                "departure_timezone": "America/Los_Angeles",
+                "destination_timezone": "America/Chicago",
+                "departure_airport": "Harry Reid International Airport",
+                "destination_airport": "Midway International Airport"
+            },
+            "search_parameters": {
+                "departure_iota": "LAS",
+                "destination_iota": "MDW",
+                "departure_date": "2024-12-22",
+                "return_date": null,
+                "travel_class": "Economy",
+                "search_timestamp": "20241215_130315"
+            },
+            "flight": {
+                "airline": "Delta",
+                "departure_time": "1:25\u202fPM",
+                "arrival_time": "10:06\u202fPM",
+                "duration": "6 hr 41 min",
+                "stops": "1 stop in ATL",
+                "price": "$479",
+                "co2_emissions": "361 kg CO2e",
+                "emissions_variation": "+92% emissions",
+                "unix_departure_time": 1734902700,
+                "unix_arrival_time": 1734926760
+            }
+        },
+        {
+            "metadata": {
+                "departure_state": "NV",
+                "destination_state": "IL",
+                "departure_timezone": "America/Los_Angeles",
+                "destination_timezone": "America/Chicago",
+                "departure_airport": "Harry Reid International Airport",
+                "destination_airport": "Midway International Airport"
+            },
+            "search_parameters": {
+                "departure_iota": "LAS",
+                "destination_iota": "MDW",
+                "departure_date": "2024-12-22",
+                "return_date": null,
+                "travel_class": "Economy",
+                "search_timestamp": "20241215_130315"
+            },
+            "flight": {
+                "airline": "Southwest",
+                "departure_time": "4:55\u202fPM",
+                "arrival_time": "10:25\u202fPM",
+                "duration": "3 hr 30 min",
+                "stops": "Nonstop",
+                "price": "$419",
+                "co2_emissions": "208 kg CO2e",
+                "emissions_variation": "+11% emissions",
+                "unix_departure_time": 1734915300,
+                "unix_arrival_time": 1734927900
+            }
+        },
+        {
+            "metadata": {
+                "departure_state": "NV",
+                "destination_state": "IL",
+                "departure_timezone": "America/Los_Angeles",
+                "destination_timezone": "America/Chicago",
+                "departure_airport": "Harry Reid International Airport",
+                "destination_airport": "Midway International Airport"
+            },
+            "search_parameters": {
+                "departure_iota": "LAS",
+                "destination_iota": "MDW",
+                "departure_date": "2024-12-22",
+                "return_date": null,
+                "travel_class": "Economy",
+                "search_timestamp": "20241215_130315"
+            },
+            "flight": {
+                "airline": "Southwest",
+                "departure_time": "12:15\u202fPM",
+                "arrival_time": "10:30\u202fPM",
+                "duration": "8 hr 15 min",
+                "stops": "1 stop in HOU",
+                "price": "$428",
+                "co2_emissions": "314 kg CO2e",
+                "emissions_variation": "+67% emissions",
+                "unix_departure_time": 1734898500,
+                "unix_arrival_time": 1734928200
+            }
+        },
+        {
+            "metadata": {
+                "departure_state": "NV",
+                "destination_state": "IL",
+                "departure_timezone": "America/Los_Angeles",
+                "destination_timezone": "America/Chicago",
+                "departure_airport": "Harry Reid International Airport",
+                "destination_airport": "Midway International Airport"
+            },
+            "search_parameters": {
+                "departure_iota": "LAS",
+                "destination_iota": "MDW",
+                "departure_date": "2024-12-22",
+                "return_date": null,
+                "travel_class": "Economy",
+                "search_timestamp": "20241215_130315"
+            },
+            "flight": {
+                "airline": "Southwest",
+                "departure_time": "3:25\u202fPM",
+                "arrival_time": "11:05\u202fPM",
+                "duration": "5 hr 40 min",
+                "stops": "1 stop in STL",
+                "price": "$428",
+                "co2_emissions": "261 kg CO2e",
+                "emissions_variation": "+39% emissions",
+                "unix_departure_time": 1734909900,
+                "unix_arrival_time": 1734930300
+            }
+        },
+        {
+            "metadata": {
+                "departure_state": "NV",
+                "destination_state": "IL",
+                "departure_timezone": "America/Los_Angeles",
+                "destination_timezone": "America/Chicago",
+                "departure_airport": "Harry Reid International Airport",
+                "destination_airport": "Midway International Airport"
+            },
+            "search_parameters": {
+                "departure_iota": "LAS",
+                "destination_iota": "MDW",
+                "departure_date": "2024-12-22",
+                "return_date": null,
+                "travel_class": "Economy",
+                "search_timestamp": "20241215_130315"
+            },
+            "flight": {
+                "airline": "Southwest",
+                "departure_time": "1:35\u202fPM",
+                "arrival_time": "11:05\u202fPM",
+                "duration": "7 hr 30 min",
+                "stops": "2 stops in ICT, STL",
+                "price": "$433",
+                "co2_emissions": "344 kg CO2e",
+                "emissions_variation": "+83% emissions",
+                "unix_departure_time": 1734903300,
+                "unix_arrival_time": 1734930300
+            }
+        },
+        {
+            "metadata": {
+                "departure_state": "NV",
+                "destination_state": "IL",
+                "departure_timezone": "America/Los_Angeles",
+                "destination_timezone": "America/Chicago",
+                "departure_airport": "Harry Reid International Airport",
+                "destination_airport": "Midway International Airport"
+            },
+            "search_parameters": {
+                "departure_iota": "LAS",
+                "destination_iota": "MDW",
+                "departure_date": "2024-12-22",
+                "return_date": null,
+                "travel_class": "Economy",
+                "search_timestamp": "20241215_130315"
+            },
+            "flight": {
+                "airline": "Southwest",
+                "departure_time": "3:40\u202fPM",
+                "arrival_time": "11:20\u202fPM",
+                "duration": "5 hr 40 min",
+                "stops": "1 stop in AUS",
+                "price": "$428",
+                "co2_emissions": "327 kg CO2e",
+                "emissions_variation": "+74% emissions",
+                "unix_departure_time": 1734910800,
+                "unix_arrival_time": 1734931200
+            }
+        },
+        {
+            "metadata": {
+                "departure_state": "NV",
+                "destination_state": "IL",
+                "departure_timezone": "America/Los_Angeles",
+                "destination_timezone": "America/Chicago",
+                "departure_airport": "Harry Reid International Airport",
+                "destination_airport": "Midway International Airport"
+            },
+            "search_parameters": {
+                "departure_iota": "LAS",
+                "destination_iota": "MDW",
+                "departure_date": "2024-12-22",
+                "return_date": null,
+                "travel_class": "Economy",
+                "search_timestamp": "20241215_130315"
+            },
+            "flight": {
+                "airline": "Southwest",
+                "departure_time": "6:15\u202fPM",
+                "arrival_time": "11:45\u202fPM",
+                "duration": "3 hr 30 min",
+                "stops": "Nonstop",
+                "price": "$419",
+                "co2_emissions": "208 kg CO2e",
+                "emissions_variation": "+11% emissions",
+                "unix_departure_time": 1734920100,
+                "unix_arrival_time": 1734932700
+            }
+        },
+        {
+            "metadata": {
+                "departure_state": "NV",
+                "destination_state": "IL",
+                "departure_timezone": "America/Los_Angeles",
+                "destination_timezone": "America/Chicago",
+                "departure_airport": "Harry Reid International Airport",
+                "destination_airport": "Midway International Airport"
+            },
+            "search_parameters": {
+                "departure_iota": "LAS",
+                "destination_iota": "MDW",
+                "departure_date": "2024-12-22",
+                "return_date": null,
+                "travel_class": "Economy",
+                "search_timestamp": "20241215_130315"
+            },
+            "flight": {
+                "airline": "Southwest",
+                "departure_time": "4:00\u202fPM",
+                "arrival_time": "12:15\u202fAM+1",
+                "duration": "6 hr 15 min",
+                "stops": "1 stop in DEN",
+                "price": "$428",
+                "co2_emissions": "257 kg CO2e",
+                "emissions_variation": "+37% emissions",
+                "unix_departure_time": 1734912000,
+                "unix_arrival_time": 1734934500
+            }
+        },
+        {
+            "metadata": {
+                "departure_state": "NV",
+                "destination_state": "IL",
+                "departure_timezone": "America/Los_Angeles",
+                "destination_timezone": "America/Chicago",
+                "departure_airport": "Harry Reid International Airport",
+                "destination_airport": "Midway International Airport"
+            },
+            "search_parameters": {
+                "departure_iota": "LAS",
+                "destination_iota": "MDW",
+                "departure_date": "2024-12-22",
+                "return_date": null,
+                "travel_class": "Economy",
+                "search_timestamp": "20241215_130315"
+            },
+            "flight": {
+                "airline": "Southwest",
+                "departure_time": "1:40\u202fPM",
+                "arrival_time": "12:15\u202fAM+1",
+                "duration": "8 hr 35 min",
+                "stops": "2 stops in PSP, DEN",
+                "price": "$433",
+                "co2_emissions": "371 kg CO2e",
+                "emissions_variation": "+97% emissions",
+                "unix_departure_time": 1734903600,
+                "unix_arrival_time": 1734934500
+            }
+        },
+        {
+            "metadata": {
+                "departure_state": "NV",
+                "destination_state": "IL",
+                "departure_timezone": "America/Los_Angeles",
+                "destination_timezone": "America/Chicago",
+                "departure_airport": "Harry Reid International Airport",
+                "destination_airport": "Midway International Airport"
+            },
+            "search_parameters": {
+                "departure_iota": "LAS",
+                "destination_iota": "MDW",
+                "departure_date": "2024-12-22",
+                "return_date": null,
+                "travel_class": "Economy",
+                "search_timestamp": "20241215_130315"
+            },
+            "flight": {
+                "airline": "Southwest",
+                "departure_time": "2:30\u202fPM",
+                "arrival_time": "12:15\u202fAM+1",
+                "duration": "7 hr 45 min",
+                "stops": "2 stops in RNO, DEN",
+                "price": "$433",
+                "co2_emissions": "363 kg CO2e",
+                "emissions_variation": "+93% emissions",
+                "unix_departure_time": 1734906600,
+                "unix_arrival_time": 1734934500
+            }
+        },
+        {
+            "metadata": {
+                "departure_state": "NV",
+                "destination_state": "IL",
+                "departure_timezone": "America/Los_Angeles",
+                "destination_timezone": "America/Chicago",
+                "departure_airport": "Harry Reid International Airport",
+                "destination_airport": "Midway International Airport"
+            },
+            "search_parameters": {
+                "departure_iota": "LAS",
+                "destination_iota": "MDW",
+                "departure_date": "2024-12-22",
+                "return_date": null,
+                "travel_class": "Economy",
+                "search_timestamp": "20241215_130315"
+            },
+            "flight": {
+                "airline": "Southwest",
+                "departure_time": "2:45\u202fPM",
+                "arrival_time": "12:15\u202fAM+1",
+                "duration": "7 hr 30 min",
+                "stops": "2 stops in ABQ, DEN",
+                "price": "$433",
+                "co2_emissions": "361 kg CO2e",
+                "emissions_variation": "+92% emissions",
+                "unix_departure_time": 1734907500,
+                "unix_arrival_time": 1734934500
+            }
+        },
+        {
+            "metadata": {
+                "departure_state": "NV",
+                "destination_state": "IL",
+                "departure_timezone": "America/Los_Angeles",
+                "destination_timezone": "America/Chicago",
+                "departure_airport": "Harry Reid International Airport",
+                "destination_airport": "Midway International Airport"
+            },
+            "search_parameters": {
+                "departure_iota": "LAS",
+                "destination_iota": "MDW",
+                "departure_date": "2024-12-22",
+                "return_date": null,
+                "travel_class": "Economy",
+                "search_timestamp": "20241215_130315"
+            },
+            "flight": {
+                "airline": "Southwest",
+                "departure_time": "4:10\u202fPM",
+                "arrival_time": "12:20\u202fAM+1",
+                "duration": "6 hr 10 min",
+                "stops": "1 stop in PHX",
+                "price": "$428",
+                "co2_emissions": "244 kg CO2e",
+                "emissions_variation": "+30% emissions",
+                "unix_departure_time": 1734912600,
+                "unix_arrival_time": 1734934800
+            }
+        },
+        {
+            "metadata": {
+                "departure_state": "NV",
+                "destination_state": "IL",
+                "departure_timezone": "America/Los_Angeles",
+                "destination_timezone": "America/Chicago",
+                "departure_airport": "Harry Reid International Airport",
+                "destination_airport": "Midway International Airport"
+            },
+            "search_parameters": {
+                "departure_iota": "LAS",
+                "destination_iota": "MDW",
+                "departure_date": "2024-12-22",
+                "return_date": null,
+                "travel_class": "Economy",
+                "search_timestamp": "20241215_130315"
+            },
+            "flight": {
+                "airline": "Southwest",
+                "departure_time": "4:40\u202fPM",
+                "arrival_time": "12:20\u202fAM+1",
+                "duration": "5 hr 40 min",
+                "stops": "1 stop in DAL",
+                "price": "$428",
+                "co2_emissions": "313 kg CO2e",
+                "emissions_variation": "+66% emissions",
+                "unix_departure_time": 1734914400,
+                "unix_arrival_time": 1734934800
+            }
+        },
+        {
+            "metadata": {
+                "departure_state": "NV",
+                "destination_state": "IL",
+                "departure_timezone": "America/Los_Angeles",
+                "destination_timezone": "America/Chicago",
+                "departure_airport": "Harry Reid International Airport",
+                "destination_airport": "Midway International Airport"
+            },
+            "search_parameters": {
+                "departure_iota": "LAS",
+                "destination_iota": "MDW",
+                "departure_date": "2024-12-22",
+                "return_date": null,
+                "travel_class": "Economy",
+                "search_timestamp": "20241215_130315"
+            },
+            "flight": {
+                "airline": "Southwest",
+                "departure_time": "1:55\u202fPM",
+                "arrival_time": "12:50\u202fAM+1",
+                "duration": "8 hr 55 min",
+                "stops": "1 stop in SAN",
+                "price": "$428",
+                "co2_emissions": "265 kg CO2e",
+                "emissions_variation": "+41% emissions",
+                "unix_departure_time": 1734904500,
+                "unix_arrival_time": 1734936600
+            }
+        },
+        {
+            "metadata": {
+                "departure_state": "NV",
+                "destination_state": "IL",
+                "departure_timezone": "America/Los_Angeles",
+                "destination_timezone": "America/Chicago",
+                "departure_airport": "Harry Reid International Airport",
+                "destination_airport": "Midway International Airport"
+            },
+            "search_parameters": {
+                "departure_iota": "LAS",
+                "destination_iota": "MDW",
+                "departure_date": "2024-12-22",
+                "return_date": null,
+                "travel_class": "Economy",
+                "search_timestamp": "20241215_130315"
+            },
+            "flight": {
+                "airline": "Southwest",
+                "departure_time": "3:45\u202fPM",
+                "arrival_time": "12:50\u202fAM+1",
+                "duration": "7 hr 5 min",
+                "stops": "1 stop in SAN",
+                "price": "$428",
+                "co2_emissions": "274 kg CO2e",
+                "emissions_variation": "+46% emissions",
+                "unix_departure_time": 1734911100,
+                "unix_arrival_time": 1734936600
+            }
+        },
+        {
+            "metadata": {
+                "departure_state": "NV",
+                "destination_state": "IL",
+                "departure_timezone": "America/Los_Angeles",
+                "destination_timezone": "America/Chicago",
+                "departure_airport": "Harry Reid International Airport",
+                "destination_airport": "Midway International Airport"
+            },
+            "search_parameters": {
+                "departure_iota": "LAS",
+                "destination_iota": "MDW",
+                "departure_date": "2024-12-22",
+                "return_date": null,
+                "travel_class": "Economy",
+                "search_timestamp": "20241215_130315"
+            },
+            "flight": {
+                "airline": "Southwest",
+                "departure_time": "2:55\u202fPM",
+                "arrival_time": "1:00\u202fAM+1",
+                "duration": "8 hr 5 min",
+                "stops": "1 stop in HOU",
+                "price": "$428",
+                "co2_emissions": "360 kg CO2e",
+                "emissions_variation": "+91% emissions",
+                "unix_departure_time": 1734908100,
+                "unix_arrival_time": 1734937200
+            }
+        },
+        {
+            "metadata": {
+                "departure_state": "NV",
+                "destination_state": "IL",
+                "departure_timezone": "America/Los_Angeles",
+                "destination_timezone": "America/Chicago",
+                "departure_airport": "Harry Reid International Airport",
+                "destination_airport": "Midway International Airport"
+            },
+            "search_parameters": {
+                "departure_iota": "LAS",
+                "destination_iota": "MDW",
+                "departure_date": "2024-12-22",
+                "return_date": null,
+                "travel_class": "Economy",
+                "search_timestamp": "20241215_130315"
+            },
+            "flight": {
+                "airline": "Southwest",
+                "departure_time": "7:50\u202fPM",
+                "arrival_time": "1:15\u202fAM+1",
+                "duration": "3 hr 25 min",
+                "stops": "Nonstop",
+                "price": "$419",
+                "co2_emissions": "236 kg CO2e",
+                "emissions_variation": "+26% emissions",
+                "unix_departure_time": 1734925800,
+                "unix_arrival_time": 1734938100
+            }
+        },
+        {
+            "metadata": {
+                "departure_state": "NV",
+                "destination_state": "IL",
+                "departure_timezone": "America/Los_Angeles",
+                "destination_timezone": "America/Chicago",
+                "departure_airport": "Harry Reid International Airport",
+                "destination_airport": "Midway International Airport"
+            },
+            "search_parameters": {
+                "departure_iota": "LAS",
+                "destination_iota": "MDW",
+                "departure_date": "2024-12-22",
+                "return_date": null,
+                "travel_class": "Economy",
+                "search_timestamp": "20241215_130315"
+            },
+            "flight": {
+                "airline": "Southwest",
+                "departure_time": "3:50\u202fPM",
+                "arrival_time": "1:30\u202fAM+1",
+                "duration": "7 hr 40 min",
+                "stops": "1 stop in LAX",
+                "price": "$428",
+                "co2_emissions": "303 kg CO2e",
+                "emissions_variation": "+61% emissions",
+                "unix_departure_time": 1734911400,
+                "unix_arrival_time": 1734939000
+            }
+        },
+        {
+            "metadata": {
+                "departure_state": "NV",
+                "destination_state": "IL",
+                "departure_timezone": "America/Los_Angeles",
+                "destination_timezone": "America/Chicago",
+                "departure_airport": "Harry Reid International Airport",
+                "destination_airport": "Midway International Airport"
+            },
+            "search_parameters": {
+                "departure_iota": "LAS",
+                "destination_iota": "MDW",
+                "departure_date": "2024-12-22",
+                "return_date": null,
+                "travel_class": "Economy",
+                "search_timestamp": "20241215_130315"
+            },
+            "flight": {
+                "airline": "Southwest",
+                "departure_time": "4:10\u202fPM",
+                "arrival_time": "1:40\u202fAM+1",
+                "duration": "7 hr 30 min",
+                "stops": "1 stop in PHX",
+                "price": "$428",
+                "co2_emissions": "270 kg CO2e",
+                "emissions_variation": "+44% emissions",
+                "unix_departure_time": 1734912600,
+                "unix_arrival_time": 1734939600
+            }
+        },
+        {
+            "metadata": {
+                "departure_state": "NV",
+                "destination_state": "IL",
+                "departure_timezone": "America/Los_Angeles",
+                "destination_timezone": "America/Chicago",
+                "departure_airport": "Harry Reid International Airport",
+                "destination_airport": "Midway International Airport"
+            },
+            "search_parameters": {
+                "departure_iota": "LAS",
+                "destination_iota": "MDW",
+                "departure_date": "2024-12-22",
+                "return_date": null,
+                "travel_class": "Economy",
+                "search_timestamp": "20241215_130315"
+            },
+            "flight": {
+                "airline": "Southwest",
+                "departure_time": "5:40\u202fPM",
+                "arrival_time": "1:40\u202fAM+1",
+                "duration": "6 hr",
+                "stops": "1 stop in PHX",
+                "price": "$428",
+                "co2_emissions": "270 kg CO2e",
+                "emissions_variation": "+44% emissions",
+                "unix_departure_time": 1734918000,
+                "unix_arrival_time": 1734939600
+            }
+        },
+        {
+            "metadata": {
+                "departure_state": "NV",
+                "destination_state": "IL",
+                "departure_timezone": "America/Los_Angeles",
+                "destination_timezone": "America/Chicago",
+                "departure_airport": "Harry Reid International Airport",
+                "destination_airport": "Midway International Airport"
+            },
+            "search_parameters": {
+                "departure_iota": "LAS",
+                "destination_iota": "MDW",
+                "departure_date": "2024-12-22",
+                "return_date": null,
+                "travel_class": "Economy",
+                "search_timestamp": "20241215_130315"
+            },
+            "flight": {
+                "airline": "Frontier",
+                "departure_time": "11:59\u202fPM",
+                "arrival_time": "5:33\u202fAM+1",
+                "duration": "3 hr 34 min",
+                "stops": "Nonstop",
+                "price": "$245",
+                "co2_emissions": "169 kg CO2e",
+                "emissions_variation": "-10% emissions",
+                "unix_departure_time": 1734940740,
+                "unix_arrival_time": 1734953580
+            }
+        },
+        {
+            "metadata": {
+                "departure_state": "NV",
+                "destination_state": "IL",
+                "departure_timezone": "America/Los_Angeles",
+                "destination_timezone": "America/Chicago",
+                "departure_airport": "Harry Reid International Airport",
+                "destination_airport": "Midway International Airport"
+            },
+            "search_parameters": {
+                "departure_iota": "LAS",
+                "destination_iota": "MDW",
+                "departure_date": "2024-12-22",
+                "return_date": null,
+                "travel_class": "Economy",
+                "search_timestamp": "20241215_130315"
+            },
+            "flight": {
+                "airline": "DeltaOperated by SkyWest DBA Delta Connection",
+                "departure_time": "10:45\u202fPM",
+                "arrival_time": "8:50\u202fAM+1",
+                "duration": "8 hr 5 min",
+                "stops": "1 stop in DTW",
+                "price": "$428",
+                "co2_emissions": "323 kg CO2e",
+                "emissions_variation": "+72% emissions",
+                "unix_departure_time": 1734936300,
+                "unix_arrival_time": 1734965400
+            }
+        },
+        {
+            "metadata": {
+                "departure_state": "NV",
+                "destination_state": "IL",
+                "departure_timezone": "America/Los_Angeles",
+                "destination_timezone": "America/Chicago",
+                "departure_airport": "Harry Reid International Airport",
+                "destination_airport": "Midway International Airport"
+            },
+            "search_parameters": {
+                "departure_iota": "LAS",
+                "destination_iota": "MDW",
+                "departure_date": "2024-12-22",
+                "return_date": null,
+                "travel_class": "Economy",
+                "search_timestamp": "20241215_130315"
+            },
+            "flight": {
+                "airline": "DeltaOperated by SkyWest DBA Delta Connection",
+                "departure_time": "5:40\u202fPM",
+                "arrival_time": "8:50\u202fAM+1",
+                "duration": "13 hr 10 min",
+                "stops": "2 stops in LAX, DTW",
+                "price": "$677",
+                "co2_emissions": "404 kg CO2e",
+                "emissions_variation": "+115% emissions",
+                "unix_departure_time": 1734918000,
+                "unix_arrival_time": 1734965400
+            }
+        },
+        {
+            "metadata": {
+                "departure_state": "NV",
+                "destination_state": "IL",
+                "departure_timezone": "America/Los_Angeles",
+                "destination_timezone": "America/Chicago",
+                "departure_airport": "Harry Reid International Airport",
+                "destination_airport": "Midway International Airport"
+            },
+            "search_parameters": {
+                "departure_iota": "LAS",
+                "destination_iota": "MDW",
+                "departure_date": "2024-12-22",
+                "return_date": null,
+                "travel_class": "Economy",
+                "search_timestamp": "20241215_130315"
+            },
+            "flight": {
+                "airline": "DeltaOperated by SkyWest DBA Delta Connection",
+                "departure_time": "7:20\u202fPM",
+                "arrival_time": "8:50\u202fAM+1",
+                "duration": "11 hr 30 min",
+                "stops": "2 stops in LAX, DTW",
+                "price": "$680",
+                "co2_emissions": "406 kg CO2e",
+                "emissions_variation": "+116% emissions",
+                "unix_departure_time": 1734924000,
+                "unix_arrival_time": 1734965400
+            }
+        },
+        {
+            "metadata": {
+                "departure_state": "NV",
+                "destination_state": "IL",
+                "departure_timezone": "America/Los_Angeles",
+                "destination_timezone": "America/Chicago",
+                "departure_airport": "Harry Reid International Airport",
+                "destination_airport": "Midway International Airport"
+            },
+            "search_parameters": {
+                "departure_iota": "LAS",
+                "destination_iota": "MDW",
+                "departure_date": "2024-12-22",
+                "return_date": null,
+                "travel_class": "Economy",
+                "search_timestamp": "20241215_130315"
+            },
+            "flight": {
+                "airline": "Delta",
+                "departure_time": "11:40\u202fPM",
+                "arrival_time": "9:23\u202fAM+1",
+                "duration": "7 hr 43 min",
+                "stops": "1 stop in ATL",
+                "price": "$649",
+                "co2_emissions": "361 kg CO2e",
+                "emissions_variation": "+92% emissions",
+                "unix_departure_time": 1734939600,
+                "unix_arrival_time": 1734967380
+            }
+        },
+        {
+            "metadata": {
+                "departure_state": "NV",
+                "destination_state": "IL",
+                "departure_timezone": "America/Los_Angeles",
+                "destination_timezone": "America/Chicago",
+                "departure_airport": "Harry Reid International Airport",
+                "destination_airport": "Midway International Airport"
+            },
+            "search_parameters": {
+                "departure_iota": "LAS",
+                "destination_iota": "MDW",
+                "departure_date": "2024-12-22",
+                "return_date": null,
+                "travel_class": "Economy",
+                "search_timestamp": "20241215_130315"
+            },
+            "flight": {
+                "airline": "Delta",
+                "departure_time": "10:05\u202fPM",
+                "arrival_time": "9:23\u202fAM+1",
+                "duration": "9 hr 18 min",
+                "stops": "1 stop in ATL",
+                "price": "$839",
+                "co2_emissions": "361 kg CO2e",
+                "emissions_variation": "+92% emissions",
+                "unix_departure_time": 1734933900,
+                "unix_arrival_time": 1734967380
+            }
+        },
+        {
+            "metadata": {
+                "departure_state": "NV",
+                "destination_state": "IL",
+                "departure_timezone": "America/Los_Angeles",
+                "destination_timezone": "America/Chicago",
+                "departure_airport": "Harry Reid International Airport",
+                "destination_airport": "Midway International Airport"
+            },
+            "search_parameters": {
+                "departure_iota": "LAS",
+                "destination_iota": "MDW",
+                "departure_date": "2024-12-22",
+                "return_date": null,
+                "travel_class": "Economy",
+                "search_timestamp": "20241215_130315"
+            },
+            "flight": {
+                "airline": "Delta",
+                "departure_time": "5:40\u202fPM",
+                "arrival_time": "9:23\u202fAM+1",
+                "duration": "13 hr 43 min",
+                "stops": "2 stops in LAX, ATL",
+                "price": "$1,058",
+                "co2_emissions": "445 kg CO2e",
+                "emissions_variation": "+137% emissions",
+                "unix_departure_time": 1734918000,
+                "unix_arrival_time": 1734967380
+            }
+        },
+        {
+            "metadata": {
+                "departure_state": "NV",
+                "destination_state": "IL",
+                "departure_timezone": "America/Los_Angeles",
+                "destination_timezone": "America/Chicago",
+                "departure_airport": "Harry Reid International Airport",
+                "destination_airport": "Midway International Airport"
+            },
+            "search_parameters": {
+                "departure_iota": "LAS",
+                "destination_iota": "MDW",
+                "departure_date": "2024-12-22",
+                "return_date": null,
+                "travel_class": "Economy",
+                "search_timestamp": "20241215_130315"
+            },
+            "flight": {
+                "airline": "Delta",
+                "departure_time": "7:10\u202fPM",
+                "arrival_time": "9:23\u202fAM+1",
+                "duration": "12 hr 13 min",
+                "stops": "2 stops in SLC, ATL",
+                "price": "$1,192",
+                "co2_emissions": "424 kg CO2e",
+                "emissions_variation": "+126% emissions",
+                "unix_departure_time": 1734923400,
+                "unix_arrival_time": 1734967380
+            }
+        },
+        {
+            "metadata": {
+                "departure_state": "NV",
+                "destination_state": "IL",
+                "departure_timezone": "America/Los_Angeles",
+                "destination_timezone": "America/Chicago",
+                "departure_airport": "Harry Reid International Airport",
+                "destination_airport": "Midway International Airport"
+            },
+            "search_parameters": {
+                "departure_iota": "LAS",
+                "destination_iota": "MDW",
+                "departure_date": "2024-12-22",
+                "return_date": null,
+                "travel_class": "Economy",
+                "search_timestamp": "20241215_130315"
+            },
+            "flight": {
+                "airline": "DeltaOperated by SkyWest DBA Delta Connection",
+                "departure_time": "7:20\u202fPM",
+                "arrival_time": "11:08\u202fAM+1",
+                "duration": "13 hr 48 min",
+                "stops": "2 stops in LAX, MSP",
+                "price": "$812",
+                "co2_emissions": "384 kg CO2e",
+                "emissions_variation": "+104% emissions",
+                "unix_departure_time": 1734924000,
+                "unix_arrival_time": 1734973680
+            }
+        },
+        {
+            "metadata": {
+                "departure_state": "NV",
+                "destination_state": "IL",
+                "departure_timezone": "America/Los_Angeles",
+                "destination_timezone": "America/Chicago",
+                "departure_airport": "Harry Reid International Airport",
+                "destination_airport": "Midway International Airport"
+            },
+            "search_parameters": {
+                "departure_iota": "LAS",
+                "destination_iota": "MDW",
+                "departure_date": "2024-12-22",
+                "return_date": null,
+                "travel_class": "Economy",
+                "search_timestamp": "20241215_130315"
+            },
+            "flight": {
+                "airline": "Delta",
+                "departure_time": "11:40\u202fPM",
+                "arrival_time": "11:21\u202fAM+1",
+                "duration": "9 hr 41 min",
+                "stops": "1 stop in ATL",
+                "price": "$649",
+                "co2_emissions": "361 kg CO2e",
+                "emissions_variation": "+92% emissions",
+                "unix_departure_time": 1734939600,
+                "unix_arrival_time": 1734974460
+            }
+        },
+        {
+            "metadata": {
+                "departure_state": "NV",
+                "destination_state": "IL",
+                "departure_timezone": "America/Los_Angeles",
+                "destination_timezone": "America/Chicago",
+                "departure_airport": "Harry Reid International Airport",
+                "destination_airport": "Midway International Airport"
+            },
+            "search_parameters": {
+                "departure_iota": "LAS",
+                "destination_iota": "MDW",
+                "departure_date": "2024-12-22",
+                "return_date": null,
+                "travel_class": "Economy",
+                "search_timestamp": "20241215_130315"
+            },
+            "flight": {
+                "airline": "Frontier",
+                "departure_time": "11:59\u202fPM",
+                "arrival_time": "1:24\u202fPM+1",
+                "duration": "11 hr 25 min",
+                "stops": "1 stop in ATL",
+                "price": "$405",
+                "co2_emissions": "257 kg CO2e",
+                "emissions_variation": "+37% emissions",
+                "unix_departure_time": 1734940740,
+                "unix_arrival_time": 1734981840
+            }
+        },
+        {
+            "metadata": {
+                "departure_state": "NV",
+                "destination_state": "IL",
+                "departure_timezone": "America/Los_Angeles",
+                "destination_timezone": "America/Chicago",
+                "departure_airport": "Harry Reid International Airport",
+                "destination_airport": "Midway International Airport"
+            },
+            "search_parameters": {
+                "departure_iota": "LAS",
+                "destination_iota": "MDW",
+                "departure_date": "2024-12-22",
+                "return_date": null,
+                "travel_class": "Economy",
+                "search_timestamp": "20241215_130315"
+            },
+            "flight": {
+                "airline": "Frontier",
+                "departure_time": "11:25\u202fPM",
+                "arrival_time": "5:54\u202fPM+1",
+                "duration": "16 hr 29 min",
+                "stops": "1 stop in MCO",
+                "price": "$515",
+                "co2_emissions": "325 kg CO2e",
+                "emissions_variation": "+73% emissions",
+                "unix_departure_time": 1734938700,
+                "unix_arrival_time": 1734998040
+            }
+        },
+        {
+            "metadata": {
+                "departure_state": "NV",
+                "destination_state": "IL",
+                "departure_timezone": "America/Los_Angeles",
+                "destination_timezone": "America/Chicago",
+                "departure_airport": "Harry Reid International Airport",
+                "destination_airport": "Midway International Airport"
+            },
+            "search_parameters": {
+                "departure_iota": "LAS",
+                "destination_iota": "MDW",
+                "departure_date": "2024-12-22",
+                "return_date": null,
+                "travel_class": "Business",
+                "search_timestamp": "20241215_130316"
+            },
+            "flight": {
+                "airline": "Delta",
+                "departure_time": "6:00\u202fAM",
+                "arrival_time": "4:17\u202fPM",
+                "duration": "8 hr 17 min",
+                "stops": "1 stop in ATL",
+                "price": "$959",
+                "co2_emissions": "542 kg CO2e",
+                "emissions_variation": "+92% emissions",
+                "unix_departure_time": 1734876000,
+                "unix_arrival_time": 1734905820
+            }
+        },
+        {
+            "metadata": {
+                "departure_state": "NV",
+                "destination_state": "IL",
+                "departure_timezone": "America/Los_Angeles",
+                "destination_timezone": "America/Chicago",
+                "departure_airport": "Harry Reid International Airport",
+                "destination_airport": "Midway International Airport"
+            },
+            "search_parameters": {
+                "departure_iota": "LAS",
+                "destination_iota": "MDW",
+                "departure_date": "2024-12-22",
+                "return_date": null,
+                "travel_class": "Business",
+                "search_timestamp": "20241215_130316"
+            },
+            "flight": {
+                "airline": "Delta",
+                "departure_time": "7:25\u202fAM",
+                "arrival_time": "4:17\u202fPM",
+                "duration": "6 hr 52 min",
+                "stops": "1 stop in ATL",
+                "price": "$1,911",
+                "co2_emissions": "542 kg CO2e",
+                "emissions_variation": "+92% emissions",
+                "unix_departure_time": 1734881100,
+                "unix_arrival_time": 1734905820
+            }
+        },
+        {
+            "metadata": {
+                "departure_state": "NV",
+                "destination_state": "IL",
+                "departure_timezone": "America/Los_Angeles",
+                "destination_timezone": "America/Chicago",
+                "departure_airport": "Harry Reid International Airport",
+                "destination_airport": "Midway International Airport"
+            },
+            "search_parameters": {
+                "departure_iota": "LAS",
+                "destination_iota": "MDW",
+                "departure_date": "2024-12-22",
+                "return_date": null,
+                "travel_class": "Business",
+                "search_timestamp": "20241215_130316"
+            },
+            "flight": {
+                "airline": "DeltaOperated by SkyWest DBA Delta Connection",
+                "departure_time": "6:00\u202fAM",
+                "arrival_time": "4:24\u202fPM",
+                "duration": "8 hr 24 min",
+                "stops": "1 stop in DTW",
+                "price": "$1,199",
+                "co2_emissions": "459 kg CO2e",
+                "emissions_variation": "+63% emissions",
+                "unix_departure_time": 1734876000,
+                "unix_arrival_time": 1734906240
+            }
+        },
+        {
+            "metadata": {
+                "departure_state": "NV",
+                "destination_state": "IL",
+                "departure_timezone": "America/Los_Angeles",
+                "destination_timezone": "America/Chicago",
+                "departure_airport": "Harry Reid International Airport",
+                "destination_airport": "Midway International Airport"
+            },
+            "search_parameters": {
+                "departure_iota": "LAS",
+                "destination_iota": "MDW",
+                "departure_date": "2024-12-22",
+                "return_date": null,
+                "travel_class": "Business",
+                "search_timestamp": "20241215_130316"
+            },
+            "flight": {
+                "airline": "DeltaOperated by SkyWest DBA Delta Connection",
+                "departure_time": "6:25\u202fAM",
+                "arrival_time": "4:24\u202fPM",
+                "duration": "7 hr 59 min",
+                "stops": "2 stops in SLC, DTW",
+                "price": "$1,602",
+                "co2_emissions": "544 kg CO2e",
+                "emissions_variation": "+93% emissions",
+                "unix_departure_time": 1734877500,
+                "unix_arrival_time": 1734906240
+            }
+        },
+        {
+            "metadata": {
+                "departure_state": "NV",
+                "destination_state": "IL",
+                "departure_timezone": "America/Los_Angeles",
+                "destination_timezone": "America/Chicago",
+                "departure_airport": "Harry Reid International Airport",
+                "destination_airport": "Midway International Airport"
+            },
+            "search_parameters": {
+                "departure_iota": "LAS",
+                "destination_iota": "MDW",
+                "departure_date": "2024-12-22",
+                "return_date": null,
+                "travel_class": "Business",
+                "search_timestamp": "20241215_130316"
+            },
+            "flight": {
+                "airline": "DeltaOperated by SkyWest DBA Delta Connection",
+                "departure_time": "6:15\u202fAM",
+                "arrival_time": "4:24\u202fPM",
+                "duration": "8 hr 9 min",
+                "stops": "2 stops in MSP, DTW",
+                "price": "$2,029",
+                "co2_emissions": "538 kg CO2e",
+                "emissions_variation": "+91% emissions",
+                "unix_departure_time": 1734876900,
+                "unix_arrival_time": 1734906240
+            }
+        },
+        {
+            "metadata": {
+                "departure_state": "NV",
+                "destination_state": "IL",
+                "departure_timezone": "America/Los_Angeles",
+                "destination_timezone": "America/Chicago",
+                "departure_airport": "Harry Reid International Airport",
+                "destination_airport": "Midway International Airport"
+            },
+            "search_parameters": {
+                "departure_iota": "LAS",
+                "destination_iota": "MDW",
+                "departure_date": "2024-12-22",
+                "return_date": null,
+                "travel_class": "Business",
+                "search_timestamp": "20241215_130316"
+            },
+            "flight": {
+                "airline": "DeltaOperated by SkyWest DBA Delta Connection",
+                "departure_time": "9:34\u202fAM",
+                "arrival_time": "5:44\u202fPM",
+                "duration": "6 hr 10 min",
+                "stops": "1 stop in MSP",
+                "price": "$1,199",
+                "co2_emissions": "432 kg CO2e",
+                "emissions_variation": "+53% emissions",
+                "unix_departure_time": 1734888840,
+                "unix_arrival_time": 1734911040
+            }
+        },
+        {
+            "metadata": {
+                "departure_state": "NV",
+                "destination_state": "IL",
+                "departure_timezone": "America/Los_Angeles",
+                "destination_timezone": "America/Chicago",
+                "departure_airport": "Harry Reid International Airport",
+                "destination_airport": "Midway International Airport"
+            },
+            "search_parameters": {
+                "departure_iota": "LAS",
+                "destination_iota": "MDW",
+                "departure_date": "2024-12-22",
+                "return_date": null,
+                "travel_class": "Business",
+                "search_timestamp": "20241215_130316"
+            },
+            "flight": {
+                "airline": "DeltaOperated by SkyWest DBA Delta Connection",
+                "departure_time": "6:25\u202fAM",
+                "arrival_time": "5:44\u202fPM",
+                "duration": "9 hr 19 min",
+                "stops": "2 stops in SLC, MSP",
+                "price": "$1,602",
+                "co2_emissions": "458 kg CO2e",
+                "emissions_variation": "+62% emissions",
+                "unix_departure_time": 1734877500,
+                "unix_arrival_time": 1734911040
+            }
+        },
+        {
+            "metadata": {
+                "departure_state": "NV",
+                "destination_state": "IL",
+                "departure_timezone": "America/Los_Angeles",
+                "destination_timezone": "America/Chicago",
+                "departure_airport": "Harry Reid International Airport",
+                "destination_airport": "Midway International Airport"
+            },
+            "search_parameters": {
+                "departure_iota": "LAS",
+                "destination_iota": "MDW",
+                "departure_date": "2024-12-22",
+                "return_date": null,
+                "travel_class": "Business",
+                "search_timestamp": "20241215_130316"
+            },
+            "flight": {
+                "airline": "DeltaOperated by SkyWest DBA Delta Connection",
+                "departure_time": "6:25\u202fAM",
+                "arrival_time": "5:44\u202fPM",
+                "duration": "9 hr 19 min",
+                "stops": "2 stops in LAX, MSP",
+                "price": "$2,200",
+                "co2_emissions": "535 kg CO2e",
+                "emissions_variation": "+90% emissions",
+                "unix_departure_time": 1734877500,
+                "unix_arrival_time": 1734911040
+            }
+        },
+        {
+            "metadata": {
+                "departure_state": "NV",
+                "destination_state": "IL",
+                "departure_timezone": "America/Los_Angeles",
+                "destination_timezone": "America/Chicago",
+                "departure_airport": "Harry Reid International Airport",
+                "destination_airport": "Midway International Airport"
+            },
+            "search_parameters": {
+                "departure_iota": "LAS",
+                "destination_iota": "MDW",
+                "departure_date": "2024-12-22",
+                "return_date": null,
+                "travel_class": "Business",
+                "search_timestamp": "20241215_130316"
+            },
+            "flight": {
+                "airline": "Delta",
+                "departure_time": "11:25\u202fAM",
+                "arrival_time": "10:06\u202fPM",
+                "duration": "8 hr 41 min",
+                "stops": "1 stop in ATL",
+                "price": "$1,911",
+                "co2_emissions": "475 kg CO2e",
+                "emissions_variation": "+68% emissions",
+                "unix_departure_time": 1734895500,
+                "unix_arrival_time": 1734926760
+            }
+        },
+        {
+            "metadata": {
+                "departure_state": "NV",
+                "destination_state": "IL",
+                "departure_timezone": "America/Los_Angeles",
+                "destination_timezone": "America/Chicago",
+                "departure_airport": "Harry Reid International Airport",
+                "destination_airport": "Midway International Airport"
+            },
+            "search_parameters": {
+                "departure_iota": "LAS",
+                "destination_iota": "MDW",
+                "departure_date": "2024-12-22",
+                "return_date": null,
+                "travel_class": "Business",
+                "search_timestamp": "20241215_130316"
+            },
+            "flight": {
+                "airline": "Delta",
+                "departure_time": "12:25\u202fPM",
+                "arrival_time": "10:06\u202fPM",
+                "duration": "7 hr 41 min",
+                "stops": "1 stop in ATL",
+                "price": "$1,911",
+                "co2_emissions": "542 kg CO2e",
+                "emissions_variation": "+92% emissions",
+                "unix_departure_time": 1734899100,
+                "unix_arrival_time": 1734926760
+            }
+        },
+        {
+            "metadata": {
+                "departure_state": "NV",
+                "destination_state": "IL",
+                "departure_timezone": "America/Los_Angeles",
+                "destination_timezone": "America/Chicago",
+                "departure_airport": "Harry Reid International Airport",
+                "destination_airport": "Midway International Airport"
+            },
+            "search_parameters": {
+                "departure_iota": "LAS",
+                "destination_iota": "MDW",
+                "departure_date": "2024-12-22",
+                "return_date": null,
+                "travel_class": "Business",
+                "search_timestamp": "20241215_130316"
+            },
+            "flight": {
+                "airline": "Delta",
+                "departure_time": "1:25\u202fPM",
+                "arrival_time": "10:06\u202fPM",
+                "duration": "6 hr 41 min",
+                "stops": "1 stop in ATL",
+                "price": "$1,911",
+                "co2_emissions": "542 kg CO2e",
+                "emissions_variation": "+92% emissions",
+                "unix_departure_time": 1734902700,
+                "unix_arrival_time": 1734926760
+            }
+        },
+        {
+            "metadata": {
+                "departure_state": "NV",
+                "destination_state": "IL",
+                "departure_timezone": "America/Los_Angeles",
+                "destination_timezone": "America/Chicago",
+                "departure_airport": "Harry Reid International Airport",
+                "destination_airport": "Midway International Airport"
+            },
+            "search_parameters": {
+                "departure_iota": "LAS",
+                "destination_iota": "MDW",
+                "departure_date": "2024-12-22",
+                "return_date": null,
+                "travel_class": "Business",
+                "search_timestamp": "20241215_130316"
+            },
+            "flight": {
+                "airline": "Delta",
+                "departure_time": "6:25\u202fAM",
+                "arrival_time": "10:06\u202fPM",
+                "duration": "13 hr 41 min",
+                "stops": "2 stops in LAX, ATL",
+                "price": "$2,200",
+                "co2_emissions": "589 kg CO2e",
+                "emissions_variation": "+109% emissions",
+                "unix_departure_time": 1734877500,
+                "unix_arrival_time": 1734926760
+            }
+        },
+        {
+            "metadata": {
+                "departure_state": "NV",
+                "destination_state": "IL",
+                "departure_timezone": "America/Los_Angeles",
+                "destination_timezone": "America/Chicago",
+                "departure_airport": "Harry Reid International Airport",
+                "destination_airport": "Midway International Airport"
+            },
+            "search_parameters": {
+                "departure_iota": "LAS",
+                "destination_iota": "MDW",
+                "departure_date": "2024-12-22",
+                "return_date": null,
+                "travel_class": "Business",
+                "search_timestamp": "20241215_130316"
+            },
+            "flight": {
+                "airline": "Delta",
+                "departure_time": "10:15\u202fAM",
+                "arrival_time": "10:06\u202fPM",
+                "duration": "9 hr 51 min",
+                "stops": "2 stops in SLC, ATL",
+                "price": "$2,209",
+                "co2_emissions": "632 kg CO2e",
+                "emissions_variation": "+124% emissions",
+                "unix_departure_time": 1734891300,
+                "unix_arrival_time": 1734926760
+            }
+        },
+        {
+            "metadata": {
+                "departure_state": "NV",
+                "destination_state": "IL",
+                "departure_timezone": "America/Los_Angeles",
+                "destination_timezone": "America/Chicago",
+                "departure_airport": "Harry Reid International Airport",
+                "destination_airport": "Midway International Airport"
+            },
+            "search_parameters": {
+                "departure_iota": "LAS",
+                "destination_iota": "MDW",
+                "departure_date": "2024-12-22",
+                "return_date": null,
+                "travel_class": "Business",
+                "search_timestamp": "20241215_130316"
+            },
+            "flight": {
+                "airline": "DeltaOperated by SkyWest DBA Delta Connection",
+                "departure_time": "10:45\u202fPM",
+                "arrival_time": "8:50\u202fAM+1",
+                "duration": "8 hr 5 min",
+                "stops": "1 stop in DTW",
+                "price": "$788",
+                "co2_emissions": "485 kg CO2e",
+                "emissions_variation": "+72% emissions",
+                "unix_departure_time": 1734936300,
+                "unix_arrival_time": 1734965400
+            }
+        },
+        {
+            "metadata": {
+                "departure_state": "NV",
+                "destination_state": "IL",
+                "departure_timezone": "America/Los_Angeles",
+                "destination_timezone": "America/Chicago",
+                "departure_airport": "Harry Reid International Airport",
+                "destination_airport": "Midway International Airport"
+            },
+            "search_parameters": {
+                "departure_iota": "LAS",
+                "destination_iota": "MDW",
+                "departure_date": "2024-12-22",
+                "return_date": null,
+                "travel_class": "Business",
+                "search_timestamp": "20241215_130316"
+            },
+            "flight": {
+                "airline": "DeltaOperated by SkyWest DBA Delta Connection",
+                "departure_time": "5:40\u202fPM",
+                "arrival_time": "8:50\u202fAM+1",
+                "duration": "13 hr 10 min",
+                "stops": "2 stops in LAX, DTW",
+                "price": "$1,188",
+                "co2_emissions": "607 kg CO2e",
+                "emissions_variation": "+115% emissions",
+                "unix_departure_time": 1734918000,
+                "unix_arrival_time": 1734965400
+            }
+        },
+        {
+            "metadata": {
+                "departure_state": "NV",
+                "destination_state": "IL",
+                "departure_timezone": "America/Los_Angeles",
+                "destination_timezone": "America/Chicago",
+                "departure_airport": "Harry Reid International Airport",
+                "destination_airport": "Midway International Airport"
+            },
+            "search_parameters": {
+                "departure_iota": "LAS",
+                "destination_iota": "MDW",
+                "departure_date": "2024-12-22",
+                "return_date": null,
+                "travel_class": "Business",
+                "search_timestamp": "20241215_130316"
+            },
+            "flight": {
+                "airline": "DeltaOperated by SkyWest DBA Delta Connection",
+                "departure_time": "7:20\u202fPM",
+                "arrival_time": "8:50\u202fAM+1",
+                "duration": "11 hr 30 min",
+                "stops": "2 stops in LAX, DTW",
+                "price": "$1,252",
+                "co2_emissions": "609 kg CO2e",
+                "emissions_variation": "+116% emissions",
+                "unix_departure_time": 1734924000,
+                "unix_arrival_time": 1734965400
+            }
+        },
+        {
+            "metadata": {
+                "departure_state": "NV",
+                "destination_state": "IL",
+                "departure_timezone": "America/Los_Angeles",
+                "destination_timezone": "America/Chicago",
+                "departure_airport": "Harry Reid International Airport",
+                "destination_airport": "Midway International Airport"
+            },
+            "search_parameters": {
+                "departure_iota": "LAS",
+                "destination_iota": "MDW",
+                "departure_date": "2024-12-22",
+                "return_date": null,
+                "travel_class": "Business",
+                "search_timestamp": "20241215_130316"
+            },
+            "flight": {
+                "airline": "Delta",
+                "departure_time": "10:05\u202fPM",
+                "arrival_time": "9:23\u202fAM+1",
+                "duration": "9 hr 18 min",
+                "stops": "1 stop in ATL",
+                "price": "$1,911",
+                "co2_emissions": "542 kg CO2e",
+                "emissions_variation": "+92% emissions",
+                "unix_departure_time": 1734933900,
+                "unix_arrival_time": 1734967380
+            }
+        },
+        {
+            "metadata": {
+                "departure_state": "NV",
+                "destination_state": "IL",
+                "departure_timezone": "America/Los_Angeles",
+                "destination_timezone": "America/Chicago",
+                "departure_airport": "Harry Reid International Airport",
+                "destination_airport": "Midway International Airport"
+            },
+            "search_parameters": {
+                "departure_iota": "LAS",
+                "destination_iota": "MDW",
+                "departure_date": "2024-12-22",
+                "return_date": null,
+                "travel_class": "Business",
+                "search_timestamp": "20241215_130316"
+            },
+            "flight": {
+                "airline": "Delta",
+                "departure_time": "11:40\u202fPM",
+                "arrival_time": "9:23\u202fAM+1",
+                "duration": "7 hr 43 min",
+                "stops": "1 stop in ATL",
+                "price": "$1,911",
+                "co2_emissions": "542 kg CO2e",
+                "emissions_variation": "+92% emissions",
+                "unix_departure_time": 1734939600,
+                "unix_arrival_time": 1734967380
+            }
+        },
+        {
+            "metadata": {
+                "departure_state": "NV",
+                "destination_state": "IL",
+                "departure_timezone": "America/Los_Angeles",
+                "destination_timezone": "America/Chicago",
+                "departure_airport": "Harry Reid International Airport",
+                "destination_airport": "Midway International Airport"
+            },
+            "search_parameters": {
+                "departure_iota": "LAS",
+                "destination_iota": "MDW",
+                "departure_date": "2024-12-22",
+                "return_date": null,
+                "travel_class": "Business",
+                "search_timestamp": "20241215_130316"
+            },
+            "flight": {
+                "airline": "Delta",
+                "departure_time": "5:40\u202fPM",
+                "arrival_time": "9:23\u202fAM+1",
+                "duration": "13 hr 43 min",
+                "stops": "2 stops in LAX, ATL",
+                "price": "$2,200",
+                "co2_emissions": "667 kg CO2e",
+                "emissions_variation": "+137% emissions",
+                "unix_departure_time": 1734918000,
+                "unix_arrival_time": 1734967380
+            }
+        },
+        {
+            "metadata": {
+                "departure_state": "NV",
+                "destination_state": "IL",
+                "departure_timezone": "America/Los_Angeles",
+                "destination_timezone": "America/Chicago",
+                "departure_airport": "Harry Reid International Airport",
+                "destination_airport": "Midway International Airport"
+            },
+            "search_parameters": {
+                "departure_iota": "LAS",
+                "destination_iota": "MDW",
+                "departure_date": "2024-12-22",
+                "return_date": null,
+                "travel_class": "Business",
+                "search_timestamp": "20241215_130316"
+            },
+            "flight": {
+                "airline": "Delta",
+                "departure_time": "7:10\u202fPM",
+                "arrival_time": "9:23\u202fAM+1",
+                "duration": "12 hr 13 min",
+                "stops": "2 stops in SLC, ATL",
+                "price": "$2,209",
+                "co2_emissions": "637 kg CO2e",
+                "emissions_variation": "+126% emissions",
+                "unix_departure_time": 1734923400,
+                "unix_arrival_time": 1734967380
+            }
+        },
+        {
+            "metadata": {
+                "departure_state": "NV",
+                "destination_state": "IL",
+                "departure_timezone": "America/Los_Angeles",
+                "destination_timezone": "America/Chicago",
+                "departure_airport": "Harry Reid International Airport",
+                "destination_airport": "Midway International Airport"
+            },
+            "search_parameters": {
+                "departure_iota": "LAS",
+                "destination_iota": "MDW",
+                "departure_date": "2024-12-22",
+                "return_date": null,
+                "travel_class": "Business",
+                "search_timestamp": "20241215_130316"
+            },
+            "flight": {
+                "airline": "Delta",
+                "departure_time": "7:20\u202fPM",
+                "arrival_time": "9:23\u202fAM+1",
+                "duration": "12 hr 3 min",
+                "stops": "2 stops in LAX, ATL",
+                "price": "$2,581",
+                "co2_emissions": "669 kg CO2e",
+                "emissions_variation": "+137% emissions",
+                "unix_departure_time": 1734924000,
+                "unix_arrival_time": 1734967380
+            }
+        },
+        {
+            "metadata": {
+                "departure_state": "NV",
+                "destination_state": "IL",
+                "departure_timezone": "America/Los_Angeles",
+                "destination_timezone": "America/Chicago",
+                "departure_airport": "Harry Reid International Airport",
+                "destination_airport": "Midway International Airport"
+            },
+            "search_parameters": {
+                "departure_iota": "LAS",
+                "destination_iota": "MDW",
+                "departure_date": "2024-12-22",
+                "return_date": null,
+                "travel_class": "Business",
+                "search_timestamp": "20241215_130316"
+            },
+            "flight": {
+                "airline": "DeltaOperated by SkyWest DBA Delta Connection",
+                "departure_time": "7:20\u202fPM",
+                "arrival_time": "11:08\u202fAM+1",
+                "duration": "13 hr 48 min",
+                "stops": "2 stops in LAX, MSP",
+                "price": "$1,672",
+                "co2_emissions": "576 kg CO2e",
+                "emissions_variation": "+104% emissions",
+                "unix_departure_time": 1734924000,
+                "unix_arrival_time": 1734973680
+            }
+        },
+        {
+            "metadata": {
+                "departure_state": "NV",
+                "destination_state": "IL",
+                "departure_timezone": "America/Los_Angeles",
+                "destination_timezone": "America/Chicago",
+                "departure_airport": "Harry Reid International Airport",
+                "destination_airport": "Midway International Airport"
+            },
+            "search_parameters": {
+                "departure_iota": "LAS",
+                "destination_iota": "MDW",
+                "departure_date": "2024-12-22",
+                "return_date": null,
+                "travel_class": "Business",
+                "search_timestamp": "20241215_130316"
+            },
+            "flight": {
+                "airline": "Delta",
+                "departure_time": "11:40\u202fPM",
+                "arrival_time": "11:21\u202fAM+1",
+                "duration": "9 hr 41 min",
+                "stops": "1 stop in ATL",
+                "price": "$1,911",
+                "co2_emissions": "542 kg CO2e",
+                "emissions_variation": "+92% emissions",
+                "unix_departure_time": 1734939600,
+                "unix_arrival_time": 1734974460
+            }
+        },
+        {
+            "metadata": {
+                "departure_state": "NV",
+                "destination_state": "IL",
+                "departure_timezone": "America/Los_Angeles",
+                "destination_timezone": "America/Chicago",
+                "departure_airport": "Harry Reid International Airport",
+                "destination_airport": "Midway International Airport"
+            },
+            "search_parameters": {
+                "departure_iota": "LAS",
+                "destination_iota": "MDW",
+                "departure_date": "2024-12-22",
+                "return_date": null,
+                "travel_class": "First",
+                "search_timestamp": "20241215_130316"
+            },
+            "flight": {
+                "airline": "Delta",
+                "departure_time": "6:00\u202fAM",
+                "arrival_time": "4:17\u202fPM",
+                "duration": "8 hr 17 min",
+                "stops": "1 stop in ATL",
+                "price": "$959",
+                "co2_emissions": "542 kg CO2e",
+                "emissions_variation": "+92% emissions",
+                "unix_departure_time": 1734876000,
+                "unix_arrival_time": 1734905820
+            }
+        },
+        {
+            "metadata": {
+                "departure_state": "NV",
+                "destination_state": "IL",
+                "departure_timezone": "America/Los_Angeles",
+                "destination_timezone": "America/Chicago",
+                "departure_airport": "Harry Reid International Airport",
+                "destination_airport": "Midway International Airport"
+            },
+            "search_parameters": {
+                "departure_iota": "LAS",
+                "destination_iota": "MDW",
+                "departure_date": "2024-12-22",
+                "return_date": null,
+                "travel_class": "First",
+                "search_timestamp": "20241215_130316"
+            },
+            "flight": {
+                "airline": "Delta",
+                "departure_time": "7:25\u202fAM",
+                "arrival_time": "4:17\u202fPM",
+                "duration": "6 hr 52 min",
+                "stops": "1 stop in ATL",
+                "price": "$1,911",
+                "co2_emissions": "542 kg CO2e",
+                "emissions_variation": "+92% emissions",
+                "unix_departure_time": 1734881100,
+                "unix_arrival_time": 1734905820
+            }
+        },
+        {
+            "metadata": {
+                "departure_state": "NV",
+                "destination_state": "IL",
+                "departure_timezone": "America/Los_Angeles",
+                "destination_timezone": "America/Chicago",
+                "departure_airport": "Harry Reid International Airport",
+                "destination_airport": "Midway International Airport"
+            },
+            "search_parameters": {
+                "departure_iota": "LAS",
+                "destination_iota": "MDW",
+                "departure_date": "2024-12-22",
+                "return_date": null,
+                "travel_class": "First",
+                "search_timestamp": "20241215_130316"
+            },
+            "flight": {
+                "airline": "DeltaOperated by SkyWest DBA Delta Connection",
+                "departure_time": "6:00\u202fAM",
+                "arrival_time": "4:24\u202fPM",
+                "duration": "8 hr 24 min",
+                "stops": "1 stop in DTW",
+                "price": "$1,199",
+                "co2_emissions": "459 kg CO2e",
+                "emissions_variation": "+63% emissions",
+                "unix_departure_time": 1734876000,
+                "unix_arrival_time": 1734906240
+            }
+        },
+        {
+            "metadata": {
+                "departure_state": "NV",
+                "destination_state": "IL",
+                "departure_timezone": "America/Los_Angeles",
+                "destination_timezone": "America/Chicago",
+                "departure_airport": "Harry Reid International Airport",
+                "destination_airport": "Midway International Airport"
+            },
+            "search_parameters": {
+                "departure_iota": "LAS",
+                "destination_iota": "MDW",
+                "departure_date": "2024-12-22",
+                "return_date": null,
+                "travel_class": "First",
+                "search_timestamp": "20241215_130316"
+            },
+            "flight": {
+                "airline": "DeltaOperated by SkyWest DBA Delta Connection",
+                "departure_time": "6:25\u202fAM",
+                "arrival_time": "4:24\u202fPM",
+                "duration": "7 hr 59 min",
+                "stops": "2 stops in SLC, DTW",
+                "price": "$1,602",
+                "co2_emissions": "544 kg CO2e",
+                "emissions_variation": "+93% emissions",
+                "unix_departure_time": 1734877500,
+                "unix_arrival_time": 1734906240
+            }
+        },
+        {
+            "metadata": {
+                "departure_state": "NV",
+                "destination_state": "IL",
+                "departure_timezone": "America/Los_Angeles",
+                "destination_timezone": "America/Chicago",
+                "departure_airport": "Harry Reid International Airport",
+                "destination_airport": "Midway International Airport"
+            },
+            "search_parameters": {
+                "departure_iota": "LAS",
+                "destination_iota": "MDW",
+                "departure_date": "2024-12-22",
+                "return_date": null,
+                "travel_class": "First",
+                "search_timestamp": "20241215_130316"
+            },
+            "flight": {
+                "airline": "DeltaOperated by SkyWest DBA Delta Connection",
+                "departure_time": "6:15\u202fAM",
+                "arrival_time": "4:24\u202fPM",
+                "duration": "8 hr 9 min",
+                "stops": "2 stops in MSP, DTW",
+                "price": "$2,029",
+                "co2_emissions": "538 kg CO2e",
+                "emissions_variation": "+91% emissions",
+                "unix_departure_time": 1734876900,
+                "unix_arrival_time": 1734906240
+            }
+        },
+        {
+            "metadata": {
+                "departure_state": "NV",
+                "destination_state": "IL",
+                "departure_timezone": "America/Los_Angeles",
+                "destination_timezone": "America/Chicago",
+                "departure_airport": "Harry Reid International Airport",
+                "destination_airport": "Midway International Airport"
+            },
+            "search_parameters": {
+                "departure_iota": "LAS",
+                "destination_iota": "MDW",
+                "departure_date": "2024-12-22",
+                "return_date": null,
+                "travel_class": "First",
+                "search_timestamp": "20241215_130316"
+            },
+            "flight": {
+                "airline": "DeltaOperated by SkyWest DBA Delta Connection",
+                "departure_time": "9:34\u202fAM",
+                "arrival_time": "5:44\u202fPM",
+                "duration": "6 hr 10 min",
+                "stops": "1 stop in MSP",
+                "price": "$1,199",
+                "co2_emissions": "432 kg CO2e",
+                "emissions_variation": "+53% emissions",
+                "unix_departure_time": 1734888840,
+                "unix_arrival_time": 1734911040
+            }
+        },
+        {
+            "metadata": {
+                "departure_state": "NV",
+                "destination_state": "IL",
+                "departure_timezone": "America/Los_Angeles",
+                "destination_timezone": "America/Chicago",
+                "departure_airport": "Harry Reid International Airport",
+                "destination_airport": "Midway International Airport"
+            },
+            "search_parameters": {
+                "departure_iota": "LAS",
+                "destination_iota": "MDW",
+                "departure_date": "2024-12-22",
+                "return_date": null,
+                "travel_class": "First",
+                "search_timestamp": "20241215_130316"
+            },
+            "flight": {
+                "airline": "DeltaOperated by SkyWest DBA Delta Connection",
+                "departure_time": "6:25\u202fAM",
+                "arrival_time": "5:44\u202fPM",
+                "duration": "9 hr 19 min",
+                "stops": "2 stops in SLC, MSP",
+                "price": "$1,602",
+                "co2_emissions": "458 kg CO2e",
+                "emissions_variation": "+62% emissions",
+                "unix_departure_time": 1734877500,
+                "unix_arrival_time": 1734911040
+            }
+        },
+        {
+            "metadata": {
+                "departure_state": "NV",
+                "destination_state": "IL",
+                "departure_timezone": "America/Los_Angeles",
+                "destination_timezone": "America/Chicago",
+                "departure_airport": "Harry Reid International Airport",
+                "destination_airport": "Midway International Airport"
+            },
+            "search_parameters": {
+                "departure_iota": "LAS",
+                "destination_iota": "MDW",
+                "departure_date": "2024-12-22",
+                "return_date": null,
+                "travel_class": "First",
+                "search_timestamp": "20241215_130316"
+            },
+            "flight": {
+                "airline": "DeltaOperated by SkyWest DBA Delta Connection",
+                "departure_time": "6:25\u202fAM",
+                "arrival_time": "5:44\u202fPM",
+                "duration": "9 hr 19 min",
+                "stops": "2 stops in LAX, MSP",
+                "price": "$2,200",
+                "co2_emissions": "535 kg CO2e",
+                "emissions_variation": "+90% emissions",
+                "unix_departure_time": 1734877500,
+                "unix_arrival_time": 1734911040
+            }
+        },
+        {
+            "metadata": {
+                "departure_state": "NV",
+                "destination_state": "IL",
+                "departure_timezone": "America/Los_Angeles",
+                "destination_timezone": "America/Chicago",
+                "departure_airport": "Harry Reid International Airport",
+                "destination_airport": "Midway International Airport"
+            },
+            "search_parameters": {
+                "departure_iota": "LAS",
+                "destination_iota": "MDW",
+                "departure_date": "2024-12-22",
+                "return_date": null,
+                "travel_class": "First",
+                "search_timestamp": "20241215_130316"
+            },
+            "flight": {
+                "airline": "Delta",
+                "departure_time": "11:25\u202fAM",
+                "arrival_time": "10:06\u202fPM",
+                "duration": "8 hr 41 min",
+                "stops": "1 stop in ATL",
+                "price": "$1,911",
+                "co2_emissions": "475 kg CO2e",
+                "emissions_variation": "+68% emissions",
+                "unix_departure_time": 1734895500,
+                "unix_arrival_time": 1734926760
+            }
+        },
+        {
+            "metadata": {
+                "departure_state": "NV",
+                "destination_state": "IL",
+                "departure_timezone": "America/Los_Angeles",
+                "destination_timezone": "America/Chicago",
+                "departure_airport": "Harry Reid International Airport",
+                "destination_airport": "Midway International Airport"
+            },
+            "search_parameters": {
+                "departure_iota": "LAS",
+                "destination_iota": "MDW",
+                "departure_date": "2024-12-22",
+                "return_date": null,
+                "travel_class": "First",
+                "search_timestamp": "20241215_130316"
+            },
+            "flight": {
+                "airline": "Delta",
+                "departure_time": "12:25\u202fPM",
+                "arrival_time": "10:06\u202fPM",
+                "duration": "7 hr 41 min",
+                "stops": "1 stop in ATL",
+                "price": "$1,911",
+                "co2_emissions": "542 kg CO2e",
+                "emissions_variation": "+92% emissions",
+                "unix_departure_time": 1734899100,
+                "unix_arrival_time": 1734926760
+            }
+        },
+        {
+            "metadata": {
+                "departure_state": "NV",
+                "destination_state": "IL",
+                "departure_timezone": "America/Los_Angeles",
+                "destination_timezone": "America/Chicago",
+                "departure_airport": "Harry Reid International Airport",
+                "destination_airport": "Midway International Airport"
+            },
+            "search_parameters": {
+                "departure_iota": "LAS",
+                "destination_iota": "MDW",
+                "departure_date": "2024-12-22",
+                "return_date": null,
+                "travel_class": "First",
+                "search_timestamp": "20241215_130316"
+            },
+            "flight": {
+                "airline": "Delta",
+                "departure_time": "1:25\u202fPM",
+                "arrival_time": "10:06\u202fPM",
+                "duration": "6 hr 41 min",
+                "stops": "1 stop in ATL",
+                "price": "$1,911",
+                "co2_emissions": "542 kg CO2e",
+                "emissions_variation": "+92% emissions",
+                "unix_departure_time": 1734902700,
+                "unix_arrival_time": 1734926760
+            }
+        },
+        {
+            "metadata": {
+                "departure_state": "NV",
+                "destination_state": "IL",
+                "departure_timezone": "America/Los_Angeles",
+                "destination_timezone": "America/Chicago",
+                "departure_airport": "Harry Reid International Airport",
+                "destination_airport": "Midway International Airport"
+            },
+            "search_parameters": {
+                "departure_iota": "LAS",
+                "destination_iota": "MDW",
+                "departure_date": "2024-12-22",
+                "return_date": null,
+                "travel_class": "First",
+                "search_timestamp": "20241215_130316"
+            },
+            "flight": {
+                "airline": "Delta",
+                "departure_time": "6:25\u202fAM",
+                "arrival_time": "10:06\u202fPM",
+                "duration": "13 hr 41 min",
+                "stops": "2 stops in LAX, ATL",
+                "price": "$2,200",
+                "co2_emissions": "589 kg CO2e",
+                "emissions_variation": "+109% emissions",
+                "unix_departure_time": 1734877500,
+                "unix_arrival_time": 1734926760
+            }
+        },
+        {
+            "metadata": {
+                "departure_state": "NV",
+                "destination_state": "IL",
+                "departure_timezone": "America/Los_Angeles",
+                "destination_timezone": "America/Chicago",
+                "departure_airport": "Harry Reid International Airport",
+                "destination_airport": "Midway International Airport"
+            },
+            "search_parameters": {
+                "departure_iota": "LAS",
+                "destination_iota": "MDW",
+                "departure_date": "2024-12-22",
+                "return_date": null,
+                "travel_class": "First",
+                "search_timestamp": "20241215_130316"
+            },
+            "flight": {
+                "airline": "Delta",
+                "departure_time": "10:15\u202fAM",
+                "arrival_time": "10:06\u202fPM",
+                "duration": "9 hr 51 min",
+                "stops": "2 stops in SLC, ATL",
+                "price": "$2,209",
+                "co2_emissions": "632 kg CO2e",
+                "emissions_variation": "+124% emissions",
+                "unix_departure_time": 1734891300,
+                "unix_arrival_time": 1734926760
+            }
+        },
+        {
+            "metadata": {
+                "departure_state": "NV",
+                "destination_state": "IL",
+                "departure_timezone": "America/Los_Angeles",
+                "destination_timezone": "America/Chicago",
+                "departure_airport": "Harry Reid International Airport",
+                "destination_airport": "Midway International Airport"
+            },
+            "search_parameters": {
+                "departure_iota": "LAS",
+                "destination_iota": "MDW",
+                "departure_date": "2024-12-22",
+                "return_date": null,
+                "travel_class": "First",
+                "search_timestamp": "20241215_130316"
+            },
+            "flight": {
+                "airline": "DeltaOperated by SkyWest DBA Delta Connection",
+                "departure_time": "10:45\u202fPM",
+                "arrival_time": "8:50\u202fAM+1",
+                "duration": "8 hr 5 min",
+                "stops": "1 stop in DTW",
+                "price": "$788",
+                "co2_emissions": "485 kg CO2e",
+                "emissions_variation": "+72% emissions",
+                "unix_departure_time": 1734936300,
+                "unix_arrival_time": 1734965400
+            }
+        },
+        {
+            "metadata": {
+                "departure_state": "NV",
+                "destination_state": "IL",
+                "departure_timezone": "America/Los_Angeles",
+                "destination_timezone": "America/Chicago",
+                "departure_airport": "Harry Reid International Airport",
+                "destination_airport": "Midway International Airport"
+            },
+            "search_parameters": {
+                "departure_iota": "LAS",
+                "destination_iota": "MDW",
+                "departure_date": "2024-12-22",
+                "return_date": null,
+                "travel_class": "First",
+                "search_timestamp": "20241215_130316"
+            },
+            "flight": {
+                "airline": "DeltaOperated by SkyWest DBA Delta Connection",
+                "departure_time": "5:40\u202fPM",
+                "arrival_time": "8:50\u202fAM+1",
+                "duration": "13 hr 10 min",
+                "stops": "2 stops in LAX, DTW",
+                "price": "$1,188",
+                "co2_emissions": "607 kg CO2e",
+                "emissions_variation": "+115% emissions",
+                "unix_departure_time": 1734918000,
+                "unix_arrival_time": 1734965400
+            }
+        },
+        {
+            "metadata": {
+                "departure_state": "NV",
+                "destination_state": "IL",
+                "departure_timezone": "America/Los_Angeles",
+                "destination_timezone": "America/Chicago",
+                "departure_airport": "Harry Reid International Airport",
+                "destination_airport": "Midway International Airport"
+            },
+            "search_parameters": {
+                "departure_iota": "LAS",
+                "destination_iota": "MDW",
+                "departure_date": "2024-12-22",
+                "return_date": null,
+                "travel_class": "First",
+                "search_timestamp": "20241215_130316"
+            },
+            "flight": {
+                "airline": "DeltaOperated by SkyWest DBA Delta Connection",
+                "departure_time": "7:20\u202fPM",
+                "arrival_time": "8:50\u202fAM+1",
+                "duration": "11 hr 30 min",
+                "stops": "2 stops in LAX, DTW",
+                "price": "$1,252",
+                "co2_emissions": "609 kg CO2e",
+                "emissions_variation": "+116% emissions",
+                "unix_departure_time": 1734924000,
+                "unix_arrival_time": 1734965400
+            }
+        },
+        {
+            "metadata": {
+                "departure_state": "NV",
+                "destination_state": "IL",
+                "departure_timezone": "America/Los_Angeles",
+                "destination_timezone": "America/Chicago",
+                "departure_airport": "Harry Reid International Airport",
+                "destination_airport": "Midway International Airport"
+            },
+            "search_parameters": {
+                "departure_iota": "LAS",
+                "destination_iota": "MDW",
+                "departure_date": "2024-12-22",
+                "return_date": null,
+                "travel_class": "First",
+                "search_timestamp": "20241215_130316"
+            },
+            "flight": {
+                "airline": "Delta",
+                "departure_time": "10:05\u202fPM",
+                "arrival_time": "9:23\u202fAM+1",
+                "duration": "9 hr 18 min",
+                "stops": "1 stop in ATL",
+                "price": "$1,911",
+                "co2_emissions": "542 kg CO2e",
+                "emissions_variation": "+92% emissions",
+                "unix_departure_time": 1734933900,
+                "unix_arrival_time": 1734967380
+            }
+        },
+        {
+            "metadata": {
+                "departure_state": "NV",
+                "destination_state": "IL",
+                "departure_timezone": "America/Los_Angeles",
+                "destination_timezone": "America/Chicago",
+                "departure_airport": "Harry Reid International Airport",
+                "destination_airport": "Midway International Airport"
+            },
+            "search_parameters": {
+                "departure_iota": "LAS",
+                "destination_iota": "MDW",
+                "departure_date": "2024-12-22",
+                "return_date": null,
+                "travel_class": "First",
+                "search_timestamp": "20241215_130316"
+            },
+            "flight": {
+                "airline": "Delta",
+                "departure_time": "11:40\u202fPM",
+                "arrival_time": "9:23\u202fAM+1",
+                "duration": "7 hr 43 min",
+                "stops": "1 stop in ATL",
+                "price": "$1,911",
+                "co2_emissions": "542 kg CO2e",
+                "emissions_variation": "+92% emissions",
+                "unix_departure_time": 1734939600,
+                "unix_arrival_time": 1734967380
+            }
+        },
+        {
+            "metadata": {
+                "departure_state": "NV",
+                "destination_state": "IL",
+                "departure_timezone": "America/Los_Angeles",
+                "destination_timezone": "America/Chicago",
+                "departure_airport": "Harry Reid International Airport",
+                "destination_airport": "Midway International Airport"
+            },
+            "search_parameters": {
+                "departure_iota": "LAS",
+                "destination_iota": "MDW",
+                "departure_date": "2024-12-22",
+                "return_date": null,
+                "travel_class": "First",
+                "search_timestamp": "20241215_130316"
+            },
+            "flight": {
+                "airline": "Delta",
+                "departure_time": "5:40\u202fPM",
+                "arrival_time": "9:23\u202fAM+1",
+                "duration": "13 hr 43 min",
+                "stops": "2 stops in LAX, ATL",
+                "price": "$2,200",
+                "co2_emissions": "667 kg CO2e",
+                "emissions_variation": "+137% emissions",
+                "unix_departure_time": 1734918000,
+                "unix_arrival_time": 1734967380
+            }
+        },
+        {
+            "metadata": {
+                "departure_state": "NV",
+                "destination_state": "IL",
+                "departure_timezone": "America/Los_Angeles",
+                "destination_timezone": "America/Chicago",
+                "departure_airport": "Harry Reid International Airport",
+                "destination_airport": "Midway International Airport"
+            },
+            "search_parameters": {
+                "departure_iota": "LAS",
+                "destination_iota": "MDW",
+                "departure_date": "2024-12-22",
+                "return_date": null,
+                "travel_class": "First",
+                "search_timestamp": "20241215_130316"
+            },
+            "flight": {
+                "airline": "Delta",
+                "departure_time": "7:10\u202fPM",
+                "arrival_time": "9:23\u202fAM+1",
+                "duration": "12 hr 13 min",
+                "stops": "2 stops in SLC, ATL",
+                "price": "$2,209",
+                "co2_emissions": "637 kg CO2e",
+                "emissions_variation": "+126% emissions",
+                "unix_departure_time": 1734923400,
+                "unix_arrival_time": 1734967380
+            }
+        },
+        {
+            "metadata": {
+                "departure_state": "NV",
+                "destination_state": "IL",
+                "departure_timezone": "America/Los_Angeles",
+                "destination_timezone": "America/Chicago",
+                "departure_airport": "Harry Reid International Airport",
+                "destination_airport": "Midway International Airport"
+            },
+            "search_parameters": {
+                "departure_iota": "LAS",
+                "destination_iota": "MDW",
+                "departure_date": "2024-12-22",
+                "return_date": null,
+                "travel_class": "First",
+                "search_timestamp": "20241215_130316"
+            },
+            "flight": {
+                "airline": "Delta",
+                "departure_time": "7:20\u202fPM",
+                "arrival_time": "9:23\u202fAM+1",
+                "duration": "12 hr 3 min",
+                "stops": "2 stops in LAX, ATL",
+                "price": "$2,581",
+                "co2_emissions": "669 kg CO2e",
+                "emissions_variation": "+137% emissions",
+                "unix_departure_time": 1734924000,
+                "unix_arrival_time": 1734967380
+            }
+        },
+        {
+            "metadata": {
+                "departure_state": "NV",
+                "destination_state": "IL",
+                "departure_timezone": "America/Los_Angeles",
+                "destination_timezone": "America/Chicago",
+                "departure_airport": "Harry Reid International Airport",
+                "destination_airport": "Midway International Airport"
+            },
+            "search_parameters": {
+                "departure_iota": "LAS",
+                "destination_iota": "MDW",
+                "departure_date": "2024-12-22",
+                "return_date": null,
+                "travel_class": "First",
+                "search_timestamp": "20241215_130316"
+            },
+            "flight": {
+                "airline": "DeltaOperated by SkyWest DBA Delta Connection",
+                "departure_time": "7:20\u202fPM",
+                "arrival_time": "11:08\u202fAM+1",
+                "duration": "13 hr 48 min",
+                "stops": "2 stops in LAX, MSP",
+                "price": "$1,672",
+                "co2_emissions": "576 kg CO2e",
+                "emissions_variation": "+104% emissions",
+                "unix_departure_time": 1734924000,
+                "unix_arrival_time": 1734973680
+            }
+        },
+        {
+            "metadata": {
+                "departure_state": "NV",
+                "destination_state": "IL",
+                "departure_timezone": "America/Los_Angeles",
+                "destination_timezone": "America/Chicago",
+                "departure_airport": "Harry Reid International Airport",
+                "destination_airport": "Midway International Airport"
+            },
+            "search_parameters": {
+                "departure_iota": "LAS",
+                "destination_iota": "MDW",
+                "departure_date": "2024-12-22",
+                "return_date": null,
+                "travel_class": "First",
+                "search_timestamp": "20241215_130316"
+            },
+            "flight": {
+                "airline": "Delta",
+                "departure_time": "11:40\u202fPM",
+                "arrival_time": "11:21\u202fAM+1",
+                "duration": "9 hr 41 min",
+                "stops": "1 stop in ATL",
+                "price": "$1,911",
+                "co2_emissions": "542 kg CO2e",
+                "emissions_variation": "+92% emissions",
+                "unix_departure_time": 1734939600,
+                "unix_arrival_time": 1734974460
+            }
+        }
+    ]
+}
