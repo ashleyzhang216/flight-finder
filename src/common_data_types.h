@@ -271,7 +271,7 @@ struct itinerary
 struct flight_constraints
 {
     std::optional<std::vector<airline>> airlines; // only airlines we want to fly on
-    std::optional<cabin> cabin;                   // only cabin we want to fly in
+    std::optional<cabin> fare_class;              // only cabin we want to fly in
     std::optional<airport> origin;                // airport all itineraries have to depart from
     std::optional<time_t> start_ts;               // first ts at which a flight in our itinerary can take off
     std::optional<time_t> end_ts;                 // last ts at which a flight in our itinerary can land

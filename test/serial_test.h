@@ -7,7 +7,7 @@
 TEST_CASE("serial top5 depart=ATL d=150 cabin=Economy", "[serial],[top5],[quick],[origin],[d],[cabin]") {
     flight_constraints constrs = {
         .airlines = std::nullopt,
-        .cabin = std::make_optional(cabin::ECONOMY),
+        .fare_class = std::make_optional(cabin::ECONOMY),
         .origin = std::make_optional(airport::ATL),
         .start_ts = std::nullopt,
         .div_n = 150
@@ -29,7 +29,7 @@ TEST_CASE("serial top5 depart=ATL d=150 cabin=Economy", "[serial],[top5],[quick]
 TEST_CASE("serial top5 depart=DEN d=150 cabin=Economy", "[serial],[top5],[quick],[origin],[d],[cabin]") {
     flight_constraints constrs = {
         .airlines = std::nullopt,
-        .cabin = std::make_optional(cabin::ECONOMY),
+        .fare_class = std::make_optional(cabin::ECONOMY),
         .origin = std::make_optional(airport::DEN),
         .start_ts = std::nullopt,
         .div_n = 150
@@ -49,7 +49,7 @@ TEST_CASE("serial top5 depart=DEN d=150 cabin=Economy", "[serial],[top5],[quick]
 TEST_CASE("serial top5 depart=DFW d=150 cabin=Economy", "[serial],[top5],[quick],[origin],[d],[cabin]") {
     flight_constraints constrs = {
         .airlines = std::nullopt,
-        .cabin = std::make_optional(cabin::ECONOMY),
+        .fare_class = std::make_optional(cabin::ECONOMY),
         .origin = std::make_optional(airport::DFW),
         .start_ts = std::nullopt,
         .div_n = 150
@@ -70,7 +70,7 @@ TEST_CASE("serial top5 depart=DFW d=150 cabin=Economy", "[serial],[top5],[quick]
 TEST_CASE("serial top5 depart=LAX d=150 cabin=Economy", "[serial],[top5],[quick],[origin],[d],[cabin]") {
     flight_constraints constrs = {
         .airlines = std::nullopt,
-        .cabin = std::make_optional(cabin::ECONOMY),
+        .fare_class = std::make_optional(cabin::ECONOMY),
         .origin = std::make_optional(airport::LAX),
         .start_ts = std::nullopt,
         .div_n = 150
@@ -89,7 +89,7 @@ TEST_CASE("serial top5 depart=LAX d=150 cabin=Economy", "[serial],[top5],[quick]
 TEST_CASE("serial top5 depart=ORD d=150 cabin=Economy", "[serial],[top5],[quick],[origin],[d],[cabin]") {
     flight_constraints constrs = {
         .airlines = std::nullopt,
-        .cabin = std::make_optional(cabin::ECONOMY),
+        .fare_class = std::make_optional(cabin::ECONOMY),
         .origin = std::make_optional(airport::ORD),
         .start_ts = std::nullopt,
         .div_n = 150
@@ -109,7 +109,7 @@ TEST_CASE("serial top5 depart=ORD d=150 cabin=Economy", "[serial],[top5],[quick]
 TEST_CASE("serial top5 d=150 cabin=Economy", "[serial],[top5],[quick],[d],[cabin]") {
     flight_constraints constrs = {
         .airlines = std::nullopt,
-        .cabin = std::make_optional(cabin::ECONOMY),
+        .fare_class = std::make_optional(cabin::ECONOMY),
         .origin = std::nullopt,
         .start_ts = std::nullopt,
         .div_n = 150
@@ -131,7 +131,7 @@ TEST_CASE("serial top5 d=150 cabin=Economy", "[serial],[top5],[quick],[d],[cabin
 TEST_CASE("serial top5 d=3", "[serial],[top5],[quick],[d]") {
     flight_constraints constrs = {
         .airlines = std::nullopt,
-        .cabin = std::nullopt,
+        .fare_class = std::nullopt,
         .origin = std::nullopt,
         .start_ts = std::nullopt,
         .div_n = 3
@@ -156,7 +156,7 @@ TEST_CASE("serial top5 d=3", "[serial],[top5],[quick],[d]") {
 // TEST_CASE("serial top5 d=2", "[serial],[top5],[quick],[d]") {
 //     flight_constraints constrs = {
 //         .airlines = std::nullopt,
-//         .cabin = std::nullopt,
+//         .fare_class = std::nullopt,
 //         .origin = std::nullopt,
 //         .start_ts = std::nullopt,
 //         .div_n = 2

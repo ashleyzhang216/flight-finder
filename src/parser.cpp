@@ -132,7 +132,7 @@ std::vector<flight> parse_flights_from_directory(const std::string &dir_path, co
                 }
 
                 // Check if the flight matches the cabin constraint
-                if (constraints.cabin.has_value() && f.fare_class != constraints.cabin.value())
+                if (constraints.fare_class.has_value() && f.fare_class != constraints.fare_class.value())
                 {
                     should_add_flight = false;
                 }

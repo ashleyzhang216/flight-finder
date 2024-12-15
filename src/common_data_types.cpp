@@ -122,7 +122,7 @@ flight_constraints cli(const std::string &name, int argc, char **argv)
 
     if (result.count("cabin"))
     {
-        constrs.cabin = std::make_optional<cabin>(cabin_of_str.at(result["cabin"].as<std::string>()));
+        constrs.fare_class = std::make_optional<cabin>(cabin_of_str.at(result["cabin"].as<std::string>()));
     }
 
     // ############### origin ###############
