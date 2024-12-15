@@ -1,6 +1,6 @@
 CPP      = g++
 CPPFLAGS = -std=c++20 -Wall
-OPTFLAGS = -O3
+OPTFLAGS = -g -O3
 LIBS     = -lm
 
 SRC_DIR  = ./src
