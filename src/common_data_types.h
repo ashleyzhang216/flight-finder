@@ -154,7 +154,7 @@ extern std::unordered_map<std::string, cabin> cabin_of_str;
 struct flight
 {
     size_t id;
-    airline airline;
+    airline al;
     airport from;
     airport to;
     time_t depart_ts;        // unix epoch, seconds

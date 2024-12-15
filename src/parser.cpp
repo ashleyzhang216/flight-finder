@@ -52,7 +52,7 @@ flight parse_flight(const json &flight_data)
     flight f;
 
     // Parse airline
-    f.airline = parse_airline(flight_data["flight"]["airline"].get<std::string>());
+    f.al = parse_airline(flight_data["flight"]["airline"].get<std::string>());
 
     // Parse departure and arrival airports using IATA codes
     f.from = parse_airport(flight_data["search_parameters"]["departure_iota"].get<std::string>());
@@ -125,7 +125,7 @@ std::vector<flight> parse_flights_from_directory(const std::string &dir_path, co
                 if (constraints.airlines.has_value())
                 {
                     const auto &valid_airlines = constraints.airlines.value();
-                    if (std::find(valid_airlines.begin(), valid_airlines.end(), f.airline) == valid_airlines.end())
+                    if (std::find(valid_airlines.begin(), valid_airlines.end(), f.al) == valid_airlines.end())
                     {
                         should_add_flight = false;
                     }

@@ -6,6 +6,7 @@
 #include <vector>
 #include <string>
 #include <exception>
+#include <climits>
 
 struct assertion_failure_exception : public std::exception {
     public:

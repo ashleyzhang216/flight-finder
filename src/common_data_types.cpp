@@ -161,7 +161,7 @@ std::string flight::serialize() const
 {
     std::stringstream ss;
 
-    ss << airline_name.at(airline) << " flight from ";
+    ss << airline_name.at(al) << " flight from ";
     ss << airport_code.at(from) << " @ " << depart_time << " to ";
     ss << airport_code.at(to) << " @ " << arrive_time;
     ss << " (" << stops << ") in " << cabin_name.at(cabin) << " for $" << price << std::endl;
