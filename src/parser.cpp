@@ -93,7 +93,7 @@ flight parse_flight(const json &flight_data)
 }
 
 // Function to parse all flights from JSON files in a directory
-std::vector<flight> parse_flights_from_directory(const std::string &dir_path, const flight_constraints constraints)
+std::vector<flight> parse_flights_from_directory(const std::string &dir_path, const flight_constraints constraints, bool debug_prints)
 {
     std::vector<flight> flights;
     size_t flight_id = 0;
@@ -172,24 +172,26 @@ std::vector<flight> parse_flights_from_directory(const std::string &dir_path, co
         }
     }
 
-    // Print flight parse metadata
-    std::cout << "Total flights: " << total_flights << std::endl;
-    std::cout << "Flights included: " << included_flights << std::endl;
-    std::cout << "Flights removed: " << removed_flights << std::endl;
-    if (total_flights > 0)
-    {
-        double ratio_included = static_cast<double>(included_flights) / total_flights;
-        std::cout << "Ratio of included flights: " << ratio_included << std::endl;
+    if(debug_prints) {
+        // Print flight parse metadata
+        std::cout << "Total flights: " << total_flights << std::endl;
+        std::cout << "Flights included: " << included_flights << std::endl;
+        std::cout << "Flights removed: " << removed_flights << std::endl;
+        if (total_flights > 0)
+        {
+            double ratio_included = static_cast<double>(included_flights) / total_flights;
+            std::cout << "Ratio of included flights: " << ratio_included << std::endl;
 
-        double ratio_valid = static_cast<double>(valid_flights) / total_flights;
-        std::cout << "Ratio of valid flights: " << ratio_valid << std::endl;
+            double ratio_valid = static_cast<double>(valid_flights) / total_flights;
+            std::cout << "Ratio of valid flights: " << ratio_valid << std::endl;
 
-        double ratio_included_valid = static_cast<double>(included_flights) / valid_flights;
-        std::cout << "Ratio of included to valid (should correspond to div_n): " << ratio_included_valid << std::endl;
-    }
-    else
-    {
-        std::cout << "No flights found in the directory." << std::endl;
+            double ratio_included_valid = static_cast<double>(included_flights) / valid_flights;
+            std::cout << "Ratio of included to valid (should correspond to div_n): " << ratio_included_valid << std::endl;
+        }
+        else
+        {
+            std::cout << "No flights found in the directory." << std::endl;
+        }
     }
 
     return flights;

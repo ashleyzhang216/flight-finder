@@ -16,6 +16,12 @@
 #include "utils.h"
 #include "lib/src/cxxopts.hpp"
 
+enum class OptLevel {
+    NAIVE = 0,
+    SERIAL = 1,
+    PARALLEL = 2,
+};
+
 /**
  * @brief all unique airlines
  */
@@ -272,6 +278,9 @@ struct flight_constraints
     std::optional<uint> div_n;                    // taking a mod portion to limit the number of flights considered for queries (e.g. mod 5 --> 20% of N)
 };
 
+// data sources
+const std::string data_dir_top5 = "naive_test/top_5_airports_flight_arrival_results";
+
 /**
  * @brief represents one airport and all its incoming flights
  */
@@ -296,6 +305,7 @@ public:
     
     // naive/serial/parallel only differ from having different implementations for this function
     // return result of serialize() call on best itinerary
+    template <OptLevel OL>
     std::string search();
 
 protected:
@@ -316,5 +326,8 @@ protected:
 
 // parse params
 flight_constraints cli(const std::string &name, int argc, char **argv);
+
+// for testing
+std::string remove_whitespace(const std::string& input);
 
 #endif // COMMON_DATA_TYPES_H

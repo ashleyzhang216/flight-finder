@@ -6,7 +6,8 @@ const time_t boundary = 1734911999; // hardcode boundary for 2024-12-22 23:59:59
 const time_t layover_time = 0;// hardcode layover time
  
 // naive implementation of search
-std::string flight_finder::search() {
+template<>
+std::string flight_finder::search<OptLevel::NAIVE>() {
 
     //std::ofstream outFile("debug.txt");
     itinerary best_itinerary;
@@ -55,10 +56,19 @@ std::string flight_finder::search() {
 
     } else {
         // If no origin is provided, iterate over all airports
+        #ifdef PROGRESS_PRINT
+        size_t progress = 0ul; // DEBUG
+        #endif // PROGRESS_PRINT
         for (const auto& [airport_name, airport_node] : nodes) {
+            #ifdef PROGRESS_PRINT
+            std::cout << "searching airport " << progress++ << " of " << nodes.size() << std::endl; // DEBUG
+            #endif // PROGRESS_PRINT
             itinerary start_itinerary = itinerary();
             // Find all flights starting from the origin
             for(size_t i = 0; i < flights.size(); ++i){
+                #ifdef PROGRESS_PRINT
+                std::cout << "searching flight " << i << " of " << flights.size() << std::endl;
+                #endif // PROGRESS_PRINT
                 if (flights[flight_id{i}].from == airport_name) {
                     itinerary current_itinerary = itinerary();
                     dfs(current_itinerary, flight_id{i}, 0);
@@ -72,6 +82,7 @@ std::string flight_finder::search() {
     return best_itinerary.serialize(flights);
 }
  
+#ifndef REMOVE_MAIN_FUNC
 int main(int argc, char **argv)
 {
     // TODO: timing, generate test suite for full dataset and golden_ref
@@ -99,7 +110,8 @@ int main(int argc, char **argv)
     // Initiate flight_finder
     flight_finder finder(std::move(flights), constrs.origin);
 
-    std::cout <<finder.search() << std::endl;
+    std::cout << finder.search<OptLevel::NAIVE>() << std::endl;
 
     return 0;
 }
+#endif // REMOVE_MAIN_FUNC
