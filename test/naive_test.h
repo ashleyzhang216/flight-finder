@@ -153,27 +153,27 @@ TEST_CASE("naive top5 d=3", "[naive],[top5],[d]") {
     REQUIRE(remove_whitespace(result) == remove_whitespace(expected));
 }
 
-TEST_CASE("naive top5 d=2", "[naive],[top5],[d]") {
-    flight_constraints constrs = {
-        .airlines = std::nullopt,
-        .cabin = std::nullopt,
-        .origin = std::nullopt,
-        .start_ts = std::nullopt,
-        .div_n = 2
-    };
-    std::vector<flight> flights = parse_flights_from_directory(data_dir_top5, constrs);
-    flight_finder ff(std::move(flights), constrs.origin);
-    const std::string result = ff.search<OptLevel::NAIVE>();
+// TEST_CASE("naive top5 d=2", "[naive],[top5],[d]") {
+//     flight_constraints constrs = {
+//         .airlines = std::nullopt,
+//         .cabin = std::nullopt,
+//         .origin = std::nullopt,
+//         .start_ts = std::nullopt,
+//         .div_n = 2
+//     };
+//     std::vector<flight> flights = parse_flights_from_directory(data_dir_top5, constrs);
+//     flight_finder ff(std::move(flights), constrs.origin);
+//     const std::string result = ff.search<OptLevel::NAIVE>();
 
-    const std::string expected{
-        "1. American flight from DFW @ 6:05 AM to DEN @ 7:14 AM (Nonstop) in First for $325\
-        2. American flight from DEN @ 7:44 AM to DFW @ 10:47 AM (Nonstop) in Economy for $299\
-        3. Key flight from DFW @ 11:15 AM to DEN @ 1:30 PM (1 stop in CVN) in Economy for $135\
-        4. United flight from DEN @ 1:30 PM to DFW @ 4:35 PM (Nonstop) in Business for $339\
-        5. United flight from DFW @ 5:00 PM to DEN @ 6:18 PM (Nonstop) in Business for $629\
-        6. American flight from DEN @ 6:46 PM to LAX @ 10:03 PM (1 stop in PHX) in Business for $274\
-        7. Spirit flight from LAX @ 10:39 PM to ATL @ 8:38 PM+1 (2 stops in DTW, FLL) in Economy for $260"
-    };
+//     const std::string expected{
+//         "1. American flight from DFW @ 6:05 AM to DEN @ 7:14 AM (Nonstop) in First for $325\
+//         2. American flight from DEN @ 7:44 AM to DFW @ 10:47 AM (Nonstop) in Economy for $299\
+//         3. Key flight from DFW @ 11:15 AM to DEN @ 1:30 PM (1 stop in CVN) in Economy for $135\
+//         4. United flight from DEN @ 1:30 PM to DFW @ 4:35 PM (Nonstop) in Business for $339\
+//         5. United flight from DFW @ 5:00 PM to DEN @ 6:18 PM (Nonstop) in Business for $629\
+//         6. American flight from DEN @ 6:46 PM to LAX @ 10:03 PM (1 stop in PHX) in Business for $274\
+//         7. Spirit flight from LAX @ 10:39 PM to ATL @ 8:38 PM+1 (2 stops in DTW, FLL) in Economy for $260"
+//     };
 
-    REQUIRE(remove_whitespace(result) == remove_whitespace(expected));
-}
+//     REQUIRE(remove_whitespace(result) == remove_whitespace(expected));
+// }

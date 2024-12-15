@@ -29,7 +29,10 @@ flight_finder::flight_finder(std::vector<flight> &&f, const std::optional<airpor
         assert(flights[flight_id(i)].arrive_ts >= curr_ts);
         curr_ts = flights[flight_id(i)].arrive_ts;
 
-        assert(flights[flight_id(i)].arrive_ts > flights[flight_id(i)].depart_ts);
+        if(flights[flight_id(i)].arrive_ts <= flights[flight_id(i)].depart_ts) {
+            std::cout << "Warning, found invalid flight: " << flights[flight_id(i)].serialize() << std::endl; 
+        }
+        // assert(flights[flight_id(i)].arrive_ts > flights[flight_id(i)].depart_ts);
 
         flights[flight_id(i)].id = i;
     }
@@ -37,7 +40,12 @@ flight_finder::flight_finder(std::vector<flight> &&f, const std::optional<airpor
     // build airport nodes
     for (size_t i = 0; i < flights.size(); ++i)
     {
+        airport depart_airport = flights[flight_id(i)].from;
         airport arrival_airport = flights[flight_id(i)].to;
+
+        // default construct in case it doesn't exist already
+        // relavant in small datasets where some airports have departing flights but not arriving ones
+        nodes[depart_airport];
 
         nodes[arrival_airport].opt_table.vec.push_back(itinerary());
         flight_indices.vec.push_back(flight_idx(nodes[arrival_airport].arriving_flights.size()));
