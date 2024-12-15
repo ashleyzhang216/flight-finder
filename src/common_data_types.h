@@ -16,6 +16,12 @@
 #include "utils.h"
 #include "lib/src/cxxopts.hpp"
 
+enum class OptLevel {
+    NAIVE = 0,
+    SERIAL = 1,
+    PARALLEL = 2,
+};
+
 /**
  * @brief all unique airlines
  */
@@ -299,6 +305,7 @@ public:
     
     // naive/serial/parallel only differ from having different implementations for this function
     // return result of serialize() call on best itinerary
+    template <OptLevel OL>
     std::string search();
 
 protected:

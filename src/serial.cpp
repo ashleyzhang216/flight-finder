@@ -2,7 +2,8 @@
 #include "parser.h"
 
 // serial implementation of search
-std::string flight_finder::search() {
+template<>
+std::string flight_finder::search<OptLevel::SERIAL>() {
     time_t arrival = 0ul;
 
     for(size_t i = 0; i < flights.size(); ++i) {
@@ -68,7 +69,7 @@ int main(int argc, char** argv) {
     std::vector<flight> flights = parse_flights_from_directory(directory, constrs);
 
     flight_finder ff(std::move(flights), constrs.origin);
-    std::cout << ff.search() << std::endl;
+    std::cout << ff.search<OptLevel::SERIAL>() << std::endl;
     
     return 0;
 }
