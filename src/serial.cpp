@@ -56,6 +56,7 @@ std::string flight_finder::search() {
     return best.serialize(flights);
 }
 
+#ifndef REMOVE_MAIN_FUNC
 int main(int argc, char** argv) {
     flight_constraints constrs = cli("serial", argc, argv);
 
@@ -71,3 +72,4 @@ int main(int argc, char** argv) {
     
     return 0;
 }
+#endif // REMOVE_MAIN_FUNC

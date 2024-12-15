@@ -4,6 +4,6 @@
 #include "common_data_types.h"
 #include "utils.h"
 
-std::vector<flight> parse_flights_from_directory(const std::string &dir_path, const flight_constraints constraints);
+std::vector<flight> parse_flights_from_directory(const std::string &dir_path, const flight_constraints constraints, bool debug_prints = false);
 
 #endif // PARSER_H

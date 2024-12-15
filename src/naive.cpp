@@ -55,10 +55,13 @@ std::string flight_finder::search() {
 
     } else {
         // If no origin is provided, iterate over all airports
+        size_t progress = 0ul; // DEBUG
         for (const auto& [airport_name, airport_node] : nodes) {
+            std::cout << "searching airport " << progress << " of " << nodes.size() << std::endl; // DEBUG
             itinerary start_itinerary = itinerary();
             // Find all flights starting from the origin
             for(size_t i = 0; i < flights.size(); ++i){
+                std::cout << "searching flight " << i << " of " << flights.size() << std::endl;
                 if (flights[flight_id{i}].from == airport_name) {
                     itinerary current_itinerary = itinerary();
                     dfs(current_itinerary, flight_id{i}, 0);
@@ -72,6 +75,7 @@ std::string flight_finder::search() {
     return best_itinerary.serialize(flights);
 }
  
+#ifndef REMOVE_MAIN_FUNC
 int main(int argc, char **argv)
 {
     // TODO: timing, generate test suite for full dataset and golden_ref
@@ -103,3 +107,4 @@ int main(int argc, char **argv)
 
     return 0;
 }
+#endif // REMOVE_MAIN_FUNC

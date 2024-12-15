@@ -1,5 +1,6 @@
 #include "common_data_types.h"
 
+#ifndef REMOVE_MAIN_FUNC
 int main(int argc, char** argv) {
     flight_constraints constrs = cli("parallel", argc, argv);
     (void)constrs;
@@ -8,3 +9,4 @@ int main(int argc, char** argv) {
     
     return 0;
 }
+#endif // REMOVE_MAIN_FUNC

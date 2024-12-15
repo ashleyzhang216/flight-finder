@@ -272,6 +272,9 @@ struct flight_constraints
     std::optional<uint> div_n;                    // taking a mod portion to limit the number of flights considered for queries (e.g. mod 5 --> 20% of N)
 };
 
+// data sources
+const std::string data_dir_top5 = "naive_test/top_5_airports_flight_arrival_results";
+
 /**
  * @brief represents one airport and all its incoming flights
  */
@@ -316,5 +319,8 @@ protected:
 
 // parse params
 flight_constraints cli(const std::string &name, int argc, char **argv);
+
+// for testing
+std::string remove_whitespace(const std::string& input);
 
 #endif // COMMON_DATA_TYPES_H
