@@ -71,7 +71,7 @@ flight parse_flight(const json &flight_data)
     f.num_stops = (f.stops == "Nonstop") ? 0 : f.stops[0] - '0';
 
     // Parse cabin class
-    f.cabin = parse_cabin(flight_data["search_parameters"]["travel_class"].get<std::string>());
+    f.fare_class = parse_cabin(flight_data["search_parameters"]["travel_class"].get<std::string>());
 
     // Parse price (remove dollar sign and convert to integer)
     std::string price_str = flight_data["flight"]["price"].get<std::string>();
@@ -132,7 +132,7 @@ std::vector<flight> parse_flights_from_directory(const std::string &dir_path, co
                 }
 
                 // Check if the flight matches the cabin constraint
-                if (constraints.cabin.has_value() && f.cabin != constraints.cabin.value())
+                if (constraints.cabin.has_value() && f.fare_class != constraints.cabin.value())
                 {
                     should_add_flight = false;
                 }

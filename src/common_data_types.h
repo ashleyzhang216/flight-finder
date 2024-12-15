@@ -163,7 +163,7 @@ struct flight
     std::string arrive_time; // human readable format
     std::string stops;
     uint num_stops; // 0 -> nonstop
-    cabin cabin;
+    cabin fare_class;
     uint price; // in USD
 
     std::string serialize() const;
