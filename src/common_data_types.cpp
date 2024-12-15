@@ -29,10 +29,7 @@ flight_finder::flight_finder(std::vector<flight> &&f, const std::optional<airpor
         assert(flights[flight_id(i)].arrive_ts >= curr_ts);
         curr_ts = flights[flight_id(i)].arrive_ts;
 
-        if(flights[flight_id(i)].arrive_ts <= flights[flight_id(i)].depart_ts) {
-            std::cout << "Warning, found invalid flight: " << flights[flight_id(i)].serialize() << std::endl; 
-        }
-        // assert(flights[flight_id(i)].arrive_ts > flights[flight_id(i)].depart_ts);
+        assert(flights[flight_id(i)].arrive_ts > flights[flight_id(i)].depart_ts);
 
         flights[flight_id(i)].id = i;
     }
