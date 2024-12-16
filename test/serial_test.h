@@ -171,3 +171,24 @@ TEST_CASE("serial top5 d=2", "[serial],[top5],[quick],[d]") {
 
     REQUIRE(remove_whitespace(result) == remove_whitespace(expected));
 }
+
+
+// TODO: Complete this
+// TEST_CASE("serial final d=1", "[serial],[final],[quick]") {
+//     flight_constraints constrs = {
+//         .airlines = std::nullopt,
+//         .fare_class = std::nullopt,
+//         .origin = std::nullopt,
+//         .start_ts = std::nullopt,
+//         .div_n = 1
+//     };
+//     std::vector<flight> flights = parse_flights_from_directory(data_dir_final, constrs);
+//     flight_finder ff(std::move(flights), constrs.origin);
+//     const std::string result = ff.search<OptLevel::SERIAL>();
+
+//     const std::string expected{
+        
+//     };
+
+//     REQUIRE(remove_whitespace(result) == remove_whitespace(expected));
+// }

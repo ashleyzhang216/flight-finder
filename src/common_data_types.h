@@ -273,6 +273,7 @@ struct flight_constraints
 
 // data sources
 const std::string data_dir_top5 = "naive_test/top_5_airports_flight_arrival_results";
+const std::string data_dir_final = "flight_concurr_arr_results";
 
 /**
  * @brief represents one airport and all its incoming flights
