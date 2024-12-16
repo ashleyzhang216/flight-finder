@@ -59,10 +59,6 @@ std::string flight_finder::search<OptLevel::SERIAL>() {
     }
     assert(best.has_value());
 
-    // DEBUG
-    for(auto id : best.value().flight_ids) std::cout << id.id << ", ";
-    std::cout << std::endl;
-
     return best.value().serialize(flights);
 }
 
