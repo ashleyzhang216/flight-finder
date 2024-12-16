@@ -193,13 +193,12 @@ struct itinerary
     std::vector<flight_id> flight_ids;
     airport origin;
     uint legs;
-    bool built;
 
     // standard constructor for opt table
-    itinerary() : legs(0u), built(false) {}
+    itinerary() : legs(0u) {}
 
     // for default, empty itinerary, used for opt_table[-1]
-    itinerary(airport o) : origin(o), legs(0u), built(true) {}
+    itinerary(airport o) : origin(o), legs(0u) {}
 
     // print
     std::string serialize(const id_vec<flight_id, flight> flights) const;
@@ -209,20 +208,15 @@ struct itinerary
         // choose itinerary from right origin, if one of them has it
         if(origin.has_value() && lhs.origin != rhs.origin) {
             if(lhs.origin == origin.value()) {
-                itinerary next = lhs;
-                next.built = false; // caller needs to set this to true, after a compiler fence
-                return next;
+                return lhs;
             } else if(rhs.origin == origin.value()) {
-                itinerary next = rhs;
-                next.built = false; // caller needs to set this to true, after a compiler fence
-                return next;
+                return rhs;
             }
         }
 
         // choose itinerary with more legs
         if(lhs.legs != rhs.legs) {
             itinerary next = lhs.legs > rhs.legs ? lhs : rhs;
-            next.built = false; // caller needs to set this to true, after a compiler fence
             return next;
         }
         
@@ -230,14 +224,12 @@ struct itinerary
         for(size_t i = 0; i < lhs.flight_ids.size(); ++i) {
             if(lhs.flight_ids.at(i).id != rhs.flight_ids.at(i).id) {
                 itinerary next = lhs.flight_ids.at(i).id > rhs.flight_ids.at(i).id ? lhs : rhs;
-                next.built = false; // caller needs to set this to true, after a compiler fence
                 return next;
             }
         }
         
         // truly equal
         itinerary next = lhs;
-        next.built = false; // caller needs to set this to true, after a compiler fence
         return next;
     }
 
@@ -251,7 +243,6 @@ struct itinerary
         next.flight_ids.push_back(id);
         next.origin = flights[next.flight_ids.front()].from;
         next.legs += flights[id].num_stops + 1u;
-        next.built = false; // caller needs to set this to true, after a compiler fence
 
         return next;
     }

@@ -20,7 +20,6 @@ std::string flight_finder::search<OptLevel::NAIVE>() {
         //outFile << "Depth: "<<depth<<std::endl;
         //outFile << "Current flight: "<<std::endl<<flights[current_flight_id].serialize()<<std::endl;
         //outFile << "Current itinerary: "<<std::endl<<current_itinerary.serialize(flights)<<std::endl;
-        best_itinerary.built = true;
         //outFile << "Current best itinerary: "<<std::endl<<best_itinerary.serialize(flights)<<std::endl;
         
         // if the arrival time is beyond the boundary, then no more next connecting flight
@@ -74,7 +73,6 @@ std::string flight_finder::search<OptLevel::NAIVE>() {
                     dfs(current_itinerary, flight_id{i}, 0);
                 }
             }
-            best_itinerary.built = true;
             //std::cout<< "Current best itinerary: "<<std::endl<<best_itinerary.serialize(flights)<<std::endl;
         }
     }
