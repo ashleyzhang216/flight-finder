@@ -73,9 +73,9 @@ int main(int argc, char** argv) {
     std::cout << "running serial" << std::endl;
 
     // Example usage of parser
-    std::string directory = "naive_test/top_5_airports_flight_arrival_results";
+    // std::string directory = "naive_test/top_5_airports_flight_arrival_results";
     // std::string directory = "flight_correct_ts_arrival";
-    // std::string directory = "flight_concurr_arr_results";
+    std::string directory = "flight_concurr_arr_results";
     std::vector<flight> flights = parse_flights_from_directory(directory, constrs);
 
     flight_finder ff(std::move(flights), constrs.origin);
