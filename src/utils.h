@@ -72,7 +72,7 @@ struct id_vec {
 
     // access vector element
     V& operator[](K n) {
-        assert(n.id < size());
+        assert_m(n.id < size(), std::to_string(n.id) + " attempted, size: " + std::to_string(size()));
         return vec[n.id];
     }
     const V& operator[](K n) const {

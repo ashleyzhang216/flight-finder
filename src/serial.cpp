@@ -33,9 +33,8 @@ std::string flight_finder::search<OptLevel::SERIAL>() {
             }
 
             flight_id best_id = *(it - 1);
+            assert(depart_airport == flights[best_id].to);
             itinerary& prev = nodes.at(depart_airport).opt_table[flight_indices[best_id]];
-
-            assert(prev.built);
             
             return prev.add(cur_id, flights);
         };
@@ -45,8 +44,6 @@ std::string flight_finder::search<OptLevel::SERIAL>() {
         itinerary best     = itinerary::max(incoming, prev, origin);
 
         nodes.at(dest_airport).opt_table[cur_idx] = std::move(best);
-        // _mm_sfence();
-        nodes.at(dest_airport).opt_table[cur_idx].built = true;
     }
 
     std::optional<itinerary> best = origin.has_value() ? std::make_optional(itinerary(origin.value())) : std::nullopt;
