@@ -17,10 +17,9 @@ TEST_CASE("serial top5 depart=ATL d=150 cabin=Economy", "[serial],[top5],[quick]
     const std::string result = ff.search<OptLevel::SERIAL>();
 
     const std::string expected{
-        "1. American flight from ATL @ 5:20 AM to DFW @ 6:59 AM (Nonstop) in Economy for $177\
-        2. American flight from DFW @ 10:25 AM to DEN @ 11:46 AM (Nonstop) in Economy for $299\
-        3. Delta flight from DEN @ 2:18 PM to DFW @ 10:00 PM (1 stop in ATL) in Economy for $509\
-        4. American flight from DFW @ 10:30 PM to DEN @ 3:15 PM+1 (1 stop in PHX) in Economy for $362"
+        "1. Southwest flight from ATL @ 8:05 AM to DEN @ 1:00 PM (1 stop in MDW) in Economy for $234\
+        2. Delta flight from DEN @ 2:18 PM to DFW @ 10:00 PM (1 stop in ATL) in Economy for $509\
+        3. American flight from DFW @ 10:30 PM to DEN @ 3:15 PM+1 (1 stop in PHX) in Economy for $362"
     };
 
     REQUIRE(remove_whitespace(result) == remove_whitespace(expected));
@@ -119,10 +118,9 @@ TEST_CASE("serial top5 d=150 cabin=Economy", "[serial],[top5],[quick],[d],[cabin
     const std::string result = ff.search<OptLevel::SERIAL>();
 
     const std::string expected{
-        "1. American flight from ATL @ 5:20 AM to DFW @ 6:59 AM (Nonstop) in Economy for $177\
-        2. American flight from DFW @ 10:25 AM to DEN @ 11:46 AM (Nonstop) in Economy for $299\
-        3. Delta flight from DEN @ 2:18 PM to DFW @ 10:00 PM (1 stop in ATL) in Economy for $509\
-        4. American flight from DFW @ 10:30 PM to DEN @ 3:15 PM+1 (1 stop in PHX) in Economy for $362"
+        "1. Southwest flight from ATL @ 8:05 AM to DEN @ 1:00 PM (1 stop in MDW) in Economy for $234\
+        2. Delta flight from DEN @ 2:18 PM to DFW @ 10:00 PM (1 stop in ATL) in Economy for $509\
+        3. American flight from DFW @ 10:30 PM to DEN @ 3:15 PM+1 (1 stop in PHX) in Economy for $362"
     };
 
     REQUIRE(remove_whitespace(result) == remove_whitespace(expected));
@@ -141,51 +139,35 @@ TEST_CASE("serial top5 d=3", "[serial],[top5],[quick],[d]") {
     const std::string result = ff.search<OptLevel::SERIAL>();
 
     const std::string expected{
-        "1. United flight from LAX @ 12:45 AM to DFW @ 8:54 AM (1 stop in IAH) in First for $523\
-        2. American flight from DFW @ 8:59 AM to ORD @ 1:10 PM (1 stop in STL) in Business for $403\
-        3. Key flight from ORD @ 1:40 PM to DEN @ 4:40 PM (1 stop in ATY) in Economy for $249\
-        4. American flight from DEN @ 4:51 PM to DFW @ 7:53 PM (Nonstop) in First for $389\
-        5. Frontier flight from DFW @ 8:01 PM to DEN @ 9:19 PM (Nonstop) in Economy for $104\
-        6. United flight from DEN @ 9:23 PM to LAX @ 11:00 PM (Nonstop) in First for $305\
-        7. United flight from LAX @ 11:05 PM to ATL @ 9:50 PM+1 (1 stop in ORD) in Economy for $434"
+        "1. American flight from ATL @ 5:10 AM to DFW @ 9:11 AM (1 stop in CLT) in Economy for $289\
+        2. American flight from DFW @ 9:15 AM to LAX @ 10:41 AM (Nonstop) in Business for $766\
+        3. Delta flight from LAX @ 11:05 AM to DFW @ 5:43 PM (2 stops in CVG, ATL) in Economy for $2071\
+        4. American flight from DFW @ 5:55 PM to LAX @ 8:47 PM (1 stop in LAS) in First for $775\
+        5. United flight from LAX @ 9:40 PM to DEN @ 12:42 PM+1 (2 stops in PIT, ORD) in Economy for $495"
     };
 
     REQUIRE(remove_whitespace(result) == remove_whitespace(expected));
 }
 
-// TEST_CASE("serial top5 d=2", "[serial],[top5],[quick],[d]") {
-//     flight_constraints constrs = {
-//         .airlines = std::nullopt,
-//         .fare_class = std::nullopt,
-//         .origin = std::nullopt,
-//         .start_ts = std::nullopt,
-//         .div_n = 2
-//     };
-//     std::vector<flight> flights = parse_flights_from_directory(data_dir_top5, constrs);
-//     flight_finder ff(std::move(flights), constrs.origin);
-//     const std::string result = ff.search<OptLevel::SERIAL>();
+TEST_CASE("serial top5 d=2", "[serial],[top5],[quick],[d]") {
+    flight_constraints constrs = {
+        .airlines = std::nullopt,
+        .fare_class = std::nullopt,
+        .origin = std::nullopt,
+        .start_ts = std::nullopt,
+        .div_n = 2
+    };
+    std::vector<flight> flights = parse_flights_from_directory(data_dir_top5, constrs);
+    flight_finder ff(std::move(flights), constrs.origin);
+    const std::string result = ff.search<OptLevel::SERIAL>();
 
-//     const std::string expected{
-//         "1. American flight from DFW @ 6:05 AM to DEN @ 7:14 AM (Nonstop) in First for $325\
-//         2. American flight from DEN @ 7:44 AM to DFW @ 10:47 AM (Nonstop) in Economy for $299\
-//         3. Key flight from DFW @ 11:15 AM to DEN @ 1:30 PM (1 stop in CVN) in Economy for $135\
-//         4. United flight from DEN @ 1:30 PM to DFW @ 4:35 PM (Nonstop) in Business for $339\
-//         5. United flight from DFW @ 5:00 PM to DEN @ 6:18 PM (Nonstop) in Business for $629\
-//         6. American flight from DEN @ 6:46 PM to LAX @ 10:03 PM (1 stop in PHX) in Business for $274\
-//         7. Spirit flight from LAX @ 10:39 PM to ATL @ 8:38 PM+1 (2 stops in DTW, FLL) in Economy for $260"
-//     };
+    const std::string expected{
+        "1. American flight from ATL @ 5:10 AM to DFW @ 11:38 AM (2 stops in CLT, STL) in First for $718\
+        2. American flight from DFW @ 12:19 PM to LAX @ 3:22 PM (1 stop in PHX) in Economy for $323\
+        3. United flight from LAX @ 4:00 PM to DFW @ 10:44 PM (2 stops in DCA, ORD) in Business for $977\
+        4. American flight from DFW @ 10:49 PM to DEN @ 11:58 PM (Nonstop) in First for $259\
+        5. American flight from DEN @ 11:59 PM to ATL @ 9:42 PM+1 (1 stop in CLT) in Business for $862"
+    };
 
-//     /**
-//      * 
-//      * 1. American flight from DFW @ 6:05 AM to DEN @ 7:14 AM (Nonstop) in First for $325
-//         2. American flight from DEN @ 7:44 AM to DFW @ 10:47 AM (Nonstop) in Economy for $299
-//         3. Key flight from DFW @ 11:15 AM to DEN @ 1:30 PM (1 stop in CVN) in Economy for $135
-//         4. United flight from DEN @ 1:30 PM to DFW @ 4:35 PM (Nonstop) in Business for $339
-//         5. United flight from DFW @ 5:00 PM to DEN @ 6:18 PM (Nonstop) in Business for $629
-//         6. American flight from DEN @ 6:46 PM to LAX @ 10:03 PM (1 stop in PHX) in Business for $274
-//         7. Spirit flight from LAX @ 10:39 PM to ATL @ 8:38 PM+1 (2 stops in DTW, FLL) in Economy for $260
-//      * 
-//      */
-
-//     REQUIRE(remove_whitespace(result) == remove_whitespace(expected));
-// }
+    REQUIRE(remove_whitespace(result) == remove_whitespace(expected));
+}

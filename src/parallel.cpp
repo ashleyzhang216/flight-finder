@@ -12,7 +12,7 @@ std::string flight_finder::search<OptLevel::PARALLEL>() {
 int main(int argc, char** argv) {
     flight_constraints constrs = cli("parallel", argc, argv);
 
-    std::cout << "parallel" << std::endl;
+    std::cout << "running parallel" << std::endl;
 
     std::string directory = "flight_concurr_arr_results";
     std::vector<flight> flights = parse_flights_from_directory(directory, constrs);
