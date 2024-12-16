@@ -162,7 +162,7 @@ TEST_CASE("naive top5 d=2", "[naive],[top5],[d]") {
     const std::string result = ff.search<OptLevel::NAIVE>();
 
     const std::string expected{
-        "1. American flight from ATL @ 5:10 AM to DFW @ 11:38 AM (2 stops in CLT, STL) in First for $718\
+        "1.American flight from ATL @5:10 AM to DFW @11:38AM (2 stops in CLTSTL) in Economy for $468\
         2. American flight from DFW @ 12:19 PM to LAX @ 3:22 PM (1 stop in PHX) in Economy for $323\
         3. United flight from LAX @ 4:00 PM to DFW @ 10:44 PM (2 stops in DCA, ORD) in Business for $977\
         4. American flight from DFW @ 10:49 PM to DEN @ 11:58 PM (Nonstop) in First for $259\
@@ -171,3 +171,36 @@ TEST_CASE("naive top5 d=2", "[naive],[top5],[d]") {
 
     REQUIRE(remove_whitespace(result) == remove_whitespace(expected));
 }
+
+TEST_CASE("naive final d=1", "[naive],[final]") {
+    flight_constraints constrs = {
+        .airlines = std::nullopt,
+        .fare_class = std::nullopt,
+        .origin = std::nullopt,
+        .start_ts = std::nullopt,
+        .div_n = 1
+    };
+    std::vector<flight> flights = parse_flights_from_directory(data_dir_final, constrs);
+    flight_finder ff(std::move(flights), constrs.origin);
+    const std::string result = ff.search<OptLevel::NAIVE>();
+
+    const std::string expected{
+        "1. American flight from DFW @ 12:10 AM to CLT @ 6:55 AM (1 stop in MDT) in Business for $1285\
+        2. American flight from CLT @ 7:15 AM to RDU @ 8:12 AM (Nonstop) in Business for $444\
+        3. American flight from RDU @ 9:02 AM to CLT @ 10:13 AM (Nonstop) in First for $444\
+        4. American flight from CLT @ 10:15 AM to TPA @ 12:00 PM (Nonstop) in Business for $603\
+        5. Delta flight from TPA @ 12:15 PM to ATL @ 1:49 PM (Nonstop) in Business for $639\
+        6. Delta flight from ATL @ 1:55 PM to BNA @ 2:02 PM (Nonstop) in Economy for $378\
+        7. Southwest flight from BNA @ 2:05 PM to STL @ 3:20 PM (Nonstop) in Economy for $362\
+        8. Southwest flight from STL @ 3:45 PM to MCI @ 4:50 PM (Nonstop) in Economy for $343\
+        9. United flight from MCI @ 5:10 PM to DEN @ 6:15 PM (Nonstop) in Business for $456\
+        10. Southwest flight from DEN @ 6:25 PM to LAS @ 7:25 PM (Nonstop) in Economy for $193\
+        11. Alaska flight from LAS @ 7:39 PM to SAN @ 8:49 PM (Nonstop) in Economy for $104\
+        12. United flight from SAN @ 8:51 PM to LAX @ 9:55 PM (Nonstop) in Economy for $389\
+        13. American flight from LAX @ 10:05 PM to SFO @ 11:38 PM (Nonstop) in First for $178\
+        14. American flight from SFO @ 11:49 PM to CMH @ 6:42 PM+1 (2 stops in DFW, ORD) in First for $1228"
+    };
+
+    REQUIRE(remove_whitespace(result) == remove_whitespace(expected));
+}
+
