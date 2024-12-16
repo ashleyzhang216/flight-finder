@@ -225,13 +225,6 @@ struct itinerary
             next.built = false; // caller needs to set this to true, after a compiler fence
             return next;
         }
-
-        // tiebreaker: choose itinerary with more flights
-        if(lhs.flight_ids.size() != rhs.flight_ids.size()) {
-            itinerary next = lhs.flight_ids.size() > rhs.flight_ids.size() ? lhs : rhs;
-            next.built = false; // caller needs to set this to true, after a compiler fence
-            return next;
-        }
         
         // tiebreaker: choose first itinerary with higher flight id
         for(size_t i = 0; i < lhs.flight_ids.size(); ++i) {
