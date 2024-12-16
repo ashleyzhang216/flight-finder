@@ -27,8 +27,14 @@ SERIAL_OBJ = $(SERIAL_SRC:%.cpp=%.o)
 PARALLEL_OBJ = $(PARALLEL_SRC:%.cpp=%.o)
 TEST_OBJ = $(TEST_SRC:%.cpp=%.o)
 
+ifeq ($(MAKECMDGOALS), parallel)
+    OMPFLAG = -fopenmp
+else
+    OMPFLAG =
+endif
+
 # Default target builds all
-all: $(NAIVE_BIN) $(SERIAL_BIN) $(PARALLEL_BIN) $(TEST_BIN)
+all: $(NAIVE_BIN) $(SERIAL_BIN) $(TEST_BIN)
 
 naive: $(NAIVE_BIN)
 serial: $(SERIAL_BIN)
@@ -43,14 +49,14 @@ $(SERIAL_BIN): $(SERIAL_OBJ) $(COMMON_OBJS)
 	$(CPP) $(CPPFLAGS) $(OPTFLAGS) $^ -o $@ $(LIBS)
 
 $(PARALLEL_BIN): $(PARALLEL_OBJ) $(COMMON_OBJS)
-	$(CPP) $(CPPFLAGS) $(OPTFLAGS) $^ -o $@ $(LIBS)
+	$(CPP) $(CPPFLAGS) $(OMPFLAG) $(OPTFLAGS) $^ -o $@ $(LIBS)
 
 $(TEST_BIN): $(TEST_OBJ) $(COMMON_OBJS)
 	$(CPP) $(CPPFLAGS) $(OPTFLAGS) $^ -o $@ $(LIBS)
 
 # Compile .cpp to .o
 %.o: %.cpp
-	$(CPP) $(CPPFLAGS) $(OPTFLAGS) -c $< -o $@
+	$(CPP) $(CPPFLAGS) $(OMPFLAG) $(OPTFLAGS) -c $< -o $@
 
 clean:
 	rm -f *~ *.o
