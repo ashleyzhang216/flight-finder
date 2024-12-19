@@ -11,10 +11,14 @@
 #include <exception>
 #include <algorithm>
 #include <iomanip>
+#include <chrono>
 // #include <immintrin.h>
 
 #include "utils.h"
 #include "lib/src/cxxopts.hpp"
+
+using std::chrono::time_point;
+using std::chrono::high_resolution_clock;
 
 enum class OptLevel {
     NAIVE = 0,

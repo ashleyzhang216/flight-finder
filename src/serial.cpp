@@ -72,7 +72,15 @@ int main(int argc, char** argv) {
     std::vector<flight> flights = parse_flights_from_directory(directory, constrs);
 
     flight_finder ff(std::move(flights), constrs.origin);
+
+    time_point<high_resolution_clock> start = high_resolution_clock::now();
+    asm volatile ("" ::: "memory");
     std::cout << ff.search<OptLevel::SERIAL>() << std::endl;
+    asm volatile ("" ::: "memory");
+    time_point<high_resolution_clock> end = high_resolution_clock::now();
+
+    auto execution_ms = std::chrono::duration_cast<std::chrono::milliseconds>(end - start).count();
+    std::cout << "execution time: " << execution_ms << "ms" << std::endl;
     
     return 0;
 }
