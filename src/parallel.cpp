@@ -4,7 +4,7 @@
 #include <omp.h>
 
 constexpr size_t NUM_DEP_THREADS = 16;
-constexpr size_t NUM_MAX_THREADS = 2;
+constexpr size_t NUM_MAX_THREADS = 1;
 
 // parallel implementation of search
 template<>
@@ -64,24 +64,46 @@ std::string flight_finder::search<OptLevel::PARALLEL>() {
 
     time_point<high_resolution_clock> start_build_ts = high_resolution_clock::now();
 
-    // #pragma omp parallel num_threads(NUM_MAX_THREADS)
-    // {
-        // to help track resolved dependencies
-        std::vector<int> built(flights.size(), 0);
+    // to help track resolved dependencies
+    std::vector<int> built(flights.size(), 0);
+
+    #pragma omp parallel num_threads(NUM_MAX_THREADS)
+    {
+        // // analogous to one loop iteration in serial
+        // auto build_single_flight = [this, &built](size_t i, const itinerary incoming, const itinerary prev) {
+        //     const flight_id cur_id = flight_id(i);
+        //     const flight_idx cur_idx = flight_indices[cur_id];
+        //     const airport dest_airport = flights[cur_id].to;
+
+        //     nodes.at(dest_airport).opt_table[cur_idx] = itinerary::max(incoming, prev, origin);
+
+        //     assert(built[i] == 0);
+        //     asm volatile("" ::: "memory");
+
+        //     // #pragma omp atomic write
+        //     built[i] = 1;
+        // };
 
         // analogous to one loop iteration in serial
-        auto build_single_flight = [this, &built](size_t i, const itinerary& incoming, const itinerary& prev) {
+        auto build_single_flight = [this, &built, &deps_incoming, &deps_prev](size_t i, const std::optional<flight_id>& incoming_id, const std::optional<flight_id>& prev_id) {
             const flight_id cur_id = flight_id(i);
             const flight_idx cur_idx = flight_indices[cur_id];
             const airport dest_airport = flights[cur_id].to;
+            const airport depart_airport = flights[cur_id].from;
 
-            nodes.at(dest_airport).opt_table[cur_idx] = itinerary::max(incoming, prev, origin);
+            const itinerary& incoming = incoming_id.has_value() ? nodes.at(depart_airport).opt_table[flight_indices[deps_incoming[cur_id].value()]] : itinerary(depart_airport);
+            const itinerary& prev     = prev_id.has_value() ? nodes.at(dest_airport).opt_table[flight_indices[deps_prev[cur_id].value()]] : itinerary(dest_airport);
+
+            nodes.at(dest_airport).opt_table[cur_idx] = itinerary::max(incoming.add(cur_id, flights), prev, origin);
 
             assert(built[i] == 0);
+            asm volatile("" ::: "memory");
+
+            // #pragma omp atomic write
             built[i] = 1;
         };
 
-        // #pragma omp single nowait
+        #pragma omp single nowait
         for(size_t i = 0; i < flights.size(); ++i) {
             const flight_id cur_id = flight_id(i);
             const airport dest_airport = flights[cur_id].to;
@@ -92,29 +114,36 @@ std::string flight_finder::search<OptLevel::PARALLEL>() {
 
             if(has_incoming) {
                 if(has_prev) {
-                    const itinerary& incoming = nodes.at(depart_airport).opt_table[flight_indices[deps_incoming[cur_id].value()]];
-                    const itinerary& prev     = nodes.at(dest_airport).opt_table[flight_indices[deps_prev[cur_id].value()]];
+                    // const itinerary& incoming = nodes.at(depart_airport).opt_table[flight_indices[deps_incoming[cur_id].value()]];
+                    // const itinerary& prev     = nodes.at(dest_airport).opt_table[flight_indices[deps_prev[cur_id].value()]];
 
                     const size_t dep_i = deps_incoming[cur_id].value().id;
                     const size_t dep_p = deps_prev[cur_id].value().id;
+
+                    assert_m(dep_i < flights.size(), std::to_string(dep_i));
+                    assert_m(dep_p < flights.size(), std::to_string(dep_p));
 
                     // #pragma omp critical
                     // {
                     //     printf("building %lu with thread: %i\n", i, omp_get_thread_num());
                     // }
-                    // #pragma omp task depend(out: *(built.data() + i)) depend(in: *(built.data() + dep_i), *(built.data() + dep_p))
-                    build_single_flight(i, incoming.add(cur_id, flights), prev);
+                    #pragma omp task depend(out: *(built.data() + i)) depend(in: *(built.data() + dep_i), *(built.data() + dep_p))
+                    build_single_flight(i, deps_incoming[cur_id], deps_prev[cur_id]);
+                    // build_single_flight(i, incoming.add(cur_id, flights), prev);
                 } else {
                     const itinerary& incoming = nodes.at(depart_airport).opt_table[flight_indices[deps_incoming[cur_id].value()]];
 
                     const size_t dep_i = deps_incoming[cur_id].value().id;
 
+                    assert_m(dep_i < flights.size(), std::to_string(dep_i));
+
                     // #pragma omp critical
                     // {
                     //     printf("building %lu with thread: %i\n", i, omp_get_thread_num());
                     // }
-                    // #pragma omp task depend(out: *(built.data() + i)) depend(in: *(built.data() + dep_i))
-                    build_single_flight(i, incoming.add(cur_id, flights), itinerary(dest_airport));
+                    #pragma omp task depend(out: *(built.data() + i)) depend(in: *(built.data() + dep_i))
+                    build_single_flight(i, deps_incoming[cur_id], deps_prev[cur_id]);
+                    // build_single_flight(i, incoming.add(cur_id, flights), itinerary(dest_airport));
                 }
             } else {
                 if(has_prev) {
@@ -122,23 +151,27 @@ std::string flight_finder::search<OptLevel::PARALLEL>() {
 
                     const size_t dep_p = deps_prev[cur_id].value().id;
 
+                    assert_m(dep_p < flights.size(), std::to_string(dep_p));
+
                     // #pragma omp critical
                     // {
                     //     printf("building %lu with thread: %i\n", i, omp_get_thread_num());
                     // }
-                    // #pragma omp task depend(out: *(built.data() + i)) depend(in: *(built.data() + dep_p))
-                    build_single_flight(i, itinerary(depart_airport).add(cur_id, flights), prev);
+                    #pragma omp task depend(out: *(built.data() + i)) depend(in: *(built.data() + dep_p))
+                    build_single_flight(i, deps_incoming[cur_id], deps_prev[cur_id]);
+                    // build_single_flight(i, itinerary(depart_airport).add(cur_id, flights), prev);
                 } else {
                     // #pragma omp critical
                     // {
                     //     printf("building %lu with thread: %i\n", i, omp_get_thread_num());
                     // }
-                    // #pragma omp task depend(out: *(built.data() + i))
-                    build_single_flight(i, itinerary(depart_airport).add(cur_id, flights), itinerary(dest_airport));
+                    #pragma omp task depend(out: *(built.data() + i))
+                    build_single_flight(i, deps_incoming[cur_id], deps_prev[cur_id]);
+                    // build_single_flight(i, itinerary(depart_airport).add(cur_id, flights), itinerary(dest_airport));
                 }
             }
         }
-    // }
+    }
 
     time_point<high_resolution_clock> start_max_ts = high_resolution_clock::now();
 
@@ -174,9 +207,9 @@ int main(int argc, char** argv) {
     flight_finder ff(std::move(flights), constrs.origin);
     
     time_point<high_resolution_clock> start = high_resolution_clock::now();
-    asm volatile ("" ::: "memory");
+    asm volatile("" ::: "memory");
     std::cout << ff.search<OptLevel::PARALLEL>() << std::endl;
-    asm volatile ("" ::: "memory");
+    asm volatile("" ::: "memory");
     time_point<high_resolution_clock> end = high_resolution_clock::now();
 
     auto execution_ms = std::chrono::duration_cast<std::chrono::milliseconds>(end - start).count();

@@ -225,12 +225,14 @@ struct itinerary
         }
         
         // tiebreaker: choose first itinerary with higher flight id
-        for(size_t i = 0; i < lhs.flight_ids.size(); ++i) {
+        for(size_t i = 0; i < std::min(lhs.flight_ids.size(), rhs.flight_ids.size()); ++i) {
             if(lhs.flight_ids.at(i).id != rhs.flight_ids.at(i).id) {
                 itinerary next = lhs.flight_ids.at(i).id > rhs.flight_ids.at(i).id ? lhs : rhs;
                 return next;
             }
         }
+
+        assert(lhs.flight_ids.size() == rhs.flight_ids.size());
         
         // truly equal
         itinerary next = lhs;
