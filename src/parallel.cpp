@@ -15,8 +15,8 @@ std::string flight_finder::search<OptLevel::PARALLEL>() {
 
     time_point<high_resolution_clock> start_dep_ts = high_resolution_clock::now();
 
-    // #pragma omp parallel num_threads(NUM_DEP_THREADS)
-    // {
+    #pragma omp parallel num_threads(NUM_DEP_THREADS)
+    {
         // returns optional including flight_id of incoming flight dependency, if it exists
         auto get_incoming = [this](size_t i, const flight_id& cur_id, const airport& depart_airport) -> std::optional<flight_id> {
             auto comp = [this](const flight_id& lhs, const time_t& rhs) -> bool {
@@ -50,21 +50,17 @@ std::string flight_finder::search<OptLevel::PARALLEL>() {
             return std::make_optional(nodes.at(dest_airport).arriving_flights[flight_idx(cur_idx.id - 1ul)]);
         };
 
-        #pragma omp parallel for num_threads(NUM_DEP_THREADS)
+        #pragma omp for
         for(size_t i = 0; i < flights.size(); ++i) {
             const flight_id cur_id = flight_id(i);
             const flight_idx cur_idx = flight_indices[cur_id];
             const airport dest_airport = flights[cur_id].to;
             const airport depart_airport = flights[cur_id].from;
 
-            // #pragma omp critical
-            // {
-            //     printf("finding deps of %lu with thread: %i\n", i, omp_get_thread_num());
-            // }
             deps_incoming[cur_id] = get_incoming(i, cur_id, depart_airport);
             deps_prev[cur_id] = get_prev(i, cur_idx, dest_airport);
         }
-    // }
+    }
 
     time_point<high_resolution_clock> start_build_ts = high_resolution_clock::now();
 
